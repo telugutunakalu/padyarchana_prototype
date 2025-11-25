@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>అక్షరానుసారిక విశ్లేషణ - పద్యార్చన</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Aksharanusarika Library -->
+    <script src="/static/js/aksharanusarika.js"></script>
+
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .analysis-page-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .input-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .input-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .text-input {
+            width: 100%;
+            min-height: 200px;
+            font-size: 1.1rem;
+            font-family: 'Noto Sans Telugu', sans-serif;
+            padding: 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 0.5rem;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        .text-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(34, 139, 230, 0.1);
+        }
+
+        .analyze-button {
+            margin-top: 1rem;
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .results-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: var(--shadow);
+        }
+
+        .no-analysis {
+            text-align: center;
+            padding: 3rem;
+            color: #6b7280;
+            font-size: 1.1rem;
+        }
+
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+
+        .stat-card h3 {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .stat-card .value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .section-divider {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--primary-color), transparent);
+            margin: 2rem 0;
+        }
+
+        .gana-sequence {
+            background: #f9fafb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-family: monospace;
+            font-size: 1.2rem;
+            text-align: center;
+            letter-spacing: 0.1em;
+            word-break: break-all;
+            border: 2px solid #e5e7eb;
+        }
+
+        .table-container {
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.75rem;
+            font-weight: 600;
+            text-align: left;
+            z-index: 10;
+        }
+
+        td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        tr:hover {
+            background: #f9fafb;
+        }
+
+        .akshara-cell {
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: 'Noto Sans Telugu', sans-serif;
+        }
+
+        .marker-cell {
+            font-weight: bold;
+        }
+
+        .marker-U {
+            color: #dc2626;
+        }
+
+        .marker-I {
+            color: #2563eb;
+        }
+
+        .combinations-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .combinations-list li {
+            background: #f9fafb;
+            margin-bottom: 0.75rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .processing-time {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .distribution-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .distribution-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .distribution-table-container {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+
+        .distribution-chart-container {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .distribution-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .distribution-table th,
+        .distribution-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .distribution-table th {
+            background: #f9fafb;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .distribution-table td:last-child {
+            text-align: right;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .chart-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="/" style="color: white; text-decoration: none;">పద్యార్చన</a></h1>
+                    <p style="font-size: 0.9rem; opacity: 0.9;">Telugu Poetry Search & Analysis</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/search">Search</a></li>
+                        <li><a href="/poets">Poets</a></li>
+                        <li><a href="/meters">Meters</a></li>
+                        <li><a href="/about">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="analysis-page-container" x-data="aksharanusarikaPage()">
+            {% if poem_id %}
+            <a href="/poem/{{ poem_id }}" class="back-link">← Back to Poem</a>
+            {% endif %}
+
+            <!-- Input Section -->
+            <div class="input-section">
+                <h2>అక్షరానుసారిక విశ్లేషణ (Telugu Text Analysis)</h2>
+                <p style="color: #6b7280; margin-bottom: 1rem;">
+                    Enter Telugu text below to analyze its linguistic and prosodic features.
+                </p>
+
+                <textarea
+                    x-model="inputText"
+                    class="text-input telugu-text"
+                    placeholder="Enter Telugu text here..."
+                ></textarea>
+
+                <button @click="analyzeText" class="btn analyze-button">
+                    <svg style="width: 1.25rem; height: 1.25rem; display: inline-block; margin-right: 0.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                    </svg>
+                    Analyze Text
+                </button>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" x-show="analysis" x-cloak>
+                <h2 style="color: var(--primary-color); margin-bottom: 1.5rem; text-align: center;">
+                    Analysis Results
+                </h2>
+
+                <!-- Linguistic Statistics -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        📊 Linguistic Statistics
+                    </h3>
+                    <div class="analysis-grid">
+                        <div class="stat-card">
+                            <h3>Total Aksharas</h3>
+                            <div class="value" x-text="analysis?.linguistic?.statistics?.totalAksharas || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Unique Aksharas</h3>
+                            <div class="value" x-text="analysis?.linguistic?.statistics?.uniqueAksharas || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Vowels</h3>
+                            <div class="value" x-text="analysis?.linguistic?.statistics?.vowelCount || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Consonants</h3>
+                            <div class="value" x-text="analysis?.linguistic?.statistics?.consonantCount || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Long Vowels</h3>
+                            <div class="value" x-text="analysis?.linguistic?.statistics?.longVowelCount || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Complexity Score
+                                <span style="cursor: help; font-size: 0.8rem; color: #6b7280;"
+                                      title="Complexity Score = (Conjunct Consonants + Doublets) / Total Aksharas × 100&#10;Measures the percentage of complex letter formations in the text.">ⓘ</span>
+                            </h3>
+                            <div class="value" x-text="(analysis?.linguistic?.statistics?.complexityScore || 0) + '%'"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Prosody Statistics -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        🎵 Prosody Statistics
+                    </h3>
+                    <div class="analysis-grid">
+                        <div class="stat-card">
+                            <h3>Total Syllables</h3>
+                            <div class="value" x-text="analysis?.prosody?.statistics?.totalSyllables || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Guru (గురు) Count</h3>
+                            <div class="value" x-text="analysis?.prosody?.statistics?.guruCount || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Laghu (లఘు) Count</h3>
+                            <div class="value" x-text="analysis?.prosody?.statistics?.laghuCount || 0"></div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Guru Percentage</h3>
+                            <div class="value" x-text="(analysis?.prosody?.statistics?.guruPercentage || 0) + '%'"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Vargam Distribution -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        🔤 Vargam Distribution (వర్గ విభజన)
+                    </h3>
+                    <div class="distribution-section">
+                        <div class="distribution-table-container">
+                            <table class="distribution-table">
+                                <thead>
+                                    <tr>
+                                        <th>Vargam</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="([name, count]) in Object.entries(analysis?.linguistic?.distributions?.vargam || {})" :key="name">
+                                        <tr>
+                                            <td x-text="name"></td>
+                                            <td x-text="count"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="distribution-chart-container">
+                            <div class="chart-wrapper">
+                                <canvas id="vargamChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Articulation Distribution -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        👄 Articulation Points (ఉచ్చారణ స్థానాలు)
+                    </h3>
+                    <div class="distribution-section">
+                        <div class="distribution-table-container">
+                            <table class="distribution-table">
+                                <thead>
+                                    <tr>
+                                        <th>Articulation Point</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="([name, count]) in Object.entries(analysis?.linguistic?.distributions?.articulation || {})" :key="name">
+                                        <tr>
+                                            <td x-text="name"></td>
+                                            <td x-text="count"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="distribution-chart-container">
+                            <div class="chart-wrapper">
+                                <canvas id="articulationChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Phonetics Distribution -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        🗣️ Phonetics Classification (ధ్వని వర్గీకరణ)
+                    </h3>
+                    <div class="distribution-section">
+                        <div class="distribution-table-container">
+                            <table class="distribution-table">
+                                <thead>
+                                    <tr>
+                                        <th>Phonetics Type</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="([name, count]) in Object.entries(analysis?.linguistic?.distributions?.phonetics || {})" :key="name">
+                                        <tr>
+                                            <td x-text="name"></td>
+                                            <td x-text="count"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="distribution-chart-container">
+                            <div class="chart-wrapper">
+                                <canvas id="phoneticsChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Vyanjana Classification -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        💪 Consonant Classification (హల్లుల వర్గీకరణ)
+                    </h3>
+                    <div class="distribution-section">
+                        <div class="distribution-table-container">
+                            <table class="distribution-table">
+                                <thead>
+                                    <tr>
+                                        <th>Consonant Type</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="([name, count]) in Object.entries(analysis?.linguistic?.distributions?.vyanjanaClassification || {})" :key="name">
+                                        <tr>
+                                            <td x-text="name"></td>
+                                            <td x-text="count"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="distribution-chart-container">
+                            <div class="chart-wrapper">
+                                <canvas id="vyanjanaChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Gana Sequence -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        📝 Gana Sequence (గణ క్రమం)
+                    </h3>
+                    <div class="gana-sequence" x-text="analysis?.prosody?.ganaSequence?.join('') || 'No data'"></div>
+                    <p style="color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; text-align: center;">
+                        U = Guru (గురు), I = Laghu (లఘు)
+                    </p>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Guru-Laghu Pattern Graph -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        📈 Guru-Laghu Pattern Graph (గురు-లఘు నమూనా గ్రాఫ్)
+                    </h3>
+                    <p style="color: #6b7280; font-size: 0.875rem; margin-bottom: 1rem;">
+                        Visual representation of the prosodic rhythm: Guru (గురు) = 1, Laghu (లఘు) = 0
+                    </p>
+                    <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 1.5rem;">
+                        <canvas id="guruLaghuLineChart" style="max-height: 300px;"></canvas>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Guru-Laghu Classification Table -->
+                <div>
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        📋 Guru-Laghu Classification (గురు-లఘు వర్గీకరణ)
+                    </h3>
+                    <p style="color: #6b7280; font-size: 0.875rem; margin-bottom: 1rem;">
+                        Complete sequence showing all letters with their prosodic classification
+                    </p>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Position</th>
+                                    <th>Aksharam</th>
+                                    <th>Marker</th>
+                                    <th>Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template x-for="(item, index) in analysis?.prosody?.ganaMarkers || []" :key="index">
+                                    <tr :style="item.isIgnorable ? 'opacity: 0.4; background-color: #f9fafb;' : ''">
+                                        <td x-text="item.position + 1"></td>
+                                        <td class="akshara-cell" x-text="item.aksharam === ' ' ? '␣' : (item.aksharam === '\n' ? '↵' : item.aksharam)"></td>
+                                        <td class="marker-cell" :class="item.marker === 'U' ? 'marker-U' : (item.marker === 'I' ? 'marker-I' : '')" x-text="item.marker"></td>
+                                        <td x-text="item.marker === 'U' ? 'Guru (గురు)' : (item.marker === 'I' ? 'Laghu (లఘు)' : (item.isIgnorable ? 'Space/Punctuation' : 'No marker'))"></td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Gana Combinations -->
+                <div x-show="analysis?.prosody?.ganaCombinations?.length > 0">
+                    <hr class="section-divider">
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        🔗 Gana Combinations (గణ కలయికలు)
+                    </h3>
+                    <p style="color: #6b7280; font-size: 0.875rem; margin-bottom: 1rem;">
+                        Showing up to <span x-text="Math.min(10, analysis?.prosody?.ganaCombinations?.length || 0)"></span> possible combinations
+                    </p>
+                    <ul class="combinations-list">
+                        <template x-for="(combo, idx) in (analysis?.prosody?.ganaCombinations || []).slice(0, 10)" :key="idx">
+                            <li>
+                                <strong>Combination <span x-text="idx + 1"></span>:</strong>
+                                <span x-html="combo.map(g => `<span style='color: #d97706; font-weight: bold;'>${g.syllable_text}</span> (<span style='color: #2563eb;'>${g.name}</span>)`).join(' + ')"></span>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+
+                <!-- Processing Time -->
+                <div class="processing-time">
+                    Processing time: <strong x-text="(analysis?.metadata?.processingTimeMs || 0).toFixed(2)"></strong> ms
+                </div>
+            </div>
+
+            <!-- No Analysis Message -->
+            <div class="results-section" x-show="!analysis" x-cloak>
+                <div class="no-analysis">
+                    <svg style="width: 4rem; height: 4rem; margin: 0 auto 1rem; color: #d1d5db;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                    <p>Enter Telugu text above and click "Analyze Text" to see detailed analysis.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 పద్యార్చన (Padyarchana). Telugu Poetry Search & Analysis Platform</p>
+        </div>
+    </footer>
+
+    <script>
+        function aksharanusarikaPage() {
+            return {
+                inputText: {{ initial_text | tojson }},
+                analysis: null,
+
+                init() {
+                    console.log('Aksharanusarika page initialized');
+                    console.log('Initial text:', this.inputText);
+
+                    // If there's initial text, analyze it automatically
+                    if (this.inputText && this.inputText.trim()) {
+                        console.log('Auto-analyzing initial text...');
+                        this.analyzeText();
+                    }
+                },
+
+                analyzeText() {
+                    console.log('analyzeText called with:', this.inputText);
+
+                    if (!this.inputText || !this.inputText.trim()) {
+                        alert('Please enter some Telugu text to analyze.');
+                        return;
+                    }
+
+                    try {
+                        console.log('Running analysis...');
+                        // Run the analysis using the aksharanusarika library
+                        this.analysis = analyzeTeluguText(this.inputText);
+                        console.log('Analysis Results:', this.analysis);
+
+                        if (!this.analysis) {
+                            console.error('Analysis returned null or undefined');
+                            alert('Analysis failed to produce results.');
+                            return;
+                        }
+
+                        // Create charts after analysis
+                        setTimeout(() => {
+                            this.createCharts();
+
+                            // Scroll to results
+                            const resultsSection = document.querySelector('.results-section');
+                            if (resultsSection) {
+                                resultsSection.scrollIntoView({
+                                    behavior: 'smooth',
+                                    block: 'start'
+                                });
+                            }
+                        }, 100);
+                    } catch (error) {
+                        console.error('Error analyzing text:', error);
+                        console.error('Error stack:', error.stack);
+                        alert('Error analyzing text: ' + error.message + '. Check console for details.');
+                    }
+                },
+
+                createCharts() {
+                    if (!this.analysis) return;
+
+                    // Destroy existing charts if they exist
+                    ['vargamChart', 'articulationChart', 'phoneticsChart', 'vyanjanaChart', 'guruLaghuLineChart'].forEach(id => {
+                        const existingChart = Chart.getChart(id);
+                        if (existingChart) {
+                            existingChart.destroy();
+                        }
+                    });
+
+                    const distributions = this.analysis.linguistic.distributions;
+
+                    // Vargam Chart
+                    this.createPieChart('vargamChart', 'Vargam Distribution', distributions.vargam);
+
+                    // Articulation Chart
+                    this.createPieChart('articulationChart', 'Articulation Points', distributions.articulation);
+
+                    // Phonetics Chart
+                    this.createPieChart('phoneticsChart', 'Phonetics Classification', distributions.phonetics);
+
+                    // Vyanjana Chart
+                    this.createPieChart('vyanjanaChart', 'Consonant Classification', distributions.vyanjanaClassification);
+
+                    // Guru-Laghu Line Chart
+                    this.createGuruLaghuLineChart();
+                },
+
+                createPieChart(canvasId, title, data) {
+                    const ctx = document.getElementById(canvasId);
+                    if (!ctx) return;
+
+                    const labels = Object.keys(data);
+                    const values = Object.values(data);
+
+                    // Filter out zero values
+                    const filteredData = labels.map((label, index) => ({
+                        label,
+                        value: values[index]
+                    })).filter(item => item.value > 0);
+
+                    if (filteredData.length === 0) {
+                        return;
+                    }
+
+                    const chartLabels = filteredData.map(item => item.label);
+                    const chartValues = filteredData.map(item => item.value);
+
+                    // Generate colors
+                    const colors = this.generateColors(chartLabels.length);
+
+                    new Chart(ctx, {
+                        type: 'pie',
+                        data: {
+                            labels: chartLabels,
+                            datasets: [{
+                                data: chartValues,
+                                backgroundColor: colors,
+                                borderWidth: 1,
+                                borderColor: '#fff'
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {
+                                legend: {
+                                    position: 'bottom',
+                                    labels: {
+                                        font: {
+                                            family: "'Noto Sans Telugu', sans-serif",
+                                            size: 11
+                                        },
+                                        padding: 10,
+                                        boxWidth: 12
+                                    }
+                                },
+                                title: {
+                                    display: false
+                                },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            const label = context.label || '';
+                                            const value = context.parsed || 0;
+                                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                            const percentage = ((value / total) * 100).toFixed(1);
+                                            return `${label}: ${value} (${percentage}%)`;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                createGuruLaghuLineChart() {
+                    const ctx = document.getElementById('guruLaghuLineChart');
+                    if (!ctx) return;
+
+                    const ganaSequence = this.analysis?.prosody?.ganaSequence || [];
+                    if (ganaSequence.length === 0) return;
+
+                    // Convert U (Guru) to 1 and I (Laghu) to 0
+                    const binaryData = ganaSequence.map(marker => marker === 'U' ? 1 : 0);
+                    const labels = ganaSequence.map((_, index) => index + 1);
+
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Guru-Laghu Pattern',
+                                data: binaryData,
+                                borderColor: '#3b82f6',
+                                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                                borderWidth: 2,
+                                pointRadius: 4,
+                                pointHoverRadius: 6,
+                                pointBackgroundColor: binaryData.map(val => val === 1 ? '#ef4444' : '#10b981'),
+                                pointBorderColor: '#fff',
+                                pointBorderWidth: 2,
+                                tension: 0.1,
+                                fill: true
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    max: 1,
+                                    ticks: {
+                                        stepSize: 1,
+                                        callback: function(value) {
+                                            return value === 1 ? 'Guru (గురు)' : 'Laghu (లఘు)';
+                                        },
+                                        font: {
+                                            family: "'Noto Sans Telugu', sans-serif",
+                                            size: 12
+                                        }
+                                    },
+                                    grid: {
+                                        color: '#e5e7eb'
+                                    }
+                                },
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Syllable Position (అక్షర స్థానం)',
+                                        font: {
+                                            family: "'Noto Sans Telugu', sans-serif",
+                                            size: 13
+                                        }
+                                    },
+                                    grid: {
+                                        color: '#f3f4f6'
+                                    }
+                                }
+                            },
+                            plugins: {
+                                legend: {
+                                    display: true,
+                                    position: 'top',
+                                    labels: {
+                                        font: {
+                                            family: "'Noto Sans Telugu', sans-serif",
+                                            size: 12
+                                        }
+                                    }
+                                },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            const value = context.parsed.y;
+                                            const marker = ganaSequence[context.dataIndex];
+                                            return value === 1 ? `Guru (గురు) - ${marker}` : `Laghu (లఘు) - ${marker}`;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                generateColors(count) {
+                    const baseColors = [
+                        '#3b82f6', // blue
+                        '#10b981', // green
+                        '#f59e0b', // amber
+                        '#ef4444', // red
+                        '#8b5cf6', // purple
+                        '#ec4899', // pink
+                        '#14b8a6', // teal
+                        '#f97316'  // orange
+                    ];
+
+                    const colors = [];
+                    for (let i = 0; i < count; i++) {
+                        colors.push(baseColors[i % baseColors.length]);
+                    }
+                    return colors;
+                }
+            };
+        }
+    </script>
+</body>
+</html>

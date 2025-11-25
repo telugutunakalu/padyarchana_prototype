@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio & Text Alignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <style>
+    body {
+      padding-bottom: 80px;
+    }
+
+    .audio-player {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #f8f9fa;
+      padding: 10px;
+    }
+
+    .transcript-container {
+      max-height: 70vh;
+      overflow-y: auto;
+      margin-top: 30px;
+      padding-top: 20px;
+    }
+
+    .active-line {
+      background-color: #d1e7dd;
+      border-radius: 50px;
+      padding: 5px;
+    }
+
+    .timestamp {
+      font-family: monospace;
+      min-width: 80px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .list-group-item {
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center mt-3">
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <label for="kandaSelect" class="form-label">Kanda</label>
+        <select id="kandaSelect" class="form-select"></select>
+      </div>
+      <div class="col-md-4">
+        <label for="sargaSelect" class="form-label">Sarga</label>
+        <select id="sargaSelect" class="form-select"></select>
+      </div>
+      <div class="col-md-4 d-flex align-items-end">
+        <button id="loadBtn" class="btn btn-primary" disabled>Load</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container transcript-container">
+    <ul id="transcriptList" class="list-group"></ul>
+  </div>
+
+  <footer class="audio-player row d-flex justify-content-center">
+    <audio id="audioPlayer" class="col-12" controls>
+      <source id="audioSource" src="" type="audio/mp3" />
+    </audio>
+
+    <div class="col-auto">
+      <button id="downloadBtn" class="btn btn-success rounded-pill mx-2">
+        <i class="bi bi-download"></i> Save
+      </button>
+      <button class="btn btn-secondary rounded-pill mx-2" data-bs-toggle="modal" data-bs-target="#shortcutsModal">
+        <i class="bi bi-keyboard"></i> Shortcuts
+      </button>
+    </div>
+  </footer>
+  <!-- Flag Modal -->
+  <div class="modal fade" id="flagModal" tabindex="-1" aria-labelledby="flagModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="flagModalLabel">Flag Sloka</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="flagReasons" class="form-check">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="mispronunciation" id="flag_mispronunciation">
+              <label class="form-check-label" for="flag_mispronunciation">Mispronunciation</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="incorrect_text" id="flag_incorrect_text">
+              <label class="form-check-label" for="flag_incorrect_text">Incorrect Text</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="incomplete_sloka" id="flag_incomplete_sloka">
+              <label class="form-check-label" for="flag_incomplete_sloka">Incomplete Sloka</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="background_noise" id="flag_background_noise">
+              <label class="form-check-label" for="flag_background_noise">Background Noise</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="low_volume" id="flag_low_volume">
+              <label class="form-check-label" for="flag_low_volume">Low Volume</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="needs_manual_review" id="flag_needs_manual_review">
+              <label class="form-check-label" for="flag_needs_manual_review">Needs Manual Review</label>
+            </div>
+          </div>
+          <div class="mt-3">
+            <label for="flagComment" class="form-label">Comment (optional):</label>
+            <textarea class="form-control" id="flagComment" rows="2"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="submitFlagBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit Flag</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const TranscriptApp = {
+        KANDAS: { 1: 77, 2: 119, 3: 75, 4: 67, 5: 68, 6: 128 },
+        transcriptData: {},
+        timestamps: {},
+        flags: {},
+        activeIndex: -1,
+
+        init() {
+          this.cacheElements();
+          this.bindEvents();
+          this.populateKanda();
+          this.loadData();
+        },
+
+        cacheElements() {
+          this.kandaSelect = document.getElementById("kandaSelect");
+          this.sargaSelect = document.getElementById("sargaSelect");
+          this.transcriptList = document.getElementById("transcriptList");
+          this.audioSource = document.getElementById("audioSource");
+          this.audioPlayer = document.getElementById("audioPlayer");
+          this.loadBtn = document.getElementById("loadBtn");
+          this.downloadBtn = document.getElementById("downloadBtn");
+        },
+
+        bindEvents() {
+          this.kandaSelect.addEventListener("change", () =>
+            this.populateSarga()
+          );
+          this.loadBtn.addEventListener("click", () =>
+            this.loadAudioAndTranscript()
+          );
+          this.downloadBtn.addEventListener("click", () =>
+            this.downloadTranscript()
+          );
+          document.addEventListener("keydown", this.handleKeydown.bind(this));
+          this.audioPlayer.addEventListener(
+            "timeupdate",
+            this.handleTimeUpdate.bind(this)
+          );
+        },
+
+        populateKanda() {
+          this.kandaSelect.innerHTML =
+            '<option value="">Select Kanda</option>';
+          for (let kanda in this.KANDAS) {
+            const option = document.createElement("option");
+            option.value = kanda;
+            option.textContent = `Kanda ${kanda}`;
+            this.kandaSelect.appendChild(option);
+          }
+        },
+
+        populateSarga() {
+          this.sargaSelect.innerHTML =
+            '<option value="">Select Sarga</option>';
+          const selectedKanda = this.kandaSelect.value;
+          if (!selectedKanda) return;
+          const sargaCount = this.KANDAS[selectedKanda];
+          for (let i = 1; i <= sargaCount; i++) {
+            const option = document.createElement("option");
+            option.value = i;
+            option.textContent = `Sarga ${i}`;
+            this.sargaSelect.appendChild(option);
+          }
+        },
+
+        loadData() {
+          fetch("https://laya.smruthi.in/api.php")
+            .then((response) => response.json())
+            .then((data) => {
+              this.processJSONData(data);
+              this.loadBtn.disabled = false;
+            })
+            .catch((error) => console.error("Error loading data from API:", error));
+        },
+
+        processJSONData(data) {
+          this.transcriptData = {};
+          this.timestamps = {};
+
+          data.forEach((item, index) => {
+            const kanda = parseInt(item.kanda);
+            const sarga = parseInt(item.sarga);
+            const entries = item.entries || [];
+
+            const kandaKey = String(kanda);
+            const sargaKey = String(sarga);
+
+            if (!Number.isInteger(kanda) || !Number.isInteger(sarga)) {
+              console.warn("Skipping invalid kanda/sarga at index", index, item);
+              return;
+            }
+
+            if (!this.transcriptData[kandaKey]) {
+              this.transcriptData[kandaKey] = {};
+              this.timestamps[kandaKey] = {};
+            }
+
+            if (!this.transcriptData[kandaKey][sargaKey]) {
+              this.transcriptData[kandaKey][sargaKey] = [];
+              this.timestamps[kandaKey][sargaKey] = {};
+            }
+
+            entries.forEach((entry, wordIndex) => {
+              // Fix field names based on API format
+              const word = String(entry.word || "").trim();
+              const startTime = entry.word_start !== null ? parseFloat(entry.word_start) * 1000 : null;
+
+              if (!word) return;
+
+              this.transcriptData[kandaKey][sargaKey].push(word);
+              this.timestamps[kandaKey][sargaKey][wordIndex] = isNaN(startTime) ? null : startTime;
+            });
+          });
+
+        },
+        loadAudioAndTranscript() {
+          const kanda = this.kandaSelect.value;
+          const sarga = this.sargaSelect.value;
+
+          if (!kanda || !sarga) {
+            alert("Please select both Kanda and Sarga.");
+            return;
+          }
+
+          this.audioSource.src = `SwaraSangraha/ramayana2/audio/${kanda}/${sarga}.mp3`;
+          this.audioPlayer.load();
+
+          this.currentKanda = kanda;
+          this.currentSarga = sarga;
+
+          this.activeIndex = -1;
+          this.updateActiveLine(-1);
+          this.loadTranscript();
+          this.updateTimestampDisplay();
+        },
+
+        loadTranscript() {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+
+          const kandaKey = String(kanda);
+          const sargaKey = String(sarga);
+          const currentData = this.transcriptData[kandaKey]?.[sargaKey] || [];
+          this.transcriptList.innerHTML = ""; // Clear once before rendering
+
+          // Spinner and progress bar code removed
+
+          let i = 0;
+          const total = currentData.length;
+          const batchSize = 100;
+
+          const renderBatch = () => {
+            const end = Math.min(i + batchSize, total);
+            for (; i < end; i++) {
+              const listItem = this.createTranscriptLine(currentData[i], i);
+              this.transcriptList.appendChild(listItem); // append directly
+            }
+            // Spinner/progress bar code removed
+            if (i < total) {
+              requestAnimationFrame(renderBatch);
+            }
+          };
+
+          requestAnimationFrame(renderBatch);
+        },
+
+        createTranscriptLine(line, index) {
+          const listItem = document.createElement("li");
+          listItem.className =
+            "list-group-item d-flex align-items-center justify-content-between";
+
+          // Create buttons and inputs
+          const resetBtn = document.createElement("a");
+          resetBtn.className = "mx-2 fs-4 resetBtn";
+          resetBtn.style.cursor = "pointer";
+          resetBtn.innerHTML = '<i class="bi bi-x"></i>';
+          resetBtn.addEventListener("click", () =>
+            this.resetStartTime(index)
+          );
+
+          const kandaKey = String(this.currentKanda);
+          const sargaKey = String(this.currentSarga);
+          const timestampInput = document.createElement("input");
+          timestampInput.type = "text";
+          timestampInput.className = "timestamp form-control form-control-sm";
+          timestampInput.style.width = "80px";
+          timestampInput.readOnly = true;
+          timestampInput.disabled = true;
+          timestampInput.value = this.timestamps[kandaKey][sargaKey][index]
+            ? this.formatTime(this.timestamps[kandaKey][sargaKey][index])
+            : "--:--:--";
+
+          const minusBtn = document.createElement("a");
+          minusBtn.className = "mx-2 fs-4 minusBtn";
+          minusBtn.style.cursor = "pointer";
+          minusBtn.innerHTML = '<i class="bi bi-dash"></i>';
+          minusBtn.addEventListener("click", () =>
+            this.adjustTimestamp(index, -250)
+          );
+
+          const plusBtn = document.createElement("a");
+          plusBtn.className = "mx-2 fs-4 plusBtn";
+          plusBtn.style.cursor = "pointer";
+          plusBtn.innerHTML = '<i class="bi bi-plus"></i>';
+          plusBtn.addEventListener("click", () =>
+            this.adjustTimestamp(index, 250)
+          );
+
+          const playBtn = document.createElement("a");
+          playBtn.className = "mx-2 fs-4 playBtn";
+          playBtn.style.cursor = "pointer";
+          playBtn.innerHTML = '<i class="bi bi-play-circle-fill"></i>';
+          playBtn.addEventListener("click", () =>
+            this.playFromTimestamp(index)
+          );
+
+          const textInput = document.createElement("input");
+          textInput.type = "text";
+          textInput.className = "form-control mx-2";
+          textInput.value = line;
+          // Add focus event listener as per instructions
+          textInput.addEventListener("focus", () => {
+            this.updateActiveLine(index);
+            if (this.timestamps[this.currentKanda][this.currentSarga][index] !== null) {
+              this.audioPlayer.currentTime = this.timestamps[this.currentKanda][this.currentSarga][index] / 1000;
+            }
+          });
+
+          const deleteBtn = document.createElement("a");
+          deleteBtn.className = "mx-2 fs-4 deleteBtn";
+          deleteBtn.style.cursor = "pointer";
+          deleteBtn.innerHTML = '<i class="bi bi-trash"></i>';
+          deleteBtn.addEventListener("click", () => this.deleteLine(index));
+
+          const addBtn = document.createElement("a");
+          addBtn.className = "mx-2 fs-4 addBtn";
+          addBtn.style.cursor = "pointer";
+          addBtn.innerHTML = '<i class="bi bi-plus-circle-fill"></i>';
+          addBtn.addEventListener("click", () => this.addLine(index));
+
+          const flagBtn = document.createElement("a");
+          flagBtn.className = "mx-2 fs-4 flagBtn";
+          flagBtn.style.cursor = "pointer";
+          flagBtn.innerHTML = `<i class="bi ${this.flags[index] ? 'bi-flag-fill' : 'bi-flag'}"></i>`;
+
+          flagBtn.addEventListener("click", () => {
+            const modal = new bootstrap.Modal(document.getElementById("flagModal"));
+            modal.show();
+
+            // Populate modal with existing values (if any)
+            const flagData = this.flags[index] || {};
+            document.getElementById("flagComment").value = flagData.comment || "";
+            Array.from(document.querySelectorAll('#flagReasons input[type="checkbox"]')).forEach((cb) => {
+              cb.checked = Array.isArray(flagData.reasons) && flagData.reasons.includes(cb.value);
+            });
+
+            document.getElementById("submitFlagBtn").onclick = () => {
+              const checkboxes = document.querySelectorAll('#flagReasons input[type="checkbox"]:checked');
+              const reasons = Array.from(checkboxes).map(cb => cb.value);
+              const comment = document.getElementById("flagComment").value;
+
+              if (reasons.length > 0 || comment.trim()) {
+                TranscriptApp.flags[index] = { reasons, comment };
+                flagBtn.innerHTML = '<i class="bi bi-flag-fill"></i>';
+              } else {
+                delete TranscriptApp.flags[index];
+                flagBtn.innerHTML = '<i class="bi bi-flag"></i>';
+              }
+
+              // Safely reset checkboxes
+              const allCheckboxes = document.querySelectorAll('#flagReasons input[type="checkbox"]');
+              allCheckboxes.forEach(cb => cb.checked = false);
+              document.getElementById("flagComment").value = '';
+            };
+
+          });
+          // Append all elements
+          listItem.append(
+            resetBtn,
+            timestampInput,
+            minusBtn,
+            plusBtn,
+            playBtn,
+            textInput,
+            deleteBtn,
+            addBtn,
+            flagBtn
+          );
+          return listItem;
+        },
+
+        formatTime(ms) {
+          const minutes = Math.floor(ms / 60000)
+            .toString()
+            .padStart(2, "0");
+          const seconds = Math.floor((ms % 60000) / 1000)
+            .toString()
+            .padStart(2, "0");
+          const centiseconds = Math.floor((ms % 1000) / 10)
+            .toString()
+            .padStart(2, "0");
+          return `${minutes}:${seconds}:${centiseconds}`;
+        },
+
+        adjustTimestamp(index, offset) {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          if (this.timestamps[kanda][sarga][index] !== null) {
+            const newTime = this.timestamps[kanda][sarga][index] + offset;
+            if (
+              newTime >= 0 &&
+              (index === 0 || newTime >= this.timestamps[kanda][sarga][index - 1]) &&
+              newTime <= this.audioPlayer.duration * 1000
+            ) {
+              this.timestamps[kanda][sarga][index] = newTime;
+              this.audioPlayer.currentTime = newTime / 1000;
+            }
+          }
+          this.updateTimestampDisplay();
+        },
+
+        playFromTimestamp(index) {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          if (this.timestamps[kanda][sarga][index] !== null) {
+            this.audioPlayer.currentTime = this.timestamps[kanda][sarga][index] / 1000;
+            this.audioPlayer.play();
+          }
+        },
+
+        resetStartTime(index) {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          this.timestamps[kanda][sarga][index] = null;
+          this.updateActiveLine(index - 1);
+          this.updateTimestampDisplay();
+        },
+
+        updateActiveLine(newIndex) {
+          const transcriptItems = this.transcriptList.children;
+          if (
+            this.activeIndex >= 0 &&
+            this.activeIndex < transcriptItems.length
+          ) {
+            transcriptItems[this.activeIndex].classList.remove("active-line");
+          }
+          if (newIndex >= 0 && newIndex < transcriptItems.length) {
+            transcriptItems[newIndex].classList.add("active-line");
+            this.activeIndex = newIndex;
+          } else {
+            this.activeIndex = -1;
+          }
+          const activeItem =
+            this.transcriptList.querySelector(".active-line");
+          if (activeItem) {
+            activeItem.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+            });
+          }
+        },
+
+        updateTimestampDisplay() {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          const kandaKey = String(kanda);
+          const sargaKey = String(sarga);
+          Array.from(this.transcriptList.children).forEach((item, i) => {
+            const timestampInput = item.querySelector(".timestamp");
+            timestampInput.value = this.timestamps[kandaKey]?.[sargaKey]?.[i]
+              ? this.formatTime(this.timestamps[kandaKey][sargaKey][i])
+              : "--:--:--";
+          });
+        },
+
+        downloadTranscript() {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          let csvContent = "data:text/csv;charset=utf-8,start,sentence,flags,comment\n";
+          const currentData = this.transcriptData[kanda]?.[sarga] || [];
+          for (let index = 0; index < currentData.length; index++) {
+            const sentence = currentData[index];
+            const timestamp = this.timestamps[kanda][sarga][index] !== null
+              ? this.formatTime(this.timestamps[kanda][sarga][index])
+              : "";
+            const sentenceText = `"${sentence.replace(/"/g, '""')}"`;
+            const flag = this.flags[index];
+            const flagStr = flag && Array.isArray(flag.reasons)
+              ? `"${flag.reasons.map(r => r.replace(/"/g, '""')).join(';')}"`
+              : "";
+            const commentStr = flag?.comment
+              ? `"${flag.comment.replace(/"/g, '""')}"`
+              : "";
+            csvContent += `${timestamp},${sentenceText},${flagStr},${commentStr}\n`;
+          }
+          const encodedUri = encodeURI(csvContent);
+          const link = document.createElement("a");
+          link.href = encodedUri;
+          link.download = `transcript.csv`;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        },
+        handleTimeUpdate() {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          const currentTime = this.audioPlayer.currentTime * 1000;
+          let newIndex = -1;
+          const keys = Object.keys(this.timestamps[kanda]?.[sarga] || {}).map(Number);
+          for (let i = 0; i < keys.length; i++) {
+            if (
+              this.timestamps[kanda][sarga][keys[i]] !== null &&
+              currentTime >= this.timestamps[kanda][sarga][keys[i]]
+            ) {
+              newIndex = keys[i];
+            } else {
+              break;
+            }
+          }
+          if (newIndex !== this.activeIndex) {
+            this.updateActiveLine(newIndex);
+          }
+        },
+
+        addLine(index) {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+
+          if (!this.transcriptData[kanda] || !this.transcriptData[kanda][sarga]) return;
+
+          // Insert empty line and null timestamp
+          this.transcriptData[kanda][sarga].splice(index + 1, 0, "");
+          this.timestamps[kanda][sarga] = Object.fromEntries(
+            Object.entries(this.timestamps[kanda][sarga])
+              .map(([k, v], i) => [i < index + 1 ? +k : +k + 1, v])
+          );
+          this.timestamps[kanda][sarga][index + 1] = null;
+
+          // Re-render the transcript
+          this.loadTranscript();
+        },
+
+        deleteLine(index) {
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+
+          if (!this.transcriptData[kanda] || !this.transcriptData[kanda][sarga]) return;
+
+          const sloka = this.transcriptData[kanda][sarga][index];
+          const startTime = this.timestamps[kanda][sarga][index];
+          const formattedTime = startTime !== null ? this.formatTime(startTime) : "--:--:--";
+
+          const message = `Are you sure you want to delete the following line?\n\n"${sloka}"\n${formattedTime}`;
+          if (!confirm(message)) return;
+
+          // Remove line and timestamp
+          this.transcriptData[kanda][sarga].splice(index, 1);
+          delete this.timestamps[kanda][sarga][index];
+
+          // Reindex timestamps
+          this.timestamps[kanda][sarga] = Object.fromEntries(
+            Object.entries(this.timestamps[kanda][sarga])
+              .map(([k, v], i) => [i, v])
+          );
+
+          // Remove flag if present
+          delete this.flags[index];
+
+          // Reindex flags
+          const newFlags = {};
+          Object.entries(this.flags).forEach(([k, v]) => {
+            const numKey = +k;
+            if (numKey < index) newFlags[numKey] = v;
+            else if (numKey > index) newFlags[numKey - 1] = v;
+          });
+          this.flags = newFlags;
+
+          // Re-render
+          this.loadTranscript();
+        },
+
+        handleKeydown(event) {
+          const isInputFocused = document.activeElement.tagName === 'INPUT' && document.activeElement.type === 'text';
+          const kanda = this.currentKanda;
+          const sarga = this.currentSarga;
+          switch (event.key) {
+            case " ":
+              if (event.shiftKey) {
+                event.preventDefault();
+                this.audioPlayer.paused
+                  ? this.audioPlayer.play()
+                  : this.audioPlayer.pause();
+              }
+              break;
+            case "ArrowDown": {
+              const transcriptLength = this.transcriptList.children.length;
+              if (this.activeIndex < transcriptLength - 1) {
+                this.updateActiveLine(this.activeIndex + 1);
+                this.timestamps[kanda][sarga][this.activeIndex] =
+                  this.audioPlayer.currentTime * 1000;
+              }
+              break;
+            }
+            case "ArrowUp":
+              if (this.activeIndex > 0) {
+                this.timestamps[kanda][sarga][this.activeIndex] = null;
+                this.updateActiveLine(this.activeIndex - 1);
+              } else if (this.activeIndex === 0) {
+                this.timestamps[kanda][sarga][this.activeIndex] = null;
+                this.updateActiveLine(-1);
+              }
+              break;
+            case "ArrowLeft":
+              if (event.shiftKey && !isInputFocused) {
+                event.preventDefault();
+                this.audioPlayer.currentTime = Math.max(this.audioPlayer.currentTime - 1, 0);
+                break;
+              }
+              if (this.timestamps[kanda]?.[sarga]?.[this.activeIndex] !== undefined) {
+                const newTime = this.timestamps[kanda][sarga][this.activeIndex] - 250;
+                if (
+                  newTime >= 0 &&
+                  (this.activeIndex === 0 ||
+                    newTime >= this.timestamps[kanda][sarga][this.activeIndex - 1])
+                ) {
+                  this.timestamps[kanda][sarga][this.activeIndex] = newTime;
+                  this.audioPlayer.currentTime = newTime / 1000;
+                }
+              }
+              break;
+            case "ArrowRight":
+              if (event.shiftKey && !isInputFocused) {
+                event.preventDefault();
+                this.audioPlayer.currentTime = Math.min(this.audioPlayer.currentTime + 1, this.audioPlayer.duration);
+                break;
+              }
+              if (this.timestamps[kanda]?.[sarga]?.[this.activeIndex] !== undefined) {
+                const newTime = this.timestamps[kanda][sarga][this.activeIndex] + 250;
+                if (newTime <= this.audioPlayer.duration * 1000) {
+                  this.timestamps[kanda][sarga][this.activeIndex] = newTime;
+                  this.audioPlayer.currentTime = newTime / 1000;
+                }
+              }
+              break;
+            // --- [Alt+Enter] Add Line ---
+            case "Enter":
+              if (event.altKey && this.activeIndex >= 0) {
+                event.preventDefault();
+                this.addLine(this.activeIndex);
+              }
+              break;
+            // --- [Alt+Backspace] Delete Line ---
+            case "Backspace":
+              if (event.altKey && this.activeIndex >= 0) {
+                event.preventDefault();
+                this.deleteLine(this.activeIndex);
+              }
+              break;
+          }
+          this.updateTimestampDisplay();
+        },
+      };
+
+      document.addEventListener("DOMContentLoaded", () => {
+        TranscriptApp.init()
+      }
+      );
+    })();
+
+  </script>
+  <div class="modal fade" id="shortcutsModal" tabindex="-1" aria-labelledby="shortcutsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="shortcutsModalLabel">Keyboard Shortcuts</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-unstyled">
+            <li><strong>Shift + Space</strong> — Play/Pause</li>
+            <li><strong>Shift + ← / →</strong> — Seek playback -1s / +1s</li>
+            <li><strong>↓ (Down Arrow)</strong> — Assign current time as start time to next line</li>
+            <li><strong>↑ (Up Arrow)</strong> — Reset start time for current line</li>
+            <li><strong>← / →</strong> — Adjust start time -250ms / +250ms</li>
+            <li><strong>Alt + Enter</strong> — Add new line after current</li>
+            <li><strong>Alt + Backspace</strong> — Delete current line (with confirmation)</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

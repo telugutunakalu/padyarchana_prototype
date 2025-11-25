@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block title %}{{ meter.name }} - పద్యార్చన{% endblock %}
+
+{% block content %}
+<div x-data="meterDetailPage()">
+    <!-- Meter Header -->
+    <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <h1 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;" x-text="meter.name"></h1>
+        <div x-show="meter.name_english" style="color: #6b7280; font-size: 1.1rem; margin-bottom: 1.5rem;">
+            <span x-text="meter.name_english"></span>
+        </div>
+
+        <div x-show="meter.description" style="margin-bottom: 1.5rem;">
+            <h3 style="color: #374151; margin-bottom: 0.5rem;">Description</h3>
+            <p class="telugu-text" style="color: #4b5563; line-height: 1.6;" x-text="meter.description"></p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div x-show="meter.gana_structure" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+                <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Gana Structure</div>
+                <div class="telugu-text" style="font-weight: 600; color: var(--primary-color);" x-text="meter.gana_structure"></div>
+            </div>
+
+            <div x-show="meter.example_pattern" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+                <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Example Pattern</div>
+                <div style="font-weight: 600; color: var(--primary-color); font-family: monospace;" x-text="meter.example_pattern"></div>
+            </div>
+
+            <div style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+                <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Total Poems</div>
+                <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);" x-text="poemCount"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Poems List -->
+    <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
+        <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">
+            Poems in this Meter (<span x-text="poemCount"></span>)
+        </h2>
+
+        <div x-show="poems.length === 0" style="text-align: center; padding: 3rem; color: #6b7280;">
+            <p>No poems found in this meter.</p>
+        </div>
+
+        <div style="display: grid; gap: 1rem;">
+            <template x-for="poem in poems" :key="poem.id">
+                <div style="padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem; border-left: 4px solid var(--primary-color); transition: all 0.2s;"
+                     @mouseenter="$el.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)'"
+                     @mouseleave="$el.style.boxShadow = 'none'">
+                    <a :href="'/poem/' + poem.id" style="text-decoration: none; color: inherit;">
+                        <h3 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.75rem; font-size: 1.2rem;" x-text="poem.title"></h3>
+
+                        <div class="telugu-text" style="color: #4b5563; line-height: 1.8; margin-bottom: 0.75rem; max-height: 4.5em; overflow: hidden; position: relative;">
+                            <span x-text="poem.text.substring(0, 150)"></span>
+                            <span x-show="poem.text.length > 150">...</span>
+                        </div>
+
+                        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.875rem; color: #6b7280;">
+                            <span x-show="poem.literary_form">
+                                <strong>Form:</strong> <span x-text="poem.literary_form"></span>
+                            </span>
+                            <span x-show="poem.word_count">
+                                <strong>Words:</strong> <span x-text="poem.word_count"></span>
+                            </span>
+                            <span x-show="poem.line_count">
+                                <strong>Lines:</strong> <span x-text="poem.line_count"></span>
+                            </span>
+                            <span x-show="poem.gana_count">
+                                <strong>Ganas:</strong> <span x-text="poem.gana_count"></span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </template>
+        </div>
+    </div>
+</div>
+
+<script>
+function meterDetailPage() {
+    return {
+        meter: {{ meter | tojson }},
+        poems: {{ poems | tojson }},
+        poemCount: {{ poem_count }},
+
+        init() {
+            console.log('Meter detail page initialized');
+            console.log('Meter:', this.meter);
+            console.log('Poems:', this.poems);
+        }
+    };
+}
+
+document.addEventListener('alpine:init', () => {
+    Alpine.data('meterDetailPage', meterDetailPage);
+});
+</script>
+
+<style>
+[x-cloak] { display: none !important; }
+</style>
+{% endblock %}

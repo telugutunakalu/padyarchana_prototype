@@ -1,0 +1,262 @@
+{% extends "base.html" %}
+
+{% block title %}{{ poem.title }} - పద్యార్చన{% endblock %}
+
+{% block content %}
+<div x-data="poemDetailPage({{ poem.id }})">
+    <!-- Poem Container -->
+    <div class="poem-container">
+        <h1 class="poem-title telugu-text" x-text="poem.title"></h1>
+
+        <div class="poem-meta">
+            <span x-show="poem.poet">
+                <strong>Poet:</strong>
+                <a :href="'/poet/' + poem.poet.id" x-text="poem.poet.name" style="color: var(--primary-color);"></a>
+            </span>
+            <span x-show="poem.meter">
+                <strong>Meter:</strong>
+                <a :href="'/meter/' + poem.meter.id" x-text="poem.meter.name" style="color: var(--primary-color);"></a>
+            </span>
+            <span x-show="poem.literary_form">
+                <strong>Form:</strong> <span x-text="poem.literary_form"></span>
+            </span>
+            <span x-show="poem.word_count">
+                <strong>Words:</strong> <span x-text="poem.word_count"></span>
+            </span>
+            <span x-show="poem.line_count">
+                <strong>Lines:</strong> <span x-text="poem.line_count"></span>
+            </span>
+        </div>
+
+        <div class="poem-text telugu-text" x-html="renderPoemText()"></div>
+    </div>
+
+    <!-- Metadata Sidebar -->
+    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin-top: 2rem;">
+        <!-- Analysis Section -->
+        <div>
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Analysis</h2>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">About this Poem</h3>
+                    <p style="color: #6b7280;">
+                        This poem is written in <span x-text="poem.meter ? poem.meter.name : 'unknown meter'"></span>
+                        by <span x-text="poem.poet ? poem.poet.name : 'unknown poet'"></span>.
+                        It contains <span x-text="poem.word_count || 0"></span> words across
+                        <span x-text="poem.line_count || 0"></span> lines.
+                    </p>
+                </div>
+
+                <div x-show="poem.meter && poem.meter.description" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">About the Meter</h3>
+                    <p style="color: #6b7280;" x-text="poem.meter.description"></p>
+                </div>
+
+                <div x-show="poem.poet && poem.poet.biography" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">About the Poet</h3>
+                    <p style="color: #6b7280;" x-text="poem.poet.biography"></p>
+                </div>
+            </div>
+
+            <!-- Aksharanusarika Analysis -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">అక్షరానుసారిక విశ్లేషణ (Aksharanusarika Analysis)</h2>
+
+                <p style="color: #6b7280; margin-bottom: 1rem;">
+                    Analyze this poem's Telugu text for detailed linguistic and prosodic features including aksharas, ganas, and meter patterns.
+                </p>
+
+                <a :href="'/aksharanusarika?text=' + encodeURIComponent(poem.text) + '&poem_id=' + poem.id" class="btn" style="width: 100%; display: block; text-align: center; text-decoration: none;">
+                    <svg style="width: 1.25rem; height: 1.25rem; display: inline-block; margin-right: 0.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                    </svg>
+                    Analyze Poem Text
+                </a>
+            </div>
+
+            <!-- Analysis Tools -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Analysis Tools</h2>
+
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <button @click="compareWithAnother" class="btn">
+                        Compare with another poem
+                    </button>
+                    <button @click="analyzePoet" class="btn" x-show="poem.poet_id">
+                        Analyze poet's style
+                    </button>
+                    <button @click="findSimilar" class="btn">
+                        Find similar poems
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <aside>
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Quick Stats</h3>
+
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
+                    <div style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+                        <div style="font-size: 0.9rem; color: #6b7280;">Word Count</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);" x-text="poem.word_count || 0"></div>
+                    </div>
+
+                    <div style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+                        <div style="font-size: 0.9rem; color: #6b7280;">Line Count</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);" x-text="poem.line_count || 0"></div>
+                    </div>
+
+                    <div x-show="poem.gana_count" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+                        <div style="font-size: 0.9rem; color: #6b7280;">Gana Count</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);" x-text="poem.gana_count"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Poems -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 1.5rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Related Poems</h3>
+
+                <div x-show="relatedPoems.length === 0" style="color: #6b7280; font-size: 0.9rem;">
+                    Loading...
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <template x-for="related in relatedPoems" :key="related.id">
+                        <a :href="'/poem/' + related.id" style="color: var(--primary-color); text-decoration: none; padding: 0.5rem; background: #f9fafb; border-radius: 0.375rem;">
+                            <span x-text="related.title.substring(0, 60)"></span>
+                            <span x-show="related.title.length > 60">...</span>
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Dictionary Modal -->
+    <div x-show="showDictionary" @click.away="showDictionary = false"
+         style="position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 50;"
+         x-cloak>
+        <div @click.stop style="background: white; padding: 2rem; border-radius: 1rem; max-width: 500px; width: 90%;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h3 style="color: var(--primary-color);" x-text="'Word: ' + selectedWord"></h3>
+                <button @click="showDictionary = false" style="font-size: 1.5rem; background: none; border: none; cursor: pointer;">&times;</button>
+            </div>
+            <div x-show="dictionaryLoading">Loading definition...</div>
+            <div x-show="!dictionaryLoading && dictionaryData">
+                <div x-show="dictionaryData.definitions" style="margin-bottom: 1rem;">
+                    <strong>Definitions:</strong>
+                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                        <template x-for="def in dictionaryData.definitions" :key="def">
+                            <li x-text="def"></li>
+                        </template>
+                    </ul>
+                </div>
+                <div x-show="dictionaryData.root_form" style="margin-bottom: 1rem;">
+                    <strong>Root Form:</strong> <span x-text="dictionaryData.root_form"></span>
+                </div>
+                <div x-show="dictionaryData.part_of_speech" style="margin-bottom: 1rem;">
+                    <strong>Part of Speech:</strong> <span x-text="dictionaryData.part_of_speech"></span>
+                </div>
+            </div>
+            <div x-show="!dictionaryLoading && !dictionaryData" style="color: #6b7280;">
+                Definition not found in dictionary.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function poemDetailPage(poemId) {
+    return {
+        poem: {{ poem | tojson }},
+        relatedPoems: [],
+        showDictionary: false,
+        selectedWord: '',
+        dictionaryData: null,
+        dictionaryLoading: false,
+
+        init() {
+            this.loadRelatedPoems();
+        },
+
+        async loadRelatedPoems() {
+            try {
+                const params = new URLSearchParams();
+                if (this.poem.poet_id) params.append('poet_id', this.poem.poet_id);
+                params.append('limit', '5');
+
+                const response = await fetch(`/api/poems?${params}`);
+                let poems = await response.json();
+                this.relatedPoems = poems.filter(p => p.id !== this.poem.id).slice(0, 4);
+            } catch (error) {
+                console.error('Error loading related poems:', error);
+            }
+        },
+
+        renderPoemText() {
+            if (!this.poem.text) return '';
+
+            // Split by lines and create clickable words
+            const lines = this.poem.text.split('\n');
+            return lines.map(line => {
+                const words = line.split(' ');
+                const clickableWords = words.map(word => {
+                    if (word.trim()) {
+                        return `<span class="hyperlink" onclick="window.poemDetail.lookupWord('${word.trim()}')">${word}</span>`;
+                    }
+                    return word;
+                }).join(' ');
+                return clickableWords;
+            }).join('<br>');
+        },
+
+        async lookupWord(word) {
+            this.selectedWord = word;
+            this.showDictionary = true;
+            this.dictionaryLoading = true;
+            this.dictionaryData = null;
+
+            try {
+                const response = await fetch(`/api/dictionary/${encodeURIComponent(word)}`);
+                if (response.ok) {
+                    this.dictionaryData = await response.json();
+                }
+            } catch (error) {
+                console.error('Dictionary lookup error:', error);
+            } finally {
+                this.dictionaryLoading = false;
+            }
+        },
+
+        compareWithAnother() {
+            window.location.href = `/compare/poems?poem_ids=${this.poem.id}`;
+        },
+
+        analyzePoet() {
+            window.location.href = `/poet/${this.poem.poet_id}`;
+        },
+
+        findSimilar() {
+            const params = new URLSearchParams();
+            if (this.poem.meter_id) params.append('meter_id', this.poem.meter_id);
+            if (this.poem.poet_id) params.append('poet_id', this.poem.poet_id);
+            window.location.href = `/search?${params}`;
+        }
+    };
+}
+
+// Make function globally available for onclick handlers
+window.poemDetail = null;
+document.addEventListener('alpine:init', () => {
+    Alpine.data('poemDetailPage', poemDetailPage);
+});
+</script>
+
+<style>
+[x-cloak] { display: none !important; }
+</style>
+{% endblock %}
