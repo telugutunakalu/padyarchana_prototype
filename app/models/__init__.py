@@ -10,6 +10,8 @@ from app.models.samasa import Samasa
 from app.models.gana import Gana
 from app.models.yati import Yati
 from app.models.prasa import Prasa
+from app.models.poem_audio import PoemAudio
+from app.models.audio_annotation import AudioAnnotation
 
 __all__ = [
     "Poet",
@@ -22,4 +24,6 @@ __all__ = [
     "Gana",
     "Yati",
     "Prasa",
+    "PoemAudio",
+    "AudioAnnotation",
 ]

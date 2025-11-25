@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 
 from app.config import settings
 from app.database import init_db, close_db
-from app.api import poems, poets, meters, search, dictionary, compare
+from app.api import poems, poets, meters, search, dictionary, compare, audio
 
 
 @asynccontextmanager
@@ -53,6 +53,7 @@ app.include_router(meters.router, prefix="/api/meters", tags=["Meters"])
 app.include_router(search.router, prefix="/api/search", tags=["Search"])
 app.include_router(dictionary.router, prefix="/api/dictionary", tags=["Dictionary"])
 app.include_router(compare.router, prefix="/api/compare", tags=["Comparative Analysis"])
+app.include_router(audio.router, prefix="/api", tags=["Audio"])
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -71,7 +72,7 @@ async def search_page(request: Request):
 async def poem_detail_page(poem_id: int, request: Request):
     """Poem detail page."""
     from sqlalchemy import select
-    from app.models import Poem, Poet, Meter
+    from app.models import Poem, Poet, Meter, PoemAudio
     from app.database import get_db
 
     async for db in get_db():
@@ -86,12 +87,17 @@ async def poem_detail_page(poem_id: int, request: Request):
         # Load relationships
         poet = None
         meter = None
+        audio = None
         if poem.poet_id:
             poet_result = await db.execute(select(Poet).where(Poet.id == poem.poet_id))
             poet = poet_result.scalar_one_or_none()
         if poem.meter_id:
             meter_result = await db.execute(select(Meter).where(Meter.id == poem.meter_id))
             meter = meter_result.scalar_one_or_none()
+
+        # Check for audio
+        audio_result = await db.execute(select(PoemAudio).where(PoemAudio.poem_id == poem_id))
+        audio = audio_result.scalar_one_or_none()
 
         # Convert to dict for JSON serialization in template
         poem_dict = {
@@ -102,6 +108,7 @@ async def poem_detail_page(poem_id: int, request: Request):
             "word_count": poem.word_count,
             "gana_count": poem.gana_count,
             "line_count": poem.line_count,
+            "source": poem.source,
             "poet_id": poem.poet_id,
             "meter_id": poem.meter_id,
             "poet": {
@@ -114,7 +121,15 @@ async def poem_detail_page(poem_id: int, request: Request):
                 "id": meter.id,
                 "name": meter.name,
                 "description": meter.description
-            } if meter else None
+            } if meter else None,
+            "audio": {
+                "id": audio.id,
+                "filename": audio.filename,
+                "original_filename": audio.original_filename,
+                "duration_seconds": audio.duration_seconds,
+                "format": audio.format,
+                "audio_url": f"/static/audio/poems/{poem_id}/{audio.filename}"
+            } if audio else None
         }
 
         return templates.TemplateResponse("poem_detail.html", {"request": request, "poem": poem_dict})
@@ -248,6 +263,80 @@ async def aksharanusarika_page(request: Request, text: str = "", poem_id: int = 
             "poem_id": poem_id
         }
     )
+
+
+@app.get("/laya/{poem_id}", response_class=HTMLResponse)
+async def laya_annotator_page(poem_id: int, request: Request):
+    """Laya audio annotator page for a poem."""
+    from sqlalchemy import select
+    from app.models import Poem, Poet, Meter, PoemAudio
+    from app.database import get_db
+    from fastapi.responses import RedirectResponse
+
+    async for db in get_db():
+        # Get the poem
+        result = await db.execute(select(Poem).where(Poem.id == poem_id))
+        poem = result.scalar_one_or_none()
+
+        if not poem:
+            return templates.TemplateResponse("index.html", {"request": request, "error": "Poem not found"})
+
+        # Check if audio exists
+        audio_result = await db.execute(select(PoemAudio).where(PoemAudio.poem_id == poem_id))
+        audio = audio_result.scalar_one_or_none()
+
+        if not audio:
+            # Redirect to poem detail page if no audio
+            return RedirectResponse(url=f"/poem/{poem_id}", status_code=302)
+
+        # Get poet info
+        poet = None
+        if poem.poet_id:
+            poet_result = await db.execute(select(Poet).where(Poet.id == poem.poet_id))
+            poet = poet_result.scalar_one_or_none()
+
+        # Get meter info
+        meter = None
+        if poem.meter_id:
+            meter_result = await db.execute(select(Meter).where(Meter.id == poem.meter_id))
+            meter = meter_result.scalar_one_or_none()
+
+        # Prepare data for template
+        poem_dict = {
+            "id": poem.id,
+            "title": poem.title,
+            "text": poem.text,
+            "literary_form": poem.literary_form,
+            "word_count": poem.word_count,
+            "line_count": poem.line_count,
+            "source": poem.source,
+            "poet": {
+                "id": poet.id,
+                "name": poet.name
+            } if poet else None,
+            "meter": {
+                "id": meter.id,
+                "name": meter.name
+            } if meter else None
+        }
+
+        audio_dict = {
+            "id": audio.id,
+            "filename": audio.filename,
+            "original_filename": audio.original_filename,
+            "duration_seconds": audio.duration_seconds,
+            "format": audio.format,
+            "audio_url": f"/static/audio/poems/{poem_id}/{audio.filename}"
+        }
+
+        return templates.TemplateResponse(
+            "laya_annotator.html",
+            {
+                "request": request,
+                "poem": poem_dict,
+                "audio": audio_dict
+            }
+        )
 
 
 @app.get("/health")
