@@ -1,66 +1,24 @@
 """
 API endpoints for audio file management and annotations.
 """
-import os
-import shutil
 from pathlib import Path
 from typing import List, Optional
-from datetime import datetime
 
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
-from fastapi.responses import JSONResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, delete
-from pydantic import BaseModel
 
+from app.config import settings
 from app.database import get_db
 from app.models import Poem, PoemAudio, AudioAnnotation
+from app.schemas.audio import (
+    AudioMetadataResponse,
+    AnnotationCreate,
+    AnnotationResponse,
+    AnnotationBatchCreate,
+)
 
 router = APIRouter()
-
-# Configuration
-AUDIO_DIR = Path("static/audio/poems")
-MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB
-ALLOWED_FORMATS = {"mp3", "wav"}
-
-
-# Pydantic models for request/response
-class AudioMetadataResponse(BaseModel):
-    id: int
-    poem_id: int
-    filename: str
-    original_filename: Optional[str]
-    duration_seconds: Optional[float]
-    format: str
-    file_size_bytes: Optional[int]
-    uploaded_at: datetime
-    audio_url: str
-
-    class Config:
-        from_attributes = True
-
-
-class AnnotationCreate(BaseModel):
-    word_index: int
-    word_text: Optional[str] = None
-    timestamp_ms: Optional[int] = None
-    flags: Optional[dict] = None
-
-
-class AnnotationResponse(BaseModel):
-    id: int
-    poem_audio_id: int
-    word_index: int
-    word_text: Optional[str]
-    timestamp_ms: Optional[int]
-    flags: Optional[dict]
-
-    class Config:
-        from_attributes = True
-
-
-class AnnotationBatchCreate(BaseModel):
-    annotations: List[AnnotationCreate]
 
 
 def get_audio_duration(file_path: Path) -> Optional[float]:
@@ -102,22 +60,22 @@ async def upload_audio(
         raise HTTPException(status_code=400, detail="No filename provided")
 
     file_ext = file.filename.rsplit(".", 1)[-1].lower() if "." in file.filename else ""
-    if file_ext not in ALLOWED_FORMATS:
+    if file_ext not in settings.ALLOWED_AUDIO_FORMATS:
         raise HTTPException(
             status_code=400,
-            detail=f"Invalid file format. Allowed formats: {', '.join(ALLOWED_FORMATS)}"
+            detail=f"Invalid file format. Allowed formats: {', '.join(settings.ALLOWED_AUDIO_FORMATS)}"
         )
 
     # Read file content and check size
     content = await file.read()
-    if len(content) > MAX_FILE_SIZE:
+    if len(content) > settings.MAX_AUDIO_FILE_SIZE:
         raise HTTPException(
             status_code=400,
-            detail=f"File too large. Maximum size: {MAX_FILE_SIZE // (1024*1024)}MB"
+            detail=f"File too large. Maximum size: {settings.MAX_AUDIO_FILE_SIZE // (1024*1024)}MB"
         )
 
     # Create directory for this poem's audio
-    poem_audio_dir = AUDIO_DIR / str(poem_id)
+    poem_audio_dir = settings.settings.AUDIO_DIR / str(poem_id)
     poem_audio_dir.mkdir(parents=True, exist_ok=True)
 
     # Check if audio already exists for this poem - delete old file if so
@@ -207,12 +165,12 @@ async def delete_audio(poem_id: int, db: AsyncSession = Depends(get_db)):
         raise HTTPException(status_code=404, detail="No audio found for this poem")
 
     # Delete file from filesystem
-    file_path = AUDIO_DIR / str(poem_id) / audio.filename
+    file_path = settings.AUDIO_DIR / str(poem_id) / audio.filename
     if file_path.exists():
         file_path.unlink()
 
     # Try to remove the directory if empty
-    poem_dir = AUDIO_DIR / str(poem_id)
+    poem_dir = settings.AUDIO_DIR / str(poem_id)
     if poem_dir.exists() and not any(poem_dir.iterdir()):
         poem_dir.rmdir()
 
