@@ -15,6 +15,7 @@ class PoemBase(BaseModel):
     word_count: Optional[int] = None
     gana_count: Optional[int] = None
     line_count: Optional[int] = None
+    source: Optional[str] = None
     poet_id: Optional[int] = None
     meter_id: Optional[int] = None
 
@@ -34,6 +35,7 @@ class PoemUpdate(BaseModel):
     word_count: Optional[int] = None
     gana_count: Optional[int] = None
     line_count: Optional[int] = None
+    source: Optional[str] = None
     poet_id: Optional[int] = None
     meter_id: Optional[int] = None
 

@@ -19,6 +19,7 @@ class Poem(Base):
     word_count = Column(Integer, nullable=True)
     gana_count = Column(Integer, nullable=True)
     line_count = Column(Integer, nullable=True)
+    source = Column(String(200), nullable=True)  # Source text (e.g., వేమన శతకము, సుమతీ శతకము)
 
     # Foreign Keys
     poet_id = Column(Integer, ForeignKey("poets.id"), nullable=True, index=True)
@@ -37,6 +38,7 @@ class Poem(Base):
     ganas = relationship("Gana", back_populates="poem", cascade="all, delete-orphan")
     yatis = relationship("Yati", back_populates="poem", cascade="all, delete-orphan")
     prasas = relationship("Prasa", back_populates="poem", cascade="all, delete-orphan")
+    audio = relationship("PoemAudio", back_populates="poem", uselist=False, cascade="all, delete-orphan")
 
     def __repr__(self):
         return f"<Poem(id={self.id}, title='{self.title[:30]}...')>"
