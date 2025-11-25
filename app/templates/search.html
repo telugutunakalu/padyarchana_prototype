@@ -1,0 +1,252 @@
+{% extends "base.html" %}
+
+{% block title %}Search Results - పద్యార్చన{% endblock %}
+
+{% block content %}
+<div x-data="searchPage()">
+    <!-- Search Bar -->
+    <section class="search-section">
+        <h2>Search Telugu Poetry</h2>
+
+        <form class="search-bar" @submit.prevent="performSearch">
+            <input
+                type="text"
+                x-model="searchQuery"
+                placeholder="Search by text, poet, or meter..."
+                @input="handleAutocompleteInput"
+            >
+            <button type="submit" class="btn">Search</button>
+        </form>
+
+        <!-- Autocomplete suggestions -->
+        <div x-show="suggestions.length > 0" style="max-width: 600px; margin: 1rem auto;">
+            <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                <template x-for="suggestion in suggestions" :key="suggestion">
+                    <div
+                        @click="selectSuggestion(suggestion)"
+                        style="padding: 0.75rem 1rem; cursor: pointer; border-bottom: 1px solid #e5e7eb;"
+                        x-text="suggestion"
+                    ></div>
+                </template>
+            </div>
+        </div>
+    </section>
+
+    <div style="display: grid; grid-template-columns: 250px 1fr; gap: 2rem; margin-top: 2rem;">
+        <!-- Filters Sidebar -->
+        <aside class="filters">
+            <h3>Filters</h3>
+
+            <div class="filter-group">
+                <label>Poet</label>
+                <select x-model="filters.poet_id" @change="applyFilters">
+                    <option value="">All Poets</option>
+                    <template x-for="poet in poets" :key="poet.id">
+                        <option :value="poet.id" x-text="poet.name"></option>
+                    </template>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Meter (Chandassu)</label>
+                <select x-model="filters.meter_id" @change="applyFilters">
+                    <option value="">All Meters</option>
+                    <template x-for="meter in meters" :key="meter.id">
+                        <option :value="meter.id" x-text="meter.name"></option>
+                    </template>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Literary Form</label>
+                <input
+                    type="text"
+                    x-model="filters.literary_form"
+                    @input="debounce(() => applyFilters(), 500)"
+                    placeholder="e.g., శతకం"
+                />
+            </div>
+
+            <button @click="clearFilters" class="btn" style="width: 100%; margin-top: 1rem;">
+                Clear Filters
+            </button>
+        </aside>
+
+        <!-- Results -->
+        <main>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h2 x-text="`Found ${totalResults} poems`"></h2>
+                <select x-model="sortBy" @change="applyFilters">
+                    <option value="relevance">Sort by Relevance</option>
+                    <option value="poet">Sort by Poet</option>
+                    <option value="date">Sort by Date</option>
+                </select>
+            </div>
+
+            <div x-show="loading" style="text-align: center; padding: 3rem;">
+                <p>Loading results...</p>
+            </div>
+
+            <div x-show="!loading && results.length === 0" style="text-align: center; padding: 3rem;">
+                <p style="color: #6b7280;">No poems found. Try different search terms or filters.</p>
+            </div>
+
+            <div x-show="!loading && results.length > 0" class="card-grid" style="grid-template-columns: 1fr;">
+                <template x-for="poem in results" :key="poem.id">
+                    <div class="card">
+                        <h3>
+                            <a :href="'/poem/' + poem.id" style="color: var(--primary-color); text-decoration: none;">
+                                <span x-text="poem.title.substring(0, 100)"></span>
+                                <span x-show="poem.title.length > 100">...</span>
+                            </a>
+                        </h3>
+                        <div class="poem-meta" style="font-size: 0.9rem; margin: 0.5rem 0;">
+                            <span x-show="poem.poet_id">Poet: <strong x-text="getPoetName(poem.poet_id)"></strong></span>
+                            <span x-show="poem.meter_id">Meter: <strong x-text="getMeterName(poem.meter_id)"></strong></span>
+                            <span x-show="poem.word_count">Words: <strong x-text="poem.word_count"></strong></span>
+                        </div>
+                        <p class="telugu-text" style="color: #6b7280; margin-top: 0.5rem;">
+                            <span x-text="poem.text.substring(0, 200)"></span>
+                            <span x-show="poem.text.length > 200">...</span>
+                        </p>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Pagination -->
+            <div x-show="totalPages > 1" style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 2rem;">
+                <button @click="prevPage" :disabled="currentPage === 1" class="btn">Previous</button>
+                <span style="padding: 0.75rem 1rem;">Page <span x-text="currentPage"></span> of <span x-text="totalPages"></span></span>
+                <button @click="nextPage" :disabled="currentPage === totalPages" class="btn">Next</button>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script>
+function searchPage() {
+    return {
+        searchQuery: new URLSearchParams(window.location.search).get('q') || '',
+        suggestions: [],
+        filters: {
+            poet_id: '',
+            meter_id: '',
+            literary_form: ''
+        },
+        sortBy: 'relevance',
+        results: [],
+        poets: [],
+        meters: [],
+        loading: true,
+        currentPage: 1,
+        totalPages: 1,
+        totalResults: 0,
+        pageSize: 10,
+
+        init() {
+            this.loadFilters();
+            this.performSearch();
+        },
+
+        async loadFilters() {
+            try {
+                const [poetsRes, metersRes] = await Promise.all([
+                    fetch('/api/poets?limit=100'),
+                    fetch('/api/meters?limit=100')
+                ]);
+                this.poets = await poetsRes.json();
+                this.meters = await metersRes.json();
+            } catch (error) {
+                console.error('Error loading filters:', error);
+            }
+        },
+
+        async performSearch() {
+            this.loading = true;
+            try {
+                const params = new URLSearchParams();
+                if (this.searchQuery) params.append('q', this.searchQuery);
+                if (this.filters.poet_id) params.append('poet_id', this.filters.poet_id);
+                if (this.filters.meter_id) params.append('meter_id', this.filters.meter_id);
+                if (this.filters.literary_form) params.append('literary_form', this.filters.literary_form);
+                params.append('skip', (this.currentPage - 1) * this.pageSize);
+                params.append('limit', this.pageSize);
+
+                const response = await fetch(`/api/search?${params}`);
+                this.results = await response.json();
+                this.totalResults = this.results.length;
+                this.totalPages = Math.ceil(this.totalResults / this.pageSize);
+            } catch (error) {
+                console.error('Search error:', error);
+                this.results = [];
+            } finally {
+                this.loading = false;
+            }
+        },
+
+        applyFilters() {
+            this.currentPage = 1;
+            this.performSearch();
+        },
+
+        clearFilters() {
+            this.filters = { poet_id: '', meter_id: '', literary_form: '' };
+            this.applyFilters();
+        },
+
+        async handleAutocompleteInput() {
+            if (this.searchQuery.length < 2) {
+                this.suggestions = [];
+                return;
+            }
+
+            clearTimeout(this.autocompleteTimer);
+            this.autocompleteTimer = setTimeout(async () => {
+                try {
+                    const response = await fetch(`/api/search/autocomplete?q=${encodeURIComponent(this.searchQuery)}`);
+                    const data = await response.json();
+                    this.suggestions = [...data.poems, ...data.poets, ...data.meters];
+                } catch (error) {
+                    console.error('Autocomplete error:', error);
+                }
+            }, 300);
+        },
+
+        selectSuggestion(suggestion) {
+            this.searchQuery = suggestion;
+            this.suggestions = [];
+            this.performSearch();
+        },
+
+        prevPage() {
+            if (this.currentPage > 1) {
+                this.currentPage--;
+                this.performSearch();
+            }
+        },
+
+        nextPage() {
+            if (this.currentPage < this.totalPages) {
+                this.currentPage++;
+                this.performSearch();
+            }
+        },
+
+        getPoetName(poetId) {
+            const poet = this.poets.find(p => p.id === poetId);
+            return poet ? poet.name : 'Unknown';
+        },
+
+        getMeterName(meterId) {
+            const meter = this.meters.find(m => m.id === meterId);
+            return meter ? meter.name : 'Unknown';
+        },
+
+        debounce(func, wait) {
+            clearTimeout(this.debounceTimer);
+            this.debounceTimer = setTimeout(func, wait);
+        }
+    }
+}
+</script>
+{% endblock %}

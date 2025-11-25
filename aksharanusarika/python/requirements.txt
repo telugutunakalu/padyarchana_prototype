@@ -1,0 +1,4 @@
+# Aksharanusarika Python Dependencies
+# Version: 0.0.7a
+
+pytz>=2025.2
