@@ -18,6 +18,9 @@ email-validator==2.1.0
 indic-nlp-library==0.92
 python-dotenv==1.0.0
 
+# Audio Processing
+mutagen==1.47.0
+
 # Search and Analysis
 whoosh==2.7.4
 

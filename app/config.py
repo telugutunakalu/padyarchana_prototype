@@ -1,8 +1,10 @@
 """
 Configuration settings for Padyarchana application.
 """
+from pathlib import Path
+from typing import List, Set
+
 from pydantic_settings import BaseSettings
-from typing import List
 
 
 class Settings(BaseSettings):
@@ -35,6 +37,11 @@ class Settings(BaseSettings):
     STATIC_DIR: str = "static"
     TEMPLATES_DIR: str = "app/templates"
     DATA_DIR: str = "data"
+
+    # Audio Settings
+    AUDIO_DIR: Path = Path("static/audio/poems")
+    MAX_AUDIO_FILE_SIZE: int = 50 * 1024 * 1024  # 50MB
+    ALLOWED_AUDIO_FORMATS: Set[str] = {"mp3", "wav"}
 
     class Config:
         env_file = ".env"

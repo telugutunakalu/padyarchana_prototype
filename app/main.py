@@ -1,16 +1,19 @@
 """
 Main FastAPI application for Padyarchana.
 """
-from fastapi import FastAPI, Request
-from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
 from contextlib import asynccontextmanager
 
-from app.config import settings
-from app.database import init_db, close_db
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from sqlalchemy import select
+
 from app.api import poems, poets, meters, search, dictionary, compare, audio
+from app.config import settings
+from app.database import init_db, close_db, get_db
+from app.models import Poem, Poet, Meter, PoemAudio
 
 
 @asynccontextmanager
@@ -71,10 +74,6 @@ async def search_page(request: Request):
 @app.get("/poem/{poem_id}", response_class=HTMLResponse)
 async def poem_detail_page(poem_id: int, request: Request):
     """Poem detail page."""
-    from sqlalchemy import select
-    from app.models import Poem, Poet, Meter, PoemAudio
-    from app.database import get_db
-
     async for db in get_db():
         result = await db.execute(
             select(Poem).where(Poem.id == poem_id)
@@ -138,10 +137,6 @@ async def poem_detail_page(poem_id: int, request: Request):
 @app.get("/poet/{poet_id}", response_class=HTMLResponse)
 async def poet_detail_page(poet_id: int, request: Request):
     """Poet detail page showing all poems by this poet."""
-    from sqlalchemy import select
-    from app.models import Poem, Poet
-    from app.database import get_db
-
     async for db in get_db():
         # Get the poet
         poet_result = await db.execute(select(Poet).where(Poet.id == poet_id))
@@ -188,10 +183,6 @@ async def poet_detail_page(poet_id: int, request: Request):
 @app.get("/meter/{meter_id}", response_class=HTMLResponse)
 async def meter_detail_page(meter_id: int, request: Request):
     """Meter detail page showing all poems in this meter."""
-    from sqlalchemy import select
-    from app.models import Poem, Meter
-    from app.database import get_db
-
     async for db in get_db():
         # Get the meter
         meter_result = await db.execute(select(Meter).where(Meter.id == meter_id))
@@ -268,11 +259,6 @@ async def aksharanusarika_page(request: Request, text: str = "", poem_id: int = 
 @app.get("/laya/{poem_id}", response_class=HTMLResponse)
 async def laya_annotator_page(poem_id: int, request: Request):
     """Laya audio annotator page for a poem."""
-    from sqlalchemy import select
-    from app.models import Poem, Poet, Meter, PoemAudio
-    from app.database import get_db
-    from fastapi.responses import RedirectResponse
-
     async for db in get_db():
         # Get the poem
         result = await db.execute(select(Poem).where(Poem.id == poem_id))
