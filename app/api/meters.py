@@ -3,26 +3,55 @@ API endpoints for meters/chandassu.
 """
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
-from typing import List
+from sqlalchemy import select, or_, func
+from typing import List, Optional
 
 from app.database import get_db
-from app.models import Meter
+from app.models import Meter, Poem
 from app.schemas.meter import MeterCreate, MeterUpdate, MeterResponse
 
 router = APIRouter()
 
 
-@router.get("/", response_model=List[MeterResponse])
+@router.get("/")
 async def get_meters(
     skip: int = Query(0, ge=0),
-    limit: int = Query(10, ge=1, le=100),
+    limit: int = Query(100, ge=1, le=100),
+    search: Optional[str] = None,
     db: AsyncSession = Depends(get_db),
 ):
-    """Get all meters with pagination."""
-    result = await db.execute(select(Meter).offset(skip).limit(limit))
+    """Get all meters with pagination, search, and poem counts."""
+    query = select(Meter)
+
+    if search:
+        query = query.where(
+            or_(
+                Meter.name.ilike(f"%{search}%"),
+                Meter.name_english.ilike(f"%{search}%")
+            )
+        )
+
+    query = query.offset(skip).limit(limit)
+    result = await db.execute(query)
     meters = result.scalars().all()
-    return meters
+
+    # Get poem counts for each meter
+    meter_list = []
+    for meter in meters:
+        poem_count = await db.scalar(
+            select(func.count(Poem.id)).where(Poem.meter_id == meter.id)
+        )
+        meter_list.append({
+            "id": meter.id,
+            "name": meter.name,
+            "name_english": meter.name_english,
+            "description": meter.description,
+            "gana_structure": meter.gana_structure,
+            "example_pattern": meter.example_pattern,
+            "poem_count": poem_count or 0
+        })
+
+    return meter_list
 
 
 @router.get("/{meter_id}", response_model=MeterResponse)

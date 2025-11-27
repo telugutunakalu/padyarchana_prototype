@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+{% block title %}Nethra - OCR Annotation Portal{% endblock %}
+
+{% block content %}
+<div x-data="nethraPage()" x-init="init()" style="max-width: 1200px; margin: 0 auto;">
+
+    <!-- Page Header -->
+    <div style="margin-bottom: 2rem;">
+        <h1 style="color: var(--primary-color); font-size: 2rem; margin-bottom: 0.5rem;">
+            నేత్ర (Nethra) - OCR Annotation Portal
+        </h1>
+        <p style="color: #6b7280;">
+            Annotate and correct OCR text from extracted images
+        </p>
+    </div>
+
+    <!-- Statistics Cards -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Total Batches</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--primary-color);" x-text="stats.total_batches"></div>
+        </div>
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Total Images</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--primary-color);" x-text="stats.total_images"></div>
+        </div>
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Annotated</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: #10b981;" x-text="stats.annotated_images"></div>
+        </div>
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Pending</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: #f59e0b;" x-text="stats.pending_images"></div>
+        </div>
+    </div>
+
+    <!-- Action Bar -->
+    <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+            <button @click="scanFolders()" class="btn" :disabled="scanning" :style="scanning ? 'opacity: 0.5;' : ''">
+                <span x-show="!scanning">Scan Folders</span>
+                <span x-show="scanning">Scanning...</span>
+            </button>
+
+            <div style="flex: 1; min-width: 200px;">
+                <input type="text"
+                       x-model="searchQuery"
+                       @input.debounce.300ms="loadBatches()"
+                       placeholder="Search batches..."
+                       style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 1rem;">
+            </div>
+
+            <!-- OCR Status -->
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span :style="ocrAvailable ? 'color: #10b981;' : 'color: #ef4444;'" x-text="ocrAvailable ? 'OCR Ready' : 'OCR Not Available'"></span>
+            </div>
+        </div>
+
+        <p x-show="scanMessage" x-text="scanMessage" style="color: #10b981; margin-top: 1rem; font-size: 0.875rem;"></p>
+    </div>
+
+    <!-- Loading State -->
+    <div x-show="loading" style="text-align: center; padding: 3rem; color: #6b7280;">
+        Loading batches...
+    </div>
+
+    <!-- Batches Table -->
+    <div x-show="!loading" style="background: white; border-radius: 0.75rem; box-shadow: var(--shadow); overflow: hidden;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white;">
+                    <th style="padding: 1rem; text-align: left;">Name</th>
+                    <th style="padding: 1rem; text-align: center;">Images</th>
+                    <th style="padding: 1rem; text-align: center;">Progress</th>
+                    <th style="padding: 1rem; text-align: center;">Status</th>
+                    <th style="padding: 1rem; text-align: center;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template x-for="batch in batches" :key="batch.id">
+                    <tr style="border-bottom: 1px solid #e5e7eb;" class="table-row-hover">
+                        <td style="padding: 1rem;">
+                            <div>
+                                <span class="telugu-text" style="font-size: 1.1rem; font-weight: 500;" x-text="batch.display_name"></span>
+                            </div>
+                            <div style="color: #6b7280; font-size: 0.75rem; margin-top: 0.25rem;" x-text="batch.folder_name"></div>
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <span style="font-size: 1.1rem; font-weight: 500;" x-text="batch.total_images"></span>
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                                <div style="flex: 1; max-width: 100px; background: #e5e7eb; border-radius: 0.25rem; height: 0.5rem;">
+                                    <div :style="'width: ' + batch.progress_percent + '%; background: var(--primary-color); height: 100%; border-radius: 0.25rem; transition: width 0.3s;'"></div>
+                                </div>
+                                <span style="font-size: 0.875rem; white-space: nowrap;" x-text="batch.annotated_count + '/' + batch.total_images"></span>
+                            </div>
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <span :style="getStatusStyle(batch.progress_percent)" x-text="batch.progress_percent + '%'"></span>
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <a :href="'/nethra/batch/' + batch.id" class="btn" style="padding: 0.5rem 1rem; font-size: 0.875rem; text-decoration: none;">
+                                Open
+                            </a>
+                        </td>
+                    </tr>
+                </template>
+                <tr x-show="batches.length === 0 && !loading">
+                    <td colspan="5" style="padding: 2rem; text-align: center; color: #6b7280;">
+                        No batches found. Click "Scan Folders" to discover image folders.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Label Legend -->
+    <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
+        <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1rem;">Annotation Labels</h3>
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="width: 12px; height: 12px; background: #ef4444; border-radius: 50%;"></span>
+                <span style="color: #6b7280; font-size: 0.875rem;">Unreadable (<span x-text="stats.label_counts?.unreadable || 0"></span>)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="width: 12px; height: 12px; background: #10b981; border-radius: 50%;"></span>
+                <span style="color: #6b7280; font-size: 0.875rem;">Correct (<span x-text="stats.label_counts?.correct || 0"></span>)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="width: 12px; height: 12px; background: #f59e0b; border-radius: 50%;"></span>
+                <span style="color: #6b7280; font-size: 0.875rem;">Incorrect (<span x-text="stats.label_counts?.incorrect || 0"></span>)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%;"></span>
+                <span style="color: #6b7280; font-size: 0.875rem;">Needs Review (<span x-text="stats.label_counts?.needs_review || 0"></span>)</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.table-row-hover:hover { background: #f9fafb; }
+</style>
+
+<script>
+function nethraPage() {
+    return {
+        batches: [],
+        stats: {
+            total_batches: 0,
+            total_images: 0,
+            annotated_images: 0,
+            pending_images: 0,
+            progress_percent: 0,
+            label_counts: {}
+        },
+        searchQuery: '',
+        loading: false,
+        scanning: false,
+        scanMessage: '',
+        ocrAvailable: false,
+
+        async init() {
+            await this.loadStats();
+            await this.loadBatches();
+            await this.checkOcrStatus();
+        },
+
+        async loadStats() {
+            try {
+                const res = await fetch('/api/nethra/stats');
+                this.stats = await res.json();
+            } catch (e) {
+                console.error('Failed to load stats:', e);
+            }
+        },
+
+        async loadBatches() {
+            this.loading = true;
+            try {
+                let url = '/api/nethra/batches';
+                if (this.searchQuery) {
+                    url += `?search=${encodeURIComponent(this.searchQuery)}`;
+                }
+                const res = await fetch(url);
+                const data = await res.json();
+                this.batches = data.batches;
+            } catch (e) {
+                console.error('Failed to load batches:', e);
+            } finally {
+                this.loading = false;
+            }
+        },
+
+        async scanFolders() {
+            this.scanning = true;
+            this.scanMessage = '';
+            try {
+                const res = await fetch('/api/nethra/batches/scan', { method: 'POST' });
+                const result = await res.json();
+                this.scanMessage = `Scan complete: ${result.created_batches} new batches, ${result.images_added} new images`;
+                await this.loadStats();
+                await this.loadBatches();
+            } catch (e) {
+                console.error('Scan failed:', e);
+                this.scanMessage = 'Scan failed. Check console for details.';
+            } finally {
+                this.scanning = false;
+            }
+        },
+
+        async checkOcrStatus() {
+            try {
+                const res = await fetch('/api/nethra/ocr/status');
+                const data = await res.json();
+                this.ocrAvailable = data.available;
+            } catch (e) {
+                this.ocrAvailable = false;
+            }
+        },
+
+        getStatusStyle(progress) {
+            if (progress >= 100) return 'color: #10b981; font-weight: 500;';
+            if (progress >= 50) return 'color: #f59e0b; font-weight: 500;';
+            return 'color: #6b7280;';
+        }
+    }
+}
+</script>
+{% endblock %}

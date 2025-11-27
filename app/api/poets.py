@@ -3,26 +3,56 @@ API endpoints for poets.
 """
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
-from typing import List
+from sqlalchemy import select, or_, func
+from typing import List, Optional
 
 from app.database import get_db
-from app.models import Poet
+from app.models import Poet, Poem
 from app.schemas.poet import PoetCreate, PoetUpdate, PoetResponse
 
 router = APIRouter()
 
 
-@router.get("/", response_model=List[PoetResponse])
+@router.get("/")
 async def get_poets(
     skip: int = Query(0, ge=0),
-    limit: int = Query(10, ge=1, le=100),
+    limit: int = Query(100, ge=1, le=100),
+    search: Optional[str] = None,
     db: AsyncSession = Depends(get_db),
 ):
-    """Get all poets with pagination."""
-    result = await db.execute(select(Poet).offset(skip).limit(limit))
+    """Get all poets with pagination, search, and poem counts."""
+    query = select(Poet)
+
+    if search:
+        query = query.where(
+            or_(
+                Poet.name.ilike(f"%{search}%"),
+                Poet.name_english.ilike(f"%{search}%")
+            )
+        )
+
+    query = query.offset(skip).limit(limit)
+    result = await db.execute(query)
     poets = result.scalars().all()
-    return poets
+
+    # Get poem counts for each poet
+    poet_list = []
+    for poet in poets:
+        poem_count = await db.scalar(
+            select(func.count(Poem.id)).where(Poem.poet_id == poet.id)
+        )
+        poet_list.append({
+            "id": poet.id,
+            "name": poet.name,
+            "name_english": poet.name_english,
+            "biography": poet.biography,
+            "era": poet.era,
+            "birth_year": poet.birth_year,
+            "death_year": poet.death_year,
+            "poem_count": poem_count or 0
+        })
+
+    return poet_list
 
 
 @router.get("/{poet_id}", response_model=PoetResponse)

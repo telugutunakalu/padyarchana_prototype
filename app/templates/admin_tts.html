@@ -1,0 +1,294 @@
+{% extends "base.html" %}
+{% block title %}TTS Admin - పద్యార్చన{% endblock %}
+
+{% block content %}
+<div style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;" x-data="ttsAdminPage()">
+
+    <h1 style="color: var(--primary-color); margin-bottom: 2rem;">
+        TTS Generation Admin
+    </h1>
+
+    <!-- Statistics Cards -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Total Poems</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--primary-color);" x-text="stats.total_poems"></div>
+        </div>
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">With TTS</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: #10b981;" x-text="stats.poems_with_tts"></div>
+        </div>
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Without TTS</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: #ef4444;" x-text="stats.poems_without_tts"></div>
+        </div>
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: #6b7280; font-size: 0.875rem; margin-bottom: 0.5rem;">Coverage</h3>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--primary-color);" x-text="stats.coverage_percent + '%'"></div>
+        </div>
+    </div>
+
+    <!-- Batch Generation Controls -->
+    <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Batch Generation</h2>
+
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button @click="startBatch(20)" class="btn" :disabled="hasRunningJob"
+                    :style="hasRunningJob ? 'opacity: 0.5; cursor: not-allowed;' : ''">
+                Generate Next 20
+            </button>
+            <button @click="startBatch(50)" class="btn" :disabled="hasRunningJob"
+                    :style="hasRunningJob ? 'opacity: 0.5; cursor: not-allowed;' : ''">
+                Generate Next 50
+            </button>
+            <button @click="startBatch(100)" class="btn" :disabled="hasRunningJob"
+                    :style="hasRunningJob ? 'opacity: 0.5; cursor: not-allowed;' : ''">
+                Generate Next 100
+            </button>
+            <button @click="startBatch(0)" class="btn" :disabled="hasRunningJob"
+                    :style="'background: #ef4444;' + (hasRunningJob ? ' opacity: 0.5; cursor: not-allowed;' : '')">
+                Generate ALL Remaining
+            </button>
+        </div>
+
+        <p style="color: #6b7280; font-size: 0.875rem; margin-top: 1rem;">
+            Generation takes ~1-5 minutes per poem. Large batches run in the background.
+        </p>
+    </div>
+
+    <!-- Active Jobs -->
+    <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Recent Jobs</h2>
+
+        <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; min-width: 600px;">
+                <thead>
+                    <tr style="background: #f9fafb;">
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">ID</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Status</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Progress</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Started</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template x-if="jobs.length === 0">
+                        <tr>
+                            <td colspan="5" style="padding: 2rem; text-align: center; color: #6b7280;">
+                                No batch jobs yet. Start one above!
+                            </td>
+                        </tr>
+                    </template>
+                    <template x-for="job in jobs" :key="job.id">
+                        <tr style="border-bottom: 1px solid #e5e7eb;">
+                            <td style="padding: 0.75rem;" x-text="job.id"></td>
+                            <td style="padding: 0.75rem;">
+                                <span :style="getStatusStyle(job.status)" x-text="job.status"></span>
+                            </td>
+                            <td style="padding: 0.75rem;">
+                                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <div style="flex: 1; background: #e5e7eb; border-radius: 0.25rem; height: 0.5rem; max-width: 150px;">
+                                        <div :style="'width: ' + job.progress_percent + '%; background: var(--primary-color); height: 100%; border-radius: 0.25rem; transition: width 0.3s;'"></div>
+                                    </div>
+                                    <span style="font-size: 0.875rem; white-space: nowrap;" x-text="job.completed_poems + '/' + job.total_poems"></span>
+                                    <span x-show="job.failed_poems > 0" style="color: #ef4444; font-size: 0.75rem;" x-text="'(' + job.failed_poems + ' failed)'"></span>
+                                </div>
+                            </td>
+                            <td style="padding: 0.75rem; font-size: 0.875rem;" x-text="formatDate(job.started_at)"></td>
+                            <td style="padding: 0.75rem;">
+                                <button x-show="job.status === 'running'"
+                                        @click="cancelJob(job.id)"
+                                        style="color: #ef4444; background: none; border: 1px solid #ef4444; padding: 0.25rem 0.5rem; border-radius: 0.25rem; cursor: pointer; font-size: 0.875rem;">
+                                    Cancel
+                                </button>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Poems Table -->
+    <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Poems TTS Status</h2>
+
+        <!-- Filters -->
+        <div style="margin-bottom: 1rem;">
+            <select x-model="poemFilter" @change="loadPoems(1)" style="padding: 0.5rem 1rem; border: 1px solid #d1d5db; border-radius: 0.25rem; font-size: 0.875rem;">
+                <option value="all">All Poems</option>
+                <option value="with_tts">With TTS</option>
+                <option value="without_tts">Without TTS</option>
+            </select>
+        </div>
+
+        <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; min-width: 600px;">
+                <thead>
+                    <tr style="background: #f9fafb;">
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">ID</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Title</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">TTS Status</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Duration</th>
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid #e5e7eb;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template x-for="poem in poems.poems" :key="poem.id">
+                        <tr style="border-bottom: 1px solid #e5e7eb;">
+                            <td style="padding: 0.75rem;" x-text="poem.id"></td>
+                            <td style="padding: 0.75rem;">
+                                <a :href="'/poem/' + poem.id" x-text="poem.title" style="color: var(--primary-color); text-decoration: none;"></a>
+                            </td>
+                            <td style="padding: 0.75rem;">
+                                <span x-show="poem.has_tts" style="color: #10b981; font-weight: 500;">Generated</span>
+                                <span x-show="!poem.has_tts" style="color: #ef4444;">Pending</span>
+                            </td>
+                            <td style="padding: 0.75rem;" x-text="poem.tts_duration ? poem.tts_duration.toFixed(1) + 's' : '-'"></td>
+                            <td style="padding: 0.75rem;">
+                                <button x-show="!poem.has_tts && !poem.generating"
+                                        @click="generateSingle(poem)"
+                                        class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.875rem;">
+                                    Generate
+                                </button>
+                                <span x-show="poem.generating" style="color: #6b7280; font-size: 0.875rem;">Generating...</span>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination -->
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1.5rem;">
+            <button @click="loadPoems(poems.page - 1)"
+                    :disabled="poems.page <= 1"
+                    class="btn"
+                    :style="poems.page <= 1 ? 'opacity: 0.5; cursor: not-allowed;' : ''">
+                Previous
+            </button>
+            <span style="color: #6b7280;" x-text="'Page ' + poems.page + ' of ' + poems.total_pages"></span>
+            <button @click="loadPoems(poems.page + 1)"
+                    :disabled="poems.page >= poems.total_pages"
+                    class="btn"
+                    :style="poems.page >= poems.total_pages ? 'opacity: 0.5; cursor: not-allowed;' : ''">
+                Next
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+function ttsAdminPage() {
+    return {
+        stats: { total_poems: 0, poems_with_tts: 0, poems_without_tts: 0, coverage_percent: 0 },
+        jobs: [],
+        poems: { poems: [], page: 1, total_pages: 1, total: 0 },
+        poemFilter: 'all',
+        refreshInterval: null,
+
+        async init() {
+            await this.loadStats();
+            await this.loadJobs();
+            await this.loadPoems(1);
+            // Auto-refresh every 5 seconds
+            this.refreshInterval = setInterval(async () => {
+                await this.loadStats();
+                await this.loadJobs();
+            }, 5000);
+        },
+
+        get hasRunningJob() {
+            return this.jobs.some(j => j.status === 'running' || j.status === 'pending');
+        },
+
+        async loadStats() {
+            try {
+                const res = await fetch('/api/tts/stats');
+                this.stats = await res.json();
+            } catch (e) {
+                console.error('Failed to load stats:', e);
+            }
+        },
+
+        async loadJobs() {
+            try {
+                const res = await fetch('/api/tts/jobs');
+                this.jobs = await res.json();
+            } catch (e) {
+                console.error('Failed to load jobs:', e);
+            }
+        },
+
+        async loadPoems(page) {
+            try {
+                const res = await fetch(`/api/tts/poems?page=${page}&filter=${this.poemFilter}`);
+                this.poems = await res.json();
+                // Add generating flag to each poem
+                this.poems.poems = this.poems.poems.map(p => ({ ...p, generating: false }));
+            } catch (e) {
+                console.error('Failed to load poems:', e);
+            }
+        },
+
+        async startBatch(limit) {
+            try {
+                const res = await fetch(`/api/tts/batch/start?limit=${limit}`, { method: 'POST' });
+                const result = await res.json();
+                if (result.status === 'complete') {
+                    alert(result.message);
+                } else {
+                    alert(`Started job #${result.job_id} for ${result.poems_to_process} poems`);
+                }
+                await this.loadJobs();
+            } catch (e) {
+                console.error('Failed to start batch:', e);
+                alert('Failed to start batch job');
+            }
+        },
+
+        async cancelJob(jobId) {
+            try {
+                await fetch(`/api/tts/batch/${jobId}/cancel`, { method: 'POST' });
+                await this.loadJobs();
+            } catch (e) {
+                console.error('Failed to cancel job:', e);
+            }
+        },
+
+        async generateSingle(poem) {
+            poem.generating = true;
+            try {
+                const res = await fetch(`/api/poems/${poem.id}/tts/generate`, { method: 'POST' });
+                const result = await res.json();
+                poem.has_tts = true;
+                poem.tts_duration = result.duration_seconds;
+                await this.loadStats();
+            } catch (e) {
+                console.error('Failed to generate TTS:', e);
+                alert('Failed to generate TTS for this poem');
+            } finally {
+                poem.generating = false;
+            }
+        },
+
+        getStatusStyle(status) {
+            const styles = {
+                running: 'color: #3b82f6; font-weight: 500;',
+                completed: 'color: #10b981; font-weight: 500;',
+                failed: 'color: #ef4444; font-weight: 500;',
+                cancelled: 'color: #6b7280;',
+                pending: 'color: #f59e0b; font-weight: 500;'
+            };
+            return styles[status] || '';
+        },
+
+        formatDate(dateStr) {
+            if (!dateStr) return '-';
+            const date = new Date(dateStr);
+            return date.toLocaleString();
+        }
+    }
+}
+</script>
+{% endblock %}

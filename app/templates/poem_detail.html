@@ -134,6 +134,46 @@
                 </div>
             </div>
 
+            <!-- TTS Audio Section -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Text-to-Speech</h2>
+
+                <!-- TTS Audio Player (if exists) -->
+                <div x-show="ttsAudio && ttsAudio.exists">
+                    <p style="color: #6b7280; margin-bottom: 0.5rem;">
+                        Voice: Lalitha
+                        <span x-show="ttsAudio && ttsAudio.duration_seconds" style="color: #9ca3af;">
+                            (<span x-text="ttsAudio ? ttsAudio.duration_seconds.toFixed(1) : ''"></span>s)
+                        </span>
+                    </p>
+                    <audio controls style="width: 100%;" :src="ttsAudio ? ttsAudio.audio_url : ''">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <!-- Generate TTS Button (if not exists) -->
+                <div x-show="!(ttsAudio && ttsAudio.exists) && !ttsGenerating">
+                    <p style="color: #6b7280; margin-bottom: 1rem;">
+                        Generate machine-spoken audio for this poem using AI text-to-speech.
+                    </p>
+                    <button @click="generateTTS()" class="btn" style="width: 100%;">
+                        <svg style="width: 1.25rem; height: 1.25rem; display: inline-block; margin-right: 0.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path>
+                        </svg>
+                        Generate TTS Audio
+                    </button>
+                </div>
+
+                <!-- Generating State -->
+                <div x-show="ttsGenerating" style="text-align: center; padding: 1rem;">
+                    <p style="color: #6b7280; margin-bottom: 0.5rem;">Generating audio... (this may take 1-5 minutes)</p>
+                    <div style="display: inline-block; width: 1.5rem; height: 1.5rem; border: 2px solid #e5e7eb; border-top-color: var(--primary-color); border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                </div>
+
+                <!-- TTS Error -->
+                <p x-show="ttsError" x-text="ttsError" style="color: #dc2626; margin-top: 0.5rem; font-size: 0.875rem;"></p>
+            </div>
+
             <!-- Analysis Tools -->
             <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
                 <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Analysis Tools</h2>
@@ -195,34 +235,44 @@
         </aside>
     </div>
 
-    <!-- Dictionary Modal -->
-    <div x-show="showDictionary" @click.away="showDictionary = false"
-         style="position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 50;"
+</div>
+
+<!-- Dictionary Modal - Outside main x-data for proper positioning -->
+<div x-data="{ show: false, word: '', loading: false }"
+     x-init="window.addEventListener('show-dictionary', e => { word = e.detail.word; show = true; loading = false; })"
+     @keydown.escape.window="show = false">
+
+    <div x-show="show"
+         x-transition:enter="transition ease-out duration-200"
+         x-transition:enter-start="opacity-0"
+         x-transition:enter-end="opacity-100"
+         x-transition:leave="transition ease-in duration-150"
+         x-transition:leave-start="opacity-100"
+         x-transition:leave-end="opacity-0"
+         @click="show = false"
+         style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; z-index: 99999;"
          x-cloak>
-        <div @click.stop style="background: white; padding: 2rem; border-radius: 1rem; max-width: 500px; width: 90%;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-                <h3 style="color: var(--primary-color);" x-text="'Word: ' + selectedWord"></h3>
-                <button @click="showDictionary = false" style="font-size: 1.5rem; background: none; border: none; cursor: pointer;">&times;</button>
+
+        <div @click.stop
+             x-transition:enter="transition ease-out duration-200"
+             x-transition:enter-start="opacity-0 scale-95"
+             x-transition:enter-end="opacity-100 scale-100"
+             style="background: white; padding: 2rem; border-radius: 1rem; max-width: 500px; width: 90%; max-height: 80vh; overflow-y: auto; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);">
+
+            <!-- Header -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 1rem;">
+                <h3 style="color: #1e40af; margin: 0; font-size: 1.25rem;" class="telugu-text">
+                    పదం: <span x-text="word"></span>
+                </h3>
+                <button @click="show = false" style="font-size: 1.5rem; background: none; border: none; cursor: pointer; color: #6b7280; line-height: 1; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; border-radius: 0.375rem; transition: background 0.2s;" onmouseover="this.style.background='#f3f4f6'" onmouseout="this.style.background='none'">&times;</button>
             </div>
-            <div x-show="dictionaryLoading">Loading definition...</div>
-            <div x-show="!dictionaryLoading && dictionaryData">
-                <div x-show="dictionaryData.definitions" style="margin-bottom: 1rem;">
-                    <strong>Definitions:</strong>
-                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-                        <template x-for="def in dictionaryData.definitions" :key="def">
-                            <li x-text="def"></li>
-                        </template>
-                    </ul>
-                </div>
-                <div x-show="dictionaryData.root_form" style="margin-bottom: 1rem;">
-                    <strong>Root Form:</strong> <span x-text="dictionaryData.root_form"></span>
-                </div>
-                <div x-show="dictionaryData.part_of_speech" style="margin-bottom: 1rem;">
-                    <strong>Part of Speech:</strong> <span x-text="dictionaryData.part_of_speech"></span>
-                </div>
-            </div>
-            <div x-show="!dictionaryLoading && !dictionaryData" style="color: #6b7280;">
-                Definition not found in dictionary.
+
+            <!-- Coming Soon Message -->
+            <div style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: 2rem; border-radius: 0.75rem; text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
+                <p style="color: #1e40af; font-weight: 600; font-size: 1.25rem; margin-bottom: 0.5rem;">Meanings & Analysis</p>
+                <p style="color: #6b7280; font-size: 1rem;">Coming Soon!</p>
+                <p style="color: #9ca3af; font-size: 0.875rem; margin-top: 1rem;">Dictionary integration in progress.</p>
             </div>
         </div>
     </div>
@@ -233,15 +283,15 @@ function poemDetailPage(poemId) {
     return {
         poem: {{ poem | tojson }},
         relatedPoems: [],
-        showDictionary: false,
-        selectedWord: '',
-        dictionaryData: null,
-        dictionaryLoading: false,
         uploading: false,
         uploadError: '',
+        ttsAudio: null,
+        ttsGenerating: false,
+        ttsError: '',
 
         init() {
             this.loadRelatedPoems();
+            this.loadTTSStatus();
             window.poemDetail = this;
         },
 
@@ -277,21 +327,8 @@ function poemDetailPage(poemId) {
         },
 
         async lookupWord(word) {
-            this.selectedWord = word;
-            this.showDictionary = true;
-            this.dictionaryLoading = true;
-            this.dictionaryData = null;
-
-            try {
-                const response = await fetch(`/api/dictionary/${encodeURIComponent(word)}`);
-                if (response.ok) {
-                    this.dictionaryData = await response.json();
-                }
-            } catch (error) {
-                console.error('Dictionary lookup error:', error);
-            } finally {
-                this.dictionaryLoading = false;
-            }
+            // Dispatch event to show modal (modal is separate Alpine component)
+            window.dispatchEvent(new CustomEvent('show-dictionary', { detail: { word: word } }));
         },
 
         compareWithAnother() {
@@ -379,6 +416,44 @@ function poemDetailPage(poemId) {
                 console.error('Delete error:', error);
                 alert('Delete failed. Please try again.');
             }
+        },
+
+        async loadTTSStatus() {
+            try {
+                const response = await fetch(`/api/poems/${this.poem.id}/tts`);
+                this.ttsAudio = await response.json();
+            } catch (error) {
+                console.error('Error loading TTS status:', error);
+            }
+        },
+
+        async generateTTS() {
+            this.ttsGenerating = true;
+            this.ttsError = '';
+
+            try {
+                const response = await fetch(`/api/poems/${this.poem.id}/tts/generate`, {
+                    method: 'POST'
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    this.ttsAudio = {
+                        exists: true,
+                        audio_url: result.audio_url,
+                        duration_seconds: result.duration_seconds,
+                        file_size_bytes: result.file_size_bytes
+                    };
+                } else {
+                    const error = await response.json();
+                    this.ttsError = error.detail || 'TTS generation failed';
+                }
+            } catch (error) {
+                console.error('TTS generation error:', error);
+                this.ttsError = 'TTS generation failed. Please try again.';
+            } finally {
+                this.ttsGenerating = false;
+            }
         }
     };
 }
@@ -392,5 +467,8 @@ document.addEventListener('alpine:init', () => {
 
 <style>
 [x-cloak] { display: none !important; }
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
 </style>
 {% endblock %}
