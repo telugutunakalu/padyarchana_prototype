@@ -12,6 +12,9 @@ from app.models.yati import Yati
 from app.models.prasa import Prasa
 from app.models.poem_audio import PoemAudio
 from app.models.audio_annotation import AudioAnnotation
+from app.models.poem_tts_audio import PoemTTSAudio
+from app.models.tts_batch_job import TTSBatchJob, JobStatus
+from app.models.nethra import NethraBatch, NethraImage, AnnotationLabel
 
 __all__ = [
     "Poet",
@@ -26,4 +29,10 @@ __all__ = [
     "Prasa",
     "PoemAudio",
     "AudioAnnotation",
+    "PoemTTSAudio",
+    "TTSBatchJob",
+    "JobStatus",
+    "NethraBatch",
+    "NethraImage",
+    "AnnotationLabel",
 ]

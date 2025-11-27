@@ -1,0 +1,4 @@
+parler-tts
+transformers
+soundfile
+huggingface_hub

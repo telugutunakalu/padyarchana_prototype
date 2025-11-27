@@ -10,10 +10,10 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from sqlalchemy import select
 
-from app.api import poems, poets, meters, search, dictionary, compare, audio
+from app.api import poems, poets, meters, search, dictionary, compare, audio, tts, nethra
 from app.config import settings
 from app.database import init_db, close_db, get_db
-from app.models import Poem, Poet, Meter, PoemAudio
+from app.models import Poem, Poet, Meter, PoemAudio, NethraBatch
 
 
 @asynccontextmanager
@@ -57,6 +57,8 @@ app.include_router(search.router, prefix="/api/search", tags=["Search"])
 app.include_router(dictionary.router, prefix="/api/dictionary", tags=["Dictionary"])
 app.include_router(compare.router, prefix="/api/compare", tags=["Comparative Analysis"])
 app.include_router(audio.router, prefix="/api", tags=["Audio"])
+app.include_router(tts.router, prefix="/api", tags=["TTS"])
+app.include_router(nethra.router, prefix="/api/nethra", tags=["Nethra OCR"])
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -228,13 +230,13 @@ async def meter_detail_page(meter_id: int, request: Request):
 @app.get("/poets", response_class=HTMLResponse)
 async def poets_page(request: Request):
     """Poets listing page."""
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse("poets.html", {"request": request})
 
 
 @app.get("/meters", response_class=HTMLResponse)
 async def meters_page(request: Request):
     """Meters listing page."""
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse("meters.html", {"request": request})
 
 
 @app.get("/about", response_class=HTMLResponse)
@@ -322,6 +324,46 @@ async def laya_annotator_page(poem_id: int, request: Request):
                 "poem": poem_dict,
                 "audio": audio_dict
             }
+        )
+
+
+@app.get("/admin/tts", response_class=HTMLResponse)
+async def tts_admin_page(request: Request):
+    """TTS Administration page for batch generation management."""
+    return templates.TemplateResponse("admin_tts.html", {"request": request})
+
+
+# ============== Nethra OCR Annotation Routes ==============
+
+@app.get("/nethra", response_class=HTMLResponse)
+async def nethra_index_page(request: Request):
+    """Nethra OCR Annotation dashboard."""
+    return templates.TemplateResponse("nethra_index.html", {"request": request})
+
+
+@app.get("/nethra/batch/{batch_id}", response_class=HTMLResponse)
+async def nethra_annotator_page(batch_id: int, request: Request):
+    """Nethra image annotation page for a batch."""
+    async for db in get_db():
+        # Get the batch
+        result = await db.execute(select(NethraBatch).where(NethraBatch.id == batch_id))
+        batch = result.scalar_one_or_none()
+
+        if not batch:
+            return RedirectResponse(url="/nethra", status_code=302)
+
+        batch_dict = {
+            "id": batch.id,
+            "folder_name": batch.folder_name,
+            "display_name": batch.display_name,
+            "description": batch.description,
+            "total_images": batch.total_images,
+            "annotated_count": batch.annotated_count
+        }
+
+        return templates.TemplateResponse(
+            "nethra_annotator.html",
+            {"request": request, "batch": batch_dict}
         )
 
 

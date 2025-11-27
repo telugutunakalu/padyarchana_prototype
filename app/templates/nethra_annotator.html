@@ -1,0 +1,439 @@
+{% extends "base.html" %}
+{% block title %}Annotate - {{ batch.display_name }} - Nethra{% endblock %}
+
+{% block content %}
+<div x-data="nethraAnnotator()" x-init="init()" style="max-width: 1400px; margin: 0 auto;">
+
+    <!-- Header Bar -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <a href="/nethra" style="color: var(--primary-color); text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
+                <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Back to Dashboard
+            </a>
+        </div>
+        <h1 class="telugu-text" style="color: var(--primary-color); font-size: 1.5rem; margin: 0;">
+            {{ batch.display_name }}
+        </h1>
+        <div style="color: #6b7280;">
+            Image <span x-text="currentIndex + 1"></span> of <span x-text="totalImages"></span>
+        </div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+        <!-- Left: Image Display -->
+        <div style="background: white; border-radius: 0.75rem; box-shadow: var(--shadow); overflow: hidden;">
+            <!-- Image Container with Zoom -->
+            <div style="position: relative; height: 500px; overflow: hidden; background: #1f2937; display: flex; align-items: center; justify-content: center;"
+                 @wheel.prevent="handleWheel($event)"
+                 @mousedown="startPan($event)"
+                 @mousemove="doPan($event)"
+                 @mouseup="endPan()"
+                 @mouseleave="endPan()">
+                <img :src="currentImage?.image_url || ''"
+                     :style="imageStyle"
+                     style="width: 100%; height: 100%; object-fit: contain; transition: transform 0.1s ease-out; cursor: grab;"
+                     :class="{'cursor-grabbing': isPanning}"
+                     draggable="false"
+                     @load="onImageLoad">
+
+                <!-- Loading Overlay -->
+                <div x-show="imageLoading" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(31,41,55,0.9);">
+                    <span style="color: #9ca3af;">Loading image...</span>
+                </div>
+            </div>
+
+            <!-- Image Controls -->
+            <div style="padding: 1rem; border-top: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+                <!-- Navigation -->
+                <div style="display: flex; gap: 0.5rem;">
+                    <button @click="prevImage()" :disabled="currentIndex <= 0" class="btn" :style="currentIndex <= 0 ? 'opacity: 0.5;' : ''" style="padding: 0.5rem 1rem;">
+                        Prev
+                    </button>
+                    <button @click="nextImage()" :disabled="currentIndex >= totalImages - 1" class="btn" :style="currentIndex >= totalImages - 1 ? 'opacity: 0.5;' : ''" style="padding: 0.5rem 1rem;">
+                        Next
+                    </button>
+                </div>
+
+                <!-- Zoom Controls -->
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <button @click="zoomOut()" style="padding: 0.25rem 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem; background: white; cursor: pointer;">-</button>
+                    <span style="min-width: 50px; text-align: center; font-size: 0.875rem;" x-text="Math.round(zoom * 100) + '%'"></span>
+                    <button @click="zoomIn()" style="padding: 0.25rem 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem; background: white; cursor: pointer;">+</button>
+                    <button @click="resetZoom()" style="padding: 0.25rem 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem; background: white; cursor: pointer; font-size: 0.75rem;">Reset</button>
+                </div>
+
+                <!-- Jump to Image -->
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="font-size: 0.875rem; color: #6b7280;">Go to:</span>
+                    <input type="number" x-model.number="jumpToIndex" min="1" :max="totalImages"
+                           @keyup.enter="jumpToImage()"
+                           style="width: 60px; padding: 0.25rem 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem;">
+                    <button @click="jumpToImage()" style="padding: 0.25rem 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem; background: white; cursor: pointer;">Go</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Annotation Panel -->
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+
+            <!-- Labels Section (Multi-select) - Compact -->
+            <div style="background: white; padding: 1rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem; font-size: 0.875rem;">Labels <span style="font-weight: normal; font-size: 0.75rem; color: #6b7280;">(select multiple)</span></h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                    <button type="button" style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer; padding: 0.5rem 0.75rem; border: 2px solid #fecaca; border-radius: 0.375rem; transition: all 0.2s; font-weight: 500; font-size: 0.875rem;"
+                           :style="selectedLabels.includes('unreadable') ? 'border-color: #ef4444; background: #fef2f2; box-shadow: 0 0 0 2px rgba(239,68,68,0.3);' : 'background: #fff5f5;'"
+                           @click.prevent="toggleLabel('unreadable')">
+                        <span style="width: 12px; height: 12px; background: #ef4444; border-radius: 50%;"></span>
+                        <span style="color: #dc2626;">Unreadable</span>
+                    </button>
+                    <button type="button" style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer; padding: 0.5rem 0.75rem; border: 2px solid #a7f3d0; border-radius: 0.375rem; transition: all 0.2s; font-weight: 500; font-size: 0.875rem;"
+                           :style="selectedLabels.includes('correct') ? 'border-color: #10b981; background: #ecfdf5; box-shadow: 0 0 0 2px rgba(16,185,129,0.3);' : 'background: #f0fdf4;'"
+                           @click.prevent="toggleLabel('correct')">
+                        <span style="width: 12px; height: 12px; background: #10b981; border-radius: 50%;"></span>
+                        <span style="color: #059669;">Correct OCR</span>
+                    </button>
+                    <button type="button" style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer; padding: 0.5rem 0.75rem; border: 2px solid #fde68a; border-radius: 0.375rem; transition: all 0.2s; font-weight: 500; font-size: 0.875rem;"
+                           :style="selectedLabels.includes('incorrect') ? 'border-color: #f59e0b; background: #fffbeb; box-shadow: 0 0 0 2px rgba(245,158,11,0.3);' : 'background: #fefce8;'"
+                           @click.prevent="toggleLabel('incorrect')">
+                        <span style="width: 12px; height: 12px; background: #f59e0b; border-radius: 50%;"></span>
+                        <span style="color: #d97706;">Incorrect</span>
+                    </button>
+                    <button type="button" style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer; padding: 0.5rem 0.75rem; border: 2px solid #bfdbfe; border-radius: 0.375rem; transition: all 0.2s; font-weight: 500; font-size: 0.875rem;"
+                           :style="selectedLabels.includes('needs_review') ? 'border-color: #3b82f6; background: #eff6ff; box-shadow: 0 0 0 2px rgba(59,130,246,0.3);' : 'background: #f0f9ff;'"
+                           @click.prevent="toggleLabel('needs_review')">
+                        <span style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%;"></span>
+                        <span style="color: #2563eb;">Needs Review</span>
+                    </button>
+                </div>
+                <div x-show="selectedLabels.length > 0" style="margin-top: 0.5rem; font-size: 0.75rem; color: #6b7280;">
+                    Selected: <span x-text="selectedLabels.join(', ')"></span>
+                </div>
+            </div>
+
+            <!-- OCR Text Section -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); flex: 2; display: flex; flex-direction: column;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                    <h3 style="color: var(--primary-color); font-size: 1rem; margin: 0;">OCR Text (Tesseract) <span style="font-weight: normal; font-size: 0.75rem; color: #6b7280;">- read only</span></h3>
+                    <button @click="runOCR()" class="btn" style="padding: 0.75rem 1.5rem; font-size: 1rem; font-weight: 600;" :disabled="runningOCR" :style="runningOCR ? 'opacity: 0.6;' : ''">
+                        <span x-show="!runningOCR">Run OCR</span>
+                        <span x-show="runningOCR">Running...</span>
+                    </button>
+                </div>
+                <textarea x-model="ocrText"
+                          class="telugu-text"
+                          readonly
+                          style="flex: 1; min-height: 180px; padding: 0.75rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 1.1rem; line-height: 1.8; resize: none; background: #f9fafb; cursor: text; user-select: text;"
+                          placeholder="Click 'Run OCR' to extract text..."></textarea>
+            </div>
+
+            <!-- Corrected Text Section -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); flex: 2; display: flex; flex-direction: column;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.75rem; font-size: 1rem;">Corrected Text</h3>
+                <textarea x-model="correctedText"
+                          class="telugu-text"
+                          style="flex: 1; min-height: 180px; padding: 0.75rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 1.1rem; line-height: 1.8; resize: none;"
+                          placeholder="Enter corrected text here..."></textarea>
+            </div>
+
+            <!-- Action Buttons -->
+            <div style="display: flex; gap: 1rem;">
+                <button @click="saveAnnotation()" class="btn" style="flex: 1; padding: 0.75rem;" :disabled="saving">
+                    <span x-show="!saving">Save</span>
+                    <span x-show="saving">Saving...</span>
+                </button>
+                <button @click="saveAndNext()" class="btn" style="flex: 1; padding: 0.75rem; background: var(--secondary-color);" :disabled="saving || currentIndex >= totalImages - 1">
+                    Save & Next
+                </button>
+            </div>
+
+            <!-- Status Messages -->
+            <div x-show="saveMessage" x-text="saveMessage"
+                 :style="saveError ? 'color: #ef4444;' : 'color: #10b981;'"
+                 style="text-align: center; font-size: 0.875rem; padding: 0.5rem;"></div>
+        </div>
+    </div>
+
+    <!-- Keyboard Shortcuts Help -->
+    <div style="background: white; padding: 1rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 1.5rem;">
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; color: #6b7280; font-size: 0.875rem;">
+            <span><kbd style="background: #f3f4f6; padding: 0.125rem 0.375rem; border-radius: 0.25rem; border: 1px solid #d1d5db;"></kbd> Previous</span>
+            <span><kbd style="background: #f3f4f6; padding: 0.125rem 0.375rem; border-radius: 0.25rem; border: 1px solid #d1d5db;"></kbd> Next</span>
+            <span><kbd style="background: #f3f4f6; padding: 0.125rem 0.375rem; border-radius: 0.25rem; border: 1px solid #d1d5db;">Ctrl+S</kbd> Save</span>
+            <span><kbd style="background: #f3f4f6; padding: 0.125rem 0.375rem; border-radius: 0.25rem; border: 1px solid #d1d5db;">+</kbd>/<kbd style="background: #f3f4f6; padding: 0.125rem 0.375rem; border-radius: 0.25rem; border: 1px solid #d1d5db;">-</kbd> Zoom</span>
+        </div>
+    </div>
+</div>
+
+<style>
+.cursor-grabbing { cursor: grabbing !important; }
+kbd { font-family: monospace; }
+</style>
+
+<script>
+function nethraAnnotator() {
+    return {
+        batchId: {{ batch.id }},
+        images: [],
+        currentIndex: 0,
+        totalImages: 0,
+        jumpToIndex: 1,
+
+        // Current image data
+        currentImage: null,
+        ocrText: '',
+        correctedText: '',
+        selectedLabels: [],
+
+        // Zoom and pan
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        isPanning: false,
+        panStartX: 0,
+        panStartY: 0,
+        lastPanX: 0,
+        lastPanY: 0,
+
+        // UI state
+        imageLoading: false,
+        saving: false,
+        saveMessage: '',
+        saveError: false,
+        runningOCR: false,
+
+        async init() {
+            await this.loadImages();
+            this.setupKeyboardShortcuts();
+        },
+
+        async loadImages() {
+            try {
+                const res = await fetch(`/api/nethra/batches/${this.batchId}/images?limit=500`);
+                const data = await res.json();
+                this.images = data.images;
+                this.totalImages = data.total;
+                if (this.images.length > 0) {
+                    this.loadImageData(0);
+                }
+            } catch (e) {
+                console.error('Failed to load images:', e);
+            }
+        },
+
+        loadImageData(index) {
+            this.currentIndex = index;
+            this.jumpToIndex = index + 1;
+            this.currentImage = this.images[index];
+            this.ocrText = this.currentImage?.ocr_text || '';
+            this.correctedText = this.currentImage?.corrected_text || '';
+            // Parse comma-separated labels
+            const labelStr = this.currentImage?.label || '';
+            this.selectedLabels = labelStr ? labelStr.split(',').map(l => l.trim()).filter(l => l) : [];
+            this.resetZoom();
+            this.imageLoading = true;
+            this.saveMessage = '';
+        },
+
+        onImageLoad() {
+            this.imageLoading = false;
+        },
+
+        get imageStyle() {
+            return `transform: scale(${this.zoom}) translate(${this.panX}px, ${this.panY}px); transform-origin: center center;`;
+        },
+
+        // Zoom functions
+        zoomIn() {
+            this.zoom = Math.min(this.zoom + 0.25, 3);
+        },
+
+        zoomOut() {
+            this.zoom = Math.max(this.zoom - 0.25, 0.5);
+            if (this.zoom <= 1) this.resetPan();
+        },
+
+        resetZoom() {
+            this.zoom = 1;
+            this.resetPan();
+        },
+
+        resetPan() {
+            this.panX = 0;
+            this.panY = 0;
+        },
+
+        handleWheel(event) {
+            if (event.deltaY < 0) {
+                this.zoomIn();
+            } else {
+                this.zoomOut();
+            }
+        },
+
+        // Pan functions
+        startPan(event) {
+            if (this.zoom > 1) {
+                this.isPanning = true;
+                this.panStartX = event.clientX;
+                this.panStartY = event.clientY;
+                this.lastPanX = this.panX;
+                this.lastPanY = this.panY;
+            }
+        },
+
+        doPan(event) {
+            if (this.isPanning) {
+                const dx = (event.clientX - this.panStartX) / this.zoom;
+                const dy = (event.clientY - this.panStartY) / this.zoom;
+                this.panX = this.lastPanX + dx;
+                this.panY = this.lastPanY + dy;
+            }
+        },
+
+        endPan() {
+            this.isPanning = false;
+        },
+
+        // Navigation
+        prevImage() {
+            if (this.currentIndex > 0) {
+                this.loadImageData(this.currentIndex - 1);
+            }
+        },
+
+        nextImage() {
+            if (this.currentIndex < this.totalImages - 1) {
+                this.loadImageData(this.currentIndex + 1);
+            }
+        },
+
+        jumpToImage() {
+            const idx = this.jumpToIndex - 1;
+            if (idx >= 0 && idx < this.totalImages) {
+                this.loadImageData(idx);
+            }
+        },
+
+        // Labels (multi-select) - use array replacement for Alpine.js reactivity
+        toggleLabel(label) {
+            if (this.selectedLabels.includes(label)) {
+                // Remove label - create new array without it
+                this.selectedLabels = this.selectedLabels.filter(l => l !== label);
+            } else {
+                // Add label - create new array with it
+                this.selectedLabels = [...this.selectedLabels, label];
+            }
+        },
+
+        // OCR
+        async runOCR() {
+            if (!this.currentImage) return;
+            this.runningOCR = true;
+
+            try {
+                const res = await fetch(`/api/nethra/images/${this.currentImage.id}/ocr`, {
+                    method: 'POST'
+                });
+                const data = await res.json();
+                if (data.success) {
+                    this.ocrText = data.ocr_text;
+                    this.currentImage.ocr_text = data.ocr_text;
+                } else {
+                    alert('OCR failed: ' + (data.error || 'Unknown error'));
+                }
+            } catch (e) {
+                console.error('OCR failed:', e);
+                alert('OCR failed. Check if Tesseract is installed.');
+            } finally {
+                this.runningOCR = false;
+            }
+        },
+
+        // Save
+        async saveAnnotation() {
+            if (!this.currentImage) return;
+            this.saving = true;
+            this.saveMessage = '';
+            this.saveError = false;
+
+            // Join selected labels as comma-separated string
+            const labelStr = this.selectedLabels.length > 0 ? this.selectedLabels.join(',') : null;
+
+            try {
+                const res = await fetch(`/api/nethra/images/${this.currentImage.id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        ocr_text: this.ocrText,
+                        corrected_text: this.correctedText,
+                        label: labelStr
+                    })
+                });
+
+                if (res.ok) {
+                    const data = await res.json();
+                    // Update local data
+                    this.currentImage.ocr_text = this.ocrText;
+                    this.currentImage.corrected_text = this.correctedText;
+                    this.currentImage.label = labelStr;
+                    this.currentImage.is_annotated = true;
+                    this.saveMessage = 'Saved successfully!';
+                } else {
+                    const error = await res.json();
+                    this.saveMessage = 'Save failed: ' + (error.detail || 'Unknown error');
+                    this.saveError = true;
+                }
+            } catch (e) {
+                console.error('Save failed:', e);
+                this.saveMessage = 'Save failed. Please try again.';
+                this.saveError = true;
+            } finally {
+                this.saving = false;
+            }
+        },
+
+        async saveAndNext() {
+            await this.saveAnnotation();
+            if (!this.saveError && this.currentIndex < this.totalImages - 1) {
+                this.nextImage();
+            }
+        },
+
+        // Keyboard shortcuts
+        setupKeyboardShortcuts() {
+            document.addEventListener('keydown', (e) => {
+                // Don't trigger shortcuts when typing in textarea
+                if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') {
+                    // Only handle Ctrl+S in text areas
+                    if (e.ctrlKey && e.key === 's') {
+                        e.preventDefault();
+                        this.saveAnnotation();
+                    }
+                    return;
+                }
+
+                if (e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    this.prevImage();
+                } else if (e.key === 'ArrowRight') {
+                    e.preventDefault();
+                    this.nextImage();
+                } else if (e.ctrlKey && e.key === 's') {
+                    e.preventDefault();
+                    this.saveAnnotation();
+                } else if (e.key === '+' || e.key === '=') {
+                    this.zoomIn();
+                } else if (e.key === '-') {
+                    this.zoomOut();
+                }
+            });
+        }
+    }
+}
+</script>
+{% endblock %}

@@ -26,7 +26,7 @@
             <div class="header-content">
                 <div class="logo">
                     <h1><a href="/" style="color: white; text-decoration: none;">పద్యార్చన</a></h1>
-                    <p style="font-size: 0.9rem; opacity: 0.9;">Telugu Poetry Search & Analysis</p>
+                    <p style="font-size: 0.9rem; opacity: 0.9;">Telugu Poetry Search & Analysis Engine</p>
                 </div>
                 <nav>
                     <ul>
@@ -329,6 +329,35 @@
                                         <td class="akshara-cell" x-text="item.aksharam === ' ' ? '␣' : (item.aksharam === '\n' ? '↵' : item.aksharam)"></td>
                                         <td class="marker-cell" :class="item.marker === 'U' ? 'marker-U' : (item.marker === 'I' ? 'marker-I' : '')" x-text="item.marker"></td>
                                         <td x-text="item.marker === 'U' ? 'Guru (గురు)' : (item.marker === 'I' ? 'Laghu (లఘు)' : (item.isIgnorable ? 'Space/Punctuation' : 'No marker'))"></td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Aksharavisleshana - Letter Categories Table -->
+                <div>
+                    <hr class="section-divider">
+                    <h3 style="color: #374151; margin-bottom: 1rem;">
+                        🔤 అక్షరవిశ్లేషణ (Letter Categories)
+                    </h3>
+                    <p style="color: #6b7280; font-size: 0.875rem; margin-bottom: 1rem;">
+                        Unique letters in the text with their linguistic categories
+                    </p>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 15%;">అక్షరం</th>
+                                    <th>వర్గీకరణలు (Categories)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template x-for="(item, index) in analysis?.linguistic?.aksharalu || []" :key="index">
+                                    <tr>
+                                        <td class="akshara-cell" style="font-size: 1.25rem; font-weight: 600;" x-text="item.aksharam"></td>
+                                        <td style="font-size: 0.9rem; color: #4b5563;" x-text="item.tags.join(', ')"></td>
                                     </tr>
                                 </template>
                             </tbody>

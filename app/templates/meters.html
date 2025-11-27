@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% block title %}Meters - పద్యార్చన{% endblock %}
+
+{% block content %}
+<div x-data="metersPage()" style="max-width: 1200px; margin: 0 auto;">
+
+    <!-- Page Header -->
+    <div style="margin-bottom: 2rem;">
+        <h1 style="color: var(--primary-color); font-size: 2rem; margin-bottom: 0.5rem;">
+            ఛందస్సులు (Meters)
+        </h1>
+        <p style="color: #6b7280;">
+            Explore Telugu poetic meters (chandassu) and their patterns
+        </p>
+    </div>
+
+    <!-- Search and Stats Bar -->
+    <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 250px;">
+                <input type="text"
+                       x-model="searchQuery"
+                       @input.debounce.300ms="search()"
+                       placeholder="Search meters by name..."
+                       style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 1rem;">
+            </div>
+            <div style="color: #6b7280;">
+                <span x-text="totalMeters"></span> meters found
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading State -->
+    <div x-show="loading" style="text-align: center; padding: 3rem; color: #6b7280;">
+        Loading meters...
+    </div>
+
+    <!-- Meters Table -->
+    <div x-show="!loading" style="background: white; border-radius: 0.75rem; box-shadow: var(--shadow); overflow: hidden;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white;">
+                    <th style="padding: 1rem; text-align: left;">Name</th>
+                    <th style="padding: 1rem; text-align: left;">Pattern</th>
+                    <th style="padding: 1rem; text-align: center;">Poems</th>
+                    <th style="padding: 1rem; text-align: center;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template x-for="meter in meters" :key="meter.id">
+                    <tr style="border-bottom: 1px solid #e5e7eb;" class="table-row-hover">
+                        <td style="padding: 1rem;">
+                            <div>
+                                <span class="telugu-text" style="font-size: 1.1rem; font-weight: 500;" x-text="meter.name"></span>
+                                <span x-show="meter.name_english" style="color: #6b7280; font-size: 0.875rem; margin-left: 0.5rem;" x-text="'(' + meter.name_english + ')'"></span>
+                            </div>
+                            <div x-show="meter.description" style="color: #6b7280; font-size: 0.875rem; margin-top: 0.25rem; max-width: 400px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" x-text="meter.description"></div>
+                        </td>
+                        <td style="padding: 1rem;">
+                            <span x-show="meter.example_pattern" style="font-family: monospace; font-size: 0.875rem; color: #6b7280; background: #f9fafb; padding: 0.25rem 0.5rem; border-radius: 0.25rem;" x-text="meter.example_pattern"></span>
+                            <span x-show="!meter.example_pattern" style="color: #9ca3af;">-</span>
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <span style="background: var(--secondary-color); color: white; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.875rem;" x-text="meter.poem_count"></span>
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <a :href="'/meter/' + meter.id" class="btn" style="padding: 0.5rem 1rem; font-size: 0.875rem; text-decoration: none;">
+                                View Poems
+                            </a>
+                        </td>
+                    </tr>
+                </template>
+                <tr x-show="meters.length === 0 && !loading">
+                    <td colspan="4" style="padding: 2rem; text-align: center; color: #6b7280;">
+                        No meters found matching your search.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div x-show="totalPages > 1" style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 2rem;">
+        <button @click="goToPage(currentPage - 1)" :disabled="currentPage <= 1" class="btn" :style="currentPage <= 1 ? 'opacity: 0.5;' : ''">
+            Previous
+        </button>
+        <span style="color: #6b7280;">Page <span x-text="currentPage"></span> of <span x-text="totalPages"></span></span>
+        <button @click="goToPage(currentPage + 1)" :disabled="currentPage >= totalPages" class="btn" :style="currentPage >= totalPages ? 'opacity: 0.5;' : ''">
+            Next
+        </button>
+    </div>
+</div>
+
+<style>
+.table-row-hover:hover { background: #f9fafb; }
+</style>
+
+<script>
+function metersPage() {
+    return {
+        meters: [],
+        searchQuery: '',
+        currentPage: 1,
+        perPage: 20,
+        totalMeters: 0,
+        totalPages: 1,
+        loading: false,
+
+        async init() {
+            await this.loadMeters();
+        },
+
+        async loadMeters() {
+            this.loading = true;
+            const skip = (this.currentPage - 1) * this.perPage;
+            let url = `/api/meters?skip=${skip}&limit=${this.perPage}`;
+            if (this.searchQuery) {
+                url += `&search=${encodeURIComponent(this.searchQuery)}`;
+            }
+
+            try {
+                const res = await fetch(url);
+                const data = await res.json();
+                this.meters = data;
+                this.totalMeters = data.length;
+                this.totalPages = Math.max(1, Math.ceil(this.totalMeters / this.perPage));
+            } catch (e) {
+                console.error('Failed to load meters:', e);
+            } finally {
+                this.loading = false;
+            }
+        },
+
+        search() {
+            this.currentPage = 1;
+            this.loadMeters();
+        },
+
+        goToPage(page) {
+            if (page >= 1 && page <= this.totalPages) {
+                this.currentPage = page;
+                this.loadMeters();
+            }
+        }
+    }
+}
+</script>
+{% endblock %}

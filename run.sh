@@ -16,6 +16,18 @@ else
     exit 1
 fi
 
+# Check for Tesseract OCR (optional - for Nethra feature)
+if command -v tesseract &> /dev/null; then
+    echo "✓ Tesseract OCR found"
+    if tesseract --list-langs 2>&1 | grep -q "tel"; then
+        echo "✓ Telugu language pack available"
+    else
+        echo "⚠ Telugu language pack not found. For OCR features, run: sudo apt-get install tesseract-ocr-tel"
+    fi
+else
+    echo "⚠ Tesseract OCR not installed. For OCR features, run: sudo apt-get install tesseract-ocr tesseract-ocr-tel"
+fi
+
 # Check if database exists
 if [ ! -f "padyarchana.db" ]; then
     echo "⚠ Database not found. Creating database..."
@@ -23,6 +35,7 @@ if [ ! -f "padyarchana.db" ]; then
     echo ""
 fi
 
+echo ""
 echo "🚀 Starting Padyarchana web server..."
 echo "📍 Application will be available at: http://localhost:8000"
 echo "📚 API documentation at: http://localhost:8000/docs"

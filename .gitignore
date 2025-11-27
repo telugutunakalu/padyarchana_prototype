@@ -61,11 +61,13 @@ data/corpus/
 data/dictionary/
 static/uploads/
 
-# Audio files (large files - exclude from git)
-*.mp3
-*.wav
-*.ogg
-*.flac
-*.m4a
+# Audio files (large source files - exclude from git)
 laya/SwaraSangraha/
 static/audio/
+
+# TTS Model files (large ~13GB) - code is tracked, models are not
+indic_tts/models/
+indic_tts/.venv/
+
+# Test data
+aksharanusarika/testdata/
