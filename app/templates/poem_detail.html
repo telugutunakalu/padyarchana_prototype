@@ -242,40 +242,32 @@
      x-init="window.addEventListener('show-dictionary', e => { word = e.detail.word; show = true; loading = false; })"
      @keydown.escape.window="show = false">
 
-    <div x-show="show"
-         x-transition:enter="transition ease-out duration-200"
-         x-transition:enter-start="opacity-0"
-         x-transition:enter-end="opacity-100"
-         x-transition:leave="transition ease-in duration-150"
-         x-transition:leave-start="opacity-100"
-         x-transition:leave-end="opacity-0"
-         @click="show = false"
-         style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; z-index: 99999;"
-         x-cloak>
+    <!-- Modal Overlay - use class for flex centering -->
+    <template x-if="show">
+        <div @click="show = false"
+             class="dictionary-modal-overlay">
 
-        <div @click.stop
-             x-transition:enter="transition ease-out duration-200"
-             x-transition:enter-start="opacity-0 scale-95"
-             x-transition:enter-end="opacity-100 scale-100"
-             style="background: white; padding: 2rem; border-radius: 1rem; max-width: 500px; width: 90%; max-height: 80vh; overflow-y: auto; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);">
+            <div @click.stop
+                 class="dictionary-modal-content">
 
-            <!-- Header -->
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 1rem;">
-                <h3 style="color: #1e40af; margin: 0; font-size: 1.25rem;" class="telugu-text">
-                    పదం: <span x-text="word"></span>
-                </h3>
-                <button @click="show = false" style="font-size: 1.5rem; background: none; border: none; cursor: pointer; color: #6b7280; line-height: 1; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; border-radius: 0.375rem; transition: background 0.2s;" onmouseover="this.style.background='#f3f4f6'" onmouseout="this.style.background='none'">&times;</button>
-            </div>
+                <!-- Header -->
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 1rem;">
+                    <h3 style="color: #1e40af; margin: 0; font-size: 1.25rem;" class="telugu-text">
+                        పదం: <span x-text="word"></span>
+                    </h3>
+                    <button @click="show = false" style="font-size: 1.5rem; background: none; border: none; cursor: pointer; color: #6b7280; line-height: 1; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; border-radius: 0.375rem; transition: background 0.2s;" onmouseover="this.style.background='#f3f4f6'" onmouseout="this.style.background='none'">&times;</button>
+                </div>
 
-            <!-- Coming Soon Message -->
-            <div style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: 2rem; border-radius: 0.75rem; text-align: center;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
-                <p style="color: #1e40af; font-weight: 600; font-size: 1.25rem; margin-bottom: 0.5rem;">Meanings & Analysis</p>
-                <p style="color: #6b7280; font-size: 1rem;">Coming Soon!</p>
-                <p style="color: #9ca3af; font-size: 0.875rem; margin-top: 1rem;">Dictionary integration in progress.</p>
+                <!-- Coming Soon Message -->
+                <div style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: 2rem; border-radius: 0.75rem; text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
+                    <p style="color: #1e40af; font-weight: 600; font-size: 1.25rem; margin-bottom: 0.5rem;">Meanings & Analysis</p>
+                    <p style="color: #6b7280; font-size: 1rem;">Coming Soon!</p>
+                    <p style="color: #9ca3af; font-size: 0.875rem; margin-top: 1rem;">Dictionary integration in progress.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </template>
 </div>
 
 <script>
@@ -469,6 +461,33 @@ document.addEventListener('alpine:init', () => {
 [x-cloak] { display: none !important; }
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* Dictionary Modal - Centered */
+.dictionary-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+.dictionary-modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 </style>
 {% endblock %}
