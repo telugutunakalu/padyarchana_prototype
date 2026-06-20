@@ -21,8 +21,26 @@ from app.models import Poem, Poet, Meter, PoemAudio, NethraBatch
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Lifespan event handler for startup and shutdown."""
+    # Capture whether the DB file is present BEFORE init_db creates it.
+    # The bootstrap below uses this so it only triggers on a truly-fresh
+    # checkout (file missing), never on an existing DB that just happens
+    # to have empty tables.
+    from pathlib import Path
+    db_path = Path("padyarchana.db")
+    db_file_existed = db_path.exists() and db_path.stat().st_size > 0
+
     # Startup
     await init_db()
+
+    # First-run bootstrap: only when the DB file was missing.
+    try:
+        from app.bootstrap import auto_bootstrap_if_empty
+        await auto_bootstrap_if_empty(db_file_existed_before_init=db_file_existed)
+    except Exception as e:
+        # Never block startup on bootstrap failure — the app can still
+        # serve whatever data is already in the DB.
+        print(f"[bootstrap] warning: {e}", flush=True)
+
     yield
     # Shutdown
     await close_db()
