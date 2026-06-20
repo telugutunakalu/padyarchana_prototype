@@ -146,7 +146,20 @@ async def auto_bootstrap_if_empty(db_file_existed_before_init: bool) -> None:
     total = await _import_corpus()
     _log(f"corpus import done — {total:,} poems")
 
-    # 3. FTS5 setup (virtual table, triggers, search_text backfill, index rebuild).
+    # 3. Migrations: consolidate variant meter / poet spellings into the
+    #    canonical names. Runs BEFORE FTS5 setup so the per-row sync
+    #    triggers don't fire for every UPDATE.
+    try:
+        from scripts.migrations.consolidate_meters import apply as _apply_meter_consolidation
+        stats = await loop.run_in_executor(None, _apply_meter_consolidation, _DB_FILE)
+        _log(
+            f"consolidate_meters: repointed {stats['poems_repointed']:,} poems, "
+            f"dropped {stats['rows_dropped']} duplicate rows"
+        )
+    except Exception as e:
+        _log(f"  consolidate_meters failed — {e}; continuing")
+
+    # 4. FTS5 setup (virtual table, triggers, search_text backfill, index rebuild).
     if not _has_fts5_table(_DB_FILE):
         _log("setting up FTS5 trigram index…")
     else:
