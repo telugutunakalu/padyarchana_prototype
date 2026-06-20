@@ -6,6 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, or_, func
 from typing import List, Optional
 
+from app.auth import require_admin
 from app.database import get_db
 from app.models import Meter, Poem
 from app.schemas.meter import MeterCreate, MeterUpdate, MeterResponse
@@ -67,7 +68,11 @@ async def get_meter(meter_id: int, db: AsyncSession = Depends(get_db)):
 
 
 @router.post("/", response_model=MeterResponse, status_code=201)
-async def create_meter(meter: MeterCreate, db: AsyncSession = Depends(get_db)):
+async def create_meter(
+    meter: MeterCreate,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Create a new meter."""
     db_meter = Meter(**meter.model_dump())
     db.add(db_meter)
@@ -78,7 +83,10 @@ async def create_meter(meter: MeterCreate, db: AsyncSession = Depends(get_db)):
 
 @router.put("/{meter_id}", response_model=MeterResponse)
 async def update_meter(
-    meter_id: int, meter: MeterUpdate, db: AsyncSession = Depends(get_db)
+    meter_id: int,
+    meter: MeterUpdate,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Update a meter."""
     result = await db.execute(select(Meter).where(Meter.id == meter_id))
@@ -97,7 +105,11 @@ async def update_meter(
 
 
 @router.delete("/{meter_id}", status_code=204)
-async def delete_meter(meter_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_meter(
+    meter_id: int,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Delete a meter."""
     result = await db.execute(select(Meter).where(Meter.id == meter_id))
     db_meter = result.scalar_one_or_none()

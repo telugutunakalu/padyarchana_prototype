@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, delete
 
+from app.auth import require_admin
 from app.config import settings
 from app.database import get_db
 from app.models import Poem, PoemAudio, AudioAnnotation
@@ -46,7 +47,8 @@ def get_audio_duration(file_path: Path) -> Optional[float]:
 async def upload_audio(
     poem_id: int,
     file: UploadFile = File(...),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Upload an audio file for a poem."""
     # Verify poem exists
@@ -154,7 +156,11 @@ async def get_audio_metadata(poem_id: int, db: AsyncSession = Depends(get_db)):
 
 
 @router.delete("/poems/{poem_id}/audio", status_code=204)
-async def delete_audio(poem_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_audio(
+    poem_id: int,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Delete audio file for a poem."""
     result = await db.execute(
         select(PoemAudio).where(PoemAudio.poem_id == poem_id)
@@ -208,7 +214,8 @@ async def get_annotations(poem_id: int, db: AsyncSession = Depends(get_db)):
 async def save_annotations(
     poem_id: int,
     batch: AnnotationBatchCreate,
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Save or update annotations for a poem's audio (batch operation)."""
     # First verify audio exists
@@ -248,7 +255,11 @@ async def save_annotations(
 
 
 @router.delete("/poems/{poem_id}/annotations", status_code=204)
-async def clear_annotations(poem_id: int, db: AsyncSession = Depends(get_db)):
+async def clear_annotations(
+    poem_id: int,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Clear all annotations for a poem's audio."""
     # First verify audio exists
     audio_result = await db.execute(

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Login - పద్యార్చన{% endblock %}
+
+{% block content %}
+<div style="max-width: 420px; margin: 3rem auto; background: white; padding: 2rem;
+            border-radius: 0.75rem; box-shadow: var(--shadow);">
+  <h2 style="color: var(--primary-color); margin: 0 0 1.25rem 0;">Sign in</h2>
+
+  {% if error %}
+  <div style="background:#fee2e2; color:#991b1b; padding:0.6rem 0.85rem;
+              border-radius:0.5rem; margin-bottom:1rem; font-size:0.9rem;">
+    {{ error }}
+  </div>
+  {% endif %}
+
+  <form method="post" action="/login" style="display: flex; flex-direction: column; gap: 0.85rem;">
+    <input type="hidden" name="next" value="{{ next }}">
+
+    <label style="font-size:0.875rem; color:#374151;">
+      Username
+      <input name="username" autofocus autocomplete="username" required
+             style="width:100%; padding:0.55rem 0.7rem; border:1px solid #e5e7eb;
+                    border-radius:0.375rem; margin-top:0.25rem;">
+    </label>
+
+    <label style="font-size:0.875rem; color:#374151;">
+      Password
+      <input name="password" type="password" autocomplete="current-password" required
+             style="width:100%; padding:0.55rem 0.7rem; border:1px solid #e5e7eb;
+                    border-radius:0.375rem; margin-top:0.25rem;">
+    </label>
+
+    <button type="submit" class="btn" style="margin-top:0.4rem;">Sign in</button>
+  </form>
+
+  <p style="margin-top:1.25rem; color:#6b7280; font-size:0.8rem; line-height:1.5;">
+    Default development credentials are documented in <code>.env.example</code>.
+    Anonymous visitors can still browse the whole portal — login is only required
+    for editing.
+  </p>
+</div>
+{% endblock %}

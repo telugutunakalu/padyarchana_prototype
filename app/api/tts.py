@@ -5,6 +5,7 @@ from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func
 
+from app.auth import require_admin
 from app.database import get_db
 from app.models import Poem, PoemTTSAudio, TTSBatchJob, JobStatus
 from app.services.tts_service import get_or_generate_tts, get_tts_status, run_batch_tts_job
@@ -44,7 +45,8 @@ async def get_poem_tts(
 @router.post("/poems/{poem_id}/tts/generate")
 async def generate_poem_tts(
     poem_id: int,
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """
     Trigger TTS generation for a specific poem.
@@ -129,7 +131,8 @@ async def get_batch_jobs(
 async def start_batch_job(
     limit: int = 20,
     background_tasks: BackgroundTasks = None,
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """
     Start a new batch TTS generation job.
@@ -175,7 +178,8 @@ async def start_batch_job(
 @router.post("/tts/batch/{job_id}/cancel")
 async def cancel_batch_job(
     job_id: int,
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Cancel a running batch job."""
     result = await db.execute(

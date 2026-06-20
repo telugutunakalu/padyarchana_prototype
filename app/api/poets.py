@@ -6,6 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, or_, func
 from typing import List, Optional
 
+from app.auth import require_admin
 from app.database import get_db
 from app.models import Poet, Poem
 from app.schemas.poet import PoetCreate, PoetUpdate, PoetResponse
@@ -68,7 +69,11 @@ async def get_poet(poet_id: int, db: AsyncSession = Depends(get_db)):
 
 
 @router.post("/", response_model=PoetResponse, status_code=201)
-async def create_poet(poet: PoetCreate, db: AsyncSession = Depends(get_db)):
+async def create_poet(
+    poet: PoetCreate,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Create a new poet."""
     db_poet = Poet(**poet.model_dump())
     db.add(db_poet)
@@ -79,7 +84,10 @@ async def create_poet(poet: PoetCreate, db: AsyncSession = Depends(get_db)):
 
 @router.put("/{poet_id}", response_model=PoetResponse)
 async def update_poet(
-    poet_id: int, poet: PoetUpdate, db: AsyncSession = Depends(get_db)
+    poet_id: int,
+    poet: PoetUpdate,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Update a poet."""
     result = await db.execute(select(Poet).where(Poet.id == poet_id))
@@ -98,7 +106,11 @@ async def update_poet(
 
 
 @router.delete("/{poet_id}", status_code=204)
-async def delete_poet(poet_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_poet(
+    poet_id: int,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Delete a poet."""
     result = await db.execute(select(Poet).where(Poet.id == poet_id))
     db_poet = result.scalar_one_or_none()

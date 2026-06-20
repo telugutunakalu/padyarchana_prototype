@@ -14,6 +14,13 @@
     {% block extra_head %}{% endblock %}
 </head>
 <body>
+    {# Resolve current user once per response and surface to Alpine via IS_ADMIN. #}
+    {% set _auth = auth_context(request) %}
+    <script>
+      window.IS_ADMIN = {{ _auth.is_admin | tojson }};
+      window.CURRENT_USER = {{ (_auth.current_user.username if _auth.current_user else None) | tojson }};
+    </script>
+
     <!-- Header -->
     <header>
         <div class="container">
@@ -29,6 +36,24 @@
                         <li><a href="/poets">Poets</a></li>
                         <li><a href="/meters">Meters</a></li>
                         <li><a href="/about">About</a></li>
+                        {% if _auth.current_user %}
+                          <li style="opacity: 0.9; font-size: 0.85rem;">
+                            {{ _auth.current_user.username }}
+                            <span style="opacity:0.7;">({{ _auth.current_user.role }})</span>
+                          </li>
+                          <li>
+                            <form method="post" action="/logout"
+                                  style="display:inline; margin:0;">
+                              <button type="submit"
+                                      style="background:none; border:none; color:inherit;
+                                             cursor:pointer; padding:0; font:inherit;">
+                                Logout
+                              </button>
+                            </form>
+                          </li>
+                        {% else %}
+                          <li><a href="/login">Login</a></li>
+                        {% endif %}
                     </ul>
                 </nav>
             </div>
@@ -54,6 +79,7 @@
 
     <!-- Scripts -->
     <script src="/static/js/app.js"></script>
+    <script src="/static/js/edit_mode.js"></script>
     {% block extra_scripts %}{% endblock %}
 </body>
 </html>
