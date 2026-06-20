@@ -12,6 +12,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, or_
 
+from app.auth import require_admin
 from app.database import get_db
 from app.models import NethraBatch, NethraImage
 from app.schemas.nethra import (
@@ -116,7 +117,10 @@ async def get_batch(batch_id: int, db: AsyncSession = Depends(get_db)):
 
 
 @router.post("/batches/scan")
-async def scan_folders(db: AsyncSession = Depends(get_db)):
+async def scan_folders(
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Scan nethra folder and sync batches/images to database."""
     if not NETHRA_BASE_PATH.exists():
         raise HTTPException(status_code=404, detail=f"Nethra folder not found: {NETHRA_BASE_PATH}")
@@ -292,7 +296,8 @@ async def get_image(image_id: int, db: AsyncSession = Depends(get_db)):
 async def update_image_annotation(
     image_id: int,
     update_data: NethraImageUpdate,
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Update image annotation (OCR text, corrected text, label)."""
     result = await db.execute(select(NethraImage).where(NethraImage.id == image_id))
@@ -369,7 +374,11 @@ async def serve_image_file(image_id: int, db: AsyncSession = Depends(get_db)):
 # ============== OCR Endpoints ==============
 
 @router.post("/images/{image_id}/ocr")
-async def run_ocr(image_id: int, db: AsyncSession = Depends(get_db)):
+async def run_ocr(
+    image_id: int,
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
+):
     """Run Tesseract OCR on an image and update its ocr_text field."""
     # Check OCR availability
     available, message = check_tesseract_available()
@@ -478,7 +487,8 @@ async def get_stats(db: AsyncSession = Depends(get_db)):
 async def export_batch(
     batch_id: int,
     format: str = Query("json", regex="^(json|csv)$"),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    _admin = Depends(require_admin),
 ):
     """Export batch annotations as JSON or CSV."""
     # Get batch

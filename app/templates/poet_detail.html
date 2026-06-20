@@ -4,27 +4,67 @@
 
 {% block content %}
 <div x-data="poetDetailPage()">
+
+    {% include "components/_edit_controls.html" %}
+
     <!-- Poet Header -->
     <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
-        <h1 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;" x-text="poet.name"></h1>
-        <div x-show="poet.name_english" style="color: #6b7280; font-size: 1.1rem; margin-bottom: 1.5rem;">
-            <span x-text="poet.name_english"></span>
-        </div>
+        <template x-if="!editing">
+            <h1 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;" x-text="model.name"></h1>
+        </template>
+        <template x-if="editing">
+            <input class="telugu-text" x-model="model.name" @input="markDirty()"
+                   style="width:100%; font-size:1.6rem; padding:0.4rem 0.6rem;
+                          border:1px solid #d1d5db; border-radius:0.375rem; margin-bottom:0.5rem;
+                          color: var(--primary-color); font-weight:600;">
+        </template>
+
+        <template x-if="!editing">
+            <div x-show="model.name_english" style="color: #6b7280; font-size: 1.1rem; margin-bottom: 1.5rem;">
+                <span x-text="model.name_english"></span>
+            </div>
+        </template>
+        <template x-if="editing">
+            <div style="margin-bottom: 1.25rem;">
+                <label style="font-size:0.8rem; color:#6b7280; display:block; margin-bottom:0.25rem;">Name (English)</label>
+                <input x-model="model.name_english" @input="markDirty()"
+                       style="width:100%; padding:0.4rem 0.6rem;
+                              border:1px solid #d1d5db; border-radius:0.375rem;">
+            </div>
+        </template>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
-            <div x-show="poet.era" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+            <div x-show="editing || model.era" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Era</div>
-                <div style="font-weight: 600; color: var(--primary-color);" x-text="poet.era"></div>
+                <template x-if="!editing">
+                    <div style="font-weight: 600; color: var(--primary-color);" x-text="model.era"></div>
+                </template>
+                <template x-if="editing">
+                    <input x-model="model.era" @input="markDirty()"
+                           style="width:100%; padding:0.35rem 0.5rem; border:1px solid #d1d5db; border-radius:0.25rem;">
+                </template>
             </div>
 
-            <div x-show="poet.birth_year" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+            <div x-show="editing || model.birth_year" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Birth Year</div>
-                <div style="font-weight: 600; color: var(--primary-color);" x-text="poet.birth_year"></div>
+                <template x-if="!editing">
+                    <div style="font-weight: 600; color: var(--primary-color);" x-text="model.birth_year"></div>
+                </template>
+                <template x-if="editing">
+                    <input type="number" x-model.number="model.birth_year" @input="markDirty()"
+                           style="width:100%; padding:0.35rem 0.5rem; border:1px solid #d1d5db; border-radius:0.25rem;">
+                </template>
             </div>
 
-            <div x-show="poet.death_year" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+            <div x-show="editing || model.death_year" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Death Year</div>
-                <div style="font-weight: 600; color: var(--primary-color);" x-text="poet.death_year"></div>
+                <template x-if="!editing">
+                    <div style="font-weight: 600; color: var(--primary-color);" x-text="model.death_year"></div>
+                </template>
+                <template x-if="editing">
+                    <input type="number" x-model.number="model.death_year" @input="markDirty()"
+                           style="width:100%; padding:0.35rem 0.5rem; border:1px solid #d1d5db; border-radius:0.25rem;">
+                </template>
             </div>
 
             <div style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
@@ -33,16 +73,24 @@
             </div>
         </div>
 
-        <div x-show="poet.biography" style="margin-top: 1.5rem;">
+        <div x-show="editing || model.biography" style="margin-top: 1.5rem;">
             <h3 style="color: #374151; margin-bottom: 0.5rem;">Biography</h3>
-            <p class="telugu-text" style="color: #4b5563; line-height: 1.6;" x-text="poet.biography"></p>
+            <template x-if="!editing">
+                <p class="telugu-text" style="color: #4b5563; line-height: 1.6;" x-text="model.biography"></p>
+            </template>
+            <template x-if="editing">
+                <textarea x-model="model.biography" @input="markDirty()" rows="6"
+                          class="telugu-text"
+                          style="width:100%; padding:0.6rem 0.8rem; border:1px solid #d1d5db;
+                                 border-radius:0.375rem; font-family:inherit; line-height:1.6;"></textarea>
+            </template>
         </div>
     </div>
 
     <!-- Poems List -->
     <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
         <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">
-            Poems by <span class="telugu-text" x-text="poet.name"></span> (<span x-text="poemCount"></span>)
+            Poems by <span class="telugu-text" x-text="model.name"></span> (<span x-text="poemCount"></span>)
         </h2>
 
         <div x-show="poems.length === 0" style="text-align: center; padding: 3rem; color: #6b7280;">
@@ -85,15 +133,20 @@
 
 <script>
 function poetDetailPage() {
+    const poetData = {{ poet | tojson }};
+    const poetId = poetData.id;
     return {
-        poet: {{ poet | tojson }},
+        poet: poetData,
+        ...window.editablePage(
+            poetData,
+            `/api/poets/${poetId}`,
+            ['name', 'name_english', 'biography', 'era', 'birth_year', 'death_year']
+        ),
         poems: {{ poems | tojson }},
         poemCount: {{ poem_count }},
 
         init() {
             console.log('Poet detail page initialized');
-            console.log('Poet:', this.poet);
-            console.log('Poems:', this.poems);
         }
     };
 }

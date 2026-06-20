@@ -4,27 +4,64 @@
 
 {% block content %}
 <div x-data="meterDetailPage()">
+
+    {% include "components/_edit_controls.html" %}
+
     <!-- Meter Header -->
     <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
-        <h1 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;" x-text="meter.name"></h1>
-        <div x-show="meter.name_english" style="color: #6b7280; font-size: 1.1rem; margin-bottom: 1.5rem;">
-            <span x-text="meter.name_english"></span>
-        </div>
+        <template x-if="!editing">
+            <h1 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;" x-text="model.name"></h1>
+        </template>
+        <template x-if="editing">
+            <input class="telugu-text" x-model="model.name" @input="markDirty()"
+                   style="width:100%; font-size:1.6rem; padding:0.4rem 0.6rem;
+                          border:1px solid #d1d5db; border-radius:0.375rem; margin-bottom:0.5rem;
+                          color: var(--primary-color); font-weight:600;">
+        </template>
 
-        <div x-show="meter.description" style="margin-bottom: 1.5rem;">
+        <template x-if="!editing">
+            <div x-show="model.name_english" style="color: #6b7280; font-size: 1.1rem; margin-bottom: 1.5rem;">
+                <span x-text="model.name_english"></span>
+            </div>
+        </template>
+        <template x-if="editing">
+            <div style="margin-bottom: 1.25rem;">
+                <label style="font-size:0.8rem; color:#6b7280; display:block; margin-bottom:0.25rem;">Name (English)</label>
+                <input x-model="model.name_english" @input="markDirty()"
+                       style="width:100%; padding:0.4rem 0.6rem;
+                              border:1px solid #d1d5db; border-radius:0.375rem;">
+            </div>
+        </template>
+
+        <div x-show="editing || model.description" style="margin-bottom: 1.5rem;">
             <h3 style="color: #374151; margin-bottom: 0.5rem;">Description</h3>
-            <p class="telugu-text" style="color: #4b5563; line-height: 1.6;" x-text="meter.description"></p>
+            <template x-if="!editing">
+                <p class="telugu-text" style="color: #4b5563; line-height: 1.6;" x-text="model.description"></p>
+            </template>
+            <template x-if="editing">
+                <textarea x-model="model.description" @input="markDirty()" rows="4"
+                          class="telugu-text"
+                          style="width:100%; padding:0.6rem 0.8rem; border:1px solid #d1d5db;
+                                 border-radius:0.375rem; font-family:inherit; line-height:1.6;"></textarea>
+            </template>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
-            <div x-show="meter.gana_structure" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+            <div x-show="model.gana_structure" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Gana Structure</div>
-                <div class="telugu-text" style="font-weight: 600; color: var(--primary-color);" x-text="JSON.stringify(meter.gana_structure)"></div>
+                {# gana_structure is JSON — read-only in v1 per the plan. #}
+                <div class="telugu-text" style="font-weight: 600; color: var(--primary-color);" x-text="JSON.stringify(model.gana_structure)"></div>
             </div>
 
-            <div x-show="meter.example_pattern" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
+            <div x-show="editing || model.example_pattern" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Example Pattern</div>
-                <div style="font-weight: 600; color: var(--primary-color); font-family: monospace;" x-text="meter.example_pattern"></div>
+                <template x-if="!editing">
+                    <div style="font-weight: 600; color: var(--primary-color); font-family: monospace;" x-text="model.example_pattern"></div>
+                </template>
+                <template x-if="editing">
+                    <input x-model="model.example_pattern" @input="markDirty()"
+                           style="width:100%; padding:0.35rem 0.5rem; border:1px solid #d1d5db; border-radius:0.25rem; font-family:monospace;">
+                </template>
             </div>
 
             <div style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
@@ -134,8 +171,15 @@
 
 <script>
 function meterDetailPage() {
+    const meterData = {{ meter | tojson }};
+    const meterId = meterData.id;
     return {
-        meter: {{ meter | tojson }},
+        meter: meterData,
+        ...window.editablePage(
+            meterData,
+            `/api/meters/${meterId}`,
+            ['name', 'name_english', 'description', 'example_pattern']
+        ),
         poems: {{ poems | tojson }},
         poemCount: {{ poem_count }},
         page: {{ page }},

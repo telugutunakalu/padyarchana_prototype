@@ -1,0 +1,49 @@
+{#
+  Reusable edit-mode controls. Visible only to admin (gated by window.IS_ADMIN).
+  Expects the host x-data scope to expose: editing, saving, dirty, saveOk,
+  saveError, canEdit, startEdit(), save(), cancelEdit() — all provided by
+  window.editablePage(...) in /static/js/edit_mode.js.
+#}
+<div x-show="canEdit"
+     style="position: sticky; top: 0; z-index: 50;
+            background: white; border-bottom: 1px solid #e5e7eb;
+            padding: 0.6rem 1rem; margin-bottom: 1rem;
+            display: flex; gap: 0.5rem; align-items: center;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+  <template x-if="!editing">
+    <button @click="startEdit()" class="btn"
+            style="background: #2563eb;">
+      ✎ Edit
+    </button>
+  </template>
+
+  <template x-if="editing">
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+      <button @click="save()"
+              :disabled="!dirty || saving"
+              class="btn"
+              :style="!dirty || saving
+                       ? 'background:#9ca3af; cursor:not-allowed;'
+                       : 'background:#16a34a;'">
+        <span x-show="!saving">💾 Save</span>
+        <span x-show="saving">Saving…</span>
+      </button>
+      <button @click="cancelEdit()" :disabled="saving"
+              class="btn"
+              style="background:#6b7280;">
+        Cancel
+      </button>
+      <span x-show="dirty && !saving"
+            style="color:#92400e; font-size:0.85rem;">Unsaved changes</span>
+    </div>
+  </template>
+
+  <span x-show="saveOk" x-transition
+        style="margin-left: auto; color:#047857; font-size:0.9rem;">
+    ✓ Saved
+  </span>
+  <span x-show="saveError" x-transition
+        style="margin-left: auto; color:#b91c1c; font-size:0.85rem;"
+        x-text="saveError"></span>
+</div>

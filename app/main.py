@@ -9,8 +9,10 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from sqlalchemy import select, func
+from starlette.middleware.sessions import SessionMiddleware
 
 from app.api import poems, poets, meters, search, dictionary, compare, audio, tts, nethra
+from app.auth import router as auth_router, auth_context
 from app.config import settings
 from app.database import init_db, close_db, get_db
 from app.models import Poem, Poet, Meter, PoemAudio, NethraBatch
@@ -43,11 +45,28 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Sign-cookie session for admin/viewer login. SameSite=lax + https_only only
+# outside development; CSRF is mitigated by same-origin JSON mutations (see
+# the design plan; add starlette-csrf later if the portal goes public).
+app.add_middleware(
+    SessionMiddleware,
+    secret_key=settings.SESSION_SECRET,
+    same_site="lax",
+    https_only=(settings.ENVIRONMENT != "development"),
+    session_cookie="padyarchana_session",
+)
+
 # Mount static files
 app.mount("/static", StaticFiles(directory=settings.STATIC_DIR), name="static")
 
-# Setup templates
+# Setup templates. Expose auth_context() as a Jinja global so base.html can
+# read the current user without forcing every route handler to inject it.
 templates = Jinja2Templates(directory=settings.TEMPLATES_DIR)
+templates.env.globals["auth_context"] = auth_context
+
+# Auth routes (/login, /logout). Registered without a prefix so they are
+# top-level URLs.
+app.include_router(auth_router, tags=["Auth"])
 
 # Include API routers
 app.include_router(poems.router, prefix="/api/poems", tags=["Poems"])
@@ -210,6 +229,7 @@ async def meter_detail_page(meter_id: int, request: Request, page: int = 1, page
             return templates.TemplateResponse("index.html", {"request": request, "error": "Meter not found"})
 
         # Total count for this meter (used by pagination controls)
+        from sqlalchemy import func
         count_result = await db.execute(
             select(func.count(Poem.id)).where(Poem.meter_id == meter_id)
         )
