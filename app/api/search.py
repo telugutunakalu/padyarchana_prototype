@@ -3,7 +3,7 @@ API endpoints for search functionality.
 """
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, or_, and_
+from sqlalchemy import select, or_, and_, text as sa_text
 from typing import List, Optional
 
 from app.database import get_db
@@ -11,6 +11,12 @@ from app.models import Poem, Poet, Meter
 from app.schemas.poem import PoemResponse
 
 router = APIRouter()
+
+
+def _escape_fts5_query(q: str) -> str:
+    """Wrap user input as a single double-quoted FTS5 phrase so trigrams,
+    apostrophes, and other special chars pass through unparsed."""
+    return '"' + q.replace('"', '""') + '"'
 
 
 @router.get("/", response_model=List[PoemResponse])
@@ -26,52 +32,57 @@ async def search_poems(
 ):
     """
     Search poems with various filters.
-    Supports text search and multiple filter combinations.
-    """
-    query = select(Poem)
 
-    # Build filter conditions
+    Text matching uses an FTS5 trigram index over title + text + bhavam +
+    flattened prathipadartham, so a partial word (>=3 chars) hits anywhere
+    in any of those fields. Shorter queries fall back to ilike substring scan.
+    """
+    use_fts = bool(q) and len(q.strip()) >= 3
+    q_stripped = q.strip() if q else None
+
+    if use_fts:
+        # FTS5 prefilter: rowid ↔ poems.id. Pull a generous pool and let the
+        # other filters narrow further; we still LIMIT at the end.
+        fts_sql = sa_text(
+            "SELECT rowid FROM poems_fts WHERE poems_fts MATCH :q"
+        ).bindparams(q=_escape_fts5_query(q_stripped))
+        fts_rows = await db.execute(fts_sql)
+        candidate_ids = [r[0] for r in fts_rows.fetchall()]
+        if not candidate_ids:
+            return []
+        query = select(Poem).where(Poem.id.in_(candidate_ids))
+    else:
+        query = select(Poem)
+
     conditions = []
 
-    # Text search in title and text
-    if q:
-        search_term = f"%{q}%"
+    # Short-query fallback: substring on title/text/bhavam.
+    if q_stripped and not use_fts:
+        like = f"%{q_stripped}%"
         conditions.append(
             or_(
-                Poem.title.ilike(search_term),
-                Poem.text.ilike(search_term)
+                Poem.title.ilike(like),
+                Poem.text.ilike(like),
+                Poem.bhavam.ilike(like),
             )
         )
 
-    # Filter by poet
     if poet_id:
         conditions.append(Poem.poet_id == poet_id)
-
-    # Filter by meter
     if meter_id:
         conditions.append(Poem.meter_id == meter_id)
-
-    # Filter by literary form
     if literary_form:
         conditions.append(Poem.literary_form.ilike(f"%{literary_form}%"))
-
-    # Filter by era (through poet relationship)
     if era:
         query = query.join(Poet)
         conditions.append(Poet.era.ilike(f"%{era}%"))
 
-    # Apply all conditions
     if conditions:
         query = query.where(and_(*conditions))
 
-    # Apply pagination
     query = query.offset(skip).limit(limit)
-
-    # Execute query
     result = await db.execute(query)
-    poems = result.scalars().all()
-
-    return poems
+    return result.scalars().all()
 
 
 @router.get("/autocomplete")
