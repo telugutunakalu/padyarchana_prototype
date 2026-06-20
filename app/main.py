@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from sqlalchemy import select
+from sqlalchemy import select, func
 
 from app.api import poems, poets, meters, search, dictionary, compare, audio, tts, nethra
 from app.config import settings
@@ -64,7 +64,17 @@ app.include_router(nethra.router, prefix="/api/nethra", tags=["Nethra OCR"])
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
     """Homepage."""
-    return templates.TemplateResponse("index.html", {"request": request})
+    stats = {"poems": 0, "poets": 0, "meters": 0}
+    async for db in get_db():
+        poems_count = await db.execute(select(func.count(Poem.id)))
+        poets_count = await db.execute(select(func.count(Poet.id)))
+        meters_count = await db.execute(select(func.count(Meter.id)))
+        stats = {
+            "poems": poems_count.scalar(),
+            "poets": poets_count.scalar(),
+            "meters": meters_count.scalar(),
+        }
+    return templates.TemplateResponse("index.html", {"request": request, "stats": stats})
 
 
 @app.get("/search", response_class=HTMLResponse)
@@ -110,8 +120,11 @@ async def poem_detail_page(poem_id: int, request: Request):
             "gana_count": poem.gana_count,
             "line_count": poem.line_count,
             "source": poem.source,
+            "kanda": poem.kanda,
             "poet_id": poem.poet_id,
             "meter_id": poem.meter_id,
+            "prathipadartham": poem.prathipadartham,
+            "bhavam": poem.bhavam,
             "poet": {
                 "id": poet.id,
                 "name": poet.name,
@@ -227,6 +240,62 @@ async def meter_detail_page(meter_id: int, request: Request):
         })
 
 
+@app.get("/source/{source_name:path}", response_class=HTMLResponse)
+async def source_detail_page(source_name: str, request: Request, page: int = 1, page_size: int = 25):
+    """Source detail page showing all poems from this source, paginated."""
+    page = max(1, page)
+    page_size = max(1, min(page_size, 200))
+
+    async for db in get_db():
+        # Total count for this source (used by pagination controls)
+        count_result = await db.execute(
+            select(func.count(Poem.id)).where(Poem.source == source_name)
+        )
+        total_count = count_result.scalar_one()
+
+        if total_count == 0:
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "stats": {}, "error": "Source not found"},
+                status_code=404,
+            )
+
+        total_pages = max(1, (total_count + page_size - 1) // page_size)
+        if page > total_pages:
+            page = total_pages
+        offset = (page - 1) * page_size
+
+        # Page slice — order by PK to preserve import (verse) order
+        poems_result = await db.execute(
+            select(Poem)
+            .where(Poem.source == source_name)
+            .order_by(Poem.id)
+            .offset(offset)
+            .limit(page_size)
+        )
+        poems = poems_result.scalars().all()
+
+        poems_list = [{
+            "id": poem.id,
+            "title": poem.title,
+            "text": poem.text,
+            "literary_form": poem.literary_form,
+            "word_count": poem.word_count,
+            "gana_count": poem.gana_count,
+            "line_count": poem.line_count
+        } for poem in poems]
+
+        return templates.TemplateResponse("source_detail.html", {
+            "request": request,
+            "source_name": source_name,
+            "poems": poems_list,
+            "poem_count": total_count,
+            "page": page,
+            "page_size": page_size,
+            "total_pages": total_pages,
+        })
+
+
 @app.get("/poets", response_class=HTMLResponse)
 async def poets_page(request: Request):
     """Poets listing page."""
@@ -242,7 +311,17 @@ async def meters_page(request: Request):
 @app.get("/about", response_class=HTMLResponse)
 async def about_page(request: Request):
     """About page."""
-    return templates.TemplateResponse("index.html", {"request": request})
+    stats = {"poems": 0, "poets": 0, "meters": 0}
+    async for db in get_db():
+        poems_count = await db.execute(select(func.count(Poem.id)))
+        poets_count = await db.execute(select(func.count(Poet.id)))
+        meters_count = await db.execute(select(func.count(Meter.id)))
+        stats = {
+            "poems": poems_count.scalar(),
+            "poets": poets_count.scalar(),
+            "meters": meters_count.scalar(),
+        }
+    return templates.TemplateResponse("index.html", {"request": request, "stats": stats})
 
 
 @app.get("/aksharanusarika", response_class=HTMLResponse)

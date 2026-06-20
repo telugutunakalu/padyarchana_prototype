@@ -65,14 +65,19 @@ async def check_poem_exists(db: AsyncSession, poem_text: str, poet_id: int) -> b
 async def import_poems_from_json(
     db: AsyncSession,
     file_path: str,
-    default_meter_name: str = "Unknown"
+    default_meter_name: str = "Unknown",
+    literary_form: str = "శతకం",
+    data: dict = None,
+    skip_duplicate_check: bool = False,
+    batch_size: int = 1000,
 ):
-    """Import poems from a JSON file."""
+    """Import poems from a JSON file or pre-loaded data dict."""
     print(f"\n{'='*60}")
     print(f"Loading data from: {file_path}")
     print(f"{'='*60}")
 
-    data = await load_json_data(file_path)
+    if data is None:
+        data = await load_json_data(file_path)
 
     # Get source name from JSON
     source_name = data.get("shatakam_title_telugu") or Path(file_path).stem
@@ -84,33 +89,53 @@ async def import_poems_from_json(
     era = f"{year}" if year else None
     poet = await create_or_get_poet(db, poet_name, era)
 
-    # Get or create default meter for poems without chandassu
+    # File-level literary form override (e.g. ద్విపదకావ్యం)
+    file_literary_form = data.get("literary_form_telugu") or literary_form
+
+    # File-level meter override (used when individual poems don't specify Chandassu)
+    file_meter_name = data.get("meter_telugu") or default_meter_name
     default_meter = await create_or_get_meter(
         db,
-        default_meter_name,
-        "Meter not specified - requires classification"
+        file_meter_name,
+        "Meter not specified - requires classification" if file_meter_name == "Unknown" else None,
     )
 
     # Process each poem
     poems_data = data.get("poems", [])
-    print(f"\nProcessing {len(poems_data)} poems...")
+    print(f"\nProcessing {len(poems_data)} poems (skip_duplicate_check={skip_duplicate_check}, batch_size={batch_size})...")
 
     imported_count = 0
     skipped_count = 0
+    pending_in_batch = 0
 
     for poem_data in poems_data:
         # Get lines
         lines = poem_data.get("lines_telugu", [])
         poem_text = "\n".join(lines)
 
-        # Skip if poem already exists
-        if await check_poem_exists(db, poem_text, poet.id):
+        # Skip if poem already exists (unless caller opts out for fresh corpora)
+        if not skip_duplicate_check and await check_poem_exists(db, poem_text, poet.id):
             skipped_count += 1
             continue
 
-        # Get title (using first line)
+        # Get title — include kanda/chapter when present for human readability
+        # and to avoid collisions (couplet_number can restart per chapter).
+        # 'ch' prefix is only used when chapter is purely numeric; for Telugu
+        # chapter names (e.g. 'ప్రథమాశ్వాసము'), use the name bare.
         poem_id = poem_data.get("id", imported_count + 1)
-        title = f"{source_name} - {poem_id}"
+        kanda = poem_data.get("kanda")
+        chapter = poem_data.get("chapter")
+        parts = [source_name]
+        if kanda:
+            parts.append(kanda)
+        if chapter:
+            chapter_str = str(chapter).strip()
+            is_numeric = bool(chapter_str) and all(
+                ch.isdigit() or ch == "." for ch in chapter_str
+            )
+            parts.append(f"ch{chapter_str}" if is_numeric else chapter_str)
+        parts.append(f"c{poem_id}" if (kanda or chapter) else str(poem_id))
+        title = " - ".join(parts)
 
         # Get meter/chandassu if specified
         meter_name = poem_data.get("Chandassu") or poem_data.get("chandassu")
@@ -119,20 +144,31 @@ async def import_poems_from_json(
         else:
             meter = default_meter
 
+        prathi = poem_data.get("prathipadartham")
+        bhavam = poem_data.get("bhavam")
+
         # Create poem
         poem = Poem(
             title=title[:500],
             text=poem_text,
             source=source_name,
+            kanda=kanda,
             poet_id=poet.id,
             meter_id=meter.id,
             line_count=len(lines),
             word_count=len(poem_text.split()),
-            literary_form="శతకం"  # Shatakam form
+            literary_form=file_literary_form,
+            prathipadartham=prathi,
+            bhavam=bhavam,
         )
 
         db.add(poem)
         imported_count += 1
+        pending_in_batch += 1
+
+        if pending_in_batch >= batch_size:
+            await db.flush()
+            pending_in_batch = 0
 
     await db.commit()
 
@@ -145,7 +181,14 @@ async def import_poems_from_json(
     print(f"  - Default Meter: {default_meter_name}")
     print(f"{'='*60}")
 
-    return imported_count
+    return {
+        "file": str(file_path),
+        "source": source_name,
+        "poet": poet_name,
+        "imported": imported_count,
+        "skipped": skipped_count,
+        "total_in_file": len(poems_data),
+    }
 
 
 async def ensure_tables_exist():
@@ -157,13 +200,19 @@ async def ensure_tables_exist():
 
 async def main():
     """Main import function."""
-    # Get JSON file from command line or use default
-    if len(sys.argv) > 1:
-        json_file = sys.argv[1]
-    else:
-        json_file = "padyalu_json_data/abhinava_sumathi_satakam.json"
+    import argparse
 
-    file_path = Path(__file__).parent.parent / json_file
+    parser = argparse.ArgumentParser(description="Import poems from a padyalu_json_data JSON file.")
+    parser.add_argument("json_file", nargs="?", default="padyalu_json_data/abhinava_sumathi_satakam.json")
+    parser.add_argument("--skip-duplicate-check", action="store_true",
+                        help="Skip the per-poem duplicate check (use for fresh corpus imports — much faster).")
+    parser.add_argument("--batch-size", type=int, default=1000,
+                        help="Flush to DB every N inserts (default 1000).")
+    parser.add_argument("--default-meter", default="Unknown",
+                        help="Meter name to use when neither file nor poem specifies one.")
+    args = parser.parse_args()
+
+    file_path = Path(__file__).parent.parent / args.json_file
 
     if not file_path.exists():
         print(f"Error: File not found: {file_path}")
@@ -179,7 +228,13 @@ async def main():
     # Import data
     async with AsyncSessionLocal() as db:
         try:
-            await import_poems_from_json(db, str(file_path), default_meter_name="Unknown")
+            await import_poems_from_json(
+                db,
+                str(file_path),
+                default_meter_name=args.default_meter,
+                skip_duplicate_check=args.skip_duplicate_check,
+                batch_size=args.batch_size,
+            )
             print("\nImport completed successfully!")
         except Exception as e:
             print(f"\nError during import: {e}")

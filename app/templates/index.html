@@ -33,6 +33,22 @@
         </div>
     </section>
 
+    <!-- Stats Section -->
+    <section class="mt-4" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+        <div style="background: white; padding: 1.25rem 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center; min-width: 160px;">
+            <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color);">{{ stats.poems | default(0) }}</div>
+            <div style="font-size: 0.9rem; color: #6b7280;">Total Poems</div>
+        </div>
+        <div style="background: white; padding: 1.25rem 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center; min-width: 160px;">
+            <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color);">{{ stats.poets | default(0) }}</div>
+            <div style="font-size: 0.9rem; color: #6b7280;">Total Poets</div>
+        </div>
+        <div style="background: white; padding: 1.25rem 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); text-align: center; min-width: 160px;">
+            <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color);">{{ stats.meters | default(0) }}</div>
+            <div style="font-size: 0.9rem; color: #6b7280;">Total Meters</div>
+        </div>
+    </section>
+
     <!-- Featured Content -->
     <section class="mt-4">
         <h2 class="text-center mb-3" style="color: var(--primary-color); font-size: 1.75rem;">Featured Content</h2>
