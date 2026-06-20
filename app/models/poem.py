@@ -1,7 +1,7 @@
 """
 Poem model for storing poem information and metadata.
 """
-from sqlalchemy import Column, Integer, String, Text, ForeignKey, DateTime
+from sqlalchemy import Column, Integer, String, Text, ForeignKey, DateTime, JSON
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from app.database import Base
@@ -20,6 +20,9 @@ class Poem(Base):
     gana_count = Column(Integer, nullable=True)
     line_count = Column(Integer, nullable=True)
     source = Column(String(200), nullable=True)  # Source text (e.g., వేమన శతకము, సుమతీ శతకము)
+    kanda = Column(String(200), nullable=True, index=True)  # Section within multi-kanda works (e.g., అయోధ్యాకాండము)
+    prathipadartham = Column(JSON, nullable=True)  # List of {"word": str, "meaning": str} in display order
+    bhavam = Column(Text, nullable=True)  # Free-form prose summary of the verse
 
     # Foreign Keys
     poet_id = Column(Integer, ForeignKey("poets.id"), nullable=True, index=True)
