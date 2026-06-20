@@ -1,4 +1,4 @@
-# Python
+# === Python ===
 __pycache__/
 *.py[cod]
 *$py.class
@@ -10,8 +10,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -19,43 +17,148 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.python-version
 
-# Virtual Environment
+# === Virtual environments (any depth) ===
 venv/
+.venv/
 env/
 ENV/
-.venv
+**/.venv/
+**/venv/
 
-# IDE
+# === Environment / secrets ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+# (.env.example IS tracked)
+
+# === IDE / editor ===
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-
-# Environment
-.env
-.env.local
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-
-# Logs
-*.log
-logs/
-
-# OS
+# === OS junk ===
 .DS_Store
 Thumbs.db
+.AppleDouble
+.LSOverride
+desktop.ini
 
+# === Agent / tool sessions ===
+.claude/
+.aider*
+.cursor/
 
+# === Padyarchana — local databases & backups ===
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.db.bak*
+padyarchana.db.bak_*
 
+# === Padyarchana — bulky source JSONL & TXT inputs ===
+# External pipeline outputs that feed scripts/convert_*.py. Stay on disk
+# for re-runs; never enter git.
+/dwipada_padartham_results.test5.jsonl
+/non_dwipada_padartham_results.test5.jsonl
+/non_dwipada_padartham_requests.jsonl
+/andhra_mahabharatam_padartham_results.jsonl
+/pothana_bhagavatam.jsonl
+/kridabhiramam_padartham_results.jsonl
+/andhramahabharatam.txt
+/sivasatakam.txt
+# (padyalu_json_data/*.json STAYS tracked — durable converted inputs.)
 
-# TTS Model files (large ~13GB) - code is tracked, models are not
-indic_tts/models/
+# === Padyarchana — generated audio output ===
+static/audio/
+static/tts_audio/
+
+# === Multimedia & ML-weight blobs (any path) ===
+# Audio
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.aac
+# Video
+*.mp4
+*.webm
+*.avi
+*.mov
+*.mkv
+# Model weights / tokenizers
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+*.ckpt
+*.h5
+*.pb
+*.tflite
+*.gguf
+*.ggml
+tokenizer.model
+# Columnar / numeric / pickled blobs
+*.parquet
+*.arrow
+*.npy
+*.npz
+*.feather
+*.pkl
+*.pickle
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+# Documents (use !path to un-ignore a specific tracked PDF)
+*.pdf
+
+# === aksharanusarika/ — keep code, ignore intermediate data ===
+aksharanusarika/data/
+aksharanusarika/consolidated_testdata.csv
+aksharanusarika/consolidated_testdata_with_analysis.csv
+
+# === laya/ — keep code, ignore large data dumps ===
+laya/SwaraSangraha/
+laya/ramayana_slokas.json
+laya/ramayana_slokas.csv
+laya/error_log.txt
+
+# === indic_tts/ — keep code, ignore model + venv ===
 indic_tts/.venv/
+indic_tts/models/
 
+# === nethra/ — only OCR PNGs at present, no code ===
+nethra/
+
+# === Logs / runtime ===
+*.log
+logs/
+nohup.out
+celerybeat-schedule
+celerybeat.pid
+
+# === Misc ===
+*.bak
+*.orig
+*.rej
+.history/
