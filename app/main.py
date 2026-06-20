@@ -196,8 +196,11 @@ async def poet_detail_page(poet_id: int, request: Request):
 
 
 @app.get("/meter/{meter_id}", response_class=HTMLResponse)
-async def meter_detail_page(meter_id: int, request: Request):
-    """Meter detail page showing all poems in this meter."""
+async def meter_detail_page(meter_id: int, request: Request, page: int = 1, page_size: int = 25):
+    """Meter detail page showing poems in this meter, paginated."""
+    page = max(1, page)
+    page_size = max(1, min(page_size, 200))
+
     async for db in get_db():
         # Get the meter
         meter_result = await db.execute(select(Meter).where(Meter.id == meter_id))
@@ -206,13 +209,26 @@ async def meter_detail_page(meter_id: int, request: Request):
         if not meter:
             return templates.TemplateResponse("index.html", {"request": request, "error": "Meter not found"})
 
-        # Get all poems in this meter
+        # Total count for this meter (used by pagination controls)
+        count_result = await db.execute(
+            select(func.count(Poem.id)).where(Poem.meter_id == meter_id)
+        )
+        total_count = count_result.scalar_one()
+        total_pages = max(1, (total_count + page_size - 1) // page_size)
+        if page > total_pages:
+            page = total_pages
+        offset = (page - 1) * page_size
+
+        # Page slice — order by PK for cheap pagination over 75k+ rows
         poems_result = await db.execute(
-            select(Poem).where(Poem.meter_id == meter_id).order_by(Poem.title)
+            select(Poem)
+            .where(Poem.meter_id == meter_id)
+            .order_by(Poem.id)
+            .offset(offset)
+            .limit(page_size)
         )
         poems = poems_result.scalars().all()
 
-        # Convert to dict for JSON serialization
         meter_dict = {
             "id": meter.id,
             "name": meter.name,
@@ -236,7 +252,10 @@ async def meter_detail_page(meter_id: int, request: Request):
             "request": request,
             "meter": meter_dict,
             "poems": poems_list,
-            "poem_count": len(poems_list)
+            "poem_count": total_count,
+            "page": page,
+            "page_size": page_size,
+            "total_pages": total_pages,
         })
 
 

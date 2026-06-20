@@ -19,7 +19,7 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
             <div x-show="meter.gana_structure" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Gana Structure</div>
-                <div class="telugu-text" style="font-weight: 600; color: var(--primary-color);" x-text="meter.gana_structure"></div>
+                <div class="telugu-text" style="font-weight: 600; color: var(--primary-color);" x-text="JSON.stringify(meter.gana_structure)"></div>
             </div>
 
             <div x-show="meter.example_pattern" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem;">
@@ -36,9 +36,15 @@
 
     <!-- Poems List -->
     <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow);">
-        <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">
-            Poems in this Meter (<span x-text="poemCount"></span>)
-        </h2>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+            <h2 style="color: var(--primary-color); margin: 0;">
+                Poems in this Meter (<span x-text="poemCount.toLocaleString()"></span>)
+            </h2>
+            <div style="color: #6b7280; font-size: 0.9rem;">
+                Page <span x-text="page"></span> of <span x-text="totalPages"></span>
+                · showing <span x-text="rangeStart"></span>–<span x-text="rangeEnd"></span>
+            </div>
+        </div>
 
         <div x-show="poems.length === 0" style="text-align: center; padding: 3rem; color: #6b7280;">
             <p>No poems found in this meter.</p>
@@ -75,8 +81,56 @@
                 </div>
             </template>
         </div>
+
+        <!-- Pagination controls -->
+        <div x-show="totalPages > 1" style="margin-top: 2rem; display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <a :href="pageUrl(1)" :class="page === 1 ? 'pg-btn pg-btn-disabled' : 'pg-btn'">« First</a>
+            <a :href="pageUrl(page - 1)" :class="page === 1 ? 'pg-btn pg-btn-disabled' : 'pg-btn'">‹ Prev</a>
+
+            <template x-for="p in pageWindow" :key="p">
+                <a :href="pageUrl(p)" :class="p === page ? 'pg-btn pg-btn-current' : 'pg-btn'" x-text="p"></a>
+            </template>
+
+            <a :href="pageUrl(page + 1)" :class="page === totalPages ? 'pg-btn pg-btn-disabled' : 'pg-btn'">Next ›</a>
+            <a :href="pageUrl(totalPages)" :class="page === totalPages ? 'pg-btn pg-btn-disabled' : 'pg-btn'">Last »</a>
+
+            <form @submit.prevent="jumpTo()" style="margin-left: 1rem; display: flex; gap: 0.25rem; align-items: center;">
+                <label style="color: #6b7280; font-size: 0.875rem;">Go to:</label>
+                <input type="number" min="1" :max="totalPages" x-model.number="jumpPage"
+                       style="width: 5rem; padding: 0.4rem 0.5rem; border: 1px solid #e5e7eb; border-radius: 0.375rem;">
+                <button type="submit" class="pg-btn">Go</button>
+            </form>
+        </div>
     </div>
 </div>
+
+<style>
+.pg-btn {
+    display: inline-block;
+    padding: 0.5rem 0.85rem;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.pg-btn:hover { background: #f3f4f6; }
+.pg-btn-current {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    font-weight: 600;
+    pointer-events: none;
+}
+.pg-btn-disabled {
+    color: #9ca3af;
+    pointer-events: none;
+    background: #f9fafb;
+}
+</style>
 
 <script>
 function meterDetailPage() {
@@ -84,11 +138,44 @@ function meterDetailPage() {
         meter: {{ meter | tojson }},
         poems: {{ poems | tojson }},
         poemCount: {{ poem_count }},
+        page: {{ page }},
+        pageSize: {{ page_size }},
+        totalPages: {{ total_pages }},
+        jumpPage: {{ page }},
+
+        get rangeStart() {
+            return this.poemCount === 0 ? 0 : (this.page - 1) * this.pageSize + 1;
+        },
+        get rangeEnd() {
+            return Math.min(this.page * this.pageSize, this.poemCount);
+        },
+        get pageWindow() {
+            // Show up to 7 page numbers centered around current
+            const radius = 3;
+            let start = Math.max(1, this.page - radius);
+            let end = Math.min(this.totalPages, this.page + radius);
+            // Pad to keep window stable near edges
+            const span = end - start + 1;
+            const desired = radius * 2 + 1;
+            if (span < desired) {
+                if (start === 1) end = Math.min(this.totalPages, start + desired - 1);
+                else if (end === this.totalPages) start = Math.max(1, end - desired + 1);
+            }
+            const pages = [];
+            for (let i = start; i <= end; i++) pages.push(i);
+            return pages;
+        },
+        pageUrl(p) {
+            const clamped = Math.max(1, Math.min(p, this.totalPages));
+            return `/meter/${this.meter.id}?page=${clamped}&page_size=${this.pageSize}`;
+        },
+        jumpTo() {
+            const p = Math.max(1, Math.min(Number(this.jumpPage) || 1, this.totalPages));
+            window.location.href = this.pageUrl(p);
+        },
 
         init() {
-            console.log('Meter detail page initialized');
-            console.log('Meter:', this.meter);
-            console.log('Poems:', this.poems);
+            console.log('Meter detail page initialized', this.meter, 'page', this.page, 'of', this.totalPages);
         }
     };
 }

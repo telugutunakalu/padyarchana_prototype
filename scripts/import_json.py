@@ -14,6 +14,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import engine, Base, AsyncSessionLocal
 from app.models import Poet, Meter, Poem
+from app.utils.search_text import build_search_text
 
 
 async def load_json_data(file_path: str) -> dict:
@@ -144,8 +145,12 @@ async def import_poems_from_json(
         else:
             meter = default_meter
 
+        # Build search_text (concatenated surface for the FTS5 trigram index).
+        # Uses the shared helper so admin edits via PUT /api/poems/{id} land
+        # in the FTS surface the same way fresh imports do.
         prathi = poem_data.get("prathipadartham")
         bhavam = poem_data.get("bhavam")
+        search_text = build_search_text(title[:500], poem_text, bhavam, prathi)
 
         # Create poem
         poem = Poem(
@@ -160,6 +165,7 @@ async def import_poems_from_json(
             literary_form=file_literary_form,
             prathipadartham=prathi,
             bhavam=bhavam,
+            search_text=search_text,
         )
 
         db.add(poem)
