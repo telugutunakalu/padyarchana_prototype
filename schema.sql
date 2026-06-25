@@ -158,7 +158,7 @@ CREATE TABLE poets (
 	biography TEXT, 
 	era VARCHAR(100), 
 	birth_year INTEGER, 
-	death_year INTEGER, 
+	death_year INTEGER, copyright_protected INTEGER NOT NULL DEFAULT 1, 
 	PRIMARY KEY (id)
 );
 

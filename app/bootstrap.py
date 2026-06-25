@@ -159,6 +159,20 @@ async def auto_bootstrap_if_empty(db_file_existed_before_init: bool) -> None:
     except Exception as e:
         _log(f"  consolidate_meters failed — {e}; continuing")
 
+    # 3b. Copyright + biographical metadata. Adds poets.copyright_protected
+    #     column (if missing), stamps known birth/death years and a
+    #     cleaned-up era. Default for unknown poets is protected = 1.
+    try:
+        from scripts.migrations.copyright_metadata import apply as _apply_copyright_metadata
+        cm = await loop.run_in_executor(None, _apply_copyright_metadata, _DB_FILE)
+        _log(
+            f"copyright_metadata: marked {cm['marked_pd']} PD + "
+            f"{cm['marked_protected']} protected; "
+            f"{len(cm['not_in_data'])} default-protected (admin can revise)"
+        )
+    except Exception as e:
+        _log(f"  copyright_metadata failed — {e}; continuing")
+
     # 4. FTS5 setup (virtual table, triggers, search_text backfill, index rebuild).
     if not _has_fts5_table(_DB_FILE):
         _log("setting up FTS5 trigram index…")
