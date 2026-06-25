@@ -13,10 +13,9 @@ pydantic==2.5.0
 pydantic-settings==2.1.0
 email-validator==2.1.0
 
-# Auth — bcrypt pinned <5.0 because passlib 1.7.4 relies on attrs that
-# bcrypt 5.0 removed (and on a softer 72-byte check).
-passlib==1.7.4
-bcrypt>=4.0,<5.0
+# Auth — bcrypt called directly (see app/auth/security.py); passlib dropped as
+# it is unmaintained and breaks against bcrypt >= 4.0 (missing __about__).
+bcrypt>=4.0
 itsdangerous==2.2.0
 
 # Telugu NLP and Text Processing

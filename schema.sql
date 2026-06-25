@@ -124,7 +124,7 @@ CREATE TABLE poems (
 	poet_id INTEGER, 
 	meter_id INTEGER, 
 	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP), 
-	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP), source VARCHAR(200), prathipadartham JSON, bhavam TEXT, kanda VARCHAR(200), search_text TEXT, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP), source VARCHAR(200), prathipadartham JSON, bhavam TEXT, kanda VARCHAR(200), search_text TEXT, flags VARCHAR(100), rating VARCHAR(20), 
 	PRIMARY KEY (id), 
 	FOREIGN KEY(poet_id) REFERENCES poets (id), 
 	FOREIGN KEY(meter_id) REFERENCES meters (id)
@@ -299,6 +299,9 @@ CREATE INDEX ix_poem_words_poem_id ON poem_words (poem_id);
 -- index: ix_poem_words_word_id
 CREATE INDEX ix_poem_words_word_id ON poem_words (word_id);
 
+-- index: ix_poems_flags
+CREATE INDEX ix_poems_flags ON poems(flags);
+
 -- index: ix_poems_id
 CREATE INDEX ix_poems_id ON poems (id);
 
@@ -313,6 +316,9 @@ CREATE INDEX ix_poems_meter_id ON poems (meter_id);
 
 -- index: ix_poems_poet_id
 CREATE INDEX ix_poems_poet_id ON poems (poet_id);
+
+-- index: ix_poems_rating
+CREATE INDEX ix_poems_rating ON poems(rating);
 
 -- index: ix_poems_title
 CREATE INDEX ix_poems_title ON poems (title);

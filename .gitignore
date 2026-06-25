@@ -162,3 +162,10 @@ celerybeat.pid
 *.orig
 *.rej
 .history/
+
+# === Padyarchana — crawler raw dumps & intermediates (scripts/configs stay tracked) ===
+crawlers/shankarabharanam_raw/
+crawlers/shankarabharanam_extracted.json
+crawlers/precision_sample.json
+crawlers/keep_list.json
+crawlers/wikibook_results.json

@@ -1,24 +1,33 @@
 """
-Password hashing + verification (bcrypt via passlib).
+Password hashing + verification (bcrypt, called directly).
+
+Uses the ``bcrypt`` library directly rather than via passlib: passlib 1.7.4 is
+unmaintained and probes ``bcrypt.__about__.__version__``, which bcrypt >= 4.0
+removed — emitting a noisy (non-fatal) traceback at startup. Calling bcrypt
+directly produces/verifies the same ``$2b$`` hashes without that breakage.
 
 The user store is a small in-memory dict, built once at app boot from
 settings — see build_user_store(). Two named users: an admin (full edit
 access) and a viewer (read-only, functionally equivalent to anonymous).
 """
-from passlib.context import CryptContext
+import bcrypt
 
 from app.config import settings
 
-_pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+def _pw_bytes(plain: str) -> bytes:
+    # bcrypt only considers the first 72 bytes and (>= 4.x) rejects longer
+    # inputs; truncate identically for both hashing and verification.
+    return plain.encode("utf-8")[:72]
 
 
 def hash_password(plain: str) -> str:
-    return _pwd_context.hash(plain)
+    return bcrypt.hashpw(_pw_bytes(plain), bcrypt.gensalt()).decode("ascii")
 
 
 def verify_password(plain: str, hashed: str) -> bool:
     try:
-        return _pwd_context.verify(plain, hashed)
+        return bcrypt.checkpw(_pw_bytes(plain), hashed.encode("ascii"))
     except Exception:
         return False
 
