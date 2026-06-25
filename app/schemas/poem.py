@@ -2,8 +2,11 @@
 Pydantic schemas for Poem model.
 """
 from pydantic import BaseModel, ConfigDict
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Literal
 from datetime import datetime
+
+# Admin quality rating — constrained to the three medal tiers (or null = unrated).
+Rating = Literal["gold", "silver", "bronze"]
 
 
 class PoemBase(BaseModel):
@@ -21,6 +24,7 @@ class PoemBase(BaseModel):
     meter_id: Optional[int] = None
     prathipadartham: Optional[List[Dict[str, str]]] = None
     bhavam: Optional[str] = None
+    rating: Optional[Rating] = None
 
 
 class PoemCreate(PoemBase):
@@ -44,6 +48,7 @@ class PoemUpdate(BaseModel):
     meter_id: Optional[int] = None
     prathipadartham: Optional[List[Dict[str, str]]] = None
     bhavam: Optional[str] = None
+    rating: Optional[Rating] = None
 
 
 class PoemResponse(PoemBase):

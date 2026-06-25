@@ -49,6 +49,23 @@
             <span x-show="poem.literary_form">
                 <strong>Form:</strong> <span x-text="poem.literary_form"></span>
             </span>
+            <span x-show="model.rating || editing">
+                <strong>Rating:</strong>
+                <template x-if="!editing">
+                    <span class="rating-badge" :class="'rating-' + model.rating"
+                          x-text="ratingLabel(model.rating)"></span>
+                </template>
+                <template x-if="editing">
+                    <span class="rating-picker">
+                        <template x-for="r in ['gold','silver','bronze']" :key="r">
+                            <button type="button" class="rating-btn" :class="['rating-' + r, { active: model.rating === r }]"
+                                    @click="setRating(r)" x-text="ratingLabel(r)"></button>
+                        </template>
+                        <button type="button" class="rating-btn rating-clear" :class="{ active: !model.rating }"
+                                @click="setRating(null)" title="Clear rating">✕</button>
+                    </span>
+                </template>
+            </span>
             <span x-show="model.word_count">
                 <strong>Words:</strong> <span x-text="model.word_count"></span>
             </span>
@@ -411,7 +428,7 @@ function poemDetailPage(poemId) {
     const editable = window.editablePage(
         poemData,
         `/api/poems/${poemId}`,
-        ['title', 'text', 'bhavam', 'prathipadartham', 'meter_id']
+        ['title', 'text', 'bhavam', 'prathipadartham', 'meter_id', 'rating']
     );
     return {
         poem: poemData,
@@ -423,6 +440,14 @@ function poemDetailPage(poemId) {
         ttsAudio: null,
         ttsGenerating: false,
         ttsError: '',
+
+        ratingLabel(r) {
+            return { gold: '🥇 Gold', silver: '🥈 Silver', bronze: '🥉 Bronze' }[r] || '— none —';
+        },
+        setRating(r) {
+            this.model.rating = r;
+            this.markDirty();
+        },
 
         init() {
             this.loadRelatedPoems();
@@ -657,5 +682,38 @@ document.addEventListener('alpine:init', () => {
     overflow-y: auto;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
+
+/* Admin quality rating (gold / silver / bronze) */
+.rating-badge {
+    display: inline-block;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+}
+.rating-badge.rating-gold   { background: #fef3c7; color: #92400e; border-color: #f59e0b; }
+.rating-badge.rating-silver { background: #f1f5f9; color: #475569; border-color: #94a3b8; }
+.rating-badge.rating-bronze { background: #fdebd8; color: #8a4b1d; border-color: #d97a3d; }
+
+.rating-picker { display: inline-flex; gap: 0.3rem; flex-wrap: wrap; vertical-align: middle; }
+.rating-btn {
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    color: #6b7280;
+    opacity: 0.6;
+    transition: opacity 0.12s, box-shadow 0.12s;
+}
+.rating-btn:hover { opacity: 1; }
+.rating-btn.active { opacity: 1; box-shadow: 0 0 0 2px rgba(0,0,0,0.08); }
+.rating-btn.rating-gold.active   { background: #fef3c7; color: #92400e; border-color: #f59e0b; }
+.rating-btn.rating-silver.active { background: #f1f5f9; color: #475569; border-color: #94a3b8; }
+.rating-btn.rating-bronze.active { background: #fdebd8; color: #8a4b1d; border-color: #d97a3d; }
+.rating-btn.rating-clear.active  { background: #f3f4f6; color: #374151; border-color: #9ca3af; }
 </style>
 {% endblock %}

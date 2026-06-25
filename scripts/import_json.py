@@ -93,6 +93,9 @@ async def import_poems_from_json(
     # File-level literary form override (e.g. ద్విపదకావ్యం)
     file_literary_form = data.get("literary_form_telugu") or literary_form
 
+    # File-level provenance/quality flag (e.g. "OCR-sourced"), applied to every poem
+    file_flag = data.get("flag")
+
     # File-level meter override (used when individual poems don't specify Chandassu)
     file_meter_name = data.get("meter_telugu") or default_meter_name
     default_meter = await create_or_get_meter(
@@ -119,24 +122,31 @@ async def import_poems_from_json(
             skipped_count += 1
             continue
 
-        # Get title — include kanda/chapter when present for human readability
-        # and to avoid collisions (couplet_number can restart per chapter).
-        # 'ch' prefix is only used when chapter is purely numeric; for Telugu
-        # chapter names (e.g. 'ప్రథమాశ్వాసము'), use the name bare.
+        # Get title.
+        # Per-poem `title` is honored as-is when present (used by backfilled
+        # corpora whose original titles followed a non-standard pattern, e.g.
+        # శతకాలు where the first line is the title). Otherwise we synthesize:
+        # `{source} - [{kanda} -] [{chapter} -] [c]{id}`. 'ch' prefix is used
+        # only when chapter is purely numeric; for Telugu names (e.g.
+        # 'ప్రథమాశ్వాసము') use the name bare.
         poem_id = poem_data.get("id", imported_count + 1)
         kanda = poem_data.get("kanda")
         chapter = poem_data.get("chapter")
-        parts = [source_name]
-        if kanda:
-            parts.append(kanda)
-        if chapter:
-            chapter_str = str(chapter).strip()
-            is_numeric = bool(chapter_str) and all(
-                ch.isdigit() or ch == "." for ch in chapter_str
-            )
-            parts.append(f"ch{chapter_str}" if is_numeric else chapter_str)
-        parts.append(f"c{poem_id}" if (kanda or chapter) else str(poem_id))
-        title = " - ".join(parts)
+        explicit_title = poem_data.get("title")
+        if explicit_title:
+            title = explicit_title
+        else:
+            parts = [source_name]
+            if kanda:
+                parts.append(kanda)
+            if chapter:
+                chapter_str = str(chapter).strip()
+                is_numeric = bool(chapter_str) and all(
+                    ch.isdigit() or ch == "." for ch in chapter_str
+                )
+                parts.append(f"ch{chapter_str}" if is_numeric else chapter_str)
+            parts.append(f"c{poem_id}" if (kanda or chapter) else str(poem_id))
+            title = " - ".join(parts)
 
         # Get meter/chandassu if specified
         meter_name = poem_data.get("Chandassu") or poem_data.get("chandassu")
@@ -166,6 +176,7 @@ async def import_poems_from_json(
             prathipadartham=prathi,
             bhavam=bhavam,
             search_text=search_text,
+            flags=file_flag,
         )
 
         db.add(poem)

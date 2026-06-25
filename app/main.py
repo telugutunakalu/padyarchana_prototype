@@ -180,6 +180,7 @@ async def poem_detail_page(poem_id: int, request: Request):
             "meter_id": poem.meter_id,
             "prathipadartham": poem.prathipadartham,
             "bhavam": poem.bhavam,
+            "rating": poem.rating,
             "poet": {
                 "id": poet.id,
                 "name": poet.name,

@@ -23,6 +23,8 @@ class Poem(Base):
     kanda = Column(String(200), nullable=True, index=True)  # Section within multi-kanda works (e.g., అయోధ్యాకాండము)
     prathipadartham = Column(JSON, nullable=True)  # List of {"word": str, "meaning": str} in display order
     bhavam = Column(Text, nullable=True)  # Free-form prose summary of the verse
+    flags = Column(String(100), nullable=True, index=True)  # Provenance/quality tag, e.g. "OCR-sourced"
+    rating = Column(String(20), nullable=True, index=True)  # Admin quality rating: gold | silver | bronze
     # Concatenation of title + text + bhavam + flattened prathipadartham,
     # indexed by the poems_fts FTS5 trigram virtual table for fast partial-word
     # search. Populated by the importer and any other writer.
