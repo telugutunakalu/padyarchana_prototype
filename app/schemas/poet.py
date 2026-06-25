@@ -14,6 +14,7 @@ class PoetBase(BaseModel):
     era: Optional[str] = None
     birth_year: Optional[int] = None
     death_year: Optional[int] = None
+    copyright_protected: Optional[int] = 1
 
 
 class PoetCreate(PoetBase):
@@ -31,6 +32,7 @@ class PoetUpdate(BaseModel):
     era: Optional[str] = None
     birth_year: Optional[int] = None
     death_year: Optional[int] = None
+    copyright_protected: Optional[int] = None
 
 
 class PoetResponse(PoetBase):

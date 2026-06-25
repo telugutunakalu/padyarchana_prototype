@@ -66,6 +66,7 @@ class PoetBrief(BaseModel):
     era: Optional[str] = None
     birth_year: Optional[int] = None
     death_year: Optional[int] = None
+    copyright_protected: Optional[int] = None
 
     model_config = ConfigDict(from_attributes=True)
 

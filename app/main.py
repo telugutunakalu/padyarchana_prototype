@@ -16,6 +16,7 @@ from app.auth import router as auth_router, auth_context
 from app.config import settings
 from app.database import init_db, close_db, get_db
 from app.models import Poem, Poet, Meter, PoemAudio, NethraBatch
+from app.utils.visibility import is_admin_request, poem_visible_clause, poet_visible_clause
 
 
 @asynccontextmanager
@@ -100,16 +101,27 @@ app.include_router(nethra.router, prefix="/api/nethra", tags=["Nethra OCR"])
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
-    """Homepage."""
+    """Homepage. Guests see counts restricted to public-domain content
+    (poems by PD poets, PD poets); admin sees the full corpus."""
+    is_admin = is_admin_request(request)
     stats = {"poems": 0, "poets": 0, "meters": 0}
     async for db in get_db():
-        poems_count = await db.execute(select(func.count(Poem.id)))
-        poets_count = await db.execute(select(func.count(Poet.id)))
-        meters_count = await db.execute(select(func.count(Meter.id)))
+        poems_q  = select(func.count(Poem.id))
+        poets_q  = select(func.count(Poet.id))
+        meters_q = select(func.count(Meter.id))
+        if not is_admin:
+            poems_q  = poems_q.where(poem_visible_clause(is_admin))
+            poets_q  = poets_q.where(poet_visible_clause(is_admin))
+            # A meter is "shown" to a guest if at least one PD poem uses it.
+            meters_q = (
+                select(func.count(func.distinct(Poem.meter_id)))
+                .where(poem_visible_clause(is_admin))
+                .where(Poem.meter_id.isnot(None))
+            )
         stats = {
-            "poems": poems_count.scalar(),
-            "poets": poets_count.scalar(),
-            "meters": meters_count.scalar(),
+            "poems":  (await db.execute(poems_q)).scalar(),
+            "poets":  (await db.execute(poets_q)).scalar(),
+            "meters": (await db.execute(meters_q)).scalar(),
         }
     return templates.TemplateResponse("index.html", {"request": request, "stats": stats})
 
@@ -122,15 +134,21 @@ async def search_page(request: Request):
 
 @app.get("/poem/{poem_id}", response_class=HTMLResponse)
 async def poem_detail_page(poem_id: int, request: Request):
-    """Poem detail page."""
+    """Poem detail page. Returns 404 to guests when the poem's poet is
+    copyright-protected."""
+    is_admin = is_admin_request(request)
     async for db in get_db():
-        result = await db.execute(
-            select(Poem).where(Poem.id == poem_id)
-        )
-        poem = result.scalar_one_or_none()
+        q = select(Poem).where(Poem.id == poem_id)
+        if not is_admin:
+            q = q.where(poem_visible_clause(is_admin))
+        poem = (await db.execute(q)).scalar_one_or_none()
 
         if not poem:
-            return templates.TemplateResponse("index.html", {"request": request, "error": "Poem not found"})
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "stats": {}, "error": "Poem not found"},
+                status_code=404,
+            )
 
         # Load relationships
         poet = None
@@ -188,22 +206,29 @@ async def poem_detail_page(poem_id: int, request: Request):
 
 @app.get("/poet/{poet_id}", response_class=HTMLResponse)
 async def poet_detail_page(poet_id: int, request: Request):
-    """Poet detail page showing all poems by this poet."""
+    """Poet detail page. Returns 404 to guests when the poet is
+    copyright-protected. Admin sees a © badge in the template."""
+    is_admin = is_admin_request(request)
     async for db in get_db():
-        # Get the poet
-        poet_result = await db.execute(select(Poet).where(Poet.id == poet_id))
-        poet = poet_result.scalar_one_or_none()
+        q = select(Poet).where(Poet.id == poet_id)
+        if not is_admin:
+            q = q.where(poet_visible_clause(is_admin))
+        poet = (await db.execute(q)).scalar_one_or_none()
 
         if not poet:
-            return templates.TemplateResponse("index.html", {"request": request, "error": "Poet not found"})
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "stats": {}, "error": "Poet not found"},
+                status_code=404,
+            )
 
-        # Get all poems by this poet
-        poems_result = await db.execute(
-            select(Poem).where(Poem.poet_id == poet_id).order_by(Poem.title)
-        )
-        poems = poems_result.scalars().all()
+        # Per-poem filter is redundant here (the poet itself is already
+        # PD for guests), but we keep the explicit clause for symmetry.
+        poems_q = select(Poem).where(Poem.poet_id == poet_id).order_by(Poem.title)
+        if not is_admin:
+            poems_q = poems_q.where(poem_visible_clause(is_admin))
+        poems = (await db.execute(poems_q)).scalars().all()
 
-        # Convert to dict for JSON serialization
         poet_dict = {
             "id": poet.id,
             "name": poet.name,
@@ -211,7 +236,8 @@ async def poet_detail_page(poet_id: int, request: Request):
             "biography": poet.biography,
             "era": poet.era,
             "birth_year": poet.birth_year,
-            "death_year": poet.death_year
+            "death_year": poet.death_year,
+            "copyright_protected": poet.copyright_protected,
         }
 
         poems_list = [{
@@ -234,38 +260,42 @@ async def poet_detail_page(poet_id: int, request: Request):
 
 @app.get("/meter/{meter_id}", response_class=HTMLResponse)
 async def meter_detail_page(meter_id: int, request: Request, page: int = 1, page_size: int = 25):
-    """Meter detail page showing poems in this meter, paginated."""
+    """Meter detail page showing poems in this meter, paginated.
+    Guests only see poems whose poet is public-domain."""
     page = max(1, page)
     page_size = max(1, min(page_size, 200))
+    is_admin = is_admin_request(request)
 
     async for db in get_db():
-        # Get the meter
         meter_result = await db.execute(select(Meter).where(Meter.id == meter_id))
         meter = meter_result.scalar_one_or_none()
 
         if not meter:
-            return templates.TemplateResponse("index.html", {"request": request, "error": "Meter not found"})
+            return templates.TemplateResponse(
+                "index.html",
+                {"request": request, "stats": {}, "error": "Meter not found"},
+                status_code=404,
+            )
 
-        # Total count for this meter (used by pagination controls)
-        from sqlalchemy import func
-        count_result = await db.execute(
-            select(func.count(Poem.id)).where(Poem.meter_id == meter_id)
-        )
-        total_count = count_result.scalar_one()
+        count_q = select(func.count(Poem.id)).where(Poem.meter_id == meter_id)
+        if not is_admin:
+            count_q = count_q.where(poem_visible_clause(is_admin))
+        total_count = (await db.execute(count_q)).scalar_one()
         total_pages = max(1, (total_count + page_size - 1) // page_size)
         if page > total_pages:
             page = total_pages
         offset = (page - 1) * page_size
 
-        # Page slice — order by PK for cheap pagination over 75k+ rows
-        poems_result = await db.execute(
+        poems_q = (
             select(Poem)
             .where(Poem.meter_id == meter_id)
             .order_by(Poem.id)
             .offset(offset)
             .limit(page_size)
         )
-        poems = poems_result.scalars().all()
+        if not is_admin:
+            poems_q = poems_q.where(poem_visible_clause(is_admin))
+        poems = (await db.execute(poems_q)).scalars().all()
 
         meter_dict = {
             "id": meter.id,
@@ -299,16 +329,17 @@ async def meter_detail_page(meter_id: int, request: Request, page: int = 1, page
 
 @app.get("/source/{source_name:path}", response_class=HTMLResponse)
 async def source_detail_page(source_name: str, request: Request, page: int = 1, page_size: int = 25):
-    """Source detail page showing all poems from this source, paginated."""
+    """Source detail page. Guest counts and listings include only poems
+    by public-domain poets; admin sees the full source."""
     page = max(1, page)
     page_size = max(1, min(page_size, 200))
+    is_admin = is_admin_request(request)
 
     async for db in get_db():
-        # Total count for this source (used by pagination controls)
-        count_result = await db.execute(
-            select(func.count(Poem.id)).where(Poem.source == source_name)
-        )
-        total_count = count_result.scalar_one()
+        count_q = select(func.count(Poem.id)).where(Poem.source == source_name)
+        if not is_admin:
+            count_q = count_q.where(poem_visible_clause(is_admin))
+        total_count = (await db.execute(count_q)).scalar_one()
 
         if total_count == 0:
             return templates.TemplateResponse(
@@ -322,14 +353,16 @@ async def source_detail_page(source_name: str, request: Request, page: int = 1, 
             page = total_pages
         offset = (page - 1) * page_size
 
-        # Page slice — order by PK to preserve import (verse) order
-        poems_result = await db.execute(
+        poems_q = (
             select(Poem)
             .where(Poem.source == source_name)
             .order_by(Poem.id)
             .offset(offset)
             .limit(page_size)
         )
+        if not is_admin:
+            poems_q = poems_q.where(poem_visible_clause(is_admin))
+        poems_result = await db.execute(poems_q)
         poems = poems_result.scalars().all()
 
         poems_list = [{

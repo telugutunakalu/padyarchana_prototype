@@ -10,6 +10,7 @@ from app.auth import require_admin
 from app.database import get_db
 from app.models import Meter, Poem
 from app.schemas.meter import MeterCreate, MeterUpdate, MeterResponse
+from app.utils.visibility import is_admin_dep, poem_visible_clause
 
 router = APIRouter()
 
@@ -20,8 +21,13 @@ async def get_meters(
     limit: int = Query(100, ge=1, le=100),
     search: Optional[str] = None,
     db: AsyncSession = Depends(get_db),
+    is_admin: bool = Depends(is_admin_dep),
 ):
-    """Get all meters with pagination, search, and poem counts."""
+    """Get all meters with pagination, search, and poem counts.
+
+    Poem counts are filtered to public-domain poems for guests, so a
+    meter whose only poems are by protected authors will show 0 for
+    guests."""
     query = select(Meter)
 
     if search:
@@ -36,12 +42,12 @@ async def get_meters(
     result = await db.execute(query)
     meters = result.scalars().all()
 
-    # Get poem counts for each meter
     meter_list = []
     for meter in meters:
-        poem_count = await db.scalar(
-            select(func.count(Poem.id)).where(Poem.meter_id == meter.id)
-        )
+        count_q = select(func.count(Poem.id)).where(Poem.meter_id == meter.id)
+        if not is_admin:
+            count_q = count_q.where(poem_visible_clause(is_admin))
+        poem_count = await db.scalar(count_q)
         meter_list.append({
             "id": meter.id,
             "name": meter.name,

@@ -9,6 +9,26 @@
 
     <!-- Poet Header -->
     <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <!-- Admin-only copyright badge -->
+        <div x-show="canEdit && model.copyright_protected == 1"
+             style="display: inline-block; margin-bottom: 0.75rem;
+                    background: #fef3c7; color: #92400e;
+                    padding: 0.25rem 0.75rem; border-radius: 9999px;
+                    font-size: 0.75rem; font-weight: 600;
+                    border: 1px solid #fde68a;"
+             title="This poet's works are hidden from guests until 60 years after their death.">
+          © Copyright protected — guests cannot see this poet
+        </div>
+        <div x-show="canEdit && model.copyright_protected == 0"
+             style="display: inline-block; margin-bottom: 0.75rem;
+                    background: #d1fae5; color: #065f46;
+                    padding: 0.25rem 0.75rem; border-radius: 9999px;
+                    font-size: 0.75rem; font-weight: 600;
+                    border: 1px solid #a7f3d0;"
+             title="Public domain — visible to everyone.">
+          ✓ Public domain
+        </div>
+
         <template x-if="!editing">
             <h1 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;" x-text="model.name"></h1>
         </template>
@@ -71,6 +91,21 @@
                 <div style="font-size: 0.9rem; color: #6b7280; margin-bottom: 0.25rem;">Total Poems</div>
                 <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);" x-text="poemCount"></div>
             </div>
+        </div>
+
+        <!-- Admin-only: toggle copyright status -->
+        <div x-show="canEdit && editing" style="margin-top: 1rem; padding: 1rem;
+                    background: #f9fafb; border: 1px solid #e5e7eb;
+                    border-radius: 0.5rem;">
+          <label style="display: flex; align-items: center; gap: 0.5rem;
+                        font-size: 0.875rem; color: #374151; cursor: pointer;">
+            <input type="checkbox"
+                   :checked="model.copyright_protected == 1"
+                   @change="model.copyright_protected = $event.target.checked ? 1 : 0; markDirty()">
+            <span><strong>Copyright protected</strong> —
+              when checked, only admin can see this poet's works (default for
+              authors who died within the last 60 years).</span>
+          </label>
         </div>
 
         <div x-show="editing || model.biography" style="margin-top: 1.5rem;">
@@ -140,7 +175,7 @@ function poetDetailPage() {
         ...window.editablePage(
             poetData,
             `/api/poets/${poetId}`,
-            ['name', 'name_english', 'biography', 'era', 'birth_year', 'death_year']
+            ['name', 'name_english', 'biography', 'era', 'birth_year', 'death_year', 'copyright_protected']
         ),
         poems: {{ poems | tojson }},
         poemCount: {{ poem_count }},
