@@ -9,9 +9,10 @@ from typing import List
 
 from app.auth import require_admin
 from app.database import get_db
-from app.models import Poem
+from app.models import Poem, Poet
 from app.schemas.poem import PoemCreate, PoemUpdate, PoemResponse, PoemDetail
 from app.utils.search_text import build_search_text
+from app.utils.visibility import is_admin_dep, poem_visible_clause
 
 router = APIRouter()
 
@@ -23,23 +24,35 @@ _SEARCH_RELEVANT_FIELDS = {"title", "text", "bhavam", "prathipadartham"}
 async def get_poems(
     skip: int = Query(0, ge=0),
     limit: int = Query(10, ge=1, le=100),
+    poet_id: int = Query(None, description="Filter by poet ID"),
     db: AsyncSession = Depends(get_db),
+    is_admin: bool = Depends(is_admin_dep),
 ):
-    """Get all poems with pagination."""
-    result = await db.execute(select(Poem).offset(skip).limit(limit))
-    poems = result.scalars().all()
-    return poems
+    """Get poems with pagination. Guests only see PD-author poems."""
+    query = select(Poem)
+    if poet_id:
+        query = query.where(Poem.poet_id == poet_id)
+    if not is_admin:
+        query = query.where(poem_visible_clause(is_admin))
+    query = query.offset(skip).limit(limit)
+    result = await db.execute(query)
+    return result.scalars().all()
 
 
 @router.get("/{poem_id}", response_model=PoemDetail)
-async def get_poem(poem_id: int, db: AsyncSession = Depends(get_db)):
-    """Get a specific poem by ID."""
-    result = await db.execute(
-        select(Poem)
-        .where(Poem.id == poem_id)
-        .options(selectinload(Poem.poet), selectinload(Poem.meter))
+async def get_poem(
+    poem_id: int,
+    db: AsyncSession = Depends(get_db),
+    is_admin: bool = Depends(is_admin_dep),
+):
+    """Get a specific poem by ID. Returns 404 to guests if the poem's
+    poet is copyright-protected."""
+    query = select(Poem).where(Poem.id == poem_id).options(
+        selectinload(Poem.poet), selectinload(Poem.meter)
     )
-    poem = result.scalar_one_or_none()
+    if not is_admin:
+        query = query.where(poem_visible_clause(is_admin))
+    poem = (await db.execute(query)).scalar_one_or_none()
 
     if not poem:
         raise HTTPException(status_code=404, detail="Poem not found")

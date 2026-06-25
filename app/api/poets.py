@@ -10,6 +10,7 @@ from app.auth import require_admin
 from app.database import get_db
 from app.models import Poet, Poem
 from app.schemas.poet import PoetCreate, PoetUpdate, PoetResponse
+from app.utils.visibility import is_admin_dep, poet_visible_clause
 
 router = APIRouter()
 
@@ -20,8 +21,10 @@ async def get_poets(
     limit: int = Query(100, ge=1, le=100),
     search: Optional[str] = None,
     db: AsyncSession = Depends(get_db),
+    is_admin: bool = Depends(is_admin_dep),
 ):
-    """Get all poets with pagination, search, and poem counts."""
+    """Get poets with pagination, search, and poem counts. Guests only
+    see public-domain poets."""
     query = select(Poet)
 
     if search:
@@ -32,11 +35,13 @@ async def get_poets(
             )
         )
 
+    if not is_admin:
+        query = query.where(poet_visible_clause(is_admin))
+
     query = query.offset(skip).limit(limit)
     result = await db.execute(query)
     poets = result.scalars().all()
 
-    # Get poem counts for each poet
     poet_list = []
     for poet in poets:
         poem_count = await db.scalar(
@@ -50,17 +55,24 @@ async def get_poets(
             "era": poet.era,
             "birth_year": poet.birth_year,
             "death_year": poet.death_year,
-            "poem_count": poem_count or 0
+            "copyright_protected": poet.copyright_protected,
+            "poem_count": poem_count or 0,
         })
 
     return poet_list
 
 
 @router.get("/{poet_id}", response_model=PoetResponse)
-async def get_poet(poet_id: int, db: AsyncSession = Depends(get_db)):
-    """Get a specific poet by ID."""
-    result = await db.execute(select(Poet).where(Poet.id == poet_id))
-    poet = result.scalar_one_or_none()
+async def get_poet(
+    poet_id: int,
+    db: AsyncSession = Depends(get_db),
+    is_admin: bool = Depends(is_admin_dep),
+):
+    """Get a specific poet by ID. Returns 404 to guests for protected poets."""
+    query = select(Poet).where(Poet.id == poet_id)
+    if not is_admin:
+        query = query.where(poet_visible_clause(is_admin))
+    poet = (await db.execute(query)).scalar_one_or_none()
 
     if not poet:
         raise HTTPException(status_code=404, detail="Poet not found")
