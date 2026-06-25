@@ -4,7 +4,7 @@
 
 BEGIN TRANSACTION;
 
--- meters: 189 rows
+-- meters: 210 rows
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (1, 'ఆటవెలది', NULL, NULL, NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (3, 'Unknown', NULL, 'Meter not specified - requires classification', NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (5, 'సీసము', NULL, NULL, NULL, NULL);
@@ -194,8 +194,29 @@ INSERT INTO meters (id, name, name_english, description, gana_structure, example
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (220, 'తరల', NULL, NULL, NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (221, 'వృషభగతి రగడ', NULL, NULL, NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (222, 'కమలవిలసిత', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (223, 'ఉత్సాహ(సుగంధి)', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (224, 'వినుము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (225, 'భుజంగ', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (226, 'తోటక', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (227, 'ద', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (228, 'గణసమక దండకము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (229, 'ము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (230, 'అనులోమ విలోమ క', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (231, 'పాదభ్రమక క', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (232, 'గోమూత్రికా బంధ క', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (233, 'నాగ బంధ చ', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (234, 'ఛురికా బంధ క', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (235, 'చక్ర బంధ శా', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (236, 'ద్వ్యక్షరి క', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (237, 'భుజంగప్రయాతగర్భ స్రగ్విణి', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (238, 'మంజరి', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (239, 'విజయ మంగళము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (240, 'ప్రభువృత్తము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (241, 'మందారదామ', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (242, 'తాళ రగడ', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (243, 'కవిరాజ విరాజితము', NULL, NULL, NULL, NULL);
 
--- poets: 105 rows
+-- poets: 110 rows
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (1, 'వేమన', NULL, NULL, '1652', NULL, NULL);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (3, 'బద్దెన భూపాలుడు', 'Baddena Bhupaaludu', NULL, '1220 - 1280', 1220, 1280);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (4, 'దుర్భా సుబ్రహ్మణ్యశర్మ', NULL, NULL, '1931', NULL, NULL);
@@ -301,5 +322,10 @@ INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_yea
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (106, 'ఆతుకూరి మొల్ల', NULL, NULL, 'unknown', NULL, NULL);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (107, 'కంకంటి పాపరాజు', NULL, NULL, 'unknown', NULL, NULL);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (108, 'రాయప్రోలు సుబ్బారావు', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (109, 'అల్లసాని పెద్దన', NULL, NULL, 'unknown', NULL, NULL);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (110, 'చేమకూర వేంకటకవి', NULL, NULL, 'unknown', NULL, NULL);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (111, 'ముక్కు తిమ్మన', NULL, NULL, 'unknown', NULL, NULL);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (112, 'మధునాపంతుల సత్యనారాయణ శాస్త్రి', NULL, NULL, 'unknown', NULL, NULL);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year) VALUES (113, 'కట్టమంచి రామలింగారెడ్డి', NULL, NULL, 'unknown', NULL, NULL);
 
 COMMIT;
