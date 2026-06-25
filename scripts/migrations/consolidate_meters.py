@@ -104,6 +104,14 @@ _NAYIKA_NAMES: list[str] = [
 ]
 
 
+# Works whose JSON files don't carry author info (poet_id ends up as
+# `Unknown`). We reattribute every poem under each source to the named
+# poet, creating the poet row if it doesn't exist yet.
+_POET_ATTRIBUTIONS_BY_SOURCE: list[tuple[str, str]] = [
+    ("తృణకంకణము", "రాయప్రోలు సుబ్బారావు"),
+]
+
+
 def _row_id(cur: sqlite3.Cursor, table: str, name: str) -> int | None:
     r = cur.execute(f"SELECT id FROM {table} WHERE name = ?", (name,)).fetchone()
     return r[0] if r else None
@@ -207,6 +215,24 @@ def apply(db_path: str | Path) -> dict:
                 rows_dropped += 1
             else:
                 cur.execute("UPDATE poets SET name = ? WHERE id = ?", ("వేమన", old[0]))
+
+        # 6. Poet reattribution for works whose JSON files don't carry
+        #    author info. Creates the poet row if missing.
+        for source_name, poet_name in _POET_ATTRIBUTIONS_BY_SOURCE:
+            poet_row = cur.execute(
+                "SELECT id FROM poets WHERE name = ?", (poet_name,)
+            ).fetchone()
+            if poet_row is None:
+                cur.execute("INSERT INTO poets (name) VALUES (?)", (poet_name,))
+                poet_id = cur.lastrowid
+            else:
+                poet_id = poet_row[0]
+            cur.execute(
+                "UPDATE poems SET poet_id = ? "
+                "WHERE source = ? AND (poet_id IS NULL OR poet_id != ?)",
+                (poet_id, source_name, poet_id),
+            )
+            repointed += cur.rowcount
 
         con.commit()
     finally:
