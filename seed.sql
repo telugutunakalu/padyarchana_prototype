@@ -4,7 +4,7 @@
 
 BEGIN TRANSACTION;
 
--- meters: 210 rows
+-- meters: 215 rows
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (1, 'ఆటవెలది', NULL, NULL, NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (3, 'Unknown', NULL, 'Meter not specified - requires classification', NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (5, 'సీసము', NULL, NULL, NULL, NULL);
@@ -215,11 +215,16 @@ INSERT INTO meters (id, name, name_english, description, gana_structure, example
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (241, 'మందారదామ', NULL, NULL, NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (242, 'తాళ రగడ', NULL, NULL, NULL, NULL);
 INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (243, 'కవిరాజ విరాజితము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (244, 'మత్తేభము', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (245, 'కందం', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (246, 'మత్తేభవిక్రీడితం', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (247, 'శార్దూలవిక్రీడితం', NULL, NULL, NULL, NULL);
+INSERT INTO meters (id, name, name_english, description, gana_structure, example_pattern) VALUES (248, 'ఉత్కళిక', NULL, NULL, NULL, NULL);
 
--- poets: 139 rows
+-- poets: 201 rows
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (1, 'వేమన', NULL, NULL, 'క్రీ.శ 1652 – 1730 (సుమారు)', 1652, 1730, 0);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (3, 'బద్దెన భూపాలుడు', 'Baddena Bhupaaludu', NULL, 'క్రీ.శ 1220 – 1280', 1220, 1280, 0);
-INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (4, 'దుర్భా సుబ్రహ్మణ్యశర్మ', NULL, NULL, '1931', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (4, 'దుర్భా సుబ్రహ్మణ్యశర్మ', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (5, 'మేకా బాపన్న', NULL, NULL, 'క్రీ.శ 19వ శతాబ్దం', NULL, NULL, 0);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (6, 'దాసరి అంజదాసు', NULL, NULL, '1932', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (7, 'Unknown', NULL, NULL, NULL, NULL, NULL, 1);
@@ -254,7 +259,7 @@ INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_yea
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (36, 'సుబ్రహ్మణ్య భాగవతులు', NULL, NULL, NULL, NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (38, 'ఫక్కి అప్పల నరసింహ', NULL, NULL, 'క్రీ.శ 1860 (జన్మ) – 20వ శతాబ్దం ప్రారంభం', 1860, NULL, 0);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (39, 'బక్కికులుఁడు వేంకట నరసింహకవీంద్రుఁడు', NULL, NULL, NULL, NULL, NULL, 1);
-INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (40, 'రాళ్ళబండి రాజయ్య కవి', NULL, NULL, '1938', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (40, 'రాళ్ళబండి రాజయ్య కవి', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (41, 'పరవస్తు మునినాథకవి', NULL, NULL, NULL, NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (42, 'పోలిపెద్ది వేంకటరాయకవి', NULL, NULL, NULL, NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (44, 'విశ్వనాధ సత్యనారాయణ', NULL, NULL, 'క్రీ.శ 1895 – 1976', 1895, 1976, 1);
@@ -274,7 +279,7 @@ INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_yea
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (58, 'పరమానంద యతీంద్రుడు', NULL, NULL, NULL, NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (59, 'శ్రీమతి కల్లూరి విశాలాక్షమ్మ', NULL, NULL, NULL, NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (60, 'పరశురామ నృసింహదాసు', NULL, NULL, NULL, NULL, NULL, 1);
-INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (61, 'మంచిరాజు సీతమాంబ', NULL, NULL, '1934', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (61, 'మంచిరాజు సీతమాంబ', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (62, 'తిరుమడ్యం దిగవింటి నారాయణదాసు', NULL, NULL, NULL, NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (63, 'మయూరుడు', NULL, NULL, 'క్రీ.శ 7వ శతాబ్దం (సంస్కృత కవి)', NULL, NULL, 0);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (64, 'దాసు రాముఁడు', NULL, NULL, NULL, NULL, NULL, 1);
@@ -304,7 +309,7 @@ INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_yea
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (89, 'సురభి మాధవ రాయలు', NULL, NULL, '1982', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (90, 'కృష్ణమాచార్యుఁడు', NULL, NULL, '1950', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (91, 'గోపీనాథము వేంకటకవి', NULL, NULL, 'క్రీ.శ 1820 – 1892', 1820, 1892, 0);
-INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (92, 'గణపవరపు వెంకటకవి', NULL, NULL, '1977', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (92, 'గణపవరపు వెంకటకవి', NULL, NULL, 'క్రీ.శ 17వ – 18వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (93, 'ముద్దుపళని', NULL, NULL, 'క్రీ.శ 1730 – 1790', 1730, 1790, 0);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (94, 'శ్రీనాథుడు', NULL, NULL, 'క్రీ.శ 1365 – 1441', 1365, 1441, 0);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (95, 'తాళ్ళపాక తిరువేంగళప్ప', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 0);
@@ -349,12 +354,74 @@ INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_yea
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (134, 'నన్నెచోడుడు', NULL, NULL, 'క్రీ.శ 12వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (135, 'నెల్లూరి శివరామకవి', NULL, NULL, '1901', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (136, 'పరశురామపంతుల లింగమూర్తి', NULL, NULL, '1920', NULL, NULL, 1);
-INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (137, 'మతుకుమల్లి నృసింహకవి', NULL, NULL, '1920', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (137, 'మతుకుమల్లి నృసింహకవి', NULL, NULL, 'క్రీ.శ 19వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (138, 'ఆదిపూడి సోమనాథరావు', NULL, NULL, 'క్రీ.శ 1880 – 1953', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (139, 'జంధ్యాల పాపయ్య శాస్త్రి', NULL, NULL, 'క్రీ.శ 1912 – 1992', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (140, 'తిరుపతి వేంకట కవులు', NULL, NULL, 'క్రీ.శ 19 – 20వ శతాబ్దం', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (141, 'సవరము చిననారాయణ నాయకుడు', NULL, NULL, '1903', NULL, NULL, 1);
 INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (142, 'అయ్యలరాజు రామభద్రుడు', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
-INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (143, 'చివుకుల అప్పయ్య శాస్త్రి', NULL, NULL, '1914', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (143, 'చివుకుల అప్పయ్య శాస్త్రి', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (144, 'కందుకూరి వీరేశలింగం', NULL, NULL, 'క్రీ.శ 19వ – 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (145, 'కోగంటి దుర్గామల్లికార్జునరావు', NULL, NULL, 'unknown', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (146, 'కస్తూరి రంగయ', NULL, NULL, 'క్రీ.శ 18వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (147, 'కనుపర్తి అబ్బయ', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (148, 'unknown', NULL, NULL, '1924', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (149, 'కూచిమంచి జగ్గకవి', NULL, NULL, 'క్రీ.శ 18వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (150, 'వేటూరి ప్రభాకరశాస్త్రి', NULL, NULL, 'క్రీ.శ 19వ – 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (151, 'దీపాల పిచ్చయ్య శాస్త్రి', NULL, NULL, 'క్రీ.శ 19వ – 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (152, 'కూచిమంచి సోమసుందరుఁడు', NULL, NULL, 'క్రీ.శ 18వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (153, 'బైచరాజు వేంకటనాథుఁడు', NULL, NULL, 'క్రీ.శ 15వ – 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (154, 'ప్రౌఢకవి మల్లన', NULL, NULL, 'క్రీ.శ 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (155, 'కేతన', NULL, NULL, 'క్రీ.శ 13వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (156, 'కోటి వేంకనార్యుడు', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (157, 'జక్కరాజు వేంకటకవి', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (158, 'వెన్నలకంటి సూరన్న', NULL, NULL, 'క్రీ.శ 14వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (159, 'శ్రీకృష్ణదేవరాయలు', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (160, 'జానపాటి పట్టాభిరామ శాస్త్రి', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (161, 'తరికొండ వెంకమాంబ', NULL, NULL, 'క్రీ.శ 18వ – 19వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (162, 'మనుమంచిభట్టు', NULL, NULL, 'క్రీ.శ 14వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (163, 'చరికొండ ధర్మన', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (164, 'ధరణీదేవుల రామయమంత్రి', NULL, NULL, 'క్రీ.శ 16వ – 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (165, 'మూలఘటిక కేతన', NULL, NULL, 'క్రీ.శ 13వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (166, 'మరింగంటి సింగరాచార్యులు', NULL, NULL, '1969', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (167, 'నూతనకవి సూరన', NULL, NULL, 'క్రీ.శ 15వ – 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (168, 'జగన్నాథ పండితరాయలు', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (169, 'కాసుల పురుషోత్తమ కవి', NULL, NULL, 'క్రీ.శ 18వ – 19వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (170, 'అయ్యలరాజు నారాయణామాత్య', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (171, 'పిల్లలమర్రి పినవీరభద్రుడు', NULL, NULL, 'క్రీ.శ 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (172, 'పింగళి సూరన', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (173, 'భోగరాజు నారాయణమూర్తి', NULL, NULL, '1930', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (174, 'వినుకొండ వల్లభరాయడు', NULL, NULL, 'క్రీ.శ 14వ – 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (175, 'మోహనాంగి', NULL, NULL, '1989', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (176, 'పసపులేటి రంగాజమ్మ', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (177, 'నాళము కృష్ణారావు', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (178, 'కాణాదం పెద్దన సోమయాజి', NULL, NULL, '1985', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (179, 'అల్లాడు నరసింహకవి', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (180, 'గౌరన', NULL, NULL, 'క్రీ.శ 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (181, 'పెదపాటి జగ్గన్న', NULL, NULL, '1992', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (182, 'అజ్ఞాతం', NULL, NULL, '1969', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (183, 'చింతలపూడి యెల్లన', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (184, 'వెలిదిండ్ల వేంకటపతి', NULL, NULL, '1949', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (185, 'చెంగల్వ కాళయ', NULL, NULL, '1951', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (186, 'కొక్కోకుడు', NULL, NULL, '1951', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (187, 'పోకూరి కాశీపతి', NULL, NULL, '1990', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (188, 'ఎఱ్ఱయ', NULL, NULL, '1951', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (189, 'పుష్పగిరి తిమ్మన', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (190, 'తాళ్ళపాక అన్నమాచార్య', NULL, NULL, 'క్రీ.శ 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (191, 'లింగనమఖి శ్రీకామేశ్వరకవి', NULL, NULL, 'క్రీ.శ 17వ – 18వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (192, 'జయంతి రామయ్యపంతులు', NULL, NULL, 'క్రీ.శ 19వ – 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (193, 'అడివి బాపిరాజు', NULL, NULL, 'క్రీ.శ 20వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (194, 'రత్నాకరం అప్పప్ప కవి', NULL, NULL, '1954', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (195, 'వెన్నెలకంటి అన్నయ్య', NULL, NULL, 'క్రీ.శ 15వ – 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (196, 'కొప్పరాజు నరసింహకవి', NULL, NULL, '1959', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (197, 'భైరవకవి', NULL, NULL, 'క్రీ.శ 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (198, 'పెదపాటి(ఎడపాటి) ఎఱ్ఱన', NULL, NULL, 'క్రీ.శ 16వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (199, 'రఘునాథ నాయకుడు', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (200, 'పాలవేకరి కదిరీపతి', NULL, NULL, 'క్రీ.శ 17వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (201, 'కొరవి గోపరాజు', NULL, NULL, 'క్రీ.శ 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (202, 'కూచిమంచి వేంకటరాయ', NULL, NULL, 'క్రీ.శ 18వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (203, 'నాచన సోమన', NULL, NULL, 'క్రీ.శ 14వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (204, 'జక్కన', NULL, NULL, 'క్రీ.శ 14వ – 15వ శతాబ్దం', NULL, NULL, 1);
+INSERT INTO poets (id, name, name_english, biography, era, birth_year, death_year, copyright_protected) VALUES (205, 'కలిదిండి భావనారాయణ', NULL, NULL, 'unknown', NULL, NULL, 1);
 
 COMMIT;

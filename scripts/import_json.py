@@ -56,11 +56,13 @@ async def create_or_get_meter(db: AsyncSession, meter_name: str, description: st
 
 
 async def check_poem_exists(db: AsyncSession, poem_text: str, poet_id: int) -> bool:
-    """Check if a poem with the same text and poet already exists."""
+    """Check if a poem with the same text and poet already exists. Uses LIMIT 1
+    (not scalar_one_or_none) so pre-existing duplicate rows under the same poet
+    don't raise MultipleResultsFound."""
     result = await db.execute(
-        select(Poem).where(Poem.text == poem_text, Poem.poet_id == poet_id)
+        select(Poem.id).where(Poem.text == poem_text, Poem.poet_id == poet_id).limit(1)
     )
-    return result.scalar_one_or_none() is not None
+    return result.first() is not None
 
 
 async def import_poems_from_json(

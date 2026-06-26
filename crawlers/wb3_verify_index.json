@@ -1,0 +1,1369 @@
+[
+ {
+  "json": "crawlers/wikibook3_json/aamdhrabhaashaabhuushanamu_ketana.json",
+  "title": "ఆంధ్రభాషాభూషణము/ఏకాశ్వాసము",
+  "author": "కేతన",
+  "year": "1949",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 173,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "తేటగీతి",
+   "శార్దూలవిక్రీడితము",
+   "సీసము"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఆంధ్రభాషాభూషణము/ఏకాశ్వాసము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/aamdhrabhaashaarnavamu_vemkanaaryudu.json",
+  "title": "ఆంధ్రభాషార్ణవము",
+  "author": "కోటి వేంకనార్యుడు",
+  "year": "1931",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 588,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఆంధ్రభాషార్ణవము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/aamdhrakaamamdakamu_vemkatakavi.json",
+  "title": "ఆంధ్రకామందకము",
+  "author": "జక్కరాజు వేంకటకవి",
+  "year": "1950",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 912,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఆంధ్రకామందకము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/aamdhrashriivishnupuraanamu_suuranna.json",
+  "title": "ఆంధ్ర శ్రీవిష్ణుపురాణము",
+  "author": "వెన్నలకంటి సూరన్న",
+  "year": "1928",
+  "form": "పురాణము",
+  "flag": null,
+  "n": 2816,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "చంపకమాల",
+   "తరలము"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఆంధ్ర శ్రీవిష్ణుపురాణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/aamuktamaalyada_shriikrushnadevaraayalu.json",
+  "title": "ఆముక్తమాల్యద",
+  "author": "శ్రీకృష్ణదేవరాయలు",
+  "year": "1966",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 839,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఆముక్తమాల్యద"
+ },
+ {
+  "json": "crawlers/wikibook3_json/aarogyabhaaskaramu_shaastri.json",
+  "title": "ఆరోగ్య భాస్కరము",
+  "author": "జానపాటి పట్టాభిరామ శాస్త్రి",
+  "year": "1935",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 97,
+  "meters": [
+   "unknown"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఆరోగ్య భాస్కరము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/anubhavasaaramu_somanaathudu.json",
+  "title": "అనుభవసారము/అనుభవసారము",
+  "author": "పాల్కురికి సోమనాథుడు",
+  "year": "1955",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 227,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "మహాస్రగ్ధర"
+  ],
+  "source": "https://te.wikisource.org/wiki/అనుభవసారము/అనుభవసారము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/ashtaamgayogasaaramu_vemkamaamba.json",
+  "title": "అష్టాంగయోగసారము/పాఠం",
+  "author": "తరికొండ వెంకమాంబ",
+  "year": "1955",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 77,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "వచనము"
+  ],
+  "source": "https://te.wikisource.org/wiki/అష్టాంగయోగసారము/పాఠం"
+ },
+ {
+  "json": "crawlers/wikibook3_json/ashvalakshanasaaramu_manumamchibhattu.json",
+  "title": "అశ్వలక్షణసారము",
+  "author": "మనుమంచిభట్టు",
+  "year": "1929",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 245,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/అశ్వలక్షణసారము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/bhiimeshvarapuraanamu_shriinaathudu.json",
+  "title": "భీమేశ్వరపురాణము",
+  "author": "శ్రీనాథుడు",
+  "year": "1929",
+  "form": "పురాణము",
+  "flag": null,
+  "n": 863,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/భీమేశ్వరపురాణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/bhojaraajiiyamu_anamtaamaatyudu.json",
+  "title": "భోజరాజీయము",
+  "author": "అనంతామాత్యుడు",
+  "year": "1969",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1140,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "భుజంగప్రయాతము"
+  ],
+  "source": "https://te.wikisource.org/wiki/భోజరాజీయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/chaturvedasaaramu_somanaathudu.json",
+  "title": "చతుర్వేదసారము",
+  "author": "మడికి సింగన",
+  "year": "unknown",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 299,
+  "meters": [
+   "సీసము"
+  ],
+  "source": "https://te.wikisource.org/wiki/చతుర్వేదసారము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/chitrabhaaratamu_dharmana.json",
+  "title": "చిత్రభారతము",
+  "author": "చరికొండ ధర్మన",
+  "year": "1934",
+  "form": "ఇతిహాసకావ్యము",
+  "flag": null,
+  "n": 1105,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "తోటకము"
+  ],
+  "source": "https://te.wikisource.org/wiki/చిత్రభారతము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/dashaavataaracharitramu_raamayamamtri.json",
+  "title": "దశావతారచరిత్రము",
+  "author": "ధరణీదేవుల రామయమంత్రి",
+  "year": "1926",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 2482,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గద్యము"
+  ],
+  "source": "https://te.wikisource.org/wiki/దశావతారచరిత్రము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/dashakumaaracharitramu_ketana.json",
+  "title": "దశకుమారచరిత్రము",
+  "author": "మూలఘటిక కేతన",
+  "year": "1925",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1427,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/దశకుమారచరిత్రము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/dasharatharaajanamdanacharitra_simgaraachaaryulu.json",
+  "title": "దశరథరాజనందనచరిత్ర",
+  "author": "మరింగంటి సింగరాచార్యులు",
+  "year": "1969",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 875,
+  "meters": [
+   "unknown",
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము"
+  ],
+  "source": "https://te.wikisource.org/wiki/దశరథరాజనందనచరిత్ర"
+ },
+ {
+  "json": "crawlers/wikibook3_json/dhanaabhiraamamu_suurana.json",
+  "title": "ధనాభిరామము",
+  "author": "నూతనకవి సూరన",
+  "year": "1950",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 305,
+  "meters": [
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ధనాభిరామము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/gamgaalahari_pamditaraayalu.json",
+  "title": "గంగాలహరి",
+  "author": "జగన్నాథ పండితరాయలు",
+  "year": "1937",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 32,
+  "meters": [
+   "ఉత్పలమాల",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "శార్దూలవిక్రీడితము",
+   "శ్లోకము"
+  ],
+  "source": "https://te.wikisource.org/wiki/గంగాలహరి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/hamsaladiivigopaalashatakamu_kavi.json",
+  "title": "హంసలదీవి గోపాలశతకము",
+  "author": "కాసుల పురుషోత్తమ కవి",
+  "year": "1925",
+  "form": "శతకము",
+  "flag": null,
+  "n": 100,
+  "meters": [
+   "తేటగీతి",
+   "సీసము"
+  ],
+  "source": "https://te.wikisource.org/wiki/హంసలదీవి గోపాలశతకము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/hamsavimshati_naaraayanaamaatya.json",
+  "title": "హంసవింశతి",
+  "author": "అయ్యలరాజు నారాయణామాత్య",
+  "year": "1977",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1244,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/హంసవింశతి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/jaiminiibhaaratamu_pinaviirabhadrudu.json",
+  "title": "జైమినీభారతము",
+  "author": "పిల్లలమర్రి పినవీరభద్రుడు",
+  "year": "1940",
+  "form": "ఇతిహాసకావ్యము",
+  "flag": null,
+  "n": 1424,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/జైమినీభారతము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/kalaapuurnodayamu_suurana.json",
+  "title": "కళాపూర్ణోదయము (1943)",
+  "author": "పింగళి సూరన",
+  "year": "1943",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1393,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/కళాపూర్ణోదయము (1943)"
+ },
+ {
+  "json": "crawlers/wikibook3_json/kamkanamu_naaraayanamuurti.json",
+  "title": "కంకణము",
+  "author": "భోగరాజు నారాయణమూర్తి",
+  "year": "1930",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 115,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/కంకణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/kaviraajamanoramjanamu_abbaya.json",
+  "title": "కవిరాజమనోరంజనము",
+  "author": "కనుపర్తి అబ్బయ",
+  "year": "1929",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 955,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గద్యము",
+   "గీతము"
+  ],
+  "source": "https://te.wikisource.org/wiki/కవిరాజమనోరంజనము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/kriidaabhiraamamu_vallabharaayadu.json",
+  "title": "క్రీడాభిరామము (ఎమెస్కో)",
+  "author": "వినుకొండ వల్లభరాయడు",
+  "year": "1972",
+  "form": "ప్రబంధము",
+  "flag": "OCR-sourced",
+  "n": 386,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/క్రీడాభిరామము (ఎమెస్కో)"
+ },
+ {
+  "json": "crawlers/wikibook3_json/maariichiiparinayamu_mohanaamgi.json",
+  "title": "మారీచీపరిణయము/ఉపలబ్ధగ్రంథము",
+  "author": "మోహనాంగి",
+  "year": "1989",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 102,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/మారీచీపరిణయము/ఉపలబ్ధగ్రంథము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/mannaarudaasavilaasamu_ramgaajamma.json",
+  "title": "మన్నారుదాసవిలాసము",
+  "author": "పసపులేటి రంగాజమ్మ",
+  "year": "1962",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 407,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గద్యము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/మన్నారుదాసవిలాసము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/miigadatarakalu_krushnaaraavu.json",
+  "title": "మీఁగడతరకలు",
+  "author": "నాళము కృష్ణారావు",
+  "year": "1935",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 39,
+  "meters": [
+   "unknown"
+  ],
+  "source": "https://te.wikisource.org/wiki/మీఁగడతరకలు"
+ },
+ {
+  "json": "crawlers/wikibook3_json/mukumdavilaasamu_somayaaji.json",
+  "title": "ముకుందవిలాసము",
+  "author": "కాణాదం పెద్దన సోమయాజి",
+  "year": "1985",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 430,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల",
+   "తోటకము"
+  ],
+  "source": "https://te.wikisource.org/wiki/ముకుందవిలాసము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/naaradiiyapuraanamu_narasimhakavi.json",
+  "title": "నారదీయపురాణము",
+  "author": "అల్లాడు నరసింహకవి",
+  "year": "1976",
+  "form": "పురాణము",
+  "flag": null,
+  "n": 2066,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/నారదీయపురాణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/navanaathacharitra_gaurana.json",
+  "title": "నవనాథచరిత్ర",
+  "author": "గౌరన",
+  "year": "}}",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 4270,
+  "meters": [
+   "ద్విపద"
+  ],
+  "source": "https://te.wikisource.org/wiki/నవనాథచరిత్ర"
+ },
+ {
+  "json": "crawlers/wikibook3_json/niilaasumdariiparinayamu_timmana.json",
+  "title": "నీలాసుందరీపరిణయము",
+  "author": "కూచిమంచి తిమ్మన",
+  "year": "1939",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 315,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/నీలాసుందరీపరిణయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/paamduramgamaahaatmyamu.json",
+  "title": "పాండురంగమాహాత్మ్యము",
+  "author": "unknown",
+  "year": "unknown",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1513,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/పాండురంగమాహాత్మ్యము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/prabamdharatnaakaramu_jagganna.json",
+  "title": "ప్రబంధరత్నాకరము",
+  "author": "పెదపాటి జగ్గన్న",
+  "year": "1992",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1107,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/ప్రబంధరత్నాకరము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/prabamdharatnaavali.json",
+  "title": "ప్రబంధ రత్నావళి",
+  "author": "unknown",
+  "year": "1976",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 631,
+  "meters": [
+   "unknown",
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ప్రబంధ రత్నావళి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/prabamdhasaarashiromani.json",
+  "title": "ప్రబంధసారశిరోమణి(1985)/ప్రబంధసారశిరోమణి",
+  "author": "unknown",
+  "year": "1985",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 779,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ప్రబంధసారశిరోమణి(1985)/ప్రబంధసారశిరోమణి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/prabamdhasaarashiromani_ajnaatam.json",
+  "title": "ప్రబంధసారశిరోమణి (1969)",
+  "author": "అజ్ఞాతం",
+  "year": "1969",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 779,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ప్రబంధసారశిరోమణి (1969)"
+ },
+ {
+  "json": "crawlers/wikibook3_json/prabodhachamdrodayamu_simgaya.json",
+  "title": "ప్రబోధచంద్రోదయము",
+  "author": "నంది మల్లయ, ఘంట సింగయ",
+  "year": "1976",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 405,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గద్యము",
+   "గీతము"
+  ],
+  "source": "https://te.wikisource.org/wiki/ప్రబోధచంద్రోదయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raadhaamaadhavamu_yellana.json",
+  "title": "రాధామాధవము",
+  "author": "చింతలపూడి యెల్లన",
+  "year": "1936",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1098,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాధామాధవము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raadhaamaadhavasamvaadamu_vemkatapati.json",
+  "title": "రాధామాధవసంవాదము",
+  "author": "వెలిదిండ్ల వేంకటపతి",
+  "year": "1949",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 397,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాధామాధవసంవాదము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raadhikaasaamtvanamu_naayakudu.json",
+  "title": "రాధికాసాంత్వనము (సముఖము)/రాధికాసాంత్వనము",
+  "author": "సముఖము వేంకట కృష్ణప్ప నాయకుడు",
+  "year": "1953",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 100,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మాలిని",
+   "వచనము"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాధికాసాంత్వనము (సముఖము)/రాధికాసాంత్వనము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raaghavapaamdaviiyamu_suurana.json",
+  "title": "రాఘవపాండవీయము",
+  "author": "పింగళి సూరన",
+  "year": "1940",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 473,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాఘవపాండవీయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raajagopaalavilaasamu_kaalaya.json",
+  "title": "రాజగోపాలవిలాసము",
+  "author": "చెంగల్వ కాళయ",
+  "year": "1951",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 440,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గద్యము",
+   "గీతము"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాజగోపాలవిలాసము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raajavaahanavijayamu_muurti.json",
+  "title": "రాజవాహనవిజయము",
+  "author": "కాకమాని మూర్తి",
+  "year": "1937",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 565,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాజవాహనవిజయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/raajayogasaaramu_vemgamaamba.json",
+  "title": "రాజయోగసారము",
+  "author": "తరిగొండ వెంగమాంబ",
+  "year": "1950",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 807,
+  "meters": [
+   "ద్విపద"
+  ],
+  "source": "https://te.wikisource.org/wiki/రాజయోగసారము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/rasaabharanamu_anamtaamaatyudu.json",
+  "title": "రసాభరణము",
+  "author": "అనంతామాత్యుడు",
+  "year": "1931",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 321,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "వచనము"
+  ],
+  "source": "https://te.wikisource.org/wiki/రసాభరణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/ratirahasyamu_kokkokudu.json",
+  "title": "రతిరహస్యము",
+  "author": "కొక్కోకుడు",
+  "year": "1951",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1017,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/రతిరహస్యము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/saaramgadhariiyamu_kaashiipati.json",
+  "title": "సారంగధరీయము",
+  "author": "పోకూరి కాశీపతి",
+  "year": "1990",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 613,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గీతము"
+  ],
+  "source": "https://te.wikisource.org/wiki/సారంగధరీయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/sakalaniitikathaanidhaanamu_erraya.json",
+  "title": "సకలనీతికథానిధానము",
+  "author": "ఎఱ్ఱయ",
+  "year": "1951",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1129,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గద్యము"
+  ],
+  "source": "https://te.wikisource.org/wiki/సకలనీతికథానిధానము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/sakalaniitisammatamu_simgana.json",
+  "title": "సకలనీతిసమ్మతము",
+  "author": "మడికి సింగన",
+  "year": "1979",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 967,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/సకలనీతిసమ్మతము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/samiirakumaaravijayamu_timmana.json",
+  "title": "సమీరకుమారవిజయము",
+  "author": "పుష్పగిరి తిమ్మన",
+  "year": "1929",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1534,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "కవిరాజవిరాజితము",
+   "గద్యము"
+  ],
+  "source": "https://te.wikisource.org/wiki/సమీరకుమారవిజయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/samkiirtanalakshanamu_annamaachaarya.json",
+  "title": "సంకీర్తన లక్షణము",
+  "author": "తాళ్ళపాక అన్నమాచార్య",
+  "year": "1935",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 71,
+  "meters": [
+   "కందము",
+   "గీతము",
+   "వచనము",
+   "వృత్తము",
+   "సీసము"
+  ],
+  "source": "https://te.wikisource.org/wiki/సంకీర్తన లక్షణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/satyabhaamaasaamtvanamu_shriikaameshvarakavi.json",
+  "title": "సత్యభామాసాంత్వనము",
+  "author": "లింగనమఖి శ్రీకామేశ్వరకవి",
+  "year": "1937",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 608,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/సత్యభామాసాంత్వనము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/saugamdhikaprasavaapaharanamu_gopaalaraaju.json",
+  "title": "సౌగంధికప్రసవాపహరణము",
+  "author": "రత్నాకరము గోపాలరాజు",
+  "year": "1949",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 6953,
+  "meters": [
+   "ద్విపద"
+  ],
+  "source": "https://te.wikisource.org/wiki/సౌగంధికప్రసవాపహరణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shaasanapadyamamjari_raamayyapamtulu.json",
+  "title": "శాసనపద్యమంజరి (మొదటిభాగం)",
+  "author": "జయంతి రామయ్యపంతులు",
+  "year": "1930",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 265,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "వచనము"
+  ],
+  "source": "https://te.wikisource.org/wiki/శాసనపద్యమంజరి (మొదటిభాగం)"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shaasanapadyamamjari_raamayyapamtulu_2.json",
+  "title": "శాసనపద్యమంజరి (రెండవభాగము)/శాసనపద్యమంజరి (రెండవభాగము)",
+  "author": "జయంతి రామయ్యపంతులు",
+  "year": "1937",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 86,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "వచనము"
+  ],
+  "source": "https://te.wikisource.org/wiki/శాసనపద్యమంజరి (రెండవభాగము)/శాసనపద్యమంజరి (రెండవభాగము)"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shashikala_baapiraaju.json",
+  "title": "శశికళ",
+  "author": "అడివి బాపిరాజు",
+  "year": "1954",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 827,
+  "meters": [
+   "ఉత్కళిక"
+  ],
+  "source": "https://te.wikisource.org/wiki/శశికళ"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shashirekhaaparinayamu_kavi.json",
+  "title": "శశిరేఖాపరిణయము",
+  "author": "రత్నాకరం అప్పప్ప కవి",
+  "year": "1954",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 776,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "చంపకమాల",
+   "తరలము",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/శశిరేఖాపరిణయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shishupaalavadha_vemkatakavi.json",
+  "title": "శిశుపాలవధ",
+  "author": "గోపీనాథము వేంకటకవి",
+  "year": "1975",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1289,
+  "meters": [
+   "unknown",
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/శిశుపాలవధ"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shodashakumaaracharitramu_annayya.json",
+  "title": "షోడశకుమారచరిత్రము",
+  "author": "వెన్నెలకంటి అన్నయ్య",
+  "year": "1934",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 590,
+  "meters": [
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/షోడశకుమారచరిత్రము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shriimaduttararaamaayanamu.json",
+  "title": "శ్రీమదుత్తరరామాయణము",
+  "author": "unknown",
+  "year": "unknown",
+  "form": "ఇతిహాసకావ్యము",
+  "flag": null,
+  "n": 724,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "పంచచామరము"
+  ],
+  "source": "https://te.wikisource.org/wiki/శ్రీమదుత్తరరామాయణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shriimattrikuutaachalamaahaatmyamu_narasimhakavi.json",
+  "title": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
+  "author": "కొప్పరాజు నరసింహకవి",
+  "year": "1959",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 359,
+  "meters": [
+   "unknown"
+  ],
+  "source": "https://te.wikisource.org/wiki/శ్రీమత్త్రికూటాచలమాహాత్మ్యము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shriinivaasavilaasasevadhi_vemkataarya.json",
+  "title": "శ్రీనివాసవిలాససేవధి",
+  "author": "శ్రేష్ఠలూరి వేంకటార్య",
+  "year": "1954",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 8827,
+  "meters": [
+   "ద్విపద"
+  ],
+  "source": "https://te.wikisource.org/wiki/శ్రీనివాసవిలాససేవధి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shriiramgamahattvamu_bhairavakavi.json",
+  "title": "శ్రీరంగమహత్త్వము",
+  "author": "భైరవకవి",
+  "year": "1979",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1278,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/శ్రీరంగమహత్త్వము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shriivemkateshvarastutiratnamaala_kavulu.json",
+  "title": "శ్రీ వేంకటేశ్వర స్తుతి రత్నమాల",
+  "author": "పూర్వ కవులు",
+  "year": "1958",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 12,
+  "meters": [
+   "unknown"
+  ],
+  "source": "https://te.wikisource.org/wiki/శ్రీ వేంకటేశ్వర స్తుతి రత్నమాల"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shrumgaaramalhanacharitra_errana.json",
+  "title": "శృంగార మల్హణచరిత్ర",
+  "author": "పెదపాటి(ఎడపాటి) ఎఱ్ఱన",
+  "year": "1927",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 383,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము",
+   "మాలిని"
+  ],
+  "source": "https://te.wikisource.org/wiki/శృంగార మల్హణచరిత్ర"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shrumgaaranaishadhamu.json",
+  "title": "శృంగారనైషధము",
+  "author": "unknown",
+  "year": "unknown",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1123,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/శృంగారనైషధము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shrumgaarasaavitri_naayakudu.json",
+  "title": "శృంగార సావిత్రి",
+  "author": "రఘునాథ నాయకుడు",
+  "year": "1928",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 335,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తకోకిల",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/శృంగార సావిత్రి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shrumgaarashaakumtalamu_pinaviirabhadrudu_2.json",
+  "title": "శృంగారశాకుంతలము (ఎమెస్కో)",
+  "author": "పిల్లలమర్రి పినవీరభద్రుడు",
+  "year": "1971",
+  "form": "ప్రబంధము",
+  "flag": "OCR-sourced",
+  "n": 33,
+  "meters": [
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "మత్తేభవిక్రీడితము",
+   "వచనము",
+   "శార్దూలవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/శృంగారశాకుంతలము (ఎమెస్కో)"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shuddhaamdhraniroshthyasiitaakalyaanamu_simgaraachaaryulu.json",
+  "title": "శుద్ధాంధ్రనిరోష్ఠ్యసీతాకల్యాణము",
+  "author": "మరింగంటి సింగరాచార్యులు",
+  "year": "1969",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 55,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/శుద్ధాంధ్రనిరోష్ఠ్యసీతాకల్యాణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/shukasaptati_kadiriipati.json",
+  "title": "శుకసప్తతి",
+  "author": "పాలవేకరి కదిరీపతి",
+  "year": "1951",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 2035,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/శుకసప్తతి"
+ },
+ {
+  "json": "crawlers/wikibook3_json/simhaasanadvaatrimshika_goparaaju.json",
+  "title": "సింహాసనద్వాత్రింశిక",
+  "author": "కొరవి గోపరాజు",
+  "year": "1977",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 2132,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/సింహాసనద్వాత్రింశిక"
+ },
+ {
+  "json": "crawlers/wikibook3_json/sukavimanoramjanamu_vemkataraaya.json",
+  "title": "సుకవి మనోరంజనము",
+  "author": "కూచిమంచి వేంకటరాయ",
+  "year": "1976",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1120,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "ద్విపద"
+  ],
+  "source": "https://te.wikisource.org/wiki/సుకవి మనోరంజనము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/tenaaliraamakrushnakavicharitramu.json",
+  "title": "తెనాలి రామకృష్ణకవి చరిత్రము",
+  "author": "unknown",
+  "year": "1954",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 69,
+  "meters": [
+   "unknown",
+   "ఉత్పలమాల",
+   "కందము",
+   "చంపకమాల",
+   "తేటగీతి",
+   "మత్తేభవిక్రీడితము"
+  ],
+  "source": "https://te.wikisource.org/wiki/తెనాలి రామకృష్ణకవి చరిత్రము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/ushaaparinayamu.json",
+  "title": "ఉషాపరిణయము",
+  "author": "unknown",
+  "year": "unknown",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 417,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఉషాపరిణయము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/uttaraharivamshamu_somana.json",
+  "title": "ఉత్తరహరివంశము",
+  "author": "నాచన సోమన",
+  "year": "1979",
+  "form": "ఇతిహాసకావ్యము",
+  "flag": null,
+  "n": 1245,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గీతము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/ఉత్తరహరివంశము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/vaasishtharaamaayanamu_simgana.json",
+  "title": "వాసిష్ఠరామాయణము",
+  "author": "మడికి సింగన",
+  "year": "1935",
+  "form": "ఇతిహాసకావ్యము",
+  "flag": null,
+  "n": 1103,
+  "meters": [
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గద్యము",
+   "గీతము",
+   "చంపకమాల"
+  ],
+  "source": "https://te.wikisource.org/wiki/వాసిష్ఠరామాయణము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/vikramaarkacharitramu_jakkana.json",
+  "title": "విక్రమార్కచరిత్రము",
+  "author": "జక్కన",
+  "year": "1967",
+  "form": "ప్రబంధము",
+  "flag": null,
+  "n": 1214,
+  "meters": [
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "కందము",
+   "గద్యము",
+   "చంపకమాల",
+   "తేటగీతి"
+  ],
+  "source": "https://te.wikisource.org/wiki/విక్రమార్కచరిత్రము"
+ },
+ {
+  "json": "crawlers/wikibook3_json/vishnupuraanamu.json",
+  "title": "విష్ణుపురాణము (కలిదిండి భావనారాయణ)",
+  "author": "unknown",
+  "year": "unknown",
+  "form": "పురాణము",
+  "flag": null,
+  "n": 1632,
+  "meters": [
+   "unknown",
+   "ఆటవెలది",
+   "ఉత్పలమాల",
+   "ఉత్సాహము",
+   "కందము",
+   "గద్యము"
+  ],
+  "source": "https://te.wikisource.org/wiki/విష్ణుపురాణము (కలిదిండి భావనారాయణ)"
+ }
+]
