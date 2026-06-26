@@ -1,0 +1,256 @@
+[
+ {
+  "work": "అనిరుద్ధచరిత్రము",
+  "author": "కనుపర్తి అబ్బయ",
+  "year": "1924",
+  "content_subs": [
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "పంచమాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 25580,
+  "status": "ok",
+  "slug": "aniruddhacharitramu_kanuparti_abbaya"
+ },
+ {
+  "work": "కాళిదాసప్రహసనమ్",
+  "author": "",
+  "year": "1924",
+  "content_subs": [],
+  "quality": "clean",
+  "mode": "single",
+  "sample_chars": 85628,
+  "status": "ok",
+  "slug": "kalidasaprahasanam"
+ },
+ {
+  "work": "చంద్రరేఖావిలాపము",
+  "author": "కూచిమంచి జగ్గకవి",
+  "year": "1924",
+  "content_subs": [
+   "చుక్కాని",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 6365,
+  "status": "ok",
+  "slug": "chandrarekhavilapamu_kuchimanchi_jaggakavi"
+ },
+ {
+  "work": "చాటుపద్యమణిమంజరి",
+  "author": "వేటూరి ప్రభాకరశాస్త్రి",
+  "year": "1924",
+  "content_subs": [
+   "పాఠం"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 185793,
+  "status": "ok",
+  "slug": "chatupadyamanimanjari_veturi_prabhakara"
+ },
+ {
+  "work": "నృసింహపురాణము",
+  "author": "ఎఱ్ఱాప్రగడ",
+  "year": "1924",
+  "content_subs": [
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "పంచమాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 32726,
+  "status": "ok",
+  "slug": "nrisimhapuranamu_errapragada"
+ },
+ {
+  "work": "పంచతంత్రము (బైచరాజు)",
+  "author": "బైచరాజు వేంకటనాథుఁడు",
+  "year": "1924",
+  "content_subs": [
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "పంచమాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 99359,
+  "status": "ok",
+  "slug": "panchatantramu_baicharaju_venkatanatha"
+ },
+ {
+  "work": "శృంగారపంచకము",
+  "author": "",
+  "year": "1924",
+  "content_subs": [
+   "కాళిదాసప్రహసనమ్",
+   "కృష్ణశతకము",
+   "జాబులు",
+   "పూర్వకవుల చాటువులు",
+   "ప్రహసనము",
+   "రసికాభిలాషము",
+   "లంబోదరప్రహసనము",
+   "సరసచాటువులు"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 37481,
+  "status": "ok",
+  "slug": "sringarapanchakamu_collection"
+ },
+ {
+  "work": "బ్రహ్మానందము",
+  "author": "",
+  "year": "1924",
+  "content_subs": [
+   "గణపతీయము",
+   "బ్రహ్మానందశతకము",
+   "మదనానువర్ణనము",
+   "రామావధూటితారావళి",
+   "శష్పవిజయము",
+   "శృంగారశతకము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 9026,
+  "status": "ok",
+  "slug": "brahmanandamu_collection"
+ },
+ {
+  "work": "రుక్మాంగదచరిత్రము",
+  "author": "ప్రౌఢకవి మల్లన",
+  "year": "1924",
+  "content_subs": [
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "పంచమాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 27706,
+  "status": "ok",
+  "slug": "rukmangadacharitramu_praudhakavi_mallana"
+ },
+ {
+  "work": "చాటుపద్యరత్నాకరము",
+  "author": "దీపాల పిచ్చయ్య శాస్త్రి",
+  "year": "1927",
+  "content_subs": [
+   "చతుర్థతరంగము",
+   "తృతీయతరంగము",
+   "ద్వితీయతరంగము",
+   "పంచమతరంగము",
+   "ప్రథమతరంగము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 25089,
+  "status": "ok",
+  "slug": "chatupadyaratnakaramu_deepala_picchayya"
+ },
+ {
+  "work": "కొప్పులింగేశ్వరశతకము",
+  "author": "కూచిమంచి సోమసుందరుఁడు",
+  "year": "1923",
+  "content_subs": [],
+  "quality": "clean",
+  "mode": "single",
+  "sample_chars": 19436,
+  "status": "ok",
+  "slug": "koppulingesvarasatakam_kuchimanchi_somasundara"
+ },
+ {
+  "work": "రుక్మిణీపరిణయము",
+  "author": "కూచిమంచి తిమ్మన",
+  "year": "1923",
+  "content_subs": [
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "పంచమాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 23720,
+  "status": "ok",
+  "slug": "rukminiparinayamu_kuchimanchi_timmana"
+ },
+ {
+  "work": "ఆనందరంగరాట్ఛందము",
+  "author": "కస్తూరి రంగయ",
+  "year": "1922",
+  "content_subs": [
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 39703,
+  "status": "ok",
+  "slug": "anandarangaratchandamu_kasturi_rangaya"
+ },
+ {
+  "work": "శివలీలావిలాసము",
+  "author": "కూచిమంచి తిమ్మన",
+  "year": "1921",
+  "content_subs": [
+   "ద్వితీయాశ్వాసము",
+   "ప్రథమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 28876,
+  "status": "ok",
+  "slug": "sivalilavilasamu_kuchimanchi_timmana"
+ },
+ {
+  "work": "శ్రీరంగమాహాత్మ్యము",
+  "author": "కట్టా వరదరాజు",
+  "year": "1921",
+  "content_subs": [
+   "అష్టమాశ్వాసము",
+   "చతుర్థాశ్వాసము",
+   "తృతీయాశ్వాసము",
+   "దశమాశ్వాసము",
+   "ద్వితీయాశ్వాసము",
+   "నవమాశ్వాసము",
+   "పంచమాశ్వాసము",
+   "ప్రథమాశ్వాసము",
+   "షష్ఠాశ్వాసము",
+   "సప్తమాశ్వాసము"
+  ],
+  "quality": "clean",
+  "mode": "chapters",
+  "sample_chars": 23799,
+  "status": "ok",
+  "slug": "srirangamahatmyamu_katta_varadaraju"
+ },
+ {
+  "work": "కవికోకిల గ్రంథావళి-3: నాటకములు/సీతావనవాసము",
+  "author": "దువ్వూరి రామిరెడ్డి",
+  "year": "1921",
+  "content_subs": [],
+  "quality": "clean",
+  "mode": "single",
+  "sample_chars": 97107,
+  "status": "ok",
+  "slug": "sitavanavasamu_duvvuri_ramireddy"
+ }
+]

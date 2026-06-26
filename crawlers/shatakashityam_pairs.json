@@ -1,0 +1,324 @@
+[
+ {
+  "json": "crawlers/shatakashityam_json/1931_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/01_shatakam.json",
+  "title": "అభినవ సుమతి శతకము",
+  "author": "దుర్భా సుబ్రహ్మణ్యశర్మ",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/acamta_ramesvara_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/37_acamta_ramesvara_satakamu.json",
+  "title": "శ్రీ ఆచంట రామేశ్వర శతకము",
+  "author": "మేకా బాపన్న",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/aghavinasa_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/39_aghavinasa_satakamu.json",
+  "title": "అఘవినాశ శతకము",
+  "author": "దాసరి అంజదాసు",
+  "n": 102
+ },
+ {
+  "json": "crawlers/shatakashityam_json/bejavada_kanakadurgamba_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/25_bejavada_kanakadurgamba_satakamu.json",
+  "title": "బెజవాడ కనకదుర్గాంబ శతకము",
+  "author": "సరికొండ నరసింహరాజు",
+  "n": 100
+ },
+ {
+  "json": "crawlers/shatakashityam_json/bhadradriramacamdra_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/27_balla_ramacamdraraju.json",
+  "title": "భద్రాద్రిరామచంద్ర శతకము",
+  "author": "బళ్ళ రామచంద్రరాజు",
+  "n": 116
+ },
+ {
+  "json": "crawlers/shatakashityam_json/bhadradrisitarama_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/03_abbaraju_piccayya.json",
+  "title": "భద్రాద్రిసీతారామ శతకము",
+  "author": "అబ్బరాజు పిచ్చయ్య",
+  "n": 100
+ },
+ {
+  "json": "crawlers/shatakashityam_json/bhaktajivana_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/21_bhaktajivana_satakamu.json",
+  "title": "భక్తజీవన శతకము",
+  "author": "వాసా కృష్ణమూర్తి",
+  "n": 100
+ },
+ {
+  "json": "crawlers/shatakashityam_json/camdrasekhara_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/10_camdrasekhara_satakamu.json",
+  "title": "చంద్రశేఖరశతకము",
+  "author": "unknown",
+  "n": 97
+ },
+ {
+  "json": "crawlers/shatakashityam_json/cannakesava_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/22_cannakesava_satakamu.json",
+  "title": "చన్నకేశవ శతకము",
+  "author": "నారాయణం రామానుజాచార్యులు",
+  "n": 110
+ },
+ {
+  "json": "crawlers/shatakashityam_json/dvarakapati_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/15_adibhatta_sriramamurti.json",
+  "title": "ద్వారకాపతి శతకము",
+  "author": "ఆదిభట్ట శ్రీరామమూర్తి",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/gopakumara_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/16_gopakumara_satakamu.json",
+  "title": "గోపకుమార శతకము",
+  "author": "ప్రహరాజు గంగరాజు",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/imdira_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/20_govardhanam_sriramgacaryulu.json",
+  "title": "ఇందిరా శతకము",
+  "author": "గోవర్ధనం శ్రీరంగాచార్యులు",
+  "n": 109
+ },
+ {
+  "json": "crawlers/shatakashityam_json/janakinayaka_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/26_janakinayaka_satakamu.json",
+  "title": "జానకీనాయక శతకము",
+  "author": "మాటూరు వెంకటేశం",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/kalahastisatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/14_banalavavirasarabhayya.json",
+  "title": "కాళహస్తిశతకము",
+  "author": "బాణాలవవీరశరభయ్య",
+  "n": 107
+ },
+ {
+  "json": "crawlers/shatakashityam_json/krishna_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/24_krishna_satakamu.json",
+  "title": "కృష్ణ శతకము",
+  "author": "నృసింహకవి",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/krshna_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/13_kapila_krshnasarma.json",
+  "title": "కృష్ణశతకము",
+  "author": "కపిల కృష్ణశర్మ",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/krshnasatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/07_krshnasatakamu.json",
+  "title": "కృష్ణశతకము",
+  "author": "సుబ్రహ్మణ్య భాగవతులు",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/kucimamci_jagga_kavi_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/00_kucimamci_jagga_kavi.json",
+  "title": "భక్తమందారశతకము  కూచిమంచి జగ్గకవి",
+  "author": "కూచిమంచి జగ్గకవి",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/kumati_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/40_kumati_satakamu.json",
+  "title": "కుమతి శతకము",
+  "author": "రాళ్ళబండి రాజయ్య కవి",
+  "n": 102
+ },
+ {
+  "json": "crawlers/shatakashityam_json/lakshmisatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/34_lakshmisatakamu.json",
+  "title": "లక్ష్మీశతకము",
+  "author": "పరవస్తు మునినాథకవి",
+  "n": 102
+ },
+ {
+  "json": "crawlers/shatakashityam_json/maswami_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/19_maswami.json",
+  "title": "మాస్వామి (విశ్వేశ్వర శతకము)",
+  "author": "విశ్వనాధ సత్యనారాయణ",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/mattaparti_nadavapalli_sataka_sahityam_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/12_mattaparti_nadavapalli_sataka_sahityam.json",
+  "title": "జ్ఞానబోధశతకము",
+  "author": "మట్టపర్తి నడవపల్లి",
+  "n": 121
+ },
+ {
+  "json": "crawlers/shatakashityam_json/narasimhasatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/05_narasimhasatakamu.json",
+  "title": "నరసింహశతకము",
+  "author": "unknown",
+  "n": 116
+ },
+ {
+  "json": "crawlers/shatakashityam_json/narayana_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/11_bammera_potanamatya.json",
+  "title": "నారాయణ శతకం",
+  "author": "బమ్మెర పోతనామాత్య",
+  "n": 50
+ },
+ {
+  "json": "crawlers/shatakashityam_json/nrkesarisatakamu_seshacaladasu_seshappa_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/32_nrkesarisatakamu_seshacaladasu_seshappa.json",
+  "title": "నృకేసరిశతకము",
+  "author": "శేషాచలదాసు",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/omtimitta_raghuvira_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/06_ayyalraju_tripuramtaka_kavi.json",
+  "title": "ఒంటిమిట్ట రఘువీర శతకము",
+  "author": "అయ్యల్రాజు త్రిపురాంతక కవి",
+  "n": 107
+ },
+ {
+  "json": "crawlers/shatakashityam_json/rajagopalasatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/33_rajagopalasatakamu.json",
+  "title": "రాజగోపాలశతకము",
+  "author": "ఉన్నవ యోగానందకవి",
+  "n": 102
+ },
+ {
+  "json": "crawlers/shatakashityam_json/ramacamdraprabhusatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/29_kuci_narasimhamu.json",
+  "title": "రామచంద్రప్రభుశతకము",
+  "author": "కూచి నరసింహము",
+  "n": 103
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_10_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/44_sataka_sahityam.json",
+  "title": "నానార్ధశివ శతకము",
+  "author": "మాదిరాజు రామకోటీశ్వర శాస్త్రి",
+  "n": 128
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_11_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/45_sataka_sahityam.json",
+  "title": "శ్రీరామ శతకము",
+  "author": "మంచిరాజు సీతమాంబ",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_2_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/30_hari_brahmesvara.json",
+  "title": "విసనకర్ర శతకము",
+  "author": "హరి బ్రహ్మేశ్వర",
+  "n": 92
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_3_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/31_kalluri_visalakshamma.json",
+  "title": "శ్రీరామ శతకము",
+  "author": "శ్రీమతి కల్లూరి విశాలాక్షమ్మ",
+  "n": 104
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_4_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/35_sataka_sahityam.json",
+  "title": "శ్రీసరస్వతీ శతకము",
+  "author": "చేబ్రోలు సరస్వతీదేవి",
+  "n": 100
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_5_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/36_katta_accayyakavi.json",
+  "title": "పందిళ్ళమ్మ శతకము",
+  "author": "కట్టా అచ్చయ్యకవి",
+  "n": 130
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_6_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/38_sataka_sahityam.json",
+  "title": "వృషాధిప శతకము",
+  "author": "పాలకురికి సోమనాథ కవి",
+  "n": 109
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_7_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/41_bhimesa_satamu.json",
+  "title": "భీమేశ శతకము",
+  "author": "దేవరకొండ అనంతరావు",
+  "n": 91
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_8_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/42_sataka_sahityam.json",
+  "title": "తత్సమ శతకము",
+  "author": "కోగంటి దుర్గామల్లికార్జునరావు",
+  "n": 100
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_9_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/43_kucimamci_timmakavi.json",
+  "title": "శ్రీభర్గ శతకము",
+  "author": "కూచిమంచి తిమ్మకవి",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sataka_sahityam_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/23_sataka_sahityam.json",
+  "title": "దేవకీనందన శతకము",
+  "author": "వెన్నెలకంటి జన్నయ్యమంత్రి",
+  "n": 101
+ },
+ {
+  "json": "crawlers/shatakashityam_json/shatakam_2_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/04_shatakam.json",
+  "title": "గువ్వల చెన్న శతకము",
+  "author": "పట్టాభిరామ కవి /గువ్వల చెన్నడు",
+  "n": 107
+ },
+ {
+  "json": "crawlers/shatakashityam_json/shatakam_3_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/17_shatakam.json",
+  "title": "బాలశతకము",
+  "author": "అలపాటి వెంకటప్పయ్య",
+  "n": 106
+ },
+ {
+  "json": "crawlers/shatakashityam_json/shatakam_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/02_shatakam.json",
+  "title": "వేంకటాచలరమణ శతకము",
+  "author": "పప్పు మల్లికార్జునరావు",
+  "n": 100
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sribhadradrirama_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/28_parasurama_nrsimhadasu.json",
+  "title": "శ్రీభద్రాద్రిరామ శతకము",
+  "author": "పరశురామ నృసింహదాసు",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sridurgamallesvara_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/08_calla_piccayya.json",
+  "title": "శ్రీదుర్గామల్లేశ్వర శతకము",
+  "author": "చల్లా పిచ్చయ్య",
+  "n": 108
+ },
+ {
+  "json": "crawlers/shatakashityam_json/sriramgasatakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/09_sriramgasatakamu.json",
+  "title": "శ్రీరంగశతకము",
+  "author": "తిరుమడ్యం దిగవింటి నారాయణదాసు",
+  "n": 111
+ },
+ {
+  "json": "crawlers/shatakashityam_json/venugopala_satakamu_shatakashityam.json",
+  "raw": "crawlers/shatakashityam_raw/18_polipeddi_vemkataraya_kavi.json",
+  "title": "వేణుగోపాల శతకము",
+  "author": "పోలిపెద్ది వేంకటరాయకవి",
+  "n": 100
+ }
+]

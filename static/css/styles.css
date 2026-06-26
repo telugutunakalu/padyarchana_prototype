@@ -405,6 +405,265 @@ footer {
     }
 }
 
+/* Chandassu (Meter) Analysis */
+.chandam-panel { margin-top: 1.25rem; }
+
+/* Analysis option toggles */
+.chandam-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    background: #f9fafb;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 0.85rem 1rem;
+    margin-bottom: 1rem;
+}
+.chandam-opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    cursor: pointer;
+    color: #374151;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.chandam-opt input[type="checkbox"] {
+    margin-top: 0.2rem;
+    width: 1.05rem;
+    height: 1.05rem;
+    accent-color: var(--primary-color);
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.chandam-opt:hover { color: var(--primary-color); }
+
+/* Result message box */
+.chandam-result {
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    background: #fff;
+}
+
+.chandam-result-head {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    padding: 0.7rem 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+}
+.chandam-result-title { font-size: 1.15rem; font-weight: 700; }
+.chandam-result-sub { font-size: 0.8rem; opacity: 0.85; }
+
+.chandam-result-body {
+    padding: 1rem;
+    background: #f8fafc;
+}
+
+/* Summary banner */
+.chandam-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+}
+.chandam-summary-label {
+    display: block;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6b7280;
+    margin-bottom: 0.15rem;
+}
+.chandam-summary-meter {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+.chandam-summary-side { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.chandam-score { font-weight: 600; color: #374151; font-size: 1.05rem; }
+
+.chandam-badge {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+.chandam-badge--ok  { background: #dcfce7; color: #15803d; border-color: #86efac; }
+.chandam-badge--bad { background: #fee2e2; color: #b91c1c; border-color: #fca5a5; }
+
+/* Recorded-meter agreement line */
+.chandam-recorded {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin-top: 0.6rem;
+    padding-left: 0.2rem;
+}
+.chandam-recorded-label { font-weight: 600; color: #374151; }
+.chandam-tag {
+    display: inline-block;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+.chandam-tag--ok   { background: #dcfce7; color: #15803d; }
+.chandam-tag--diff { background: #fef3c7; color: #92400e; }
+
+/* Section subhead (గణ విభజన / దోషాలు / సమీప ఫలితాలు) */
+.chandam-subhead {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin: 1.15rem 0 0.5rem;
+}
+.chandam-subhead--err { color: #b91c1c; }
+
+/* Gana-vibhajana table: one row per పాదం, each gana a stacked cell */
+.chandam-table-wrap { overflow-x: auto; }
+.chandam-gv {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+.chandam-gv td { vertical-align: middle; text-align: center; }
+
+/* Line-status stamp (left column) */
+.chandam-stamp {
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    line-height: 1.1;
+    padding: 0.3rem 0;
+}
+.chandam-stamp-num  { display: block; font-size: 0.7rem; opacity: 0.9; }
+.chandam-stamp-mark { display: block; font-size: 1.05rem; font-weight: 700; }
+.chandam-stamp--ok  { background: #16a34a; }
+.chandam-stamp--bad { background: #dc2626; }
+
+/* Gana cell (stacked: name / code / marks / aksharas) */
+.chandam-cell {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.55rem;
+    min-width: 3.4rem;
+    background: #fff;
+}
+.chandam-gana--ok  { background: #f0fdf4; border-color: #bbf7d0; }
+.chandam-gana--err { background: #fef2f2; border-color: #fecaca; }
+.chandam-cell-name { font-weight: 700; font-size: 0.95rem; line-height: 1.2; color: var(--text-color); }
+.chandam-gana--ok  .chandam-cell-name { color: #15803d; }
+.chandam-gana--err .chandam-cell-name { color: #b91c1c; }
+.chandam-cell-code { font-size: 0.75rem; color: #6b7280; }
+.chandam-cell-marks { margin: 0.3rem 0; white-space: nowrap; }
+.chandam-cell-syl { font-size: 1rem; line-height: 1.4; color: var(--text-color); }
+
+/* Laghu/guru chips */
+.chandam-mk {
+    display: inline-block;
+    min-width: 1.15rem;
+    padding: 0.05rem 0.25rem;
+    margin: 0 0.08rem;
+    border-radius: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.chandam-mk--g { background: var(--primary-color); color: #fff; }   /* గురువు */
+.chandam-mk--l { background: #e5e7eb; color: #374151; }             /* లఘువు */
+
+/* Yati highlight */
+.chandam-yati {
+    color: var(--accent-color);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+
+/* Legend */
+.chandam-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    align-items: center;
+    margin-top: 0.85rem;
+    font-size: 0.82rem;
+    color: #6b7280;
+}
+.chandam-legend .chandam-mk,
+.chandam-legend .chandam-yati { margin-right: 0.3rem; }
+
+/* దోషాలు error table */
+.chandam-errtable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background: #fff;
+    border: 1px solid #fecaca;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.chandam-errtable thead th {
+    background: #fef2f2;
+    color: #b91c1c;
+    font-weight: 700;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid #fecaca;
+    white-space: nowrap;
+}
+.chandam-errtable td {
+    padding: 0.45rem 0.7rem;
+    text-align: center;
+    color: #4b5563;
+    border-bottom: 1px solid #f3f4f6;
+}
+.chandam-errtable tbody tr:last-child td { border-bottom: none; }
+
+/* సమీప ఫలితాలు — numbered candidate meters */
+.chandam-cands-list {
+    list-style: none;
+    counter-reset: cand;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.45rem;
+}
+.chandam-cands-list li {
+    counter-increment: cand;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.9rem;
+}
+.chandam-cands-list li::before {
+    content: counter(cand) ".";
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.chandam-cand-name { flex: 1; text-align: left; color: var(--text-color); }
+.chandam-cand-pct  { font-weight: 700; color: var(--primary-color); }
+.chandam-cands-more { font-size: 0.82rem; color: #6b7280; margin-top: 0.45rem; }
+
 /* Modal Styles - Centered on Screen */
 .modal-overlay {
     position: fixed;

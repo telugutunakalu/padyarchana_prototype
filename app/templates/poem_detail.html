@@ -227,6 +227,50 @@
                 </a>
             </div>
 
+            <!-- Chandassu Analysis (admin only) -->
+            <div x-show="isAdmin" style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">ఛందస్సు విశ్లేషణ (Chandassu Analysis)</h2>
+
+                <p style="color: #6b7280; margin-bottom: 1rem;">
+                    Analyze this poem's text for its meter (ఛందస్సు): గణ విభజన, లఘు/గురు pattern, యతి, and near-match candidates.
+                </p>
+
+                <div class="chandam-options">
+                    <label class="chandam-opt">
+                        <input type="checkbox" x-model="chandamOpts.quickMatch" @change="onChandamOptChange()">
+                        <span class="telugu-text">కొత్త గణన పద్ధతి</span>
+                    </label>
+                    <label class="chandam-opt">
+                        <input type="checkbox" x-model="chandamOpts.checkYatiPrasa" @change="onChandamOptChange()">
+                        <span class="telugu-text">యతి మైత్రి, ప్రాస నియమం సరిచూడు</span>
+                    </label>
+                    <label class="chandam-opt">
+                        <input type="checkbox" x-model="chandamOpts.experimentalSandhi" @change="onChandamOptChange()">
+                        <span class="telugu-text">అచ్చు ఆధారంగా సంధియుత యతి మైత్రి గుర్తింపు</span>
+                    </label>
+                    <label class="chandam-opt">
+                        <input type="checkbox" x-model="chandamOpts.allowSantiPrasa" @change="onChandamOptChange()">
+                        <span class="telugu-text">శాంత ప్రాసను పరిగణించు</span>
+                    </label>
+                    <label class="chandam-opt">
+                        <input type="checkbox" x-model="chandamOpts.includeRare" @change="onChandamOptChange()">
+                        <span class="telugu-text">అరుదైన ఛందస్సులను కూడా పరిశీలించు</span>
+                    </label>
+                </div>
+
+                <button @click="analyzeChandassu()" class="btn" :disabled="chandamLoading" style="width: 100%;">
+                    <svg style="width: 1.25rem; height: 1.25rem; display: inline-block; margin-right: 0.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                    </svg>
+                    <span x-show="!chandamLoading">Chandassu analysis</span>
+                    <span x-show="chandamLoading">విశ్లేషిస్తోంది… (analyzing)</span>
+                </button>
+
+                <p x-show="chandamError" x-text="chandamError" style="color: #dc2626; margin-top: 0.5rem; font-size: 0.875rem;"></p>
+
+                <div class="chandam-panel" x-show="chandamHtml" x-html="chandamHtml" style="margin-top: 1.25rem;"></div>
+            </div>
+
             <!-- Audio Section (Laya) -->
             <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
                 <h2 style="color: var(--primary-color); margin-bottom: 1rem;">లయ (Audio Annotation)</h2>
@@ -440,6 +484,19 @@ function poemDetailPage(poemId) {
         ttsAudio: null,
         ttsGenerating: false,
         ttsError: '',
+        isAdmin: !!window.IS_ADMIN,
+        chandamHtml: '',
+        chandamLoading: false,
+        chandamError: '',
+        // Analysis options (mirror the Chandam engine toggles). Defaults match
+        // the engine's own defaults.
+        chandamOpts: {
+            quickMatch: true,         // కొత్త గణన పద్ధతి
+            checkYatiPrasa: true,     // యతి మైత్రి + ప్రాస నియమం
+            experimentalSandhi: false,// అచ్చు ఆధారంగా సంధియుత యతి మైత్రి
+            allowSantiPrasa: false,   // శాంత ప్రాస
+            includeRare: true         // అరుదైన ఛందస్సులు
+        },
 
         ratingLabel(r) {
             return { gold: '🥇 Gold', silver: '🥈 Silver', bronze: '🥉 Bronze' }[r] || '— none —';
@@ -639,6 +696,52 @@ function poemDetailPage(poemId) {
             } finally {
                 this.ttsGenerating = false;
             }
+        },
+
+        async analyzeChandassu() {
+            this.chandamLoading = true;
+            this.chandamError = '';
+            try {
+                if (!window.ChandamAnalysis) {
+                    throw new Error('Chandam analyzer not available.');
+                }
+                // Only the poem TEXT is analysed (never title/bhavam/etc.).
+                const text = (this.model.text || '').trim();
+                if (!text) {
+                    this.chandamHtml = '';
+                    this.chandamError = 'This poem has no text to analyse.';
+                    return;
+                }
+                await window.ChandamAnalysis.ensureReady();
+                const o = this.chandamOpts;
+                const r = window.ChandamAnalysis.analyze(this.model.text, {
+                    quickMatch: o.quickMatch,
+                    matchYati: o.checkYatiPrasa,
+                    matchPrasa: o.checkYatiPrasa,
+                    experimentalSandhi: o.experimentalSandhi,
+                    allowSantiPrasa: o.allowSantiPrasa,
+                    includeRare: o.includeRare
+                });
+                if (!r) {
+                    this.chandamHtml = '';
+                    this.chandamError = 'No analysable text found.';
+                    return;
+                }
+                const recordedMeter = this.poem.meter ? this.poem.meter.name : null;
+                this.chandamHtml = window.ChandamAnalysis.renderHtml(r, recordedMeter);
+            } catch (error) {
+                console.error('Chandassu analysis error:', error);
+                this.chandamHtml = '';
+                this.chandamError = 'Chandassu analysis failed. Please try again.';
+            } finally {
+                this.chandamLoading = false;
+            }
+        },
+
+        // Re-run the analysis live when an option changes, but only once results
+        // are already on screen (so toggling before the first run is silent).
+        onChandamOptChange() {
+            if (this.chandamHtml || this.chandamError) this.analyzeChandassu();
         }
     };
 }
@@ -716,4 +819,13 @@ document.addEventListener('alpine:init', () => {
 .rating-btn.rating-bronze.active { background: #fdebd8; color: #8a4b1d; border-color: #d97a3d; }
 .rating-btn.rating-clear.active  { background: #f3f4f6; color: #374151; border-color: #9ca3af; }
 </style>
+{% endblock %}
+
+{# Chandassu analysis is admin-only: only admins receive the engine scripts.
+   The 712 KB engine itself is loaded lazily on first click by chandam_analysis.js. #}
+{% block extra_scripts %}
+{% if auth_context(request).is_admin %}
+<script src="/static/chandam/chandam-lib.js"></script>
+<script src="/static/js/chandam_analysis.js"></script>
+{% endif %}
 {% endblock %}
