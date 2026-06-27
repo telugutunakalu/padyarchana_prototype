@@ -1,0 +1,1722 @@
+[
+ {
+  "id": 1,
+  "name": "ఆటవెలది",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 3,
+  "name": "Unknown",
+  "name_english": null,
+  "description": "Meter not specified - requires classification",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 5,
+  "name": "సీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 6,
+  "name": "శార్దూలవిక్రీడితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 7,
+  "name": "మత్తేభవిక్రీడితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 8,
+  "name": "ఉత్పలమాల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 9,
+  "name": "చంపకమాల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 30,
+  "name": "లయవిభాతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 31,
+  "name": "వచనము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 33,
+  "name": "మాలిని",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 34,
+  "name": "గద్యము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 38,
+  "name": "సీసము + తేటగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 41,
+  "name": "కందము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 44,
+  "name": "ఆటవెలది/తేటగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 46,
+  "name": "తేటగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 47,
+  "name": "ద్విపద",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 48,
+  "name": "సీసము + ఆటవెలది",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 49,
+  "name": "తరళము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 51,
+  "name": "మత్తకోకిల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 52,
+  "name": "భుజంగప్రయాతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 54,
+  "name": "తగణ దండకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 55,
+  "name": "కవిరాజవిరాజితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 56,
+  "name": "మంగళమహశ్రీ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 57,
+  "name": "స్రగ్ధర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 58,
+  "name": "ఇంద్రవజ్రము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 59,
+  "name": "లయగ్రాహి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 60,
+  "name": "వనమయూరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 61,
+  "name": "ఉత్సాహము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 62,
+  "name": "మహాస్రగ్ధర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 63,
+  "name": "స్రగ్విణీ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 64,
+  "name": "తోటకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 65,
+  "name": "మానిని",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 66,
+  "name": "ఉపేంద్రవజ్రము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 67,
+  "name": "పంచచామరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 68,
+  "name": "సర్వలఘుసీసము + తేటగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 69,
+  "name": "తరలము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 70,
+  "name": "గీతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 71,
+  "name": "శ్లోకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 72,
+  "name": "వృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 73,
+  "name": "unknown",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 74,
+  "name": "ద్విరదగతి రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 75,
+  "name": "రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 76,
+  "name": "శ్రీ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 77,
+  "name": "స్త్రీ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 78,
+  "name": "వినయం",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 79,
+  "name": "బింబము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 80,
+  "name": "సుకాంతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 81,
+  "name": "అంబుజ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 82,
+  "name": "పంక్తి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 83,
+  "name": "తనుమధ్య",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 84,
+  "name": "మధుమతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 85,
+  "name": "మదరేఖ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 86,
+  "name": "విద్యున్మాల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 87,
+  "name": "చిత్రపదము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 88,
+  "name": "ప్రమాణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 89,
+  "name": "హలముఖి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 90,
+  "name": "రుగ్మవతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 91,
+  "name": "మత్త",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 92,
+  "name": "ప్రణవము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 93,
+  "name": "మయూరసారి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 94,
+  "name": "శుద్ధవిరాటి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 95,
+  "name": "మణిరంగము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 96,
+  "name": "తోదకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 97,
+  "name": "ఇంద్రవజ్ర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 98,
+  "name": "ఉపేంద్రవజ్ర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 99,
+  "name": "ఉపజాతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 100,
+  "name": "రథోద్ధతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 101,
+  "name": "గీతాలంబనము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 102,
+  "name": "స్వాగతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 103,
+  "name": "శాలిని",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 104,
+  "name": "శ్యేని",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 105,
+  "name": "వాతోర్మి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 106,
+  "name": "చంద్రిక",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 107,
+  "name": "తోవకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 108,
+  "name": "స్రగ్విణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 109,
+  "name": "ఇంద్రవంశము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 110,
+  "name": "వంశస్థము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 111,
+  "name": "ద్రుతవిలంబితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 112,
+  "name": "జలధరమాల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 113,
+  "name": "ప్రియంవద",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 114,
+  "name": "ప్రమితాక్షరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 115,
+  "name": "జలోద్ధతగతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 116,
+  "name": "విశ్వదేవి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 117,
+  "name": "మత్తమయూరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 118,
+  "name": "జలదము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 119,
+  "name": "మంజుభాషిణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 120,
+  "name": "ప్రహర్షిణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 121,
+  "name": "ప్రభాతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 122,
+  "name": "రుచిరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 123,
+  "name": "వసంత తిలకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 124,
+  "name": "ప్రహరణ కలిత",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 125,
+  "name": "సుందరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 126,
+  "name": "అపరాజితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 127,
+  "name": "అసంబాధ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 128,
+  "name": "భూనుతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 129,
+  "name": "కమల విలసితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 130,
+  "name": "మణిగణనికరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 131,
+  "name": "సుకేసరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 132,
+  "name": "మణిభూషణము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 133,
+  "name": "మనోజ్ఞ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 134,
+  "name": "ప్రియకాంత",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 135,
+  "name": "పద్మకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 136,
+  "name": "ఫలసదనము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 137,
+  "name": "చంద్రశ్రీ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 138,
+  "name": "మేదిని",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 139,
+  "name": "నర్కుటము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 140,
+  "name": "శిఖరిణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 141,
+  "name": "మందాక్రాంత",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 142,
+  "name": "పాలాశదళము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 143,
+  "name": "పృథ్వి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 144,
+  "name": "హరిణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 145,
+  "name": "కుసుమితలతావేల్లిత",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 146,
+  "name": "మేఘవిస్ఫూర్జితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 147,
+  "name": "భూతిలకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 148,
+  "name": "చంద్రకళ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 149,
+  "name": "అంబురుహము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 150,
+  "name": "ఖచరప్లుతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 151,
+  "name": "వనమంజరి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 152,
+  "name": "మణిమాల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 153,
+  "name": "లాటీవిటము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 154,
+  "name": "భద్రకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 155,
+  "name": "అశ్వలలితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 156,
+  "name": "పద్మనాభము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 157,
+  "name": "అష్టమూర్తి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 158,
+  "name": "సరసిజము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 159,
+  "name": "క్రౌంచపదము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 160,
+  "name": "బంధురము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 161,
+  "name": "భాస్కర విలసితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 162,
+  "name": "భుజంగ విజృంభిత",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 163,
+  "name": "మంగళమహాశ్రీ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 164,
+  "name": "నారీప్లుతము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 165,
+  "name": "మనోహరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 166,
+  "name": "అంగజాస్త్రము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 167,
+  "name": "వరాంగి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 168,
+  "name": "నదీప్రఘోషము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 169,
+  "name": "శ్రీరమణము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 170,
+  "name": "రథగమన మనోహరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 171,
+  "name": "వీణారచనము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 172,
+  "name": "లయహారి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 173,
+  "name": "త్రిభంగి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 174,
+  "name": "దండకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 175,
+  "name": "ఎత్తుగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 176,
+  "name": "పవడగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 177,
+  "name": "మేలనగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 178,
+  "name": "సమ సీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 179,
+  "name": "ప్రాస సీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 180,
+  "name": "వృత్తప్రాససీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 181,
+  "name": "సర్వతఃప్రాససీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 182,
+  "name": "అక్కిలిప్రాస సీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 183,
+  "name": "వడిసీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 184,
+  "name": "అక్కిలివడిసీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 185,
+  "name": "అవకలిప్రాస సీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 186,
+  "name": "ఉత్సాహ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 187,
+  "name": "సర్వలఘుసీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 188,
+  "name": "తరువోజ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 189,
+  "name": "మహాక్కర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 190,
+  "name": "మధ్యాక్కరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 191,
+  "name": "మధురాక్కరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 192,
+  "name": "అంతరాక్కరము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 193,
+  "name": "అల్పాక్కర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 194,
+  "name": "షట్పదము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 195,
+  "name": "త్రిపద",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 196,
+  "name": "మంజరీ ద్విపద",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 197,
+  "name": "చౌపద",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 198,
+  "name": "వితాళ(చౌపద)ము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 199,
+  "name": "హయప్రచార రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 200,
+  "name": "తురగవల్గన రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 201,
+  "name": "విజయమంగళ రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 202,
+  "name": "జయభద్ర రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 203,
+  "name": "మధురగతి రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 204,
+  "name": "హరిగతి రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 205,
+  "name": "వృషభగమన రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 206,
+  "name": "హరిణగతి రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 207,
+  "name": "మధ్యాక్కర",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 208,
+  "name": "5.2",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 209,
+  "name": "5.3",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 210,
+  "name": "5.4",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 211,
+  "name": "షట్పాదగీతి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 212,
+  "name": "చూర్ణిక",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 213,
+  "name": "మత్తేభగర్భిత సీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 214,
+  "name": "సుగంధివృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 215,
+  "name": "పృథ్వీవృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 216,
+  "name": "తోదకవృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 217,
+  "name": "నిరోష్ఠ్యసీసము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 218,
+  "name": "తోటకవృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 219,
+  "name": "పణవవృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 220,
+  "name": "తరల",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 221,
+  "name": "వృషభగతి రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 222,
+  "name": "కమలవిలసిత",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 223,
+  "name": "ఉత్సాహ(సుగంధి)",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 224,
+  "name": "వినుము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 225,
+  "name": "భుజంగ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 226,
+  "name": "తోటక",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 227,
+  "name": "ద",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 228,
+  "name": "గణసమక దండకము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 229,
+  "name": "ము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 230,
+  "name": "అనులోమ విలోమ క",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 231,
+  "name": "పాదభ్రమక క",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 232,
+  "name": "గోమూత్రికా బంధ క",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 233,
+  "name": "నాగ బంధ చ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 234,
+  "name": "ఛురికా బంధ క",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 235,
+  "name": "చక్ర బంధ శా",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 236,
+  "name": "ద్వ్యక్షరి క",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 237,
+  "name": "భుజంగప్రయాతగర్భ స్రగ్విణి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 238,
+  "name": "మంజరి",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 239,
+  "name": "విజయ మంగళము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 240,
+  "name": "ప్రభువృత్తము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 241,
+  "name": "మందారదామ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 242,
+  "name": "తాళ రగడ",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 243,
+  "name": "కవిరాజ విరాజితము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 244,
+  "name": "మత్తేభము",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 245,
+  "name": "కందం",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 246,
+  "name": "మత్తేభవిక్రీడితం",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 247,
+  "name": "శార్దూలవిక్రీడితం",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 248,
+  "name": "ఉత్కళిక",
+  "name_english": null,
+  "description": null,
+  "gana_structure": null,
+  "example_pattern": null
+ }
+]

@@ -1,0 +1,1403 @@
+{
+ "poets_total": 201,
+ "meters_total": 215,
+ "poems_total": 364515,
+ "sources_total": 279,
+ "sources": [
+  {
+   "source": "''తెలుగుబాల!'' శతకం",
+   "file": "poems/telugubaalashatakam.json",
+   "count": 100
+  },
+  {
+   "source": "manchimaata_satakam",
+   "file": "poems/source.json",
+   "count": 99
+  },
+  {
+   "source": "vemana satakam",
+   "file": "poems/source_2.json",
+   "count": 895
+  },
+  {
+   "source": "vemulapalli rama satakam",
+   "file": "poems/source_3.json",
+   "count": 100
+  },
+  {
+   "source": "అఘవినాశ శతకము",
+   "file": "poems/aghavinaashashatakamu.json",
+   "count": 113
+  },
+  {
+   "source": "అచ్చతెలుఁగు రామాయణము",
+   "file": "poems/achchateluguraamaayanamu.json",
+   "count": 1364
+  },
+  {
+   "source": "అనిరుద్ధచరిత్రము",
+   "file": "poems/aniruddhacharitramu.json",
+   "count": 541
+  },
+  {
+   "source": "అనుభవసారము/అనుభవసారము",
+   "file": "poems/anubhavasaaramuanubhavasaaramu.json",
+   "count": 227
+  },
+  {
+   "source": "అన్నమాచార్య చరిత్రము",
+   "file": "poems/annamaachaaryacharitramu.json",
+   "count": 566
+  },
+  {
+   "source": "అభాగ్యోపాఖ్యానము",
+   "file": "poems/abhaagyopaakhyaanamu.json",
+   "count": 112
+  },
+  {
+   "source": "అభినవ సుమతి శతకము",
+   "file": "poems/abhinavasumatishatakamu.json",
+   "count": 101
+  },
+  {
+   "source": "అశ్వలక్షణసారము",
+   "file": "poems/ashvalakshanasaaramu.json",
+   "count": 245
+  },
+  {
+   "source": "అష్టాంగయోగసారము/పాఠం",
+   "file": "poems/ashtaamgayogasaaramupaatham.json",
+   "count": 77
+  },
+  {
+   "source": "అహల్యాసంక్రందనము",
+   "file": "poems/ahalyaasamkramdanamu.json",
+   "count": 406
+  },
+  {
+   "source": "ఆంధ్ర శ్రీవిష్ణుపురాణము",
+   "file": "poems/aamdhrashriivishnupuraanamu.json",
+   "count": 2816
+  },
+  {
+   "source": "ఆంధ్రకామందకము",
+   "file": "poems/aamdhrakaamamdakamu.json",
+   "count": 912
+  },
+  {
+   "source": "ఆంధ్రనామశేషము",
+   "file": "poems/aamdhranaamasheshamu.json",
+   "count": 78
+  },
+  {
+   "source": "ఆంధ్రనామసంగ్రహము",
+   "file": "poems/aamdhranaamasamgrahamu.json",
+   "count": 210
+  },
+  {
+   "source": "ఆంధ్రనాయక శతకము",
+   "file": "poems/aamdhranaayakashatakamu.json",
+   "count": 107
+  },
+  {
+   "source": "ఆంధ్రపురాణము",
+   "file": "poems/aamdhrapuraanamu.json",
+   "count": 2163
+  },
+  {
+   "source": "ఆంధ్రభాషాభూషణము/ఏకాశ్వాసము",
+   "file": "poems/aamdhrabhaashaabhuushanamuekaashvaasamu.json",
+   "count": 175
+  },
+  {
+   "source": "ఆంధ్రభాషార్ణవము",
+   "file": "poems/aamdhrabhaashaarnavamu.json",
+   "count": 588
+  },
+  {
+   "source": "ఆనందరంగరాట్ఛందము",
+   "file": "poems/aanamdaramgaraatchhamdamu.json",
+   "count": 687
+  },
+  {
+   "source": "ఆముక్తమాల్యద",
+   "file": "poems/aamuktamaalyada.json",
+   "count": 839
+  },
+  {
+   "source": "ఆరోగ్య భాస్కరము",
+   "file": "poems/aarogyabhaaskaramu.json",
+   "count": 97
+  },
+  {
+   "source": "ఇందిరా శతకము",
+   "file": "poems/imdiraashatakamu.json",
+   "count": 106
+  },
+  {
+   "source": "ఉత్తరరామాయణము",
+   "file": "poems/uttararaamaayanamu.json",
+   "count": 3046
+  },
+  {
+   "source": "ఉత్తరహరివంశము",
+   "file": "poems/uttaraharivamshamu.json",
+   "count": 1245
+  },
+  {
+   "source": "ఉత్తరహరిశ్చంద్రోపాఖ్యానము",
+   "file": "poems/uttaraharishchamdropaakhyaanamu.json",
+   "count": 106
+  },
+  {
+   "source": "ఉషాపరిణయము",
+   "file": "poems/ushaaparinayamu.json",
+   "count": 417
+  },
+  {
+   "source": "ఒంటిమిట్ట రఘువీర శతకము",
+   "file": "poems/omtimittaraghuviirashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "కంకణము",
+   "file": "poems/kamkanamu.json",
+   "count": 115
+  },
+  {
+   "source": "కఱివేల్పు శతకము",
+   "file": "poems/karivelpushatakamu.json",
+   "count": 79
+  },
+  {
+   "source": "కళాపూర్ణోదయము (1943)",
+   "file": "poems/kalaapuurnodayamu.json",
+   "count": 1411
+  },
+  {
+   "source": "కవికర్ణరసాయనము",
+   "file": "poems/kavikarnarasaayanamu.json",
+   "count": 1091
+  },
+  {
+   "source": "కవిరాజమనోరంజనము",
+   "file": "poems/kaviraajamanoramjanamu.json",
+   "count": 955
+  },
+  {
+   "source": "కాంతాలలామ శతకము",
+   "file": "poems/kaamtaalalaamashatakamu.json",
+   "count": 107
+  },
+  {
+   "source": "కామకళానిధి",
+   "file": "poems/kaamakalaanidhi.json",
+   "count": 356
+  },
+  {
+   "source": "కాళహస్తి శతకము",
+   "file": "poems/kaalahastishatakamu.json",
+   "count": 119
+  },
+  {
+   "source": "కాళహస్తిశతకము",
+   "file": "poems/kaalahastishatakamu_2.json",
+   "count": 107
+  },
+  {
+   "source": "కాశీఖండము",
+   "file": "poems/kaashiikhamdamu.json",
+   "count": 1694
+  },
+  {
+   "source": "కుందవరపు కవి చౌడప్ప శతకము",
+   "file": "poems/kumdavarapukavichaudappashatakamu.json",
+   "count": 21
+  },
+  {
+   "source": "కుక్కుటేశ శతకము",
+   "file": "poems/kukkuteshashatakamu.json",
+   "count": 92
+  },
+  {
+   "source": "కుచేలోపాఖ్యానము",
+   "file": "poems/kuchelopaakhyaanamu.json",
+   "count": 75
+  },
+  {
+   "source": "కుప్పుసామి శతకము",
+   "file": "poems/kuppusaamishatakamu.json",
+   "count": 102
+  },
+  {
+   "source": "కుమతి శతకము",
+   "file": "poems/kumatishatakamu.json",
+   "count": 102
+  },
+  {
+   "source": "కుమార శతకము",
+   "file": "poems/kumaarashatakamu.json",
+   "count": 104
+  },
+  {
+   "source": "కుమారసంభవము",
+   "file": "poems/kumaarasambhavamu.json",
+   "count": 499
+  },
+  {
+   "source": "కుమారీ శతకము",
+   "file": "poems/kumaariishatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "కువలయాశ్వచరిత్రము",
+   "file": "poems/kuvalayaashvacharitramu.json",
+   "count": 42
+  },
+  {
+   "source": "కృషీవలుఁడు",
+   "file": "poems/krushiivaludu.json",
+   "count": 118
+  },
+  {
+   "source": "కృష్ణ శతకం",
+   "file": "poems/krushnashatakam.json",
+   "count": 101
+  },
+  {
+   "source": "కృష్ణశతకము",
+   "file": "poems/krushnashatakamu.json",
+   "count": 209
+  },
+  {
+   "source": "కేయూరబాహుచరిత్రము",
+   "file": "poems/keyuurabaahucharitramu.json",
+   "count": 682
+  },
+  {
+   "source": "కొప్పులింగేశ్వర శతకము",
+   "file": "poems/koppulimgeshvarashatakamu.json",
+   "count": 101
+  },
+  {
+   "source": "కొప్పులింగేశ్వరశతకము",
+   "file": "poems/koppulimgeshvarashatakamu_2.json",
+   "count": 101
+  },
+  {
+   "source": "కోలంక శ్రీ మదనగోపాల శతకము",
+   "file": "poems/kolamkashriimadanagopaalashatakamu.json",
+   "count": 83
+  },
+  {
+   "source": "క్రీడాభిరామం",
+   "file": "poems/kriidaabhiraamam.json",
+   "count": 296
+  },
+  {
+   "source": "క్రీడాభిరామము (ఎమెస్కో)",
+   "file": "poems/kriidaabhiraamamuemesko.json",
+   "count": 386
+  },
+  {
+   "source": "గంగాలహరి",
+   "file": "poems/gamgaalahari.json",
+   "count": 32
+  },
+  {
+   "source": "గీతాంజలి (ఆదిపూడి సోమనాథరావు అనువాదం)",
+   "file": "poems/giitaamjaliaadipuudisomanaatharaavuanuvaadam.json",
+   "count": 172
+  },
+  {
+   "source": "గువ్వలచెన్న శతకము",
+   "file": "poems/guvvalachennashatakamu.json",
+   "count": 111
+  },
+  {
+   "source": "గోపకుమార శతకము",
+   "file": "poems/gopakumaarashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "గోపీనాథ రామాయణము",
+   "file": "poems/gopiinaatharaamaayanamu.json",
+   "count": 4896
+  },
+  {
+   "source": "చంద్రరేఖావిలాపము",
+   "file": "poems/chamdrarekhaavilaapamu.json",
+   "count": 397
+  },
+  {
+   "source": "చంద్రశేఖరశతకము",
+   "file": "poems/chamdrashekharashatakamu.json",
+   "count": 97
+  },
+  {
+   "source": "చంద్రికా పరిణయము",
+   "file": "poems/chamdrikaaparinayamu.json",
+   "count": 886
+  },
+  {
+   "source": "చంపూరామాయణము",
+   "file": "poems/champuuraamaayanamu.json",
+   "count": 963
+  },
+  {
+   "source": "చక్కట్లదండ",
+   "file": "poems/chakkatladamda.json",
+   "count": 100
+  },
+  {
+   "source": "చతుర్వేదసారము",
+   "file": "poems/chaturvedasaaramu.json",
+   "count": 299
+  },
+  {
+   "source": "చన్నకేశవ శతకము",
+   "file": "poems/channakeshavashatakamu.json",
+   "count": 110
+  },
+  {
+   "source": "చాటుపద్యమణిమంజరి",
+   "file": "poems/chaatupadyamanimamjari.json",
+   "count": 644
+  },
+  {
+   "source": "చాటుపద్యరత్నాకరము",
+   "file": "poems/chaatupadyaratnaakaramu.json",
+   "count": 602
+  },
+  {
+   "source": "చిత్రభారతము",
+   "file": "poems/chitrabhaaratamu.json",
+   "count": 1105
+  },
+  {
+   "source": "చెన్నపురీ విలాసము",
+   "file": "poems/chennapuriivilaasamu.json",
+   "count": 173
+  },
+  {
+   "source": "చెన్నమల్లు శతకము",
+   "file": "poems/chennamallushatakamu.json",
+   "count": 37
+  },
+  {
+   "source": "ఛందోదర్పణము",
+   "file": "poems/chhamdodarpanamu.json",
+   "count": 489
+  },
+  {
+   "source": "జడ శతకము",
+   "file": "poems/jadashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "జానకీనాయక శతకము",
+   "file": "poems/jaanakiinaayakashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "జైమినీభారతము",
+   "file": "poems/jaiminiibhaaratamu.json",
+   "count": 1424
+  },
+  {
+   "source": "జ్ఞానబోధశతకము",
+   "file": "poems/jnaanabodhashatakamu.json",
+   "count": 121
+  },
+  {
+   "source": "తత్సమ శతకము",
+   "file": "poems/tatsamashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "తరికొండ నృసింహశతకము",
+   "file": "poems/tarikomdanrusimhashatakamu.json",
+   "count": 104
+  },
+  {
+   "source": "తాడిమళ్ళ రాజగోపాల శతకము",
+   "file": "poems/taadimallaraajagopaalashatakamu.json",
+   "count": 65
+  },
+  {
+   "source": "తాలాంకనందినీపరిణయము",
+   "file": "poems/taalaamkanamdiniiparinayamu.json",
+   "count": 1700
+  },
+  {
+   "source": "తృణకంకణము",
+   "file": "poems/trunakamkanamu.json",
+   "count": 113
+  },
+  {
+   "source": "తెనాలి రామకృష్ణకవి చరిత్రము",
+   "file": "poems/tenaaliraamakrushnakavicharitramu.json",
+   "count": 69
+  },
+  {
+   "source": "తెనుగు తోట",
+   "file": "poems/tenugutota.json",
+   "count": 22
+  },
+  {
+   "source": "తెలుఁగునాడు",
+   "file": "poems/telugunaadu.json",
+   "count": 169
+  },
+  {
+   "source": "తెలుగు బాల శతకం",
+   "file": "poems/telugubaalashatakam_2.json",
+   "count": 108
+  },
+  {
+   "source": "దయా శతకం",
+   "file": "poems/dayaashatakam.json",
+   "count": 108
+  },
+  {
+   "source": "దశకుమారచరిత్రము",
+   "file": "poems/dashakumaaracharitramu.json",
+   "count": 1427
+  },
+  {
+   "source": "దశరథరాజనందనచరిత్ర",
+   "file": "poems/dasharatharaajanamdanacharitra.json",
+   "count": 875
+  },
+  {
+   "source": "దశావతారచరిత్రము",
+   "file": "poems/dashaavataaracharitramu.json",
+   "count": 2482
+  },
+  {
+   "source": "దాశరథీ శతకము",
+   "file": "poems/daasharathiishatakamu.json",
+   "count": 103
+  },
+  {
+   "source": "దేవకీనందన శతకము",
+   "file": "poems/devakiinamdanashatakamu.json",
+   "count": 101
+  },
+  {
+   "source": "ద్వారకాపతి శతకము",
+   "file": "poems/dvaarakaapatishatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "ద్విపద భాగవతం",
+   "file": "poems/dvipadabhaagavatam.json",
+   "count": 2445
+  },
+  {
+   "source": "ధనాభిరామము",
+   "file": "poems/dhanaabhiraamamu.json",
+   "count": 307
+  },
+  {
+   "source": "ధనుర్విద్యావిలాసము",
+   "file": "poems/dhanurvidyaavilaasamu.json",
+   "count": 746
+  },
+  {
+   "source": "ధూర్తమానవా శతకము",
+   "file": "poems/dhuurtamaanavaashatakamu.json",
+   "count": 36
+  },
+  {
+   "source": "నరసభూపాలీయము",
+   "file": "poems/narasabhuupaaliiyamu.json",
+   "count": 781
+  },
+  {
+   "source": "నరసింహ శతకము",
+   "file": "poems/narasimhashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "నరసింహశతకము",
+   "file": "poems/narasimhashatakamu_2.json",
+   "count": 116
+  },
+  {
+   "source": "నవనాథచరిత్ర",
+   "file": "poems/navanaathacharitra.json",
+   "count": 4270
+  },
+  {
+   "source": "నానార్ధశివ శతకము",
+   "file": "poems/naanaardhashivashatakamu.json",
+   "count": 128
+  },
+  {
+   "source": "నారదీయపురాణము",
+   "file": "poems/naaradiiyapuraanamu.json",
+   "count": 2066
+  },
+  {
+   "source": "నారాయణ ద్విపద",
+   "file": "poems/naaraayanadvipada.json",
+   "count": 119
+  },
+  {
+   "source": "నారాయణ శతకము",
+   "file": "poems/naaraayanashatakamu.json",
+   "count": 158
+  },
+  {
+   "source": "నీతిశతకము",
+   "file": "poems/niitishatakamu.json",
+   "count": 40
+  },
+  {
+   "source": "నీలాసుందరీపరిణయము",
+   "file": "poems/niilaasumdariiparinayamu.json",
+   "count": 315
+  },
+  {
+   "source": "నృకేసరిశతకము",
+   "file": "poems/nrukesarishatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "నృసింహపురాణము",
+   "file": "poems/nrusimhapuraanamu.json",
+   "count": 742
+  },
+  {
+   "source": "పంచతంత్రము (దూబగుంట నారాయణ)",
+   "file": "poems/pamchatamtramuduubagumtanaaraayana.json",
+   "count": 1346
+  },
+  {
+   "source": "పంచతంత్రము (బైచరాజు)",
+   "file": "poems/pamchatamtramubaicharaaju.json",
+   "count": 1981
+  },
+  {
+   "source": "పండితారాధ్యచరిత్ర (గుజిలీప్రతి)",
+   "file": "poems/pamditaaraadhyacharitragujiliiprati.json",
+   "count": 78
+  },
+  {
+   "source": "పందిళ్ళమ్మ శతకము",
+   "file": "poems/pamdillammashatakamu.json",
+   "count": 130
+  },
+  {
+   "source": "పరమయోగి విలాసము",
+   "file": "poems/paramayogivilaasamu.json",
+   "count": 6376
+  },
+  {
+   "source": "పల్నాటి వీర చరిత్ర",
+   "file": "poems/palnaativiiracharitra.json",
+   "count": 783
+  },
+  {
+   "source": "పాంచాలీపరిణయము",
+   "file": "poems/paamchaaliiparinayamu.json",
+   "count": 395
+  },
+  {
+   "source": "పాండురంగమాహాత్మ్యము",
+   "file": "poems/paamduramgamaahaatmyamu.json",
+   "count": 1511
+  },
+  {
+   "source": "పానశాల",
+   "file": "poems/paanashaala.json",
+   "count": 168
+  },
+  {
+   "source": "పారిజాతాపహరణము",
+   "file": "poems/paarijaataapaharanamu.json",
+   "count": 523
+  },
+  {
+   "source": "పుష్పబాణవిలాసము",
+   "file": "poems/pushpabaanavilaasamu.json",
+   "count": 52
+  },
+  {
+   "source": "పొగాకు శతకం",
+   "file": "poems/pogaakushatakam.json",
+   "count": 60
+  },
+  {
+   "source": "ప్రబంధ రత్నావళి",
+   "file": "poems/prabamdharatnaavali.json",
+   "count": 631
+  },
+  {
+   "source": "ప్రబంధరత్నాకరము",
+   "file": "poems/prabamdharatnaakaramu.json",
+   "count": 1107
+  },
+  {
+   "source": "ప్రబంధసంబంధబంధనిబంధనగ్రంథము",
+   "file": "poems/prabamdhasambamdhabamdhanibamdhanagramthamu.json",
+   "count": 121
+  },
+  {
+   "source": "ప్రబంధసారశిరోమణి (1969)",
+   "file": "poems/prabamdhasaarashiromani.json",
+   "count": 779
+  },
+  {
+   "source": "ప్రబంధసారశిరోమణి(1985)/ప్రబంధసారశిరోమణి",
+   "file": "poems/prabamdhasaarashiromaniprabamdhasaarashiromani.json",
+   "count": 779
+  },
+  {
+   "source": "ప్రబోధచంద్రోదయము",
+   "file": "poems/prabodhachamdrodayamu.json",
+   "count": 405
+  },
+  {
+   "source": "బసవ పురాణం",
+   "file": "poems/basavapuraanam.json",
+   "count": 2454
+  },
+  {
+   "source": "బాలనీతి",
+   "file": "poems/baalaniiti.json",
+   "count": 30
+  },
+  {
+   "source": "బాలశతకము",
+   "file": "poems/baalashatakamu.json",
+   "count": 106
+  },
+  {
+   "source": "బెజవాడ కనకదుర్గాంబ శతకము",
+   "file": "poems/bejavaadakanakadurgaambashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "బ్రహ్మానందము",
+   "file": "poems/brahmaanamdamu.json",
+   "count": 434
+  },
+  {
+   "source": "బ్రహ్మోత్తరఖండము",
+   "file": "poems/brahmottarakhamdamu.json",
+   "count": 1433
+  },
+  {
+   "source": "భక్తజీవన శతకము",
+   "file": "poems/bhaktajiivanashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "భక్తమందార శతకము",
+   "file": "poems/bhaktamamdaarashatakamu.json",
+   "count": 101
+  },
+  {
+   "source": "భద్రాద్రిరామచంద్ర శతకము",
+   "file": "poems/bhadraadriraamachamdrashatakamu.json",
+   "count": 116
+  },
+  {
+   "source": "భద్రాద్రిసీతారామ శతకము",
+   "file": "poems/bhadraadrisiitaaraamashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "భర్తృహరి వైరాగ్య శతకము",
+   "file": "poems/bhartruharivairaagyashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "భర్తృహరి శతకము",
+   "file": "poems/bhartruharishatakamu.json",
+   "count": 200
+  },
+  {
+   "source": "భారతం-విరాటోద్యోగం",
+   "file": "poems/bhaaratamviraatodyogam.json",
+   "count": 3155
+  },
+  {
+   "source": "భాస్కర శతకము",
+   "file": "poems/bhaaskarashatakamu.json",
+   "count": 109
+  },
+  {
+   "source": "భాస్కరరామాయణము",
+   "file": "poems/bhaaskararaamaayanamu.json",
+   "count": 5895
+  },
+  {
+   "source": "భీమేశ శతకము",
+   "file": "poems/bhiimeshashatakamu.json",
+   "count": 91
+  },
+  {
+   "source": "భీమేశ్వరపురాణము",
+   "file": "poems/bhiimeshvarapuraanamu.json",
+   "count": 869
+  },
+  {
+   "source": "భృంగరాజ మహిమము",
+   "file": "poems/bhrumgaraajamahimamu.json",
+   "count": 37
+  },
+  {
+   "source": "భోజరాజీయము",
+   "file": "poems/bhojaraajiiyamu.json",
+   "count": 1140
+  },
+  {
+   "source": "మంచిమాట శతకం",
+   "file": "poems/mamchimaatashatakam.json",
+   "count": 108
+  },
+  {
+   "source": "మత్స్యపురాణము",
+   "file": "poems/matsyapuraanamu.json",
+   "count": 758
+  },
+  {
+   "source": "మదనగోపాల శతకము",
+   "file": "poems/madanagopaalashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "మను చరిత్రము",
+   "file": "poems/manucharitramu.json",
+   "count": 670
+  },
+  {
+   "source": "మన్నారుదాసవిలాసము",
+   "file": "poems/mannaarudaasavilaasamu.json",
+   "count": 406
+  },
+  {
+   "source": "మహాభావా శతకము",
+   "file": "poems/mahaabhaavaashatakamu.json",
+   "count": 96
+  },
+  {
+   "source": "మాతృశతకము",
+   "file": "poems/maatrushatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "మారీచీపరిణయము/ఉపలబ్ధగ్రంథము",
+   "file": "poems/maariichiiparinayamuupalabdhagramthamu.json",
+   "count": 102
+  },
+  {
+   "source": "మారుతి శతకము",
+   "file": "poems/maarutishatakamu.json",
+   "count": 116
+  },
+  {
+   "source": "మీఁగడతరకలు",
+   "file": "poems/miigadatarakalu.json",
+   "count": 39
+  },
+  {
+   "source": "ముకుందవిలాసము",
+   "file": "poems/mukumdavilaasamu.json",
+   "count": 455
+  },
+  {
+   "source": "ముసలమ్మ మరణము",
+   "file": "poems/musalammamaranamu.json",
+   "count": 114
+  },
+  {
+   "source": "మృత్యుంజయ శతకము",
+   "file": "poems/mrutyumjayashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "మొల్ల రామాయణము",
+   "file": "poems/mollaraamaayanamu.json",
+   "count": 758
+  },
+  {
+   "source": "రంగనాథ రామాయణం",
+   "file": "poems/ramganaatharaamaayanam.json",
+   "count": 26296
+  },
+  {
+   "source": "రంగారాయచరిత్రము",
+   "file": "poems/ramgaaraayacharitramu.json",
+   "count": 712
+  },
+  {
+   "source": "రతిరహస్యము",
+   "file": "poems/ratirahasyamu.json",
+   "count": 1017
+  },
+  {
+   "source": "రసాభరణము",
+   "file": "poems/rasaabharanamu.json",
+   "count": 321
+  },
+  {
+   "source": "రసికజనమనోభిరామము",
+   "file": "poems/rasikajanamanobhiraamamu.json",
+   "count": 994
+  },
+  {
+   "source": "రాఘవపాండవీయము",
+   "file": "poems/raaghavapaamdaviiyamu.json",
+   "count": 473
+  },
+  {
+   "source": "రాజగోపాలవిలాసము",
+   "file": "poems/raajagopaalavilaasamu.json",
+   "count": 440
+  },
+  {
+   "source": "రాజగోపాలశతకము",
+   "file": "poems/raajagopaalashatakamu.json",
+   "count": 103
+  },
+  {
+   "source": "రాజయోగసారము",
+   "file": "poems/raajayogasaaramu.json",
+   "count": 807
+  },
+  {
+   "source": "రాజవాహనవిజయము",
+   "file": "poems/raajavaahanavijayamu.json",
+   "count": 565
+  },
+  {
+   "source": "రాజశేఖరవిలాసము",
+   "file": "poems/raajashekharavilaasamu.json",
+   "count": 474
+  },
+  {
+   "source": "రాధామాధవము",
+   "file": "poems/raadhaamaadhavamu.json",
+   "count": 1098
+  },
+  {
+   "source": "రాధామాధవసంవాదము",
+   "file": "poems/raadhaamaadhavasamvaadamu.json",
+   "count": 397
+  },
+  {
+   "source": "రాధికాసాంత్వనము",
+   "file": "poems/raadhikaasaamtvanamu.json",
+   "count": 561
+  },
+  {
+   "source": "రాధికాసాంత్వనము (సముఖము)/రాధికాసాంత్వనము",
+   "file": "poems/raadhikaasaamtvanamusamukhamuraadhikaasaamtvanamu.json",
+   "count": 101
+  },
+  {
+   "source": "రామచంద్రప్రభుశతకము",
+   "file": "poems/raamachamdraprabhushatakamu.json",
+   "count": 103
+  },
+  {
+   "source": "రామమోహనుక్తి రమ్య సూక్తి",
+   "file": "poems/raamamohanuktiramyasuukti.json",
+   "count": 177
+  },
+  {
+   "source": "రామాభ్యుదయము",
+   "file": "poems/raamaabhyudayamu.json",
+   "count": 31
+  },
+  {
+   "source": "రామేశ్వరమాహాత్మ్యము",
+   "file": "poems/raameshvaramaahaatmyamu.json",
+   "count": 722
+  },
+  {
+   "source": "రుక్మాంగదచరిత్రము",
+   "file": "poems/rukmaamgadacharitramu.json",
+   "count": 874
+  },
+  {
+   "source": "రుక్మిణీపరిణయము",
+   "file": "poems/rukminiiparinayamu.json",
+   "count": 643
+  },
+  {
+   "source": "లక్ష్మీశతకము",
+   "file": "poems/lakshmiishatakamu.json",
+   "count": 103
+  },
+  {
+   "source": "లావణ్య(సీమ)శతకము",
+   "file": "poems/laavanyasiimashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "వరాహపురాణము (నంది మల్లయ, ఘంట సింగయ)",
+   "file": "poems/varaahapuraanamunamdimallayaghamtasimgaya.json",
+   "count": 1597
+  },
+  {
+   "source": "వాశిష్ఠ రామాయణము",
+   "file": "poems/vaashishtharaamaayanamu.json",
+   "count": 3999
+  },
+  {
+   "source": "వాసిష్ఠరామాయణము",
+   "file": "poems/vaasishtharaamaayanamu.json",
+   "count": 1103
+  },
+  {
+   "source": "విక్రమార్కచరిత్రము",
+   "file": "poems/vikramaarkacharitramu.json",
+   "count": 1215
+  },
+  {
+   "source": "విజయ విలాసము",
+   "file": "poems/vijayavilaasamu.json",
+   "count": 676
+  },
+  {
+   "source": "విశ్వనాథ శతకము",
+   "file": "poems/vishvanaathashatakamu.json",
+   "count": 118
+  },
+  {
+   "source": "విశ్వేశ్వర శతకము (మాస్వామి)",
+   "file": "poems/vishveshvarashatakamumaasvaami.json",
+   "count": 101
+  },
+  {
+   "source": "విష్ణుపురాణము (కలిదిండి భావనారాయణ)",
+   "file": "poems/vishnupuraanamukalidimdibhaavanaaraayana.json",
+   "count": 1632
+  },
+  {
+   "source": "విసనకర్ర శతకము",
+   "file": "poems/visanakarrashatakamu.json",
+   "count": 97
+  },
+  {
+   "source": "వృషాధిప శతకము",
+   "file": "poems/vrushaadhipashatakamu.json",
+   "count": 109
+  },
+  {
+   "source": "వేంకటాచలరమణ శతకము",
+   "file": "poems/vemkataachalaramanashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "వేంకటేశ శతకము",
+   "file": "poems/vemkateshashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "వేణుగోపాల శతకము",
+   "file": "poems/venugopaalashatakamu.json",
+   "count": 105
+  },
+  {
+   "source": "వేమన శతకము",
+   "file": "poems/vemanashatakamu.json",
+   "count": 365
+  },
+  {
+   "source": "వైరాగ్య యోగ శతకము",
+   "file": "poems/vairaagyayogashatakamu.json",
+   "count": 104
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (?/ఒక మంచి పద్యం/ఖండకావ్యాలు/చిలుకమఱ్ఱి వారి రచనలు/ఛందస్సు/నా కవిత్వం/నా పాటలు/నిర్వచన భారత గర్భ రామాయణము/ప్రహేళిక/వ్యాకరణం)",
+   "file": "poems/shamkaraabharanamaanlainpadyaaluokamamchipadyamkhamdakaavyaa.json",
+   "count": 919
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (అవీ - ఇవీ)",
+   "file": "poems/shamkaraabharanamaanlainpadyaaluaviiivii.json",
+   "count": 571
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (చమత్కార పద్యాలు)",
+   "file": "poems/shamkaraabharanamaanlainpadyaaluchamatkaarapadyaalu.json",
+   "count": 404
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (దత్తపది)",
+   "file": "poems/shamkaraabharanamaanlainpadyaaludattapadi.json",
+   "count": 3130
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (నిషిద్ధాక్షరి)",
+   "file": "poems/shamkaraabharanamaanlainpadyaalunishiddhaakshari.json",
+   "count": 1007
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (న్యస్తాక్షరి)",
+   "file": "poems/shamkaraabharanamaanlainpadyaalunyastaakshari.json",
+   "count": 1710
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (పద్య రచన)",
+   "file": "poems/shamkaraabharanamaanlainpadyaalupadyarachana.json",
+   "count": 10837
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (విశేషచ్ఛందస్సులు)",
+   "file": "poems/shamkaraabharanamaanlainpadyaaluvisheshachchhamdassulu.json",
+   "count": 154
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
+   "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.json",
+   "count": 99530
+  },
+  {
+   "source": "శతావధానసారము",
+   "file": "poems/shataavadhaanasaaramu.json",
+   "count": 68
+  },
+  {
+   "source": "శశాంకవిజయము",
+   "file": "poems/shashaamkavijayamu.json",
+   "count": 683
+  },
+  {
+   "source": "శశికళ",
+   "file": "poems/shashikala.json",
+   "count": 827
+  },
+  {
+   "source": "శశిమౌళి శతకం",
+   "file": "poems/shashimaulishatakam.json",
+   "count": 101
+  },
+  {
+   "source": "శశిరేఖాపరిణయము",
+   "file": "poems/shashirekhaaparinayamu.json",
+   "count": 776
+  },
+  {
+   "source": "శారంగధర చరిత్రము",
+   "file": "poems/shaaramgadharacharitramu.json",
+   "count": 1176
+  },
+  {
+   "source": "శాసనపద్యమంజరి (మొదటిభాగం)",
+   "file": "poems/shaasanapadyamamjarimodatibhaagam.json",
+   "count": 265
+  },
+  {
+   "source": "శాసనపద్యమంజరి (రెండవభాగము)/శాసనపద్యమంజరి (రెండవభాగము)",
+   "file": "poems/shaasanapadyamamjariremdavabhaagamushaasanapadyamamjariremda.json",
+   "count": 86
+  },
+  {
+   "source": "శివ శతకం",
+   "file": "poems/shivashatakam.json",
+   "count": 107
+  },
+  {
+   "source": "శివముకుంద శతకము",
+   "file": "poems/shivamukumdashatakamu.json",
+   "count": 111
+  },
+  {
+   "source": "శివరాత్రిమాహాత్మ్యము",
+   "file": "poems/shivaraatrimaahaatmyamu.json",
+   "count": 546
+  },
+  {
+   "source": "శివలీలావిలాసము",
+   "file": "poems/shivaliilaavilaasamu.json",
+   "count": 322
+  },
+  {
+   "source": "శిశుపాలవధ మహాకావ్యము",
+   "file": "poems/shishupaalavadhamahaakaavyamu.json",
+   "count": 1303
+  },
+  {
+   "source": "శుకసప్తతి",
+   "file": "poems/shukasaptati.json",
+   "count": 2045
+  },
+  {
+   "source": "శుద్ధాంధ్రనిరోష్ఠ్యసీతాకల్యాణము",
+   "file": "poems/shuddhaamdhraniroshthyasiitaakalyaanamu.json",
+   "count": 55
+  },
+  {
+   "source": "శృంగార మల్హణచరిత్ర",
+   "file": "poems/shrumgaaramalhanacharitra.json",
+   "count": 383
+  },
+  {
+   "source": "శృంగార వృత్తపద్యాల శతకము",
+   "file": "poems/shrumgaaravruttapadyaalashatakamu.json",
+   "count": 75
+  },
+  {
+   "source": "శృంగార సావిత్రి",
+   "file": "poems/shrumgaarasaavitri.json",
+   "count": 335
+  },
+  {
+   "source": "శృంగారనైషధము",
+   "file": "poems/shrumgaaranaishadhamu.json",
+   "count": 1122
+  },
+  {
+   "source": "శృంగారపంచకము",
+   "file": "poems/shrumgaarapamchakamu.json",
+   "count": 418
+  },
+  {
+   "source": "శృంగారశాకుంతలము (ఎమెస్కో)",
+   "file": "poems/shrumgaarashaakumtalamuemesko.json",
+   "count": 33
+  },
+  {
+   "source": "శృంగారామరుకావ్యము",
+   "file": "poems/shrumgaaraamarukaavyamu.json",
+   "count": 92
+  },
+  {
+   "source": "శ్రీ (అలమేలుమంగా) వేంకటేశ్వర శతకము",
+   "file": "poems/shriialamelumamgaavemkateshvarashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "శ్రీ ఆచంట రామేశ్వర శతకము",
+   "file": "poems/shriiaachamtaraameshvarashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "శ్రీ ప్రబంధరాజ వేంకటేశ్వర విజయ విలాసము",
+   "file": "poems/shriiprabamdharaajavemkateshvaravijayavilaasamu.json",
+   "count": 930
+  },
+  {
+   "source": "శ్రీ సుందరకాండ (రాయప్రోలు సుబ్బారావు)",
+   "file": "poems/shriisumdarakaamdaraayaprolusubbaaraavu.json",
+   "count": 2436
+  },
+  {
+   "source": "శ్రీకృష్ణవిజయము",
+   "file": "poems/shriikrushnavijayamu.json",
+   "count": 28
+  },
+  {
+   "source": "శ్రీదుర్గామల్లేశ్వర శతకము",
+   "file": "poems/shriidurgaamalleshvarashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "శ్రీనివాస విలాస సేవధి",
+   "file": "poems/shriinivaasavilaasasevadhi.json",
+   "count": 4496
+  },
+  {
+   "source": "శ్రీభద్రాద్రిరామ శతకము",
+   "file": "poems/shriibhadraadriraamashatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "శ్రీభర్గ శతకము",
+   "file": "poems/shriibhargashatakamu.json",
+   "count": 101
+  },
+  {
+   "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
+   "file": "poems/shriimattrikuutaachalamaahaatmyamu.json",
+   "count": 359
+  },
+  {
+   "source": "శ్రీమదాంధ్ర మహాభాగవతం",
+   "file": "poems/shriimadaamdhramahaabhaagavatam.json",
+   "count": 9010
+  },
+  {
+   "source": "శ్రీమదాంధ్ర మహాభారతము",
+   "file": "poems/shriimadaamdhramahaabhaaratamu.json",
+   "count": 21400
+  },
+  {
+   "source": "శ్రీమదుత్తరరామాయణము",
+   "file": "poems/shriimaduttararaamaayanamu.json",
+   "count": 737
+  },
+  {
+   "source": "శ్రీరంగమహత్త్వము",
+   "file": "poems/shriiramgamahattvamu.json",
+   "count": 1278
+  },
+  {
+   "source": "శ్రీరంగమాహాత్మ్యము",
+   "file": "poems/shriiramgamaahaatmyamu.json",
+   "count": 1413
+  },
+  {
+   "source": "శ్రీరంగశతకము",
+   "file": "poems/shriiramgashatakamu.json",
+   "count": 111
+  },
+  {
+   "source": "శ్రీరామ పరిణయము",
+   "file": "poems/shriiraamaparinayamu.json",
+   "count": 392
+  },
+  {
+   "source": "శ్రీరామ శతకము",
+   "file": "poems/shriiraamashatakamu.json",
+   "count": 205
+  },
+  {
+   "source": "శ్రీరామాయణం (కట్టా వరదరాజు)",
+   "file": "poems/shriiraamaayanamkattaavaradaraaju.json",
+   "count": 23292
+  },
+  {
+   "source": "శ్రీసరస్వతీ శతకము",
+   "file": "poems/shriisarasvatiishatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "షోడశకుమారచరిత్రము",
+   "file": "poems/shodashakumaaracharitramu.json",
+   "count": 590
+  },
+  {
+   "source": "సంకీర్తన లక్షణము",
+   "file": "poems/samkiirtanalakshanamu.json",
+   "count": 71
+  },
+  {
+   "source": "సంగీతరస తరంగిణి",
+   "file": "poems/samgiitarasataramgini.json",
+   "count": 65
+  },
+  {
+   "source": "సంపంగిమన్న శతకం",
+   "file": "poems/sampamgimannashatakam.json",
+   "count": 125
+  },
+  {
+   "source": "సకలనీతికథానిధానము",
+   "file": "poems/sakalaniitikathaanidhaanamu.json",
+   "count": 1129
+  },
+  {
+   "source": "సకలనీతిసమ్మతము",
+   "file": "poems/sakalaniitisammatamu.json",
+   "count": 999
+  },
+  {
+   "source": "సత్యభామాసాంత్వనము",
+   "file": "poems/satyabhaamaasaamtvanamu.json",
+   "count": 608
+  },
+  {
+   "source": "సమీరకుమారవిజయము",
+   "file": "poems/samiirakumaaravijayamu.json",
+   "count": 1534
+  },
+  {
+   "source": "సర్పపురమాహాత్మ్యము",
+   "file": "poems/sarpapuramaahaatmyamu.json",
+   "count": 329
+  },
+  {
+   "source": "సర్వేశ్వరశతకము",
+   "file": "poems/sarveshvarashatakamu.json",
+   "count": 144
+  },
+  {
+   "source": "సాంబనిఘంటువు",
+   "file": "poems/saambanighamtuvu.json",
+   "count": 119
+  },
+  {
+   "source": "సారంగధరద్విపద",
+   "file": "poems/saaramgadharadvipada.json",
+   "count": 1345
+  },
+  {
+   "source": "సారంగధరీయము",
+   "file": "poems/saaramgadhariiyamu.json",
+   "count": 613
+  },
+  {
+   "source": "సింహాసనద్వాత్రింశిక",
+   "file": "poems/simhaasanadvaatrimshika.json",
+   "count": 2144
+  },
+  {
+   "source": "సీతారామాంజనేయసంవాదము",
+   "file": "poems/siitaaraamaamjaneyasamvaadamu.json",
+   "count": 198
+  },
+  {
+   "source": "సుందరీమణి శతకము",
+   "file": "poems/sumdariimanishatakamu.json",
+   "count": 95
+  },
+  {
+   "source": "సుకవి మనోరంజనము",
+   "file": "poems/sukavimanoramjanamu.json",
+   "count": 1120
+  },
+  {
+   "source": "సుమతీ శతకము",
+   "file": "poems/sumatiishatakamu.json",
+   "count": 108
+  },
+  {
+   "source": "సులక్షణసారము",
+   "file": "poems/sulakshanasaaramu.json",
+   "count": 276
+  },
+  {
+   "source": "సూర్య దేవర శతకం",
+   "file": "poems/suuryadevarashatakam.json",
+   "count": 102
+  },
+  {
+   "source": "సూర్య శతకము",
+   "file": "poems/suuryashatakamu.json",
+   "count": 102
+  },
+  {
+   "source": "సూర్యశతకము",
+   "file": "poems/suuryashatakamu_2.json",
+   "count": 107
+  },
+  {
+   "source": "సౌగంధికా ప్రసవాపహరణము",
+   "file": "poems/saugamdhikaaprasavaapaharanamu.json",
+   "count": 3475
+  },
+  {
+   "source": "హంసలదీవి గోపాలశతకము",
+   "file": "poems/hamsaladiivigopaalashatakamu.json",
+   "count": 100
+  },
+  {
+   "source": "హంసవింశతి",
+   "file": "poems/hamsavimshati.json",
+   "count": 1267
+  },
+  {
+   "source": "హరివంశము",
+   "file": "poems/harivamshamu.json",
+   "count": 4582
+  }
+ ]
+}
