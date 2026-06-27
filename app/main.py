@@ -109,9 +109,11 @@ async def read_root(request: Request):
         poems_q  = select(func.count(Poem.id))
         poets_q  = select(func.count(Poet.id))
         meters_q = select(func.count(Meter.id))
+        gold_q   = select(func.count(Poem.id)).where(Poem.rating == "gold")
         if not is_admin:
             poems_q  = poems_q.where(poem_visible_clause(is_admin))
             poets_q  = poets_q.where(poet_visible_clause(is_admin))
+            gold_q   = gold_q.where(poem_visible_clause(is_admin))
             # A meter is "shown" to a guest if at least one PD poem uses it.
             meters_q = (
                 select(func.count(func.distinct(Poem.meter_id)))
@@ -122,6 +124,7 @@ async def read_root(request: Request):
             "poems":  (await db.execute(poems_q)).scalar(),
             "poets":  (await db.execute(poets_q)).scalar(),
             "meters": (await db.execute(meters_q)).scalar(),
+            "gold":   (await db.execute(gold_q)).scalar(),
         }
     return templates.TemplateResponse("index.html", {"request": request, "stats": stats})
 
@@ -407,10 +410,12 @@ async def about_page(request: Request):
         poems_count = await db.execute(select(func.count(Poem.id)))
         poets_count = await db.execute(select(func.count(Poet.id)))
         meters_count = await db.execute(select(func.count(Meter.id)))
+        gold_count = await db.execute(select(func.count(Poem.id)).where(Poem.rating == "gold"))
         stats = {
             "poems": poems_count.scalar(),
             "poets": poets_count.scalar(),
             "meters": meters_count.scalar(),
+            "gold": gold_count.scalar(),
         }
     return templates.TemplateResponse("index.html", {"request": request, "stats": stats})
 
