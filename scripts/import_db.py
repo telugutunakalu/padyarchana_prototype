@@ -73,7 +73,7 @@ def main():
     if n_existing and not args.reset:
         sys.exit(f"refusing: {args.db} already has {n_existing} poems; pass --reset to rebuild")
     if args.reset:
-        for t in ("poems", "poets", "meters"):
+        for t in ("poem_versions", "poems", "poets", "meters"):
             cur.execute(f"DELETE FROM {t}")
 
     # 2. poets
@@ -112,6 +112,22 @@ def main():
         _flush(cur, rows)
     con.commit()
 
+    # 4b. poem edit-history (FK → poems, so after poems)
+    vpath = EXP / "poem_versions.json"
+    n_ver = 0
+    if vpath.exists():
+        versions = json.loads(vpath.read_text())
+        cur.executemany(
+            "INSERT INTO poem_versions(id,poem_id,version_no,title,text,literary_form,"
+            "meter_id,rating,prathipadartham,bhavam,created_by,created_at) "
+            "VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
+            [(v["id"], v["poem_id"], v["version_no"], v.get("title"), v.get("text"),
+              v.get("literary_form"), v.get("meter_id"), v.get("rating"),
+              _dump(v.get("prathipadartham")), v.get("bhavam"), v.get("created_by"),
+              v.get("created_at")) for v in versions])
+        con.commit()
+        n_ver = len(versions)
+
     # 5. FTS5 rebuild
     cur.executescript(FTS_DDL)
     cur.execute("INSERT INTO poems_fts(poems_fts) VALUES('rebuild')")
@@ -123,7 +139,8 @@ def main():
     cur.execute("INSERT INTO poems_fts(poems_fts) VALUES('integrity-check')")
     con.commit()
     con.close()
-    print(f"rebuilt {args.db}: {n_poems} poems / {n_poets} poets / {len(meters)} meters")
+    print(f"rebuilt {args.db}: {n_poems} poems / {n_poets} poets / {len(meters)} meters "
+          f"/ {n_ver} poem-version rows")
     print(f"  FTS5 rows: {n_fts} (== poems: {n_fts == n_poems}) | integrity-check: PASS")
 
 

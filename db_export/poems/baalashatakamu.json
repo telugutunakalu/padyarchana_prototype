@@ -86,7 +86,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాతృదేవి",
@@ -151,8 +151,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 635,
@@ -238,7 +238,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -303,8 +303,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 637,
@@ -398,7 +398,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సుతులఁ",
@@ -482,7 +482,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సుతులవృద్ధిన్",
@@ -555,8 +555,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 640,
@@ -566,7 +566,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎండ",
@@ -631,8 +631,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 641,
@@ -642,7 +642,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కోర్కెలెల్ల",
@@ -715,8 +715,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 642,
@@ -726,7 +726,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భక్తిమెచ్చి",
@@ -787,8 +787,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 643,
@@ -798,7 +798,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తల్లి",
@@ -867,8 +867,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 644,
@@ -950,7 +950,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విద్యగఱపు",
@@ -1007,8 +1007,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 646,
@@ -1018,7 +1018,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అజ్ఞజనులకహిల",
@@ -1063,8 +1063,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 647,
@@ -1146,7 +1146,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -1223,8 +1223,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 649,
@@ -1234,7 +1234,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మంచి",
@@ -1299,8 +1299,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 650,
@@ -1310,7 +1310,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జగతి",
@@ -1386,7 +1386,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -1455,8 +1455,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 652,
@@ -1466,7 +1466,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -1531,8 +1531,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 653,
@@ -1542,7 +1542,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కులము",
@@ -1607,8 +1607,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 654,
@@ -1618,7 +1618,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధరణి",
@@ -1675,8 +1675,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 655,
@@ -1746,7 +1746,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సుజనుఁడు",
@@ -1807,8 +1807,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 657,
@@ -1962,7 +1962,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -2027,8 +2027,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 660,
@@ -2038,7 +2038,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -2087,8 +2087,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 661,
@@ -2098,7 +2098,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అరయ",
@@ -2163,8 +2163,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 662,
@@ -2174,7 +2174,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -2231,8 +2231,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 663,
@@ -2242,7 +2242,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఏకపత్నిదీక్ష",
@@ -2307,8 +2307,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 664,
@@ -2382,7 +2382,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -2443,8 +2443,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 666,
@@ -2454,7 +2454,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మోహినరుని",
@@ -2519,8 +2519,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 667,
@@ -2530,7 +2530,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -2599,8 +2599,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 668,
@@ -2610,7 +2610,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మహిన్",
@@ -2675,8 +2675,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 669,
@@ -2686,7 +2686,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆత్మలోన",
@@ -2739,8 +2739,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 670,
@@ -2750,7 +2750,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విద్య",
@@ -2819,8 +2819,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 671,
@@ -2898,7 +2898,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుడమి",
@@ -2967,8 +2967,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 673,
@@ -2978,7 +2978,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -3043,8 +3043,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 674,
@@ -3118,7 +3118,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -3183,8 +3183,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 676,
@@ -3194,7 +3194,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇలను",
@@ -3251,8 +3251,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 677,
@@ -3262,7 +3262,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విజ్ఞుఁడు",
@@ -3331,8 +3331,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 678,
@@ -3342,7 +3342,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దూరదృష్టి",
@@ -3399,8 +3399,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 679,
@@ -3410,7 +3410,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అరయ",
@@ -3471,8 +3471,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 680,
@@ -3482,7 +3482,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కృత్రిమగ్రహముల",
@@ -3539,8 +3539,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 681,
@@ -3550,7 +3550,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భౌతికమున",
@@ -3611,8 +3611,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 682,
@@ -3622,7 +3622,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -3683,8 +3683,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 683,
@@ -3694,7 +3694,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అణువుకంటె",
@@ -3775,8 +3775,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 684,
@@ -3862,7 +3862,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మతములన్ని",
@@ -3934,7 +3934,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుట్టు",
@@ -4019,8 +4019,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 687,
@@ -4030,7 +4030,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వెఱపు",
@@ -4106,7 +4106,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అల్ల",
@@ -4163,8 +4163,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 689,
@@ -4174,7 +4174,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మతములన్ని",
@@ -4231,8 +4231,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 690,
@@ -4242,7 +4242,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వినురబాల",
@@ -4295,8 +4295,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 691,
@@ -4442,7 +4442,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వర్ణ",
@@ -4515,8 +4515,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 694,
@@ -4526,7 +4526,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జగతిలోన",
@@ -4583,8 +4583,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 695,
@@ -4594,7 +4594,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -4655,8 +4655,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 696,
@@ -4906,7 +4906,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వినురబాల",
@@ -4967,8 +4967,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 700,
@@ -4978,7 +4978,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5035,8 +5035,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 701,
@@ -5046,7 +5046,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బాల",
@@ -5103,8 +5103,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 702,
@@ -5114,7 +5114,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వినుర బాల",
@@ -5179,8 +5179,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 703,
@@ -5334,7 +5334,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5387,8 +5387,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 706,
@@ -5398,7 +5398,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రాజ్యమేలు",
@@ -5475,8 +5475,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 707,
@@ -5486,7 +5486,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5559,8 +5559,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 708,
@@ -5570,7 +5570,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5635,8 +5635,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 709,
@@ -5646,7 +5646,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర",
@@ -5723,8 +5723,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 710,
@@ -5734,7 +5734,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5799,8 +5799,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 711,
@@ -5810,7 +5810,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5891,8 +5891,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 712,
@@ -5902,7 +5902,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -5975,8 +5975,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 713,
@@ -5986,7 +5986,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మానవాళి",
@@ -6055,8 +6055,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 714,
@@ -6222,7 +6222,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -6287,8 +6287,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 717,
@@ -6298,7 +6298,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వినురబాల",
@@ -6378,7 +6378,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -6435,8 +6435,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 719,
@@ -6594,7 +6594,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పూజ్యనేత",
@@ -6659,8 +6659,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 722,
@@ -6742,7 +6742,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేశసీమ",
@@ -6811,8 +6811,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 724,
@@ -6822,7 +6822,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బాల",
@@ -6907,8 +6907,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 725,
@@ -6918,7 +6918,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఒకరినొకరు",
@@ -6983,8 +6983,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 726,
@@ -6994,7 +6994,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విశ్వదృష్టి",
@@ -7055,8 +7055,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 727,
@@ -7138,7 +7138,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సామదానములు",
@@ -7207,8 +7207,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 729,
@@ -7218,7 +7218,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జీవకోటులన్ని",
@@ -7287,8 +7287,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 730,
@@ -7298,7 +7298,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జీవకోటిలోని",
@@ -7351,8 +7351,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 731,
@@ -7362,7 +7362,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -7435,8 +7435,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 732,
@@ -7446,7 +7446,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ప్రాణి",
@@ -7515,8 +7515,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 733,
@@ -7526,7 +7526,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జగతి",
@@ -7583,8 +7583,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 734,
@@ -7594,7 +7594,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భుక్తము",
@@ -7667,8 +7667,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 735,
@@ -7678,7 +7678,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నరును",
@@ -7743,8 +7743,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 736,
@@ -7754,7 +7754,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -7815,8 +7815,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 737,
@@ -7826,7 +7826,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమల",
@@ -7879,8 +7879,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 738,
@@ -7890,7 +7890,7 @@
    "source": "బాలశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వినుతశీల",
@@ -7951,8 +7951,8 @@
    "line_count": 4,
    "poet_id": 8,
    "poet_name": "అలపాటి వెంకటప్పయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   }
  ]
 }

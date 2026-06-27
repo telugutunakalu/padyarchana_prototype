@@ -10,7 +10,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -18,8 +18,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350597,
@@ -29,7 +29,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 23,
@@ -37,8 +37,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350598,
@@ -67,7 +67,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -75,8 +75,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350600,
@@ -86,7 +86,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 26,
@@ -94,8 +94,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350601,
@@ -162,7 +162,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -170,8 +170,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350605,
@@ -200,7 +200,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -208,8 +208,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350607,
@@ -276,7 +276,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -284,8 +284,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350611,
@@ -295,7 +295,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -303,8 +303,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350612,
@@ -371,7 +371,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -379,8 +379,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350616,
@@ -390,7 +390,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -398,8 +398,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350617,
@@ -428,7 +428,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -436,8 +436,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350619,
@@ -447,7 +447,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -455,8 +455,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350620,
@@ -466,7 +466,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -474,8 +474,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350621,
@@ -542,7 +542,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -550,8 +550,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350625,
@@ -561,7 +561,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -569,8 +569,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350626,
@@ -637,7 +637,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -645,8 +645,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350630,
@@ -656,7 +656,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -664,8 +664,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350631,
@@ -675,7 +675,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -683,8 +683,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350632,
@@ -694,7 +694,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 24,
@@ -702,8 +702,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350633,
@@ -713,7 +713,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 10,
@@ -721,8 +721,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350634,
@@ -751,7 +751,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -759,8 +759,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350636,
@@ -846,7 +846,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -854,8 +854,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350641,
@@ -884,7 +884,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -892,8 +892,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350643,
@@ -922,7 +922,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -930,8 +930,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350645,
@@ -960,7 +960,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -968,8 +968,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350647,
@@ -979,7 +979,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 23,
@@ -987,8 +987,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350648,
@@ -1017,7 +1017,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1025,8 +1025,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350650,
@@ -1036,7 +1036,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -1044,8 +1044,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350651,
@@ -1055,7 +1055,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -1063,8 +1063,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350652,
@@ -1074,7 +1074,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -1082,8 +1082,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350653,
@@ -1093,7 +1093,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -1101,8 +1101,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350654,
@@ -1169,7 +1169,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -1177,8 +1177,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350658,
@@ -1188,7 +1188,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -1196,8 +1196,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350659,
@@ -1302,7 +1302,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 29,
@@ -1310,8 +1310,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350665,
@@ -1321,7 +1321,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -1329,8 +1329,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350666,
@@ -1359,7 +1359,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1367,8 +1367,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350668,
@@ -1378,7 +1378,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -1386,8 +1386,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350669,
@@ -1416,7 +1416,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -1424,8 +1424,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350671,
@@ -1435,7 +1435,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 28,
@@ -1443,8 +1443,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350672,
@@ -1492,7 +1492,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1500,8 +1500,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350675,
@@ -1511,7 +1511,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -1519,8 +1519,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350676,
@@ -1530,7 +1530,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1538,8 +1538,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350677,
@@ -1549,7 +1549,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -1557,8 +1557,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350678,
@@ -1568,7 +1568,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -1576,8 +1576,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350679,
@@ -1587,7 +1587,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 23,
@@ -1595,8 +1595,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350680,
@@ -1606,7 +1606,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -1614,8 +1614,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350681,
@@ -1625,7 +1625,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -1633,8 +1633,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350682,
@@ -1663,7 +1663,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -1671,8 +1671,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350684,
@@ -1682,7 +1682,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1690,8 +1690,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350685,
@@ -1720,7 +1720,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1728,8 +1728,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350687,
@@ -1739,7 +1739,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -1747,8 +1747,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350688,
@@ -1777,7 +1777,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -1785,8 +1785,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350690,
@@ -1834,7 +1834,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -1842,8 +1842,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350693,
@@ -1853,7 +1853,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -1861,8 +1861,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350694,
@@ -1872,7 +1872,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -1880,8 +1880,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350695,
@@ -1891,7 +1891,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -1899,8 +1899,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350696,
@@ -1910,7 +1910,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -1918,8 +1918,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350697,
@@ -2024,7 +2024,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -2032,8 +2032,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350703,
@@ -2157,7 +2157,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 23,
@@ -2165,8 +2165,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350710,
@@ -2214,7 +2214,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -2222,8 +2222,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350713,
@@ -2252,7 +2252,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -2260,8 +2260,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350715,
@@ -2423,7 +2423,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -2431,8 +2431,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 156,
+   "meter_name": "పద్మనాభము"
   },
   {
    "id": 350724,
@@ -2518,7 +2518,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -2526,8 +2526,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350729,
@@ -2860,7 +2860,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -2868,8 +2868,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350747,
@@ -2879,7 +2879,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -2887,8 +2887,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350748,
@@ -3031,7 +3031,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -3039,8 +3039,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350756,
@@ -3088,7 +3088,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -3096,8 +3096,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350759,
@@ -3126,7 +3126,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -3134,8 +3134,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350761,
@@ -3183,7 +3183,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -3191,8 +3191,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350764,
@@ -3221,7 +3221,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 25,
@@ -3229,8 +3229,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350766,
@@ -3240,7 +3240,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -3248,8 +3248,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350767,
@@ -3297,7 +3297,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -3305,8 +3305,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350770,
@@ -3373,7 +3373,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -3381,8 +3381,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350774,
@@ -3411,7 +3411,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -3419,8 +3419,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350776,
@@ -3430,7 +3430,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -3438,8 +3438,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350777,
@@ -3449,7 +3449,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 26,
@@ -3457,8 +3457,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350778,
@@ -3487,7 +3487,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -3495,8 +3495,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350780,
@@ -3506,7 +3506,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -3514,8 +3514,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350781,
@@ -3544,7 +3544,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -3552,8 +3552,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350783,
@@ -3582,7 +3582,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 24,
@@ -3590,8 +3590,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350785,
@@ -3620,7 +3620,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 21,
@@ -3628,8 +3628,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350787,
@@ -3677,7 +3677,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -3685,8 +3685,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350790,
@@ -3772,7 +3772,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -3780,8 +3780,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350795,
@@ -3810,7 +3810,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -3818,8 +3818,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350797,
@@ -3829,7 +3829,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -3837,8 +3837,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350798,
@@ -3848,7 +3848,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 26,
@@ -3856,8 +3856,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350799,
@@ -3867,7 +3867,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 32,
@@ -3875,8 +3875,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 350800,
@@ -3886,7 +3886,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -3894,8 +3894,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350801,
@@ -3905,7 +3905,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -3913,8 +3913,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350802,
@@ -3924,7 +3924,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -3932,8 +3932,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350803,
@@ -3962,7 +3962,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -3970,8 +3970,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350805,
@@ -4019,7 +4019,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 21,
@@ -4027,8 +4027,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350808,
@@ -4038,7 +4038,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -4046,8 +4046,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350809,
@@ -4057,7 +4057,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -4065,8 +4065,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350810,
@@ -4095,7 +4095,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -4103,8 +4103,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350812,
@@ -4114,7 +4114,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -4122,8 +4122,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350813,
@@ -4551,7 +4551,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -4559,8 +4559,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350836,
@@ -4589,7 +4589,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -4597,8 +4597,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350838,
@@ -4608,7 +4608,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -4616,8 +4616,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350839,
@@ -4627,7 +4627,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -4635,8 +4635,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350840,
@@ -4684,7 +4684,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -4692,8 +4692,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350843,
@@ -4741,7 +4741,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -4749,8 +4749,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350846,
@@ -4760,7 +4760,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -4768,8 +4768,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350847,
@@ -4779,7 +4779,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -4787,8 +4787,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350848,
@@ -4798,7 +4798,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -4806,8 +4806,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350849,
@@ -4817,7 +4817,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -4825,8 +4825,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350850,
@@ -4836,7 +4836,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -4844,8 +4844,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350851,
@@ -4874,7 +4874,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -4882,8 +4882,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350853,
@@ -4912,7 +4912,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -4920,8 +4920,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350855,
@@ -4988,7 +4988,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -4996,8 +4996,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350859,
@@ -5007,7 +5007,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -5015,8 +5015,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350860,
@@ -5083,7 +5083,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -5091,8 +5091,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350864,
@@ -5121,7 +5121,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -5129,8 +5129,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350866,
@@ -5178,7 +5178,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -5186,8 +5186,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350869,
@@ -5197,7 +5197,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -5205,8 +5205,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350870,
@@ -5216,7 +5216,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 24,
@@ -5224,8 +5224,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350871,
@@ -5254,7 +5254,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -5262,8 +5262,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350873,
@@ -5292,7 +5292,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -5300,8 +5300,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350875,
@@ -5311,7 +5311,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -5319,8 +5319,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350876,
@@ -5330,7 +5330,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -5338,8 +5338,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350877,
@@ -5349,7 +5349,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -5357,8 +5357,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350878,
@@ -5387,7 +5387,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -5395,8 +5395,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350880,
@@ -5406,7 +5406,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -5414,8 +5414,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350881,
@@ -5425,7 +5425,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -5433,8 +5433,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350882,
@@ -5444,7 +5444,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -5452,8 +5452,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350883,
@@ -5482,7 +5482,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -5490,8 +5490,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350885,
@@ -5501,7 +5501,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -5509,8 +5509,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350886,
@@ -5558,7 +5558,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -5566,8 +5566,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350889,
@@ -5577,7 +5577,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -5585,8 +5585,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350890,
@@ -5634,7 +5634,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 23,
@@ -5642,8 +5642,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350893,
@@ -5672,7 +5672,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 23,
@@ -5680,8 +5680,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350895,
@@ -5691,7 +5691,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -5699,8 +5699,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350896,
@@ -5729,7 +5729,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 21,
@@ -5737,8 +5737,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350898,
@@ -5767,7 +5767,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 21,
@@ -5775,8 +5775,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350900,
@@ -5786,7 +5786,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -5794,8 +5794,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350901,
@@ -5805,7 +5805,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -5813,8 +5813,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350902,
@@ -5824,7 +5824,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -5832,8 +5832,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350903,
@@ -5938,7 +5938,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -5946,8 +5946,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350909,
@@ -5957,7 +5957,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -5965,8 +5965,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350910,
@@ -5976,7 +5976,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -5984,8 +5984,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350911,
@@ -5995,7 +5995,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6003,8 +6003,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350912,
@@ -6014,7 +6014,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -6022,8 +6022,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350913,
@@ -6033,7 +6033,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -6041,8 +6041,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350914,
@@ -6052,7 +6052,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 21,
@@ -6060,8 +6060,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 350915,
@@ -6071,7 +6071,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -6079,8 +6079,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350916,
@@ -6090,7 +6090,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -6098,8 +6098,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350917,
@@ -6109,7 +6109,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -6117,8 +6117,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350918,
@@ -6128,7 +6128,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -6136,8 +6136,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350919,
@@ -6147,7 +6147,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6155,8 +6155,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350920,
@@ -6166,7 +6166,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6174,8 +6174,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350921,
@@ -6204,7 +6204,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6212,8 +6212,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350923,
@@ -6261,7 +6261,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -6269,8 +6269,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350926,
@@ -6280,7 +6280,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6288,8 +6288,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350927,
@@ -6318,7 +6318,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6326,8 +6326,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350929,
@@ -6337,7 +6337,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -6345,8 +6345,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350930,
@@ -6356,7 +6356,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 27,
@@ -6364,8 +6364,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 350931,
@@ -6375,7 +6375,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -6383,8 +6383,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350932,
@@ -6413,7 +6413,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -6421,8 +6421,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350934,
@@ -6432,7 +6432,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -6440,8 +6440,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350935,
@@ -6451,7 +6451,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -6459,8 +6459,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350936,
@@ -6470,7 +6470,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 10,
@@ -6478,8 +6478,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350937,
@@ -6489,7 +6489,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -6497,8 +6497,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350938,
@@ -6527,7 +6527,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -6535,8 +6535,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 350940,
@@ -6546,7 +6546,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -6554,8 +6554,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350941,
@@ -6584,7 +6584,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -6592,8 +6592,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350943,
@@ -6641,7 +6641,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -6649,8 +6649,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350946,
@@ -6679,7 +6679,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -6687,8 +6687,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350948,
@@ -6717,7 +6717,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 22,
@@ -6725,8 +6725,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 350950,
@@ -6736,7 +6736,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -6744,8 +6744,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350951,
@@ -6774,7 +6774,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -6782,8 +6782,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350953,
@@ -6793,7 +6793,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -6801,8 +6801,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 350954,
@@ -6812,7 +6812,7 @@
    "source": "శ్రీమత్త్రికూటాచలమాహాత్మ్యము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -6820,8 +6820,8 @@
    "line_count": 4,
    "poet_id": 196,
    "poet_name": "కొప్పరాజు నరసింహకవి",
-   "meter_id": 73,
-   "meter_name": "unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   }
  ]
 }

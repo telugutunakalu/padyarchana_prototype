@@ -94,7 +94,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -167,8 +167,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1859,
@@ -714,7 +714,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -811,8 +811,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1865,
@@ -1006,7 +1006,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -1083,8 +1083,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1868,
@@ -1514,7 +1514,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -1607,8 +1607,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1873,
@@ -1966,7 +1966,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరదగ",
@@ -2063,8 +2063,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1877,
@@ -2294,7 +2294,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -2391,8 +2391,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1880,
@@ -2594,7 +2594,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సీతని",
@@ -2695,8 +2695,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1883,
@@ -2818,7 +2818,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -2923,8 +2923,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1885,
@@ -2934,7 +2934,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -3015,8 +3015,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1886,
@@ -3026,7 +3026,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గొబ్బున",
@@ -3115,8 +3115,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1887,
@@ -3226,7 +3226,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా!",
@@ -3323,8 +3323,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1889,
@@ -3446,7 +3446,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -3527,8 +3527,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1891,
@@ -3538,7 +3538,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -3635,8 +3635,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1892,
@@ -3646,7 +3646,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చందము",
@@ -3739,8 +3739,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1893,
@@ -3750,7 +3750,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మూరెడు పెద్దపస్తకము",
@@ -3835,8 +3835,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1894,
@@ -4550,7 +4550,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -4643,8 +4643,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1902,
@@ -4770,7 +4770,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వంటకు",
@@ -4859,8 +4859,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1904,
@@ -4982,7 +4982,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -5103,8 +5103,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1906,
@@ -5754,7 +5754,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తిరలిక",
@@ -5843,8 +5843,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1913,
@@ -6026,7 +6026,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంచన",
@@ -6115,8 +6115,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1916,
@@ -6126,7 +6126,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గంగడు",
@@ -6223,8 +6223,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1917,
@@ -6234,7 +6234,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పానము",
@@ -6347,8 +6347,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1918,
@@ -6454,7 +6454,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దస్తుగ",
@@ -6539,8 +6539,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1920,
@@ -6550,7 +6550,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -6627,8 +6627,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1921,
@@ -6638,7 +6638,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -6731,8 +6731,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1922,
@@ -6742,7 +6742,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -6819,8 +6819,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1923,
@@ -6830,7 +6830,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -6895,8 +6895,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1924,
@@ -7230,7 +7230,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బాగుగ",
@@ -7327,8 +7327,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1928,
@@ -7770,7 +7770,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాసికి",
@@ -7875,8 +7875,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1933,
@@ -7886,7 +7886,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -7991,8 +7991,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1934,
@@ -8002,7 +8002,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -8071,8 +8071,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1935,
@@ -8082,7 +8082,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కంటకురాల",
@@ -8147,8 +8147,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1936,
@@ -8158,7 +8158,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇరుసుక",
@@ -8255,8 +8255,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1937,
@@ -8470,7 +8470,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓరది",
@@ -8559,8 +8559,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1940,
@@ -8802,7 +8802,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అనువుగ",
@@ -8911,8 +8911,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1943,
@@ -8922,7 +8922,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తలదిపకారము",
@@ -9031,8 +9031,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1944,
@@ -9154,7 +9154,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -9243,8 +9243,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1946,
@@ -9254,7 +9254,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -9339,8 +9339,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1947,
@@ -9350,7 +9350,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గురియట",
@@ -9455,8 +9455,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 1948,
@@ -9466,7 +9466,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తొల్లి",
@@ -9567,8 +9567,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1949,
@@ -9578,7 +9578,7 @@
    "source": "చంద్రశేఖరశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంద్రశేఖరా",
@@ -9643,8 +9643,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 1950,

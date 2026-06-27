@@ -10,7 +10,7 @@
    "source": "manchimaata_satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాయలోన",
@@ -75,8 +75,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 5357,
@@ -734,7 +734,7 @@
    "source": "manchimaata_satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మనసు",
@@ -803,8 +803,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 5366,
@@ -3822,7 +3822,7 @@
    "source": "manchimaata_satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీదిగాని",
@@ -3891,8 +3891,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 5405,
@@ -4146,7 +4146,7 @@
    "source": "manchimaata_satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పోరులేని",
@@ -4211,8 +4211,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 5409,
@@ -5366,7 +5366,7 @@
    "source": "manchimaata_satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తాను",
@@ -5423,8 +5423,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 5425,

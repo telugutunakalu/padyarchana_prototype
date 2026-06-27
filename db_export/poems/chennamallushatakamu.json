@@ -5270,7 +5270,7 @@
    "source": "చెన్నమల్లు శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పదుమూఁడు",
@@ -5343,8 +5343,8 @@
    "line_count": 4,
    "poet_id": 19,
    "poet_name": "పాలకురికి సోమనాథుడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 2099,
@@ -5354,7 +5354,7 @@
    "source": "చెన్నమల్లు శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చెనమల్లేశ్వరు",
@@ -5411,8 +5411,8 @@
    "line_count": 4,
    "poet_id": 19,
    "poet_name": "పాలకురికి సోమనాథుడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 2100,
@@ -5422,7 +5422,7 @@
    "source": "చెన్నమల్లు శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఈ",
@@ -5483,8 +5483,8 @@
    "line_count": 4,
    "poet_id": 19,
    "poet_name": "పాలకురికి సోమనాథుడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లోకములోన",
@@ -69,60 +69,60 @@
   {
    "id": 2,
    "title": "పలుకుమన్న నేల పలుకక యున్నావు",
-   "text": "పలుకుమన్న నేల పలుకక యున్నావు\nపలుకుమయ్య నాతో ప్రబలముగను\nపలుకుమయ్య! నీదు పలుకు నేనెఱిఁగెద\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "పలుకుమన్న నేల పలుకక యున్నావు\nపలుకుమయ్య నాతొ ప్రబలముగను\nపలుకుమయ్య! నీదు పలుకు నేనెఱిఁగెద\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "పలుకుమన్న",
-     "meaning": "మాట్లాడు అని అడిగితే"
+     "meaning": "మాట్లాడు అని అడిగితే",
+     "word": "పలుకుమన్న"
     },
     {
-     "word": "నేల",
-     "meaning": "ఎందుకు"
+     "meaning": "ఎందుకు",
+     "word": "నేల"
     },
     {
-     "word": "పలుకక",
-     "meaning": "మాట్లాడకుండా"
+     "meaning": "మాట్లాడకుండా",
+     "word": "పలుకక"
     },
     {
-     "word": "యున్నావు",
-     "meaning": "ఉన్నావు"
+     "meaning": "ఉన్నావు",
+     "word": "యున్నావు"
     },
     {
-     "word": "పలుకుమయ్య",
-     "meaning": "మాట్లాడు"
+     "meaning": "మాట్లాడు",
+     "word": "పలుకుమయ్య"
     },
     {
-     "word": "నాతో",
-     "meaning": "నాతో"
+     "meaning": "నాతొ",
+     "word": "నాతొ"
     },
     {
-     "word": "ప్రబలముగను",
-     "meaning": "స్పష్టముగా"
+     "meaning": "స్పష్టముగా",
+     "word": "ప్రబలముగను"
     },
     {
-     "word": "పలుకుమయ్య!",
-     "meaning": "ఓ స్వామీ! మాట్లాడు"
+     "meaning": "ఓ స్వామీ! మాట్లాడు",
+     "word": "పలుకుమయ్య!"
     },
     {
-     "word": "నీదు",
-     "meaning": "నీ యొక్క"
+     "meaning": "నీ యొక్క",
+     "word": "నీదు"
     },
     {
-     "word": "పలుకు",
-     "meaning": "మాటను (అంతరార్థాన్ని)"
+     "meaning": "మాటను (అంతరార్థాన్ని)",
+     "word": "పలుకు"
     },
     {
-     "word": "నేనెఱిఁగెద",
-     "meaning": "నేను తెలుసుకోగలను"
+     "meaning": "నేను తెలుసుకోగలను",
+     "word": "నేనెఱిఁగెద"
     },
     {
-     "word": "విశ్వదాభిరామ వినర వేమ",
-     "meaning": "విశ్వదాభిరామ వినుము వేమా"
+     "meaning": "విశ్వదాభిరామ వినుము వేమా",
+     "word": "విశ్వదాభిరామ వినర వేమ"
     }
    ],
    "bhavam": "ఓ దేవా! నేను నిన్ను పలుకరించమంటే ఎందుకు మౌనంగా ఉన్నావు? నాతో స్పష్టంగా మాట్లాడు. నీ అంతరంగాన్ని లేదా నీ మౌనం వెనుక ఉన్న రహస్యాన్ని నేను అర్థం చేసుకోగలను, కాబట్టి నిశ్శంకగా మాట్లాడు.",
@@ -142,7 +142,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆత్మశుద్ధి",
@@ -234,7 +234,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిక్కమైన",
@@ -306,7 +306,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిన్నున్",
@@ -382,7 +382,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మురియు",
@@ -462,7 +462,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గాజుకుప్పెలోన",
@@ -522,7 +522,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కల్ల",
@@ -598,7 +598,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పెట్టి",
@@ -666,7 +666,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తాము",
@@ -738,7 +738,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎరుక మాలు వాఁడు",
@@ -806,7 +806,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కూటికి",
@@ -878,7 +878,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కసువు",
@@ -966,7 +966,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎవ్వరి",
@@ -1034,7 +1034,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వేరు పురుగు",
@@ -1114,7 +1114,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఉప్పు",
@@ -1194,7 +1194,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జీవి",
@@ -1258,7 +1258,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కల్ల",
@@ -1334,7 +1334,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంగ మెల్ల",
@@ -1406,7 +1406,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆడువారిన్",
@@ -1486,7 +1486,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అనువు",
@@ -1566,7 +1566,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తన",
@@ -1662,7 +1662,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంపఁదగిన",
@@ -1738,7 +1738,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎట్టి",
@@ -1806,7 +1806,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీళ్లలోన",
@@ -1873,68 +1873,68 @@
   {
    "id": 26,
    "title": "నీళ్ళ లోన మొసలి నిగిడి యేనుఁగుఁ బట్టు",
-   "text": "నీళ్ళ లోన మొసలి నిగిడి యేనుఁగుఁ బట్టు\nబైట కుక్క చేత భంగ పడును\nస్థాన బలిమి గాని తన బలిమి కాదయా\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "నీళ్ళ లోన మొసలి నిగిడి యేనుఁగుఁ బట్టు\nబైట కుక్క చేత భంగ పడ్ను \nస్థాన బలిమి గాని తన బలిమియు గాదు\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "నీళ్ళ లోన",
-     "meaning": "నీటిలో ఉన్నప్పుడు"
+     "meaning": "నీటిలో ఉన్నప్పుడు",
+     "word": "నీళ్ళ లోన"
     },
     {
-     "word": "మొసలి",
-     "meaning": "మొసలి"
+     "meaning": "మొసలి",
+     "word": "మొసలి"
     },
     {
-     "word": "నిగిడి",
-     "meaning": "ఎదిగి/బలపడి"
+     "meaning": "ఎదిగి/బలపడి",
+     "word": "నిగిడి"
     },
     {
-     "word": "ఏనుఁగుఁ",
-     "meaning": "ఏనుగును"
+     "meaning": "ఏనుగును",
+     "word": "ఏనుఁగుఁ"
     },
     {
-     "word": "పట్టు",
-     "meaning": "పట్టుకోగలదు"
+     "meaning": "పట్టుకోగలదు",
+     "word": "పట్టు"
     },
     {
-     "word": "బైట",
-     "meaning": "నీటికి బయట (నేల మీద)"
+     "meaning": "నీటికి బయట (నేల మీద)",
+     "word": "బైట"
     },
     {
-     "word": "కుక్క",
-     "meaning": "కుక్క చేతిలో"
+     "meaning": "కుక్క చేతిలో",
+     "word": "కుక్క"
     },
     {
-     "word": "చేత",
-     "meaning": "ద్వారా"
+     "meaning": "ద్వారా",
+     "word": "చేత"
     },
     {
-     "word": "భంగ పడును",
-     "meaning": "ఓడిపోతుంది / అవమానపడుతుంది"
+     "meaning": "ఓడిపోతుంది / అవమానపడుతుంది",
+     "word": "భంగ పడును"
     },
     {
-     "word": "స్థాన బలిమి",
-     "meaning": "ఉన్న చోటును బట్టి కలిగే బలం"
+     "meaning": "ఉన్న చోటును బట్టి కలిగే బలం",
+     "word": "స్థాన బలిమి"
     },
     {
-     "word": "కాని",
-     "meaning": "అవుతుంది కానీ"
+     "meaning": "అవుతుంది కానీ",
+     "word": "కాని"
     },
     {
-     "word": "తన",
-     "meaning": "సొంతమైన"
+     "meaning": "సొంతమైన",
+     "word": "తన"
     },
     {
-     "word": "బలిమి",
-     "meaning": "బలం"
+     "meaning": "బలం",
+     "word": "బలిమియు"
     },
     {
-     "word": "కాదయా",
-     "meaning": "కాదు అని అర్థం"
+     "meaning": "కాదు అని అర్థం",
+     "word": "గాదు"
     }
    ],
    "bhavam": "నీటిలో ఉన్నప్పుడు మొసలికి ఎంతో బలం ఉంటుంది, అందుకే అది ఏనుగును కూడా పట్టుకోగలదు. కానీ అదే మొసలి నీటికి బయటకు వస్తే, ఒక చిన్న కుక్క చేతిలో కూడా ఓడిపోతుంది. కాబట్టి, జీవులకు ఉండే బలం తాత్కాలికంగా ఆయా పరిస్థితులపై, ప్రదేశంపై ఆధారపడి ఉంటుందే తప్ప, అది వారి స్వంత బలం కాదు అని వేమన చెబుతున్నారు.",
@@ -1954,7 +1954,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కులములో",
@@ -2022,7 +2022,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పంది",
@@ -2089,12 +2089,12 @@
   {
    "id": 29,
    "title": "ఎఱుఁగు వాని దెలుప నెవ్వఁడయిననుఁ జాలు",
-   "text": "ఎఱుఁగు వాని దెలుప నెవ్వఁడయిననుఁ జాలు\nనొరుల వశము గాదు వోగుఁ దెల్ప\nయేటి వంక దీర్ప నెవ్వరి తరమయా?\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "ఎఱుఁగు వాని దెలుప నెవ్వఁడయిన జాలు\nనొరుల వశము గాదు వోగుఁ దెల్ప\nయేటి వంక దీర్ప నెవ్వరి తరమయా?\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎఱుఁగు వానిని",
@@ -2105,7 +2105,7 @@
      "meaning": "బోధించడానికి"
     },
     {
-     "word": "ఎవ్వఁడయినను",
+     "word": "ఎవ్వఁడయిన",
      "meaning": "ఎవరైనా"
     },
     {
@@ -2158,7 +2158,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అల్పుఁడు",
@@ -2238,7 +2238,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓగు",
@@ -2314,7 +2314,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గంగ",
@@ -2390,7 +2390,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాని వాని",
@@ -2458,7 +2458,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పిసినివాని",
@@ -2530,7 +2530,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కష్టలోభి వాని",
@@ -2594,7 +2594,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లోభి వానిన్",
@@ -2666,7 +2666,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాటలు",
@@ -2750,7 +2750,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కలిమి",
@@ -2834,7 +2834,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కనియున్",
@@ -2906,7 +2906,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తీర్ప",
@@ -2997,12 +2997,12 @@
   {
    "id": 41,
    "title": "తాను గుడువలేఁడు, తగ వేది యాప్తుల",
-   "text": "తాను గుడువలేఁడు, తగ వేది యాప్తుల\nజేర నివ్వఁడ ట్టి చెనటి గోవు\nచేని లోన బొమ్మఁ జేసి కట్టిన యట్లు\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "తాను గుడువలేఁడు, తగ వేది యాప్తుల\nజేర నివ్వఁడట్టి చెనటి గోవు\nచేని లోన బొమ్మఁ జేసి కట్టిన యట్లు\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తాను",
@@ -3078,7 +3078,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పూర్వ",
@@ -3162,7 +3162,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చమురు",
@@ -3233,12 +3233,12 @@
   {
    "id": 44,
    "title": "భూపతి కృప నమ్మి భూమి జెఱుచు వాఁడు",
-   "text": "భూపతి కృప నమ్మి భూమి జెఱుచు వాఁడు\nప్రజల యుసురు దాకి పడును పిదప\nయెగర వేయ బంతి యెందాక నిల్చురా\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "భూపతి కృప నమ్మి భూమి జెఱుచు వాఁడు \nప్రజల యుసురు దాకి పడును పిదప\nయెగర వేయ బంతి యెందాక నిల్చురా\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భూపతి",
@@ -3318,7 +3318,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పాపము",
@@ -3402,7 +3402,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నక్క",
@@ -3486,7 +3486,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వెళ్లి వచ్చు నాఁడు",
@@ -3538,7 +3538,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుట్టు",
@@ -3618,7 +3618,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాశి",
@@ -3694,7 +3694,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇనుము",
@@ -3766,7 +3766,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పరనారీ",
@@ -3829,64 +3829,60 @@
   {
    "id": 52,
    "title": "అజ్ఞానమె శూద్రత్వము",
-   "text": "అజ్ఞానమె శూద్రత్వము\nసుజ్ఞానము బ్రహ్మమౌట శ్రుతులను వినరా\nయజ్ఞాన ముడిగి వాల్మీకి\nసుజ్ఞానపు బ్రహ్మమొందెఁ జూడర వేమా.",
+   "text": "అజ్ఞానమె శూద్రత్వము\nసుజ్ఞానము బ్రహ్మమౌట శ్రుతులను వినరా\nయజ్ఞతనుడి వాల్మీకియు\nసుజ్ఞానపు బ్రహ్మ మొందెఁ జూడర వేమా.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "అజ్ఞానమె",
-     "meaning": "అవిద్య లేదా మూఢత్వమే"
+     "meaning": "అవిద్య లేదా మూఢత్వమే",
+     "word": "అజ్ఞానమె"
     },
     {
-     "word": "శూద్రత్వము",
-     "meaning": "నీచమైన స్థితి లేదా శూద్ర జన్మ"
+     "meaning": "నీచమైన స్థితి లేదా శూద్ర జన్మ",
+     "word": "శూద్రత్వము"
     },
     {
-     "word": "సుజ్ఞానము",
-     "meaning": "మంచి జ్ఞానం లేదా ఆత్మజ్ఞానం"
+     "meaning": "మంచి జ్ఞానం లేదా ఆత్మజ్ఞానం",
+     "word": "సుజ్ఞానము"
     },
     {
-     "word": "బ్రహ్మమౌట",
-     "meaning": "బ్రహ్మ స్వరూపం కావడం"
+     "meaning": "బ్రహ్మ స్వరూపం కావడం",
+     "word": "బ్రహ్మమౌట"
     },
     {
-     "word": "శ్రుతులను",
-     "meaning": "వేదాలను"
+     "meaning": "వేదాలను",
+     "word": "శ్రుతులను"
     },
     {
-     "word": "వినరా",
-     "meaning": "ఓ మానవుడా! విను"
+     "meaning": "ఓ మానవుడా! విను",
+     "word": "వినరా"
     },
     {
-     "word": "యజ్ఞానము",
-     "meaning": "ఆ అజ్ఞానాన్ని"
+     "meaning": "అజ్ఞానపు స్థితిని పూర్తిగా విడిచిపెట్టి",
+     "word": "యజ్ఞతనుడి"
     },
     {
-     "word": "ఉడిగి",
-     "meaning": "పోగొట్టుకుని"
+     "meaning": "వాల్మీకి మహర్షి",
+     "word": "వాల్మికి"
     },
     {
-     "word": "వాల్మీకి",
-     "meaning": "వాల్మీకి మహర్షి"
+     "meaning": "ఉత్తమ జ్ఞానంతో కూడిన",
+     "word": "సుజ్ఞానపు"
     },
     {
-     "word": "సుజ్ఞానపు",
-     "meaning": "ఉత్తమ జ్ఞానంతో కూడిన"
+     "meaning": "బ్రహ్మ పదవిని పొందాడు",
+     "word": "బ్రహ్మమొందెఁ"
     },
     {
-     "word": "బ్రహ్మమొందెఁ",
-     "meaning": "బ్రహ్మ పదవిని పొందాడు"
+     "meaning": "తెలుసుకో లేదా గమనించు",
+     "word": "చూడర"
     },
     {
-     "word": "చూడర",
-     "meaning": "తెలుసుకో లేదా గమనించు"
-    },
-    {
-     "word": "వేమా",
-     "meaning": "ఓ వేమన్నా!"
+     "meaning": "ఓ వేమన్నా!",
+     "word": "వేమా"
     }
    ],
    "bhavam": "ఓ మానవుడా! అజ్ఞానమే ఒక వ్యక్తిని నీచమైన స్థితికి (శూద్రత్వానికి) గురిచేస్తుంది. ఉత్తమమైన ఆత్మజ్ఞానమే మనిషిని బ్రహ్మ స్వరూపిని చేస్తుంది అని వేదాలు ఘోషిస్తున్నాయి. దీనికి నిదర్శనంగా అజ్ఞానాన్ని వదిలించుకుని, జ్ఞానాన్ని పొంది వాల్మీకి మహర్షి బ్రహ్మ పదవిని ఎలా పొందారో గమనించు అని వేమన బోధిస్తున్నారు.",
@@ -3906,7 +3902,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీళ్లలోని",
@@ -3969,12 +3965,12 @@
   {
    "id": 54,
    "title": "బొంది యెవరిసొమ్ము పోషింపఁ బలుమారు",
-   "text": "బొంది యెవరిసొమ్ము పోషింపఁ బలుమారు\nప్రాణ మెవరిసొమ్ము భక్తిసేయ\nధనమ దెవరి సొమ్ము ధర్మమే తనసొమ్ము\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "బొంది యెవరిసొమ్ము పోషింపఁ బలుమారు \nప్రాణ మెవరిసొమ్ము భక్తిసేయ\nధనమ దెవరి సొమ్ము ధర్మమే తనసొమ్ము\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బొంది",
@@ -4042,7 +4038,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నమశివ",
@@ -4114,7 +4110,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మేడిపండు",
@@ -4190,7 +4186,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఉసురు",
@@ -4254,7 +4250,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మందుదినఁ",
@@ -4342,7 +4338,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తలను",
@@ -4414,7 +4410,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "స్త్రీల",
@@ -4486,7 +4482,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కూలినాలిచేసి",
@@ -4541,20 +4537,16 @@
   {
    "id": 62,
    "title": "ఇంద్రియ పరవశుఁ డధముం",
-   "text": "ఇంద్రియ పరవశుఁ డధముం\nడింద్రియ పరవశుఁడు భక్తియెడ మధ్యముంఁడౌ\nనింద్రియజయుఁ డుత్తముఁ జి\nతేంద్రియసుతుఁడు విన మహేశుఁడు వేమా.",
+   "text": "ఇంద్రియ పరవశుఁ డధముం\nడింద్రియ పరవశుఁడు భక్తియెడ మధ్యముఁడే\nనింద్రియ జయుఁ డుత్తముఁడు జి\nతేంద్రియ పతియగు మహేశు దేవుఁడె వేమా.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "ఇంద్రియ",
-     "meaning": "పంచేంద్రియాల"
-    },
-    {
-     "word": "పరవశుఁడు",
-     "meaning": "వశమైనవాడు"
+     "word": "ఇంద్రియ పరవశుఁడు",
+     "meaning": "తన పంచేంద్రియాలకు (కోరికలకు, వ్యామోహాలకు) పూర్తిగా లొంగిపోయినవాడు (బానిసైనవాడు)"
     },
     {
      "word": "అధముండు",
@@ -4585,23 +4577,23 @@
      "meaning": "శ్రేష్ఠుడు"
     },
     {
-     "word": "జితేంద్రియసుతుఁడు",
-     "meaning": "ఇంద్రియాలను గెలిచిన వాడు జ్ఞానపుత్రుడు"
+     "word": "జితేంద్రియ పతియగు",
+     "meaning": "అలా ఇంద్రియాలను జయించిన జితేంద్రియులకు ప్రభువైన (లేదా శిఖరాగ్రమైన)"
     },
     {
-     "word": "విన",
-     "meaning": "తెలుసుకో"
-    },
-    {
-     "word": "మహేశుఁడు",
+     "word": "మహేశు ",
      "meaning": "మహేశ్వరుడు"
+    },
+    {
+     "word": "దేవుఁడె",
+     "meaning": "సాక్షాత్తూ దేవుడు కదా!"
     },
     {
      "word": "వేమా",
      "meaning": "వేమనా"
     }
    ],
-   "bhavam": "వేమనా! ఇంద్రియాలకు బానిసైనవాడు నీచుడు. ఇంద్రియాల ప్రభావం ఉండి కూడా భక్తి కలిగి ఉన్నవాడు మధ్యముడు. ఇంద్రియాలను జయించి, వశం చేసుకున్నవాడే ఉత్తముడు. అటువంటి జితేంద్రియ జ్ఞాని సాక్షాత్తు పరమేశ్వరుని వంటివాడని తెలుసుకో.",
+   "bhavam": "ఓ వేమా! తన ఇంద్రియ కోరికలకు బానిసైనవాడు అధముడు. ఇంద్రియాలకు లోబడినా కూడా, దేవుని పట్ల భక్తి కలిగినవాడు మధ్యముడు. ఇక తన ఇంద్రియాలను పూర్తిగా జయించినవాడే ఉత్తముడు. అలాంటి జితేంద్రియులందరికీ ప్రభువైన, అఖండమైన నిగ్రహం కలిగిన ఆ మహేశ్వరుడే సాక్షాత్తూ దేవుడు!",
    "word_count": 14,
    "gana_count": null,
    "line_count": 4,
@@ -4618,7 +4610,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తన గుణము",
@@ -4697,12 +4689,12 @@
   {
    "id": 64,
    "title": "వెఱ్ఱివాని కయిన వేషధారికయిన",
-   "text": "వెఱ్ఱివాని కయిన వేషధారికయిన\nరోగికైన పరమయోగికైన\nస్త్రీలఁజూచినపుడె చిత్తంబు రంజిల్లు\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "వెఱ్ఱివాని కయిన వేషధారికయిన\nరోగికైన పరమయోగికైన \nస్త్రీలఁజూచినపుడె చిత్తంబు రంజిల్లు\nవిశ్వదాభిరామ వినర వేమ.",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వెఱ్ఱివాని కయిన",
@@ -4750,7 +4742,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తావసించుచోట",
@@ -4817,12 +4809,12 @@
   {
    "id": 66,
    "title": "భూమిలోనఁ పుణ్యపురుషులు లేకున్న",
-   "text": "భూమిలోనఁ పుణ్యపురుషులు లేకున్న\nజగములేలనిల్చు సమయుఁగాక\nనంత దఱచుదొరక రాడ నాడనెగాని\nవిశ్వదాభిరామ వినర వేమ.",
+   "text": "భూమిలోనఁ పుణ్యపురుషులు లేకున్న\nజగములేలనిల్చు సమయుఁగాక\nనంత దఱచుదొరక రాడ నాడనెగాని\nవిశ్వదాభిరామ వినర వేమ.\n",
    "literary_form": null,
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భూమిలోన",
@@ -4886,7 +4878,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చిత్తశుద్ధిగల్గి",
@@ -4946,7 +4938,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దైవంబు",
@@ -5010,7 +5002,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎక్కడయినను",
@@ -5074,7 +5066,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అరయ",
@@ -5210,7 +5202,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇంటి",
@@ -5278,7 +5270,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రాజవరులకెపుడు",
@@ -5342,7 +5334,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తల్లిదండ్రిమీద",
@@ -5402,7 +5394,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ముందరి",
@@ -5546,7 +5538,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీళ్లమీద",
@@ -5622,7 +5614,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "హేమకారవిద్య",
@@ -5686,7 +5678,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జీవభావము",
@@ -5766,7 +5758,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆశచేత",
@@ -5822,7 +5814,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పరుస",
@@ -5898,7 +5890,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుండ",
@@ -6026,7 +6018,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఊర్ధ్వలోకమందు",
@@ -6234,7 +6226,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దొంగమాట",
@@ -6314,7 +6306,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గాలిలేని",
@@ -6382,7 +6374,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మంటలో",
@@ -6450,7 +6442,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కలుషమెల్లఁ",
@@ -6514,7 +6506,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అనఁగ ననగ",
@@ -6650,7 +6642,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తేనెతెరలజాడ",
@@ -6722,7 +6714,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అడవి",
@@ -6790,7 +6782,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కప్పురంబు",
@@ -6862,7 +6854,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వేమా",
@@ -6954,7 +6946,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీరు",
@@ -7022,7 +7014,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శివుని",
@@ -7090,7 +7082,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇంద్రియములచేత",
@@ -7158,7 +7150,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కడుపునిండ",
@@ -7234,7 +7226,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -7253,7 +7245,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -7272,7 +7264,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7291,7 +7283,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -7405,7 +7397,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7424,7 +7416,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7481,7 +7473,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7500,7 +7492,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -7519,7 +7511,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -7538,7 +7530,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -7576,7 +7568,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7614,7 +7606,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7633,7 +7625,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -7652,7 +7644,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -7671,7 +7663,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -7709,7 +7701,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7728,7 +7720,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -7747,7 +7739,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -7766,7 +7758,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7785,7 +7777,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7804,7 +7796,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -7842,7 +7834,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -7880,7 +7872,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -7899,7 +7891,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -7918,7 +7910,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -7937,7 +7929,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -7975,7 +7967,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -7994,7 +7986,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -8013,7 +8005,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -8127,7 +8119,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -8184,7 +8176,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -8203,7 +8195,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -8222,7 +8214,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -8279,7 +8271,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -8317,7 +8309,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -8355,7 +8347,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -8393,7 +8385,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -8431,7 +8423,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -8450,7 +8442,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -8469,7 +8461,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -8488,7 +8480,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -8507,7 +8499,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -8545,7 +8537,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -8583,7 +8575,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -8602,7 +8594,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -8640,7 +8632,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -8697,7 +8689,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -8716,7 +8708,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -8811,7 +8803,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 10,
@@ -8849,7 +8841,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -8887,7 +8879,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -8906,7 +8898,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -8944,7 +8936,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -8982,7 +8974,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -9001,7 +8993,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -9020,7 +9012,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -9039,7 +9031,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -9058,7 +9050,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -9077,7 +9069,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -9153,7 +9145,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -9210,7 +9202,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -9229,7 +9221,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -9248,7 +9240,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -9286,7 +9278,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -9305,7 +9297,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -9324,7 +9316,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -9343,7 +9335,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -9381,7 +9373,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -9438,7 +9430,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -9514,7 +9506,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -9666,7 +9658,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -9723,7 +9715,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -9761,7 +9753,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -9799,7 +9791,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -9856,7 +9848,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -9932,7 +9924,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -9951,7 +9943,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -10008,7 +10000,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -10027,7 +10019,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10084,7 +10076,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -10103,7 +10095,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10122,7 +10114,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10141,7 +10133,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10160,7 +10152,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10179,7 +10171,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10198,7 +10190,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -10217,7 +10209,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10255,7 +10247,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10274,7 +10266,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -10312,7 +10304,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10331,7 +10323,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10350,7 +10342,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10388,7 +10380,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10426,7 +10418,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -10445,7 +10437,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10502,7 +10494,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10578,7 +10570,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -10635,7 +10627,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10654,7 +10646,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10673,7 +10665,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -10692,7 +10684,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10711,7 +10703,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10749,7 +10741,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10768,7 +10760,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10787,7 +10779,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10825,7 +10817,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10844,7 +10836,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10863,7 +10855,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10882,7 +10874,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10901,7 +10893,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -10958,7 +10950,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -10977,7 +10969,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -10996,7 +10988,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11015,7 +11007,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11053,7 +11045,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -11072,7 +11064,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -11091,7 +11083,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11110,7 +11102,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -11129,7 +11121,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11148,7 +11140,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11186,7 +11178,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -11205,7 +11197,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 18,
@@ -11243,7 +11235,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11262,7 +11254,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -11281,7 +11273,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11300,7 +11292,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11357,7 +11349,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -11395,7 +11387,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11414,7 +11406,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -11433,7 +11425,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11490,7 +11482,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -11566,7 +11558,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11585,7 +11577,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11623,7 +11615,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 12,
@@ -11661,7 +11653,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -11680,7 +11672,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 15,
@@ -11737,7 +11729,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11756,7 +11748,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11775,7 +11767,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 16,
@@ -11813,7 +11805,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -11832,7 +11824,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -11851,7 +11843,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11870,7 +11862,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11889,7 +11881,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11908,7 +11900,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11927,7 +11919,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -11965,7 +11957,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -11984,7 +11976,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -12022,7 +12014,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -12041,7 +12033,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -12079,7 +12071,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -12098,7 +12090,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -12117,7 +12109,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 17,
@@ -12155,7 +12147,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 11,
@@ -12174,7 +12166,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -12193,7 +12185,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
@@ -12212,7 +12204,7 @@
    "source": "వేమన శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 14,
