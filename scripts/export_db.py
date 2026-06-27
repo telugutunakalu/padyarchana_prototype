@@ -108,6 +108,7 @@ def main():
     # clear stale per-source files
     for old in (OUT / "poems").glob("*.json"):
         old.unlink()
+    CHUNK_BYTES = 30 * 1024 * 1024   # keep every poems file well under GitHub's 100MB cap
     for s in sources:
         rows = con.execute(
             "SELECT p.id,p.title,p.text,p.literary_form,p.source,p.kanda,p.flags,"
@@ -121,11 +122,25 @@ def main():
         for r in rows:
             d = dict(r); d["prathipadartham"] = _jload(d["prathipadartham"]); poems.append(d)
         slug = slugs[s]
-        (OUT / "poems" / f"{slug}.json").write_text(
-            json.dumps({"source": s, "count": len(poems), "poems": poems},
-                       ensure_ascii=False, indent=1), encoding="utf-8")
+        # byte-bounded chunking: big sources split into <slug>.partNN.json so no
+        # single file approaches the 100MB git/GitHub limit. import_db.py globs
+        # all poems/*.json, so parts load transparently (poems carry their source).
+        chunks, cur, cur_sz = [], [], 0
+        for d in poems:
+            sz = len(json.dumps(d, ensure_ascii=False).encode())
+            if cur and cur_sz + sz > CHUNK_BYTES:
+                chunks.append(cur); cur, cur_sz = [], 0
+            cur.append(d); cur_sz += sz
+        chunks = chunks + [cur] if cur else (chunks or [[]])
+        for i, chunk in enumerate(chunks, 1):
+            fn = f"{slug}.json" if len(chunks) == 1 else f"{slug}.part{i:02d}.json"
+            payload = {"source": s, "count": len(chunk), "poems": chunk}
+            if len(chunks) > 1:
+                payload["part"], payload["parts"] = i, len(chunks)
+            (OUT / "poems" / fn).write_text(
+                json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+            manifest["sources"].append({"source": s, "file": f"poems/{fn}", "count": len(chunk)})
         manifest["poems_total"] += len(poems)
-        manifest["sources"].append({"source": s, "file": f"poems/{slug}.json", "count": len(poems)})
 
     manifest["poem_versions_total"] = len(versions)
     (OUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
