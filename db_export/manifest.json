@@ -1,8 +1,8 @@
 {
  "poets_total": 201,
  "meters_total": 215,
- "poems_total": 364519,
- "sources_total": 279,
+ "poems_total": 363740,
+ "sources_total": 278,
  "sources": [
   {
    "source": "''తెలుగుబాల!'' శతకం",
@@ -647,11 +647,6 @@
   {
    "source": "ప్రబంధసారశిరోమణి (1969)",
    "file": "poems/prabamdhasaarashiromani.json",
-   "count": 779
-  },
-  {
-   "source": "ప్రబంధసారశిరోమణి(1985)/ప్రబంధసారశిరోమణి",
-   "file": "poems/prabamdhasaarashiromaniprabamdhasaarashiromani.json",
    "count": 779
   },
   {
@@ -1435,5 +1430,5 @@
    "count": 4582
   }
  ],
- "poem_versions_total": 35
+ "poem_versions_total": 38
 }
