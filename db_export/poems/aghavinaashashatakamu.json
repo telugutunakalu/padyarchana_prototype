@@ -10,7 +10,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "meaning": "ఓ శ్రీరామచంద్రా!",
@@ -98,7 +98,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గొప్ప",
@@ -158,7 +158,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వాక్కునందు",
@@ -230,7 +230,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ!",
@@ -282,7 +282,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీలవర్ణుడైన",
@@ -342,7 +342,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధనములిచ్చి",
@@ -406,7 +406,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తప్పులైనను",
@@ -470,7 +470,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -534,7 +534,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కపటవృత్తి",
@@ -598,7 +598,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భక్తవరద",
@@ -647,58 +647,58 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 428,
    "title": "అఘవినాశ శతకము - 11",
-   "text": "మోసపుచ్చకయ్య ముద్దుల మాయయ్య\nదోసిలొగ్గియుంటి త్రోవజూపు\nదాసదాసునిపై దయయుంచిరక్షించు\nఅంజదాసపోష అఘవినాశ!",
+   "text": "మోసపుచ్చకయ్య ముద్దుల మాయయ్య\nదోసిలొగ్గియుంటి త్రోవజూపు\nదాస దాసు పైన దయతోడ కాచయ్య\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "మోసపుచ్చకయ్య",
-     "meaning": "నన్ను మోసగించకు స్వామి"
+     "meaning": "నన్ను మోసగించకు స్వామి",
+     "word": "మోసపుచ్చకయ్య"
     },
     {
-     "word": "ముద్దుల",
-     "meaning": "అందమైన"
+     "meaning": "అందమైన",
+     "word": "ముద్దుల"
     },
     {
-     "word": "మాయయ్య",
-     "meaning": "మాయా స్వరూపుడవైన తండ్రి"
+     "meaning": "మాయా స్వరూపుడవైన తండ్రి",
+     "word": "మాయయ్య"
     },
     {
-     "word": "దోసిలొగ్గియుంటి",
-     "meaning": "నీకు అంజలి ఘటించి ఎదురుచూస్తున్నాను"
+     "meaning": "నీకు అంజలి ఘటించి ఎదురుచూస్తున్నాను",
+     "word": "దోసిలొగ్గియుంటి"
     },
     {
-     "word": "త్రోవజూపు",
-     "meaning": "నాకు సరైన మార్గాన్ని చూపించు"
+     "meaning": "నాకు సరైన మార్గాన్ని చూపించు",
+     "word": "త్రోవజూపు"
     },
     {
-     "word": "దాసదాసునిపై",
-     "meaning": "నీ దాసులకు దాసుడనైన నాపై"
+     "meaning": "నీ దాసులకు దాసుడనైన నాపై",
+     "word": "దాసదాసుపైన"
     },
     {
-     "word": "దయయుంచి",
-     "meaning": "కరుణ చూపి"
+     "meaning": "కరుణ ఉంచి",
+     "word": "దయతోడ"
     },
     {
-     "word": "రక్షించు",
-     "meaning": "కాపాడు"
+     "meaning": "కాపాడు",
+     "word": "కాచయ్య"
     },
     {
-     "word": "అంజదాసపోష",
-     "meaning": "అంజదాసు అనే భక్తుడిని పోషించేవాడా"
+     "meaning": "అంజదాసు అనే భక్తుడిని పోషించేవాడా",
+     "word": "అంజదాసపోష"
     },
     {
-     "word": "అఘవినాశ",
-     "meaning": "పాపాలను నశింపజేసేవాడా"
+     "meaning": "పాపాలను నశింపజేసేవాడా",
+     "word": "అఘవినాశ"
     }
    ],
    "bhavam": "ఓ అందమైన మాయా స్వరూపుడవైన తండ్రీ! నన్ను మోసగించకండి. నీకు అంజలి ఘటించి వేచియున్న నాకు సరైన మార్గాన్ని చూపండి. నీ దాసులకు దాసుడనైన నాపై దయయుంచి నన్ను రక్షించండి. ఓ అంజదాసు పోషకా! పాప వినాశకా!",
@@ -707,8 +707,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 429,
@@ -718,7 +718,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాయమందునున్ను",
@@ -786,7 +786,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎన్ని",
@@ -839,8 +839,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 431,
@@ -850,7 +850,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేహభ్రాంతిచేత",
@@ -901,12 +901,12 @@
   {
    "id": 432,
    "title": "అఘవినాశ శతకము - 15",
-   "text": "భక్తిలేనివారు పరమనీచులబోలు\nయుక్తిలేకయున్న యూరకుక్క\nవ్యక్తిలేనివాడు వ్యర్థమైపోవురా\nఅంజదాసపోష అఘవినాశ!",
+   "text": "భక్తిలేనివారు పరమనీచులబోలు\nయుక్తిలేకయున్న యూరకుక్క \nవ్యక్తిలేనివాడు వ్యర్థమైపోవురా\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భక్తిలేనివారు",
@@ -947,18 +947,18 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 433,
    "title": "అఘవినాశ శతకము - 16",
-   "text": "నీతికన్నవేరె జాతియందునులేదు\nఖ్యాతికన్నవేరె కాంతిగలదె\nనాతికన్నగలదె నాణ్యమౌయందము\nఅంజదాసపోష అఘవినాశ!",
+   "text": "నీతికన్నవేరె జాతియందునులేదు \nఖ్యాతికన్నవేరె కాంతిగలదె\nనాతికన్నగలదె నాణ్యమౌయందము\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీతికన్న",
@@ -1019,18 +1019,18 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 434,
    "title": "అఘవినాశ శతకము - 17",
-   "text": "జీవహింసజేయ దైవవంచన యౌను\nజీవమందు బ్రహ్మజేరియుండు\nజీవుబ్రహ్మమందు జేర్చిన సుఖమౌను\nఅంజదాసపోష అఘవినాశ!",
+   "text": "జీవహింసజేయ దైవవంచన యౌను\nజీవమందు బ్రహ్మజేరియుండు\nజీవు బ్రహ్మమందు జేర్చిన సుఖమౌను\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జీవహింస",
@@ -1091,8 +1091,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 435,
@@ -1102,7 +1102,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అప్పుకన్న",
@@ -1151,8 +1151,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 436,
@@ -1162,7 +1162,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దాతలున్న",
@@ -1223,8 +1223,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 437,
@@ -1234,7 +1234,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "silver",
    "prathipadartham": [
     {
      "word": "పప్పు",
@@ -1306,7 +1306,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "త్రిపుటిమధ్యనుండు",
@@ -1363,8 +1363,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 439,
@@ -1374,7 +1374,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధనము",
@@ -1439,18 +1439,18 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 440,
    "title": "అఘవినాశ శతకము - 23",
-   "text": "తల్లికన్నవేరె దైవమెక్కడజూడ\nకల్లుకన్న నీచ కైపులేదు\nయిల్లుకన్న లేదు యిలక్షేత్రముల త్రోవ\nఅంజదాసపోష అఘవినాశ!",
+   "text": "తల్లికన్నవేరె దైవమెక్కడజూడ\nకల్లుకన్న నీచ కైపులేదు\nయిల్లుకన్న లేదు యిల క్షేత్రముల త్రోవ\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తల్లికన్న",
@@ -1518,7 +1518,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆలికన్న",
@@ -1579,8 +1579,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 442,
@@ -1590,7 +1590,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జాతినెంచువాడు",
@@ -1631,18 +1631,18 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 443,
    "title": "అఘవినాశ శతకము - 26",
-   "text": "కామక్రోధమందు కనకంబునందును\nతామసంబు స్త్రీల దలచుటందు\nనీమ మెల్లవిడువ నిందలపాలౌను\nఅంజదాసపోష అఘవినాశ!",
+   "text": "కామ క్రోధమందు కనకంబునందును\nతామసంబు స్త్రీల దలచుటందు\nనీమ మెల్లవిడువ నిందలపాలౌను\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కామక్రోధమందు",
@@ -1687,8 +1687,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 444,
@@ -1698,7 +1698,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మోహబాధ",
@@ -1751,58 +1751,50 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 445,
    "title": "అఘవినాశ శతకము - 28",
-   "text": "దేశభక్తికొఱకు దేహమర్పించెడి\nభూసురోత్తములను బొగడదగునొ?\nమాంసకండలమ్ము మాలిన్యకాంతల పొగడదగునొ? మీరెపోల్చరయ్య\nఅంజదాసపోష అఘవినాశ!",
+   "text": "దేశభక్తికొఱకు దేహమర్పించెడి\nభూసురోత్తములను బొగడదగునొ?\nమాంసకండలమ్ము మాలిన్యకాంతల \nపొగడదగునొ? మీరెపోల్చరయ్య",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "దేశభక్తికొఱకు",
-     "meaning": "దేశం పట్ల భక్తి కోసం"
+     "meaning": "దేశం పట్ల భక్తి కోసం",
+     "word": "దేశభక్తికొఱకు"
     },
     {
-     "word": "దేహమర్పించెడి",
-     "meaning": "శరీరాన్ని సమర్పించుకునే"
+     "meaning": "శరీరాన్ని సమర్పించుకునే",
+     "word": "దేహమర్పించెడి"
     },
     {
-     "word": "భూసురోత్తములను",
-     "meaning": "శ్రేష్ఠులైన బ్రాహ్మణులను"
+     "meaning": "శ్రేష్ఠులైన బ్రాహ్మణులను",
+     "word": "భూసురోత్తములను"
     },
     {
-     "word": "బొగడదగునొ?",
-     "meaning": "స్తుతించదగినదా?"
+     "meaning": "స్తుతించదగినదా?",
+     "word": "బొగడదగునొ?"
     },
     {
-     "word": "మాంసకండలమ్ము",
-     "meaning": "మాంసపు ముద్దల వంటి"
+     "meaning": "మాంసపు ముద్దల వంటి",
+     "word": "మాంసకండలమ్ము"
     },
     {
-     "word": "మాలిన్యకాంతల",
-     "meaning": "అపవిత్రమైన స్త్రీలను"
+     "meaning": "అపవిత్రమైన స్త్రీలను",
+     "word": "మాలిన్యకాంతల"
     },
     {
-     "word": "పొగడదగునొ?",
-     "meaning": "స్తుతించదగినదా?"
+     "meaning": "స్తుతించదగినదా?",
+     "word": "పొగడదగునొ?"
     },
     {
-     "word": "మీరెపోల్చరయ్య",
-     "meaning": "మీరే ఆలోచించి చెప్పండి"
-    },
-    {
-     "word": "అంజదాసపోష",
-     "meaning": "అంజదాసుని పోషించేవాడా"
-    },
-    {
-     "word": "అఘవినాశ!",
-     "meaning": "పాపములను నశింపజేసేవాడా!"
+     "meaning": "మీరే ఆలోచించి చెప్పండి",
+     "word": "మీరెపోల్చరయ్య"
     }
    ],
    "bhavam": "ఓ అఘవినాశా! దేశభక్తి కోసం తమ ప్రాణాలనే అర్పించే ఉత్తమ బ్రాహ్మణులను కీర్తించాలా లేక కేవలం మాంసపు ముద్దల వంటి అపవిత్రమైన స్త్రీల సౌందర్యాన్ని పొగడాలా? ఇందులో ఏది సరైనదో మీరే విచారించి చెప్పండి.",
@@ -1811,8 +1803,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 446,
@@ -1822,7 +1814,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అన్నదమ్ములైన",
@@ -1867,8 +1859,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 447,
@@ -1878,7 +1870,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -1927,8 +1919,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 448,
@@ -1938,7 +1930,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ",
@@ -1995,18 +1987,18 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 449,
    "title": "అఘవినాశ శతకము - 32",
-   "text": "పుట్టగానె మిగుల భూతదయతో దిర్గి\nపట్టి విల్లువిరచి ఫలముగాంచె\nయట్టుపురుషశ్రేష్టు దాపదదొలగించు\nఅంజదాసపోష అఘవినాశ!",
+   "text": "పుట్టగానె మిగుల భూతదయతొదిర్గి \nపట్టి విల్లువిరచి ఫలముగాంచె\nయట్టుపురుష శ్రేష్టు దాపదదొలగించు\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుట్టగానె",
@@ -2017,7 +2009,7 @@
      "meaning": "అత్యధికమైన"
     },
     {
-     "word": "భూతదయతో",
+     "word": "భూతదయతొ",
      "meaning": "ప్రాణులపై దయతో"
     },
     {
@@ -2063,58 +2055,58 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 450,
    "title": "అఘవినాశ శతకము - 33",
-   "text": "పాపుడయినగాని భక్తుడయిననుగాని\nలోభుడైనగాని రోగిగాని\nదాపుజేరిమ్రొక్క దరిజేర్చు రాముండు\nఅంజదాసపోష అఘవినాశ!",
+   "text": "పాపుడయినగాని భక్తుడయిననుగా\nలోభుడైనగాని రోగిగాని\nదాపుజేరి మ్రొక్క దరిజేర్చు రాముండు\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "పాపుడైనగాని",
-     "meaning": "పాపకార్యములు చేసినవాడైనప్పటికీ"
+     "meaning": "పాపకార్యములు చేసినవాడైనప్పటికీ",
+     "word": "పాపుడైనగాని"
     },
     {
-     "word": "భక్తుడైననుగాని",
-     "meaning": "భక్తి గలవాడైనప్పటికీ"
+     "meaning": "భక్తి గలవాడైనప్పటికీ",
+     "word": "భక్తుడైననుగా"
     },
     {
-     "word": "లోభుడైనగాని",
-     "meaning": "పిసినారితనము కలవాడైనప్పటికీ"
+     "meaning": "పిసినారితనము కలవాడైనప్పటికీ",
+     "word": "లోభుడైనగాని"
     },
     {
-     "word": "రోగిగాని",
-     "meaning": "అనారోగ్యంతో బాధపడేవాడైనప్పటికీ"
+     "meaning": "అనారోగ్యంతో బాధపడేవాడైనప్పటికీ",
+     "word": "రోగిగాని"
     },
     {
-     "word": "దాపుజేరి",
-     "meaning": "దగ్గరకు వచ్చి"
+     "meaning": "దగ్గరకు వచ్చి",
+     "word": "దాపుజేరి"
     },
     {
-     "word": "మ్రొక్క",
-     "meaning": "నమస్కరిస్తే"
+     "meaning": "నమస్కరిస్తే",
+     "word": "మ్రొక్క"
     },
     {
-     "word": "దరిజేర్చు",
-     "meaning": "ఉద్ధరించేవాడు లేదా రక్షించేవాడు"
+     "meaning": "ఉద్ధరించేవాడు లేదా రక్షించేవాడు",
+     "word": "దరిజేర్చు"
     },
     {
-     "word": "రాముండు",
-     "meaning": "శ్రీరామచంద్రుడు"
+     "meaning": "శ్రీరామచంద్రుడు",
+     "word": "రాముండు"
     },
     {
-     "word": "అంజదాసపోష",
-     "meaning": "అంజదాసును పోషించేవాడా"
+     "meaning": "అంజదాసును పోషించేవాడా",
+     "word": "అంజదాసపోష"
     },
     {
-     "word": "అఘవినాశ",
-     "meaning": "పాపములను నశింపజేసేవాడా"
+     "meaning": "పాపములను నశింపజేసేవాడా",
+     "word": "అఘవినాశ"
     }
    ],
    "bhavam": "ఓ అంజదాసు పోషకా! పాపములను పోగొట్టేవాడా! శ్రీరాముడు ఎంతటి పాపియైనా, భక్తుడైనా, పిసినారియైనా లేదా రోగియైనా సరే, తన వద్దకు వచ్చి శరణు కోరిన వారిని నిస్సంకోచంగా రక్షించి, వారిని ఉద్ధరిస్తాడు.",
@@ -2123,18 +2115,18 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 451,
    "title": "అఘవినాశ శతకము - 34",
-   "text": "సభను ద్రుపదపుత్రి శరణార్తయైవేడ\nఅభయమిచ్చివేగ యతివబ్రోచె\nసఫలపరచె కోర్కె చక్కని హల్యకు\nఅంజదాసపోష అఘవినాశ!",
+   "text": "సభను ద్రుపదపుత్రి శరణార్తయైవేడ\nఅభయమిచ్చివేగ యతివ బ్రోచె\nసఫలపరచె కోర్కె చక్కని హల్యకు\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సభను",
@@ -2199,8 +2191,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 452,
@@ -2210,7 +2202,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ!",
@@ -2278,7 +2270,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -2334,7 +2326,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దానమందు",
@@ -2406,7 +2398,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీటియందు",
@@ -2546,7 +2538,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -2614,7 +2606,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రోషమందు",
@@ -2675,8 +2667,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 459,
@@ -2686,7 +2678,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మమందు",
@@ -2751,54 +2743,54 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 460,
    "title": "అఘవినాశ శతకము - 43",
-   "text": "మహిషమందు గొప్ప మార్జాలములగొప్ప\nవాహనంబుగొప్ప వరునిగొప్ప\nదేహభ్రాంతిలేక దీనికర్థముగనుము\nఅంజదాసపోష అఘవినాశ!",
+   "text": "మహిషమందు గొప్ప మార్జాలములగొప్ప\nవాహనంబుగొప్ప వరునిగొప్ప\nదేహ భ్రాంతిలేక దీనికర్థముగను\nఅంజదాసపోష అఘవినాశ!",
    "literary_form": "శతకం",
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
-     "word": "మహిషమందు",
-     "meaning": "దున్నపోతుపై (యముని వాహనం)"
+     "meaning": "దున్నపోతుపై (యముని వాహనం)",
+     "word": "మహిషమందు"
     },
     {
-     "word": "గొప్ప",
-     "meaning": "అధికమైన"
+     "meaning": "అధికమైన",
+     "word": "గొప్ప"
     },
     {
-     "word": "మార్జాలములగొప్ప",
-     "meaning": "పిల్లిని వాహనంగా కలవాడు (వినాయకుడు/దేవతలు)"
+     "meaning": "పిల్లిని వాహనంగా కలవాడు (వినాయకుడు/దేవతలు)",
+     "word": "మార్జాలములగొప్ప"
     },
     {
-     "word": "వాహనంబుగొప్ప",
-     "meaning": "వాహనాలలో గొప్పదైనది (ఉదా: గరుత్మంతుడు/నంది)"
+     "meaning": "వాహనాలలో గొప్పదైనది (ఉదా: గరుత్మంతుడు/నంది)",
+     "word": "వాహనంబుగొప్ప"
     },
     {
-     "word": "వరునిగొప్ప",
-     "meaning": "శ్రేష్ఠుడైన స్వామి"
+     "meaning": "శ్రేష్ఠుడైన స్వామి",
+     "word": "వరునిగొప్ప"
     },
     {
-     "word": "దేహభ్రాంతిలేక",
-     "meaning": "శరీరమే నేను అనే భ్రమ లేకుండా"
+     "meaning": "శరీరమే నేను అనే భ్రమ లేకుండా",
+     "word": "దేహభ్రాంతిలేక"
     },
     {
-     "word": "దీనికర్థముగనుము",
-     "meaning": "దీని అంతరార్థాన్ని గ్రహించు"
+     "meaning": "దీని అంతరార్థాన్ని గ్రహించు",
+     "word": "దీనికర్థముగను"
     },
     {
-     "word": "అంజదాసపోష",
-     "meaning": "అంజదాసును పోషించేవాడా"
+     "meaning": "అంజదాసును పోషించేవాడా",
+     "word": "అంజదాసపోష"
     },
     {
-     "word": "అఘవినాశ",
-     "meaning": "పాపాలను నశింపజేసేవాడా"
+     "meaning": "పాపాలను నశింపజేసేవాడా",
+     "word": "అఘవినాశ"
     }
    ],
    "bhavam": "ఓ అంజదాసు పోషకా! అఘవినాశనా! దున్నపోతు, పిల్లి, మరియు ఇతర వాహనాలను చూసి భ్రమపడకండి. ఇవన్నీ దైవ సంకేతాలు. దేహమే నేను అనే అహంకారాన్ని, భ్రమను వదిలిపెట్టి, వాహనాల వెనుక ఉన్న పరమార్థాన్ని, ఆ వాహనారూఢుడైన దైవాన్ని దర్శించుకోవడమే జ్ఞానం.",
@@ -2807,8 +2799,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 461,
@@ -2818,7 +2810,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వారకాంత",
@@ -2879,8 +2871,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 462,
@@ -2962,7 +2954,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సత్యమందు",
@@ -3027,8 +3019,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 464,
@@ -3038,7 +3030,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధైర్యమందు",
@@ -3103,8 +3095,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 465,
@@ -3242,7 +3234,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భోగవంతులైన",
@@ -3287,8 +3279,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 468,
@@ -3298,7 +3290,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సారమెల్ల",
@@ -3351,8 +3343,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 469,
@@ -3486,7 +3478,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -3539,8 +3531,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 472,
@@ -3610,7 +3602,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నారసింహ",
@@ -3659,8 +3651,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 474,
@@ -3670,7 +3662,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బాధపెట్టకయ్య",
@@ -3719,8 +3711,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 475,
@@ -3730,7 +3722,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ",
@@ -3791,8 +3783,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 476,
@@ -3866,7 +3858,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పన్నగేంద్ర తల్ప",
@@ -3919,8 +3911,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 478,
@@ -3930,7 +3922,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ",
@@ -3987,8 +3979,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 479,
@@ -3998,7 +3990,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జయకృపాల",
@@ -4051,8 +4043,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 480,
@@ -4062,7 +4054,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -4115,8 +4107,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 481,
@@ -4126,7 +4118,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గారడిపనివల్ల",
@@ -4179,8 +4171,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 482,
@@ -4190,7 +4182,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దొంగవానిబోలి",
@@ -4231,8 +4223,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 483,
@@ -4242,7 +4234,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సందుగొందులందు",
@@ -4295,8 +4287,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 484,
@@ -4306,7 +4298,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -4367,8 +4359,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 485,
@@ -4378,7 +4370,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ",
@@ -4439,8 +4431,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 486,
@@ -4506,7 +4498,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎంతొ",
@@ -4559,8 +4551,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 488,
@@ -4570,7 +4562,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తోలు",
@@ -4623,8 +4615,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 489,
@@ -4690,7 +4682,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎంతొ",
@@ -4743,8 +4735,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 491,
@@ -4754,7 +4746,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుట్టినట్టిచోటు",
@@ -4807,8 +4799,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 492,
@@ -4878,7 +4870,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తప్పు",
@@ -4931,8 +4923,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 494,
@@ -4942,7 +4934,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భార్య",
@@ -4999,8 +4991,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 495,
@@ -5134,7 +5126,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంటియు",
@@ -5207,8 +5199,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 498,
@@ -5270,7 +5262,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కంటిలోను",
@@ -5327,8 +5319,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 500,
@@ -5338,7 +5330,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ!",
@@ -5395,8 +5387,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 501,
@@ -5514,7 +5506,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -5575,8 +5567,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 504,
@@ -5646,7 +5638,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుక్కలు",
@@ -5703,8 +5695,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 506,
@@ -5714,7 +5706,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బూటకంబుతోను",
@@ -5755,8 +5747,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 507,
@@ -5766,7 +5758,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ!",
@@ -5819,8 +5811,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 508,
@@ -5890,7 +5882,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంజదాసపోష",
@@ -5943,8 +5935,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 510,
@@ -5954,7 +5946,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భారమంత",
@@ -6015,8 +6007,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 511,
@@ -6026,7 +6018,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లోకనింద",
@@ -6079,8 +6071,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 512,
@@ -6090,7 +6082,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కండనమ్ముచుండు",
@@ -6139,8 +6131,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 513,
@@ -6210,7 +6202,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అఘవినాశ",
@@ -6251,8 +6243,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 515,
@@ -6446,7 +6438,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నేను",
@@ -6499,8 +6491,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 519,
@@ -6510,7 +6502,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాయలోనె",
@@ -6567,8 +6559,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 520,
@@ -6694,7 +6686,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆత్మశుద్ధిలేక",
@@ -6739,8 +6731,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 523,
@@ -6750,7 +6742,7 @@
    "source": "అఘవినాశ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కంటిలోన",
@@ -6807,8 +6799,8 @@
    "line_count": 4,
    "poet_id": 6,
    "poet_name": "దాసరి అంజదాసు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 524,

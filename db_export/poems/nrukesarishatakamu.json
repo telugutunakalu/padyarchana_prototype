@@ -10,7 +10,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీకమలాలయారమణ",
@@ -87,8 +87,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6489,
@@ -98,7 +98,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అమరము",
@@ -179,8 +179,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6490,
@@ -190,7 +190,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -275,8 +275,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6491,
@@ -454,7 +454,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మధుసూధన",
@@ -539,8 +539,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6494,
@@ -550,7 +550,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -647,8 +647,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6495,
@@ -658,7 +658,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -739,8 +739,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6496,
@@ -1054,7 +1054,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇప్పుడు",
@@ -1159,8 +1159,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6500,
@@ -1278,7 +1278,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -1371,8 +1371,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6502,
@@ -1382,7 +1382,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -1479,8 +1479,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6503,
@@ -1574,7 +1574,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాయజకోటిరూప",
@@ -1651,8 +1651,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6505,
@@ -1662,7 +1662,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -1747,8 +1747,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6506,
@@ -1758,7 +1758,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సురపూజిత",
@@ -1827,8 +1827,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6507,
@@ -1838,7 +1838,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -1911,8 +1911,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6508,
@@ -1922,7 +1922,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -2003,8 +2003,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6509,
@@ -2014,7 +2014,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కువలయపత్రనేత్ర",
@@ -2079,8 +2079,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6510,
@@ -2090,7 +2090,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సురనుత",
@@ -2159,8 +2159,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6511,
@@ -2170,7 +2170,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీహరి",
@@ -2239,8 +2239,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6512,
@@ -2250,7 +2250,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వారిజపత్రనేత్ర",
@@ -2323,8 +2323,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6513,
@@ -2562,7 +2562,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గోవులఁ",
@@ -2651,8 +2651,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6517,
@@ -2662,7 +2662,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -2739,8 +2739,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6518,
@@ -2846,7 +2846,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -2931,8 +2931,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6520,
@@ -2942,7 +2942,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుజనులన్",
@@ -3039,8 +3039,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6521,
@@ -3050,7 +3050,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దానవనాథ",
@@ -3155,8 +3155,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6522,
@@ -3166,7 +3166,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తోయజనాభ",
@@ -3263,8 +3263,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6523,
@@ -3782,7 +3782,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓనరకేసరీ",
@@ -3887,8 +3887,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6529,
@@ -4014,7 +4014,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నళినదళాక్ష",
@@ -4111,8 +4111,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6531,
@@ -4122,7 +4122,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -4219,8 +4219,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6532,
@@ -4230,7 +4230,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సుందరరూప",
@@ -4335,8 +4335,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6533,
@@ -4346,7 +4346,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "హేమము",
@@ -4439,8 +4439,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6534,
@@ -4450,7 +4450,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కరి",
@@ -4555,8 +4555,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6535,
@@ -5034,7 +5034,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కేశవ",
@@ -5131,8 +5131,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6541,
@@ -5230,7 +5230,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమలసరోజలోచన",
@@ -5303,8 +5303,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6543,
@@ -5414,7 +5414,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీరజపత్రనేత్ర",
@@ -5507,8 +5507,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6545,
@@ -5726,7 +5726,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గడుసుదనంబునన్",
@@ -5839,8 +5839,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6548,
@@ -5850,7 +5850,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -5927,8 +5927,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6549,
@@ -5938,7 +5938,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -6031,8 +6031,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6550,
@@ -6042,7 +6042,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రిపుభంజన",
@@ -6139,8 +6139,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6551,
@@ -6150,7 +6150,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -6227,8 +6227,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6552,
@@ -6238,7 +6238,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లోపలి",
@@ -6323,8 +6323,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6553,
@@ -6334,7 +6334,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మశాస్త్రములు",
@@ -6411,8 +6411,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6554,
@@ -6638,7 +6638,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చంచలచిత్తుఁడన్",
@@ -6727,8 +6727,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6557,
@@ -6738,7 +6738,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -6815,8 +6815,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6558,
@@ -6826,7 +6826,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బురదను",
@@ -6907,8 +6907,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6559,
@@ -6918,7 +6918,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -7007,8 +7007,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6560,
@@ -7018,7 +7018,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బిరుదుగ",
@@ -7115,8 +7115,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6561,
@@ -7422,7 +7422,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -7515,8 +7515,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6565,
@@ -7742,7 +7742,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తల్లి",
@@ -7839,8 +7839,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6568,
@@ -7850,7 +7850,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జలజదళాక్ష",
@@ -7951,8 +7951,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6569,
@@ -7962,7 +7962,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రాక్షసనాశ",
@@ -8043,8 +8043,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6570,
@@ -8054,7 +8054,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆగజరాజు",
@@ -8147,8 +8147,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6571,
@@ -8158,7 +8158,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -8239,8 +8239,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6572,
@@ -8250,7 +8250,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -8343,8 +8343,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6573,
@@ -8354,7 +8354,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కంజదళాక్ష",
@@ -8435,8 +8435,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6574,
@@ -8838,7 +8838,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -8931,8 +8931,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6579,
@@ -8942,7 +8942,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీవనితాకళత్ర",
@@ -9019,8 +9019,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6580,
@@ -9134,7 +9134,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పెద్దలన్",
@@ -9219,8 +9219,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6582,
@@ -9230,7 +9230,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కలియుగమందు",
@@ -9295,8 +9295,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6583,
@@ -9306,7 +9306,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -9391,8 +9391,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6584,
@@ -9402,7 +9402,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -9499,8 +9499,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6585,
@@ -9710,7 +9710,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నరహరి",
@@ -9807,8 +9807,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6588,
@@ -9818,7 +9818,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓకరుణాసముద్ర",
@@ -9891,8 +9891,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6589,
@@ -9902,7 +9902,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -9971,8 +9971,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6590,
@@ -9982,7 +9982,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తరణి",
@@ -10083,8 +10083,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6591,
@@ -10094,7 +10094,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తరణిని",
@@ -10191,8 +10191,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 6592,
@@ -10374,7 +10374,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మపురీనృకేసరీ",
@@ -10463,8 +10463,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 6595,
@@ -10474,7 +10474,7 @@
    "source": "నృకేసరిశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నే",
@@ -10555,8 +10555,8 @@
    "line_count": 4,
    "poet_id": 48,
    "poet_name": "శేషాచలదాసు (శేషప్ప)",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   }
  ]
 }

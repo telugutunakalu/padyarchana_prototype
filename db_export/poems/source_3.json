@@ -78,7 +78,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "యోగి",
@@ -167,8 +167,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10156,
@@ -178,7 +178,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రక్తమొక్కటే",
@@ -247,8 +247,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10157,
@@ -258,7 +258,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సింహము",
@@ -327,8 +327,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10158,
@@ -410,7 +410,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "యోగము",
@@ -495,8 +495,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10160,
@@ -886,7 +886,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మనమె",
@@ -963,8 +963,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10165,
@@ -1070,7 +1070,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుణ్యము",
@@ -1135,8 +1135,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10167,
@@ -1402,7 +1402,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎలుక",
@@ -1467,8 +1467,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10171,
@@ -1746,7 +1746,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాయ",
@@ -1835,8 +1835,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10175,
@@ -1846,7 +1846,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విత్తు",
@@ -1915,8 +1915,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10176,
@@ -2018,7 +2018,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మెరయు",
@@ -2099,8 +2099,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10178,
@@ -2366,7 +2366,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాన్యులు",
@@ -2431,8 +2431,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10182,
@@ -3114,7 +3114,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అద్దము",
@@ -3195,8 +3195,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10191,
@@ -3378,7 +3378,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "యెద్దు",
@@ -3447,8 +3447,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10194,
@@ -3750,7 +3750,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సింహు",
@@ -3839,8 +3839,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10198,
@@ -4278,7 +4278,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మనిషి లోన",
@@ -4339,8 +4339,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10204,
@@ -4594,7 +4594,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పారిశుధ్యము",
@@ -4659,8 +4659,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10208,
@@ -4670,7 +4670,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాసులు",
@@ -4743,8 +4743,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10209,
@@ -4926,7 +4926,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అన్నదానము",
@@ -4999,8 +4999,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10212,
@@ -5094,7 +5094,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మతములందున్న",
@@ -5155,8 +5155,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10214,
@@ -5762,7 +5762,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కొండెమందుండు",
@@ -5827,8 +5827,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10222,
@@ -6218,7 +6218,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జాతిబట్టి",
@@ -6275,8 +6275,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10228,
@@ -6286,7 +6286,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాసులు",
@@ -6363,8 +6363,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10229,
@@ -6522,7 +6522,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిలువు టద్దము",
@@ -6595,8 +6595,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10232,
@@ -6858,7 +6858,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గురువు",
@@ -6939,8 +6939,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10236,
@@ -6950,7 +6950,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భావము",
@@ -7023,8 +7023,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10237,
@@ -7370,7 +7370,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఈసు",
@@ -7451,8 +7451,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10242,
@@ -7462,7 +7462,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అగ్ని",
@@ -7535,8 +7535,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10243,
@@ -7546,7 +7546,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కర్భ నాధార జీవమా",
@@ -7591,8 +7591,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10244,
@@ -7678,7 +7678,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేవుడు",
@@ -7755,8 +7755,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10246,
@@ -7934,7 +7934,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తెగువ",
@@ -8007,8 +8007,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10249,
@@ -8018,7 +8018,7 @@
    "source": "vemulapalli rama satakam",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆంక్షల్",
@@ -8083,8 +8083,8 @@
    "line_count": 4,
    "poet_id": 68,
    "poet_name": "వేముల పల్లి రాముడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 10250,

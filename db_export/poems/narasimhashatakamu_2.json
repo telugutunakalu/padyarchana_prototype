@@ -10,7 +10,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీ",
@@ -59,8 +59,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6009,
@@ -70,7 +70,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంబుధిశయనా",
@@ -107,8 +107,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6010,
@@ -118,7 +118,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుంభీంద్రపాలకా",
@@ -159,8 +159,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6011,
@@ -170,7 +170,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధర్మము",
@@ -223,8 +223,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6012,
@@ -234,7 +234,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రోగంబులు",
@@ -291,8 +291,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6013,
@@ -362,7 +362,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిగమములు",
@@ -415,8 +415,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6015,
@@ -482,7 +482,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మాన్యనృసింహా",
@@ -535,8 +535,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6017,
@@ -614,7 +614,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భుక్తియు",
@@ -683,8 +683,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6019,
@@ -822,7 +822,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భవ్యనృసింహా",
@@ -867,8 +867,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6022,
@@ -878,7 +878,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -943,8 +943,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6023,
@@ -954,7 +954,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఏవిధిని",
@@ -1023,8 +1023,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6024,
@@ -1250,7 +1250,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జయనరసింహా",
@@ -1311,8 +1311,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6028,
@@ -1386,7 +1386,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -1431,8 +1431,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6030,
@@ -1818,7 +1818,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మంగళాద్రినృసింహా",
@@ -1855,8 +1855,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6037,
@@ -1930,7 +1930,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కల్యాణదాయివని",
@@ -1967,8 +1967,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6039,
@@ -1978,7 +1978,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మంగళగిరినిలయా",
@@ -2027,8 +2027,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6040,
@@ -2110,7 +2110,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీనరసింహా",
@@ -2171,8 +2171,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6042,
@@ -2182,7 +2182,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీనరసింహా",
@@ -2243,8 +2243,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6043,
@@ -2254,7 +2254,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అనఘ",
@@ -2319,8 +2319,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6044,
@@ -2458,7 +2458,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఏ",
@@ -2527,8 +2527,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6047,
@@ -2538,7 +2538,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీకరము",
@@ -2575,8 +2575,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6048,
@@ -2734,7 +2734,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మంగళతర",
@@ -2783,8 +2783,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6051,
@@ -2794,7 +2794,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సామ ఆది గాన లోల",
@@ -2843,8 +2843,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6052,
@@ -2854,7 +2854,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సారసదళలోచన",
@@ -2895,8 +2895,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6053,
@@ -2906,7 +2906,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆద్యమ",
@@ -2955,8 +2955,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6054,
@@ -3038,7 +3038,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిరవధివై",
@@ -3087,8 +3087,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6056,
@@ -3362,7 +3362,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శేషశయన!",
@@ -3423,8 +3423,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6061,
@@ -3510,7 +3510,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేవ",
@@ -3571,8 +3571,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6063,
@@ -3654,7 +3654,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఈశ",
@@ -3715,8 +3715,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6065,
@@ -3726,7 +3726,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విమలమూర్తినృసింహా",
@@ -3795,8 +3795,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6066,
@@ -3806,7 +3806,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -3859,8 +3859,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6067,
@@ -3870,7 +3870,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పుణ్యనృసింహా",
@@ -3923,8 +3923,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6068,
@@ -3934,7 +3934,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తన",
@@ -3995,8 +3995,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6069,
@@ -4006,7 +4006,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఘననరసింహా",
@@ -4067,8 +4067,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6070,
@@ -4078,7 +4078,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జయనరసింహా",
@@ -4139,8 +4139,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6071,
@@ -4214,7 +4214,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -4279,8 +4279,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6073,
@@ -4418,7 +4418,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భవ్యనృసింహా",
@@ -4467,8 +4467,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6076,
@@ -4542,7 +4542,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -4611,8 +4611,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6078,
@@ -4622,7 +4622,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భవ్యనృసింహా",
@@ -4679,8 +4679,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6079,
@@ -4746,7 +4746,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జయనరసింహా",
@@ -4807,8 +4807,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6081,
@@ -4818,7 +4818,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -4871,8 +4871,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6082,
@@ -4882,7 +4882,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భవ్యనృసింహా",
@@ -4931,8 +4931,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6083,
@@ -4942,7 +4942,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఈశనృసింహా",
@@ -4991,8 +4991,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6084,
@@ -5154,7 +5154,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ప్రణవస్వరూప",
@@ -5203,8 +5203,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6087,
@@ -5214,7 +5214,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -5271,8 +5271,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6088,
@@ -5358,7 +5358,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేవ",
@@ -5419,8 +5419,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6090,
@@ -5430,7 +5430,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఒకసుంత",
@@ -5487,8 +5487,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6091,
@@ -5570,7 +5570,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నృసింహా",
@@ -5631,8 +5631,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6093,
@@ -5642,7 +5642,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఖలుఁడగు",
@@ -5699,8 +5699,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6094,
@@ -5794,7 +5794,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పటు",
@@ -5863,8 +5863,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6096,
@@ -5874,7 +5874,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేవ",
@@ -5919,8 +5919,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6097,
@@ -6218,7 +6218,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిశ్చలభక్తుని",
@@ -6279,8 +6279,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6102,
@@ -6290,7 +6290,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వామనుఁడవునై",
@@ -6335,8 +6335,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6103,
@@ -6346,7 +6346,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రమ్యనృసింహా",
@@ -6391,8 +6391,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6104,
@@ -6402,7 +6402,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మంగళాద్రినృసింహా",
@@ -6443,8 +6443,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6105,
@@ -6514,7 +6514,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఘననరసింహా",
@@ -6571,8 +6571,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6107,
@@ -7298,7 +7298,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కరుణానిలయుడవు",
@@ -7343,8 +7343,8 @@
    "line_count": 4,
    "poet_id": 17,
    "poet_name": "రచయిత తెలియదు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 6119,
@@ -7430,7 +7430,7 @@
    "source": "నరసింహశతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విశ్వమూర్తి",

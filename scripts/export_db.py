@@ -85,6 +85,14 @@ def main():
         m = dict(r); m["gana_structure"] = _jload(m["gana_structure"]); meters.append(m)
     (OUT / "meters.json").write_text(json.dumps(meters, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    # poem edit-history (app correction trail: title/text/meter/rating/bhavam per version)
+    versions = []
+    for r in con.execute(
+        "SELECT id,poem_id,version_no,title,text,literary_form,meter_id,rating,"
+        "prathipadartham,bhavam,created_by,created_at FROM poem_versions ORDER BY id"):
+        v = dict(r); v["prathipadartham"] = _jload(v["prathipadartham"]); versions.append(v)
+    (OUT / "poem_versions.json").write_text(json.dumps(versions, ensure_ascii=False, indent=1), encoding="utf-8")
+
     sources = [r[0] for r in con.execute(
         "SELECT DISTINCT source FROM poems ORDER BY source")]
     slugs, used = {}, set()
@@ -119,12 +127,14 @@ def main():
         manifest["poems_total"] += len(poems)
         manifest["sources"].append({"source": s, "file": f"poems/{slug}.json", "count": len(poems)})
 
+    manifest["poem_versions_total"] = len(versions)
     (OUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     rated = con.execute("SELECT count(*) FROM poems WHERE rating IS NOT NULL").fetchone()[0]
     bhav = con.execute("SELECT count(*) FROM poems WHERE bhavam IS NOT NULL").fetchone()[0]
     print(f"exported {manifest['poems_total']} poems / {len(poets)} poets / {len(meters)} meters "
           f"across {len(sources)} source files")
-    print(f"  carried DB-only corrections: {rated} ratings, {bhav} bhavam → db_export/")
+    print(f"  carried DB-only corrections: {rated} ratings, {bhav} bhavam, "
+          f"{len(versions)} poem-version history rows → db_export/")
 
 
 if __name__ == "__main__":

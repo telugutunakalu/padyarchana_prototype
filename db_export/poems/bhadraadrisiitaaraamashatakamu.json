@@ -2042,7 +2042,7 @@
    "source": "భద్రాద్రిసీతారామ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓ",
@@ -2095,8 +2095,8 @@
    "line_count": 4,
    "poet_id": 11,
    "poet_name": "అబ్బరాజు పిచ్చయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 986,
@@ -3038,7 +3038,7 @@
    "source": "భద్రాద్రిసీతారామ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నాకాధిపత్యము",
@@ -3095,8 +3095,8 @@
    "line_count": 4,
    "poet_id": 11,
    "poet_name": "అబ్బరాజు పిచ్చయ్య",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 1001,

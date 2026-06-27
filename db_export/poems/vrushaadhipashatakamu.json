@@ -10,7 +10,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీగురులింగమూర్తి",
@@ -83,8 +83,8 @@
    "line_count": 4,
    "poet_id": 19,
    "poet_name": "పాలకురికి సోమనాథుడు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 10875,
@@ -258,7 +258,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భక్తిరసాభిషిక్త",
@@ -394,7 +394,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "త్ర్యక్ష",
@@ -482,7 +482,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అక్షయభక్తిపక్ష",
@@ -566,7 +566,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆర్య",
@@ -794,7 +794,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గానరసప్రవీణ",
@@ -878,7 +878,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లింగమయాంతరంగ",
@@ -950,7 +950,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఉత్తమ",
@@ -1026,7 +1026,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేహజవైరివాహ",
@@ -1110,7 +1110,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "న్యాసఫలానివాస",
@@ -1194,7 +1194,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రాగపరోపభోగ",
@@ -1274,7 +1274,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శీలలతాలవాల",
@@ -1366,7 +1366,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కామిత",
@@ -1466,7 +1466,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సాధిత జన్మబాధ",
@@ -1630,7 +1630,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆద్య",
@@ -1722,7 +1722,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నాద కళావినోద",
@@ -1786,7 +1786,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాయగుణావిధేయ",
@@ -1862,7 +1862,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "స్వీకృత భక్తలోక",
@@ -1918,7 +1918,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిత్య",
@@ -1990,7 +1990,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -2062,7 +2062,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చర్వితశృంగిగర్వ",
@@ -2126,7 +2126,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఖ్యాత",
@@ -2206,7 +2206,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మారమదాపహార",
@@ -2278,7 +2278,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దేశిక",
@@ -2438,7 +2438,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నందితభక్తబృంద",
@@ -2522,7 +2522,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లౌల్యపరాయణాత్మ",
@@ -2874,7 +2874,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంచిత",
@@ -2978,7 +2978,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిర్గతధర్మ",
@@ -3322,7 +3322,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లింగనిరూఢ",
@@ -4582,7 +4582,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తర్జిత",
@@ -4686,7 +4686,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చూర్ణితమన్మథాయ",
@@ -5738,7 +5738,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా",
@@ -5842,7 +5842,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -5930,7 +5930,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా",
@@ -6110,7 +6110,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -6422,7 +6422,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సంగయదేవుఁడు",
@@ -6530,7 +6530,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కర్ణవతంసము",
@@ -6626,7 +6626,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శృంగి",
@@ -6734,7 +6734,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -6830,7 +6830,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తంగెటిజున్ను",
@@ -6910,7 +6910,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భీమగజంబు",
@@ -6994,7 +6994,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -7090,7 +7090,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఏఁడులు",
@@ -7190,7 +7190,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "త్రిపురాంతకా!",
@@ -7266,7 +7266,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా",
@@ -7358,7 +7358,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -7654,7 +7654,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బల్లిదుఁడై",
@@ -7750,7 +7750,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భీకర",
@@ -8170,7 +8170,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సుంకపుఁ పైఁడి",
@@ -8246,7 +8246,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దివ్యవిమానపంక్తి",
@@ -8346,7 +8346,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -8538,7 +8538,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా!",
@@ -8794,7 +8794,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భక్తుని",
@@ -9010,7 +9010,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దండితవాదియై",
@@ -9306,7 +9306,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నా యొడయండ",
@@ -9394,7 +9394,7 @@
    "source": "వృషాధిప శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వృషాధిపా",

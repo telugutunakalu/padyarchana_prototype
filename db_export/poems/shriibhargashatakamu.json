@@ -214,7 +214,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -330,7 +330,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పార్వతీవల్లభా!",
@@ -3550,7 +3550,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పార్వతీవల్లభా!",
@@ -3838,7 +3838,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లోకశ్రేణికి",
@@ -3919,8 +3919,8 @@
    "line_count": 4,
    "poet_id": 14,
    "poet_name": "కూచిమంచి తిమ్మకవి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 1295,
@@ -4122,7 +4122,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -4390,7 +4390,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గ్రైవీభూతభుజంగమప్రవర!",
@@ -4494,7 +4494,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -4578,7 +4578,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -4659,8 +4659,8 @@
    "line_count": 4,
    "poet_id": 14,
    "poet_name": "కూచిమంచి తిమ్మకవి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 1303,
@@ -4762,7 +4762,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -4834,7 +4834,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -4927,8 +4927,8 @@
    "line_count": 4,
    "poet_id": 14,
    "poet_name": "కూచిమంచి తిమ్మకవి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 1306,
@@ -4938,7 +4938,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -5066,7 +5066,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -5662,7 +5662,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -5958,7 +5958,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పార్వతీవల్లభా!",
@@ -6054,7 +6054,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వాణీశ",
@@ -6158,7 +6158,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -6454,7 +6454,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -6742,7 +6742,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -7114,7 +7114,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పార్వతీవల్లభా!",
@@ -7218,7 +7218,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -7398,7 +7398,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గాజుంబూస",
@@ -7502,7 +7502,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా",
@@ -7982,7 +7982,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",
@@ -8278,7 +8278,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భువిలో",
@@ -9270,7 +9270,7 @@
    "source": "శ్రీభర్గ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భర్గా!",

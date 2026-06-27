@@ -10,7 +10,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఏఁ",
@@ -87,8 +87,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2522,
@@ -98,7 +98,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎవ్వరు",
@@ -191,8 +191,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2523,
@@ -202,7 +202,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ప్రతివర్షంబును",
@@ -287,8 +287,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2524,
@@ -298,7 +298,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాపురముండ",
@@ -387,8 +387,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2525,
@@ -398,7 +398,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కొస",
@@ -499,8 +499,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2526,
@@ -510,7 +510,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాలుంజేతులు",
@@ -591,8 +591,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 2527,
@@ -602,7 +602,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గుడులున్",
@@ -699,8 +699,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2528,
@@ -710,7 +710,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వేదములు",
@@ -807,8 +807,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2529,
@@ -938,7 +938,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పరులను",
@@ -1023,8 +1023,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 2531,
@@ -1034,7 +1034,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తనువు",
@@ -1123,8 +1123,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2532,
@@ -1134,7 +1134,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఒక్కఁడు",
@@ -1215,8 +1215,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2533,
@@ -1318,7 +1318,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మిడిమేలంబుగ",
@@ -1383,8 +1383,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2535,
@@ -1394,7 +1394,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మానవా",
@@ -1479,8 +1479,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2536,
@@ -1490,7 +1490,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "స్మృతులన్‌",
@@ -1583,8 +1583,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2537,
@@ -1594,7 +1594,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కలలోన్",
@@ -1687,8 +1687,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 2538,
@@ -1698,7 +1698,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఈ",
@@ -1811,8 +1811,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2539,
@@ -1822,7 +1822,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధూర్తమానవా",
@@ -1907,8 +1907,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2540,
@@ -1918,7 +1918,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పొక్కిలిగడ్డలేక",
@@ -1983,8 +1983,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2541,
@@ -2106,7 +2106,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఏ",
@@ -2203,8 +2203,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2543,
@@ -2214,7 +2214,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధూర్తమానవా",
@@ -2291,8 +2291,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 2544,
@@ -2302,7 +2302,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పసులను",
@@ -2387,8 +2387,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 2545,
@@ -2398,7 +2398,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బొచ్చు",
@@ -2495,8 +2495,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2546,
@@ -2614,7 +2614,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బిడ్డలకోసరమ్ము",
@@ -2711,8 +2711,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2548,
@@ -2722,7 +2722,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధూర్తమానవా",
@@ -2819,8 +2819,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2549,
@@ -2830,7 +2830,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ధూర్తమానవా",
@@ -2911,8 +2911,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 2550,
@@ -3018,7 +3018,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మానవా!",
@@ -3115,8 +3115,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 2552,
@@ -3234,7 +3234,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నే",
@@ -3299,8 +3299,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 2554,
@@ -3310,7 +3310,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పైగా",
@@ -3399,8 +3399,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 6,
+   "meter_name": "శార్దూలవిక్రీడితము"
   },
   {
    "id": 2555,
@@ -3410,7 +3410,7 @@
    "source": "ధూర్తమానవా శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఎడ్డెతనంబు",
@@ -3519,8 +3519,8 @@
    "line_count": 4,
    "poet_id": 23,
    "poet_name": "త్రిపురనేని రామస్వామి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 2556,

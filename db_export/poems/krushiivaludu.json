@@ -346,7 +346,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రచ్చ",
@@ -858,7 +858,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓయి",
@@ -935,8 +935,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3855,
@@ -946,7 +946,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పొదుగు",
@@ -1031,8 +1031,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3856,
@@ -1042,7 +1042,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బిఱ్ఱుకడుపుగ",
@@ -1103,8 +1103,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3857,
@@ -1114,7 +1114,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చెమరు ముత్యాలు",
@@ -1187,8 +1187,8 @@
    "line_count": 5,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3858,
@@ -1198,7 +1198,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఉయ్యెల",
@@ -1574,7 +1574,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సోమరిపోతవై",
@@ -1922,7 +1922,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వేకువనె",
@@ -1987,8 +1987,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3865,
@@ -2202,7 +2202,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గ్రామవాసులకి",
@@ -2255,8 +2255,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3868,
@@ -2266,7 +2266,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓయి",
@@ -2335,8 +2335,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 3869,
@@ -2598,7 +2598,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పసిఁడిపూసల",
@@ -2671,8 +2671,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3872,
@@ -2682,7 +2682,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పడఁతి",
@@ -2743,8 +2743,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 3873,
@@ -2858,7 +2858,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మున్నూటరువది",
@@ -2915,8 +2915,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 3875,
@@ -3154,7 +3154,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అతివ",
@@ -3219,8 +3219,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3879,
@@ -3230,7 +3230,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఐన",
@@ -3287,8 +3287,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 3880,
@@ -3298,7 +3298,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అని",
@@ -3419,8 +3419,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 3881,
@@ -3498,7 +3498,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పూలకారుగాలి",
@@ -3555,8 +3555,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 1,
+   "meter_name": "ఆటవెలది"
   },
   {
    "id": 3883,
@@ -3662,7 +3662,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కనుమ",
@@ -3731,8 +3731,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3885,
@@ -3742,7 +3742,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాఁపులెల్లరు",
@@ -3811,8 +3811,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3886,
@@ -3822,7 +3822,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రమలు",
@@ -3895,8 +3895,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3887,
@@ -4074,7 +4074,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కరము",
@@ -4143,8 +4143,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3890,
@@ -4262,7 +4262,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బాటల",
@@ -4934,7 +4934,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అతుల",
@@ -5003,8 +5003,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3899,
@@ -5014,7 +5014,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఈయెడ",
@@ -5334,7 +5334,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నేలనూతుల",
@@ -5395,8 +5395,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3903,
@@ -5666,7 +5666,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పంజరనిబద్ధకీరంబు",
@@ -5723,8 +5723,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3907,
@@ -5734,7 +5734,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాన",
@@ -5815,8 +5815,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3908,
@@ -5826,7 +5826,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సైరికా",
@@ -5883,8 +5883,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3909,
@@ -5894,7 +5894,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దైనికావశ్యకమ్ముల",
@@ -5947,8 +5947,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3910,
@@ -6034,7 +6034,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పల్లెయె",
@@ -6095,8 +6095,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3912,
@@ -6106,7 +6106,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఉండి",
@@ -6175,8 +6175,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3913,
@@ -6186,7 +6186,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కృషి",
@@ -6243,8 +6243,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3914,
@@ -6254,7 +6254,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కావున",
@@ -6323,8 +6323,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3915,
@@ -6426,7 +6426,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అట్టి",
@@ -6522,7 +6522,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రాజకీయ",
@@ -6583,8 +6583,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3918,
@@ -6738,7 +6738,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కష్టసుఖముల",
@@ -6807,8 +6807,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3921,
@@ -6818,7 +6818,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓకృషీవల!",
@@ -6875,8 +6875,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3922,
@@ -6978,7 +6978,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రార",
@@ -7043,8 +7043,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3924,
@@ -7750,7 +7750,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బావికి",
@@ -8022,7 +8022,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వానతూనీగలు",
@@ -8079,8 +8079,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3935,
@@ -8166,7 +8166,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తపనుడు",
@@ -8231,8 +8231,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3937,
@@ -8242,7 +8242,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తెల్లపట్టు",
@@ -8307,8 +8307,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3938,
@@ -8318,7 +8318,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "త్రావ",
@@ -8383,8 +8383,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3939,
@@ -8618,7 +8618,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తమ్ముడు",
@@ -9394,7 +9394,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సంఘపరివర్తనంబులు",
@@ -9447,8 +9447,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3949,
@@ -9458,7 +9458,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నవ్యపాశ్చాత్య",
@@ -9511,8 +9511,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3950,
@@ -9750,7 +9750,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జీవనస్పర్ధ",
@@ -9807,8 +9807,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 3953,
@@ -9966,7 +9966,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బారులుదీరి",
@@ -10058,7 +10058,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గోపద ధూళి",
@@ -10410,7 +10410,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇంతకు",
@@ -10502,7 +10502,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రచ్చలోని",
@@ -10602,7 +10602,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చలువగల",
@@ -10838,7 +10838,7 @@
    "source": "కృషీవలుఁడు",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రమ",
@@ -10899,8 +10899,8 @@
    "line_count": 4,
    "poet_id": 34,
    "poet_name": "దువ్వూరి రామిరెడ్డి",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   }
  ]
 }

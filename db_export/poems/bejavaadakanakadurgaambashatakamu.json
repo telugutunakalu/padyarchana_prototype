@@ -10,7 +10,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శ్రీరమణీ",
@@ -79,8 +79,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 740,
@@ -238,7 +238,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంబుజములు",
@@ -283,8 +283,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 743,
@@ -346,7 +346,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -383,8 +383,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 745,
@@ -394,7 +394,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంబూకృత",
@@ -447,8 +447,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 746,
@@ -458,7 +458,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జంబూనది",
@@ -511,8 +511,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 747,
@@ -586,7 +586,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కంబంబున",
@@ -635,8 +635,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 749,
@@ -710,7 +710,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -759,8 +759,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 751,
@@ -770,7 +770,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కంబు",
@@ -823,8 +823,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 752,
@@ -834,7 +834,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లంబాలక",
@@ -879,8 +879,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 753,
@@ -962,7 +962,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నింబాళి",
@@ -1023,8 +1023,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 755,
@@ -1034,7 +1034,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -1083,8 +1083,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 756,
@@ -1154,7 +1154,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శంబరహర",
@@ -1195,8 +1195,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 758,
@@ -1206,7 +1206,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -1259,8 +1259,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 759,
@@ -1390,7 +1390,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నీదు",
@@ -1455,8 +1455,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 762,
@@ -1518,7 +1518,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సాంబకరాలంబితకుచ",
@@ -1559,8 +1559,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 764,
@@ -1570,7 +1570,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -1619,8 +1619,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 765,
@@ -1630,7 +1630,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంబరసమమధ్య",
@@ -1679,8 +1679,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 766,
@@ -1690,7 +1690,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -1743,8 +1743,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 767,
@@ -1754,7 +1754,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -1811,8 +1811,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 768,
@@ -1890,7 +1890,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -1939,8 +1939,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 770,
@@ -1950,7 +1950,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా!",
@@ -1995,8 +1995,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 771,
@@ -2006,7 +2006,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -2071,8 +2071,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 772,
@@ -2082,7 +2082,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంబ",
@@ -2135,8 +2135,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 773,
@@ -2218,7 +2218,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా!",
@@ -2267,8 +2267,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 775,
@@ -2334,7 +2334,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -2375,8 +2375,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 777,
@@ -2386,7 +2386,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -2443,8 +2443,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 778,
@@ -2454,7 +2454,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -2499,8 +2499,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 779,
@@ -2510,7 +2510,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -2567,8 +2567,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 780,
@@ -2578,7 +2578,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "డంబముగల",
@@ -2631,8 +2631,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 781,
@@ -2706,7 +2706,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -2763,8 +2763,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 783,
@@ -2774,7 +2774,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "త్య్రంబక",
@@ -2827,8 +2827,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 784,
@@ -2838,7 +2838,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శంబాకృతమగు",
@@ -2891,8 +2891,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 785,
@@ -2962,7 +2962,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -3015,8 +3015,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 787,
@@ -3214,7 +3214,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -3271,8 +3271,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 791,
@@ -3282,7 +3282,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -3335,8 +3335,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 792,
@@ -3410,7 +3410,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -3459,8 +3459,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 794,
@@ -3470,7 +3470,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -3527,8 +3527,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 795,
@@ -3674,7 +3674,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -3727,8 +3727,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 798,
@@ -3738,7 +3738,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుంభిణి",
@@ -3799,8 +3799,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 799,
@@ -3874,7 +3874,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శంబరమున",
@@ -3923,8 +3923,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 801,
@@ -3934,7 +3934,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శంభుని",
@@ -3991,8 +3991,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 802,
@@ -4134,7 +4134,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాంభోజ",
@@ -4195,8 +4195,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 805,
@@ -4274,7 +4274,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దంభకమతకుత్కీలక",
@@ -4323,8 +4323,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 807,
@@ -4334,7 +4334,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -4391,8 +4391,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 808,
@@ -4462,7 +4462,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంభోదరగర్జిత",
@@ -4503,8 +4503,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 810,
@@ -4514,7 +4514,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుంభజ",
@@ -4563,8 +4563,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 811,
@@ -4574,7 +4574,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శంభుడు",
@@ -4623,8 +4623,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 812,
@@ -4690,7 +4690,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సంభాసిత",
@@ -4747,8 +4747,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 814,
@@ -4826,7 +4826,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంబరమణికాంత",
@@ -4867,8 +4867,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 816,
@@ -4938,7 +4938,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా!",
@@ -4991,8 +4991,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 818,
@@ -5002,7 +5002,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -5051,8 +5051,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 819,
@@ -5190,7 +5190,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -5247,8 +5247,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 822,
@@ -5314,7 +5314,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "బంభర",
@@ -5375,8 +5375,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 824,
@@ -5458,7 +5458,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా!",
@@ -5515,8 +5515,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 826,
@@ -5694,7 +5694,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దంభకనికురుంబము",
@@ -5743,8 +5743,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 830,
@@ -5754,7 +5754,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఓంభూర్భువరవదక్షమఖంబు",
@@ -5795,8 +5795,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 831,
@@ -5806,7 +5806,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -5859,8 +5859,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 832,
@@ -5870,7 +5870,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -5927,8 +5927,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 833,
@@ -5938,7 +5938,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శరజన్మాంబా",
@@ -5983,8 +5983,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 834,
@@ -6050,7 +6050,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "స్తంభాద్రిపురికి",
@@ -6095,8 +6095,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 836,
@@ -6106,7 +6106,7 @@
    "source": "బెజవాడ కనకదుర్గాంబ శతకము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శంబర",
@@ -6159,8 +6159,8 @@
    "line_count": 4,
    "poet_id": 9,
    "poet_name": "సరికొండ నరసింహరాజు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 837,

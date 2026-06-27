@@ -82,7 +82,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శాశ్వత",
@@ -143,8 +143,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9148,
@@ -154,7 +154,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శశి",
@@ -211,8 +211,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9149,
@@ -222,7 +222,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అడుగులు",
@@ -299,8 +299,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9150,
@@ -446,7 +446,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పదియు నారు",
@@ -523,8 +523,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9153,
@@ -534,7 +534,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నడచుదారి",
@@ -591,8 +591,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9154,
@@ -602,7 +602,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఇసుక",
@@ -679,8 +679,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9155,
@@ -766,7 +766,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "జిలుగుపూల",
@@ -839,8 +839,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9157,
@@ -954,7 +954,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తన",
@@ -1027,8 +1027,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9159,
@@ -1038,7 +1038,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నయనమూలాంచలములు",
@@ -1111,8 +1111,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9160,
@@ -1122,7 +1122,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అని",
@@ -1175,8 +1175,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9161,
@@ -1186,7 +1186,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నడచి",
@@ -1255,8 +1255,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9162,
@@ -1266,7 +1266,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వాలుంగన్నుల",
@@ -1331,8 +1331,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9163,
@@ -1342,7 +1342,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "క్రిక్కిఱియు",
@@ -1419,8 +1419,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9164,
@@ -1502,7 +1502,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "స్కంధకూలంకషమ్ముగా",
@@ -1559,8 +1559,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9166,
@@ -1570,7 +1570,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గెలలు",
@@ -1631,8 +1631,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9167,
@@ -1642,7 +1642,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సందె",
@@ -1703,8 +1703,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9168,
@@ -1798,7 +1798,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చేలచెఱంగునన్‌",
@@ -1899,8 +1899,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 9170,
@@ -2018,7 +2018,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వెలది",
@@ -2095,8 +2095,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9172,
@@ -2106,7 +2106,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తెలియరాని",
@@ -2179,8 +2179,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9173,
@@ -2190,7 +2190,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చెంపకు",
@@ -2251,8 +2251,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9174,
@@ -2262,7 +2262,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "రుచిర",
@@ -2335,8 +2335,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9175,
@@ -2346,7 +2346,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాలమా",
@@ -2427,8 +2427,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9176,
@@ -2770,7 +2770,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తేటవలపులు",
@@ -2839,8 +2839,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9181,
@@ -2850,7 +2850,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వలపునిండిన",
@@ -2923,8 +2923,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9182,
@@ -2934,7 +2934,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "లలిత",
@@ -3023,8 +3023,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9183,
@@ -3122,7 +3122,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "హృదయ",
@@ -3183,8 +3183,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9185,
@@ -3402,7 +3402,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తొలకరి",
@@ -3471,8 +3471,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9188,
@@ -3482,7 +3482,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అకట!",
@@ -3555,8 +3555,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9189,
@@ -3566,7 +3566,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "దైవమా!",
@@ -3643,8 +3643,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9190,
@@ -3914,7 +3914,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మిసమిసలాడు",
@@ -4011,8 +4011,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9193,
@@ -4098,7 +4098,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కయికయి",
@@ -4187,8 +4187,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9195,
@@ -4198,7 +4198,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆజనన",
@@ -4275,8 +4275,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9196,
@@ -4350,7 +4350,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తుద",
@@ -4411,8 +4411,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9198,
@@ -4422,7 +4422,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కుశలమే",
@@ -4487,8 +4487,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9199,
@@ -4566,7 +4566,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "గళితవిలసనము",
@@ -4643,8 +4643,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9201,
@@ -4734,7 +4734,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చిదికి",
@@ -4807,8 +4807,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9203,
@@ -4818,7 +4818,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సోగకన్నులు",
@@ -4879,8 +4879,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9204,
@@ -4890,7 +4890,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సఖుల",
@@ -4959,8 +4959,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9205,
@@ -5078,7 +5078,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "శైశవంబాది",
@@ -5143,8 +5143,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9207,
@@ -5154,7 +5154,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సుహృద్వతంస!",
@@ -5219,8 +5219,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9208,
@@ -5230,7 +5230,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అని",
@@ -5287,8 +5287,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9209,
@@ -5698,7 +5698,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వదలని కాంక్షమై",
@@ -5783,8 +5783,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9214,
@@ -5962,7 +5962,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మృదువు లైన",
@@ -6039,8 +6039,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9217,
@@ -6050,7 +6050,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అబల!",
@@ -6115,8 +6115,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9218,
@@ -6126,7 +6126,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఉదయలక్ష్మికి",
@@ -6203,8 +6203,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9219,
@@ -6214,7 +6214,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "విగతకాలుష్యము",
@@ -6291,8 +6291,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9220,
@@ -6302,7 +6302,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మోహనవసంతునకు",
@@ -6371,8 +6371,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9221,
@@ -6382,7 +6382,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సకియ!",
@@ -6451,8 +6451,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9222,
@@ -6462,7 +6462,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ననుపు",
@@ -6531,8 +6531,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9223,
@@ -6542,7 +6542,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కాంక్ష",
@@ -6607,8 +6607,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9224,
@@ -6706,7 +6706,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నష్టమైనట్టి",
@@ -6775,8 +6775,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9226,
@@ -6786,7 +6786,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నెచ్చెలీ!",
@@ -6871,8 +6871,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 7,
+   "meter_name": "మత్తేభవిక్రీడితము"
   },
   {
    "id": 9227,
@@ -6978,7 +6978,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "తగునోయీ",
@@ -7039,8 +7039,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9229,
@@ -7242,7 +7242,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అనంగు నెచ్చెలీ!",
@@ -7315,8 +7315,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9232,
@@ -7326,7 +7326,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చైత్రుతో",
@@ -7383,8 +7383,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9233,
@@ -7394,7 +7394,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కడలితరగల",
@@ -7447,8 +7447,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9234,
@@ -7458,7 +7458,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వలపు",
@@ -7527,8 +7527,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9235,
@@ -7538,7 +7538,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చెలికార!",
@@ -7599,8 +7599,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9236,
@@ -7610,7 +7610,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పరమ",
@@ -7663,8 +7663,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9237,
@@ -7674,7 +7674,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వలపుల",
@@ -7767,8 +7767,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 9,
+   "meter_name": "చంపకమాల"
   },
   {
    "id": 9238,
@@ -7778,7 +7778,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "మనసుచే",
@@ -7847,8 +7847,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9239,
@@ -8214,7 +8214,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వలపులె",
@@ -8279,8 +8279,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9244,
@@ -8290,7 +8290,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సఖుడ!",
@@ -8351,8 +8351,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9245,
@@ -8362,7 +8362,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "భావబంధంబుగా",
@@ -8431,8 +8431,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9246,
@@ -8442,7 +8442,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "కనులు వాలిచి",
@@ -8499,8 +8499,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9247,
@@ -8510,7 +8510,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "అంసముల",
@@ -8591,8 +8591,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9248,
@@ -8670,7 +8670,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నిలిచిరి",
@@ -8731,8 +8731,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 41,
+   "meter_name": "కందము"
   },
   {
    "id": 9250,
@@ -8742,7 +8742,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "చెంత",
@@ -8843,8 +8843,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 9251,
@@ -8854,7 +8854,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "నవక",
@@ -8931,8 +8931,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9252,
@@ -8942,7 +8942,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "సోదరీ",
@@ -9047,8 +9047,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 9253,
@@ -9142,7 +9142,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "వలపు",
@@ -9211,8 +9211,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9255,
@@ -9306,7 +9306,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "ఆ",
@@ -9407,8 +9407,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 8,
+   "meter_name": "ఉత్పలమాల"
   },
   {
    "id": 9257,
@@ -9418,7 +9418,7 @@
    "source": "తృణకంకణము",
    "kanda": null,
    "flags": null,
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": [
     {
      "word": "పట్టుతోరంబుపై",
@@ -9483,8 +9483,8 @@
    "line_count": 4,
    "poet_id": 108,
    "poet_name": "రాయప్రోలు సుబ్బారావు",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 46,
+   "meter_name": "తేటగీతి"
   },
   {
    "id": 9258,
