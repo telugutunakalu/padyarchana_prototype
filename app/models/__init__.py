@@ -4,6 +4,7 @@ Database models for Padyarchana application.
 from app.models.poet import Poet
 from app.models.meter import Meter
 from app.models.poem import Poem
+from app.models.poem_version import PoemVersion
 from app.models.dictionary import Word, PoemWord
 from app.models.sandhi import Sandhi
 from app.models.samasa import Samasa
@@ -20,6 +21,7 @@ __all__ = [
     "Poet",
     "Meter",
     "Poem",
+    "PoemVersion",
     "Word",
     "PoemWord",
     "Sandhi",

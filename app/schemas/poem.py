@@ -96,3 +96,29 @@ class PoemDetail(PoemResponse):
     meter: Optional[MeterBrief] = None
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class PoemVersionSummary(BaseModel):
+    """Lightweight version-history entry for the label list."""
+
+    id: int
+    version_no: int
+    label: str
+    created_at: datetime
+    created_by: Optional[str] = None
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class PoemVersionDetail(PoemVersionSummary):
+    """A full archived snapshot, shown when a version label is clicked."""
+
+    title: Optional[str] = None
+    text: Optional[str] = None
+    literary_form: Optional[str] = None
+    meter_id: Optional[int] = None
+    rating: Optional[str] = None
+    prathipadartham: Optional[List[Dict[str, str]]] = None
+    bhavam: Optional[str] = None
+
+    model_config = ConfigDict(from_attributes=True)
