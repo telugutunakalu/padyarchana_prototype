@@ -49,6 +49,10 @@ class Poem(Base):
     prasas = relationship("Prasa", back_populates="poem", cascade="all, delete-orphan")
     audio = relationship("PoemAudio", back_populates="poem", uselist=False, cascade="all, delete-orphan")
     tts_audio = relationship("PoemTTSAudio", back_populates="poem", uselist=False, cascade="all, delete-orphan")
+    versions = relationship(
+        "PoemVersion", back_populates="poem",
+        cascade="all, delete-orphan", order_by="PoemVersion.version_no",
+    )
 
     def __repr__(self):
         return f"<Poem(id={self.id}, title='{self.title[:30]}...')>"

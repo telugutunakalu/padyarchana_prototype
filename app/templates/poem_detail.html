@@ -7,6 +7,24 @@
 
     {% include "components/_edit_controls.html" %}
 
+    <!-- Previous / Next poem navigation -->
+    <div class="poem-nav">
+        <a class="btn poem-nav-btn" :class="{ 'poem-nav-btn--disabled': !prevId }"
+           :href="prevId ? ('/poem/' + prevId) : null" title="మునుపటి పద్యం">
+            <svg style="width:1.1rem;height:1.1rem;flex-shrink:0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="telugu-text">మునుపటి పద్యం</span>
+        </a>
+        <a class="btn poem-nav-btn" :class="{ 'poem-nav-btn--disabled': !nextId }"
+           :href="nextId ? ('/poem/' + nextId) : null" title="తదుపరి పద్యం">
+            <span class="telugu-text">తదుపరి పద్యం</span>
+            <svg style="width:1.1rem;height:1.1rem;flex-shrink:0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+
     <!-- Poem Container -->
     <div class="poem-container">
         <template x-if="!editing">
@@ -183,6 +201,81 @@
         </div>
     </div>
 
+    <!-- Version History (admin only) -->
+    <div x-show="isAdmin && versions.length" style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-bottom: 2rem;">
+        <h2 style="color: var(--primary-color); margin-bottom: 0.5rem;">కూర్పుల చరిత్ర (Version History)</h2>
+        <p style="color: #6b7280; margin-bottom: 0.85rem; font-size: 0.9rem;">
+            Each saved edit archives the previous version. Click a label to view that version (text & prathipadartham included).
+        </p>
+
+        <div class="version-chips">
+            <button class="version-chip" :class="{ active: !selectedVersion }" @click="viewCurrent()">ప్రస్తుతం · Current</button>
+            <template x-for="v in versions" :key="v.id">
+                <button class="version-chip"
+                        :class="{ active: selectedVersion && selectedVersion.version_no === v.version_no }"
+                        @click="viewVersion(v.version_no)"
+                        :title="formatVersionDate(v.created_at) + (v.created_by ? ' · ' + v.created_by : '')"
+                        x-text="v.label"></button>
+            </template>
+        </div>
+
+        <div x-show="selectedVersion" x-cloak class="version-view">
+            <div class="version-view-head">
+                <span x-text="selectedVersion && selectedVersion.label"></span>
+                <span> · </span>
+                <span x-text="formatVersionDate(selectedVersion && selectedVersion.created_at)"></span>
+                <template x-if="selectedVersion && selectedVersion.created_by">
+                    <span> · <span x-text="selectedVersion.created_by"></span></span>
+                </template>
+            </div>
+
+            <h3 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.5rem;"
+                x-text="selectedVersion && selectedVersion.title"></h3>
+
+            <div style="display:flex; gap:1.5rem; flex-wrap:wrap; font-size:0.9rem; color:#6b7280; margin-bottom:0.75rem;">
+                <span x-show="selectedVersion && selectedVersion.meter_id">
+                    <strong>Meter:</strong>
+                    <span class="telugu-text" x-text="versionMeterName(selectedVersion && selectedVersion.meter_id)"></span>
+                </span>
+                <span x-show="selectedVersion && selectedVersion.rating">
+                    <strong>Rating:</strong>
+                    <span class="rating-badge" :class="selectedVersion && ('rating-' + selectedVersion.rating)"
+                          x-text="ratingLabel(selectedVersion && selectedVersion.rating)"></span>
+                </span>
+            </div>
+
+            <div class="poem-text telugu-text" style="white-space: pre-line; margin-bottom: 1rem;"
+                 x-text="selectedVersion && selectedVersion.text"></div>
+
+            <div x-show="selectedVersion && selectedVersion.prathipadartham && selectedVersion.prathipadartham.length"
+                 style="margin-bottom: 1rem;">
+                <h4 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.4rem;">ప్రతిపదార్థం</h4>
+                <table style="width: 100%; border-collapse: collapse;" class="telugu-text">
+                    <thead>
+                        <tr style="border-bottom: 2px solid #e5e7eb;">
+                            <th style="text-align: left; padding: 0.4rem; color: #6b7280; width: 35%;">పదము</th>
+                            <th style="text-align: left; padding: 0.4rem; color: #6b7280;">అర్థము</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template x-for="(entry, idx) in (selectedVersion ? selectedVersion.prathipadartham : [])" :key="idx">
+                            <tr style="border-bottom: 1px solid #f3f4f6;">
+                                <td style="padding: 0.4rem; vertical-align: top; font-weight: 600;" x-text="entry.word"></td>
+                                <td style="padding: 0.4rem; vertical-align: top;" x-text="entry.meaning"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+
+            <div x-show="selectedVersion && selectedVersion.bhavam">
+                <h4 class="telugu-text" style="color: var(--primary-color); margin-bottom: 0.4rem;">భావం</h4>
+                <div class="telugu-text" style="white-space: pre-wrap; line-height: 1.7;"
+                     x-text="selectedVersion && selectedVersion.bhavam"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Metadata Sidebar -->
     <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin-top: 2rem;">
         <!-- Analysis Section -->
@@ -209,22 +302,6 @@
                     <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">About the Poet</h3>
                     <p style="color: #6b7280;" x-text="poem.poet.biography"></p>
                 </div>
-            </div>
-
-            <!-- Aksharanusarika Analysis -->
-            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
-                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">అక్షరానుసారిక విశ్లేషణ (Aksharanusarika Analysis)</h2>
-
-                <p style="color: #6b7280; margin-bottom: 1rem;">
-                    Analyze this poem's Telugu text for detailed linguistic and prosodic features including aksharas, ganas, and meter patterns.
-                </p>
-
-                <a :href="'/aksharanusarika?text=' + encodeURIComponent(poem.text) + '&poem_id=' + poem.id" class="btn" style="width: 100%; display: block; text-align: center; text-decoration: none;">
-                    <svg style="width: 1.25rem; height: 1.25rem; display: inline-block; margin-right: 0.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
-                    </svg>
-                    Analyze Poem Text
-                </a>
             </div>
 
             <!-- Chandassu Analysis (admin only) -->
@@ -269,6 +346,22 @@
                 <p x-show="chandamError" x-text="chandamError" style="color: #dc2626; margin-top: 0.5rem; font-size: 0.875rem;"></p>
 
                 <div class="chandam-panel" x-show="chandamHtml" x-html="chandamHtml" style="margin-top: 1.25rem;"></div>
+            </div>
+
+            <!-- Aksharanusarika Analysis -->
+            <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: var(--shadow); margin-top: 2rem;">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">అక్షరానుసారిక విశ్లేషణ (Aksharanusarika Analysis)</h2>
+
+                <p style="color: #6b7280; margin-bottom: 1rem;">
+                    Analyze this poem's Telugu text for detailed linguistic and prosodic features including aksharas, ganas, and meter patterns.
+                </p>
+
+                <a :href="'/aksharanusarika?text=' + encodeURIComponent(poem.text) + '&poem_id=' + poem.id" class="btn" style="width: 100%; display: block; text-align: center; text-decoration: none;">
+                    <svg style="width: 1.25rem; height: 1.25rem; display: inline-block; margin-right: 0.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                    </svg>
+                    Analyze Poem Text
+                </a>
             </div>
 
             <!-- Audio Section (Laya) -->
@@ -479,6 +572,10 @@ function poemDetailPage(poemId) {
         ...editable,
         relatedPoems: [],
         metersList: [],            // populated on init for the meter <select>
+        prevId: null,              // adjacent poem ids for prev/next navigation
+        nextId: null,
+        versions: [],              // archived edit history (v1, v2, …)
+        selectedVersion: null,     // currently viewed version, or null = current
         uploading: false,
         uploadError: '',
         ttsAudio: null,
@@ -510,6 +607,10 @@ function poemDetailPage(poemId) {
             this.loadRelatedPoems();
             this.loadTTSStatus();
             this.loadMetersList();
+            this.loadNeighbors();
+            this.loadVersions();
+            // A successful save archives a new version — refresh the list.
+            this.$watch('saveOk', (v) => { if (v) this.loadVersions(); });
             // Sync poem.meter after a successful save so the sidebar link
             // updates without a full page reload.
             this.$watch('model.meter_id', () => {
@@ -520,6 +621,53 @@ function poemDetailPage(poemId) {
                     : null;
             });
             window.poemDetail = this;
+        },
+
+        async loadNeighbors() {
+            try {
+                const r = await fetch(`/api/poems/${this.poem.id}/neighbors`);
+                if (r.ok) {
+                    const n = await r.json();
+                    this.prevId = n.prev_id;
+                    this.nextId = n.next_id;
+                }
+            } catch (e) { console.error('neighbors load failed', e); }
+        },
+
+        async loadVersions() {
+            try {
+                const r = await fetch(`/api/poems/${this.poem.id}/versions`);
+                if (r.ok) {
+                    this.versions = await r.json();
+                    // If the version we're viewing no longer exists, fall back.
+                    if (this.selectedVersion &&
+                        !this.versions.some(v => v.version_no === this.selectedVersion.version_no)) {
+                        this.selectedVersion = null;
+                    }
+                }
+            } catch (e) { console.error('versions load failed', e); }
+        },
+
+        async viewVersion(no) {
+            try {
+                const r = await fetch(`/api/poems/${this.poem.id}/versions/${no}`);
+                if (r.ok) this.selectedVersion = await r.json();
+            } catch (e) { console.error('version load failed', e); }
+        },
+
+        viewCurrent() {
+            this.selectedVersion = null;
+        },
+
+        versionMeterName(id) {
+            if (!id) return '—';
+            const m = this.metersList.find(x => x.id === id);
+            return m ? m.name : ('#' + id);
+        },
+
+        formatVersionDate(s) {
+            if (!s) return '';
+            try { return new Date(s).toLocaleString(); } catch (_) { return s; }
         },
 
         async loadMetersList() {
