@@ -1,8 +1,8 @@
 {
- "poets_total": 202,
+ "poets_total": 201,
  "meters_total": 215,
- "poems_total": 364626,
- "sources_total": 280,
+ "poems_total": 364519,
+ "sources_total": 279,
  "sources": [
   {
    "source": "''తెలుగుబాల!'' శతకం",
@@ -1117,7 +1117,7 @@
   {
    "source": "శివ శతకం",
    "file": "poems/shivashatakam.json",
-   "count": 107
+   "count": 111
   },
   {
    "source": "శివముకుంద శతకము",
@@ -1133,11 +1133,6 @@
    "source": "శివలీలావిలాసము",
    "file": "poems/shivaliilaavilaasamu.json",
    "count": 322
-  },
-  {
-   "source": "శివశతకము",
-   "file": "poems/shivashatakamu.json",
-   "count": 111
   },
   {
    "source": "శిశుపాలవధ మహాకావ్యము",
@@ -1440,5 +1435,5 @@
    "count": 4582
   }
  ],
- "poem_versions_total": 22
+ "poem_versions_total": 35
 }
