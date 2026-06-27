@@ -826,8 +826,13 @@
   },
   {
    "source": "రంగనాథ రామాయణం",
-   "file": "poems/ramganaatharaamaayanam.json",
-   "count": 26296
+   "file": "poems/ramganaatharaamaayanam.part01.json",
+   "count": 18633
+  },
+  {
+   "source": "రంగనాథ రామాయణం",
+   "file": "poems/ramganaatharaamaayanam.part02.json",
+   "count": 7663
   },
   {
    "source": "రంగారాయచరిత్రము",
@@ -1056,8 +1061,18 @@
   },
   {
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
-   "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.json",
-   "count": 99530
+   "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.part01.json",
+   "count": 33194
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
+   "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.part02.json",
+   "count": 33143
+  },
+  {
+   "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
+   "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.part03.json",
+   "count": 33193
   },
   {
    "source": "శతావధానసారము",
@@ -1221,13 +1236,28 @@
   },
   {
    "source": "శ్రీమదాంధ్ర మహాభాగవతం",
-   "file": "poems/shriimadaamdhramahaabhaagavatam.json",
-   "count": 9010
+   "file": "poems/shriimadaamdhramahaabhaagavatam.part01.json",
+   "count": 7042
+  },
+  {
+   "source": "శ్రీమదాంధ్ర మహాభాగవతం",
+   "file": "poems/shriimadaamdhramahaabhaagavatam.part02.json",
+   "count": 1968
   },
   {
    "source": "శ్రీమదాంధ్ర మహాభారతము",
-   "file": "poems/shriimadaamdhramahaabhaaratamu.json",
-   "count": 21400
+   "file": "poems/shriimadaamdhramahaabhaaratamu.part01.json",
+   "count": 9199
+  },
+  {
+   "source": "శ్రీమదాంధ్ర మహాభారతము",
+   "file": "poems/shriimadaamdhramahaabhaaratamu.part02.json",
+   "count": 9683
+  },
+  {
+   "source": "శ్రీమదాంధ్ర మహాభారతము",
+   "file": "poems/shriimadaamdhramahaabhaaratamu.part03.json",
+   "count": 2518
   },
   {
    "source": "శ్రీమదుత్తరరామాయణము",
@@ -1261,8 +1291,13 @@
   },
   {
    "source": "శ్రీరామాయణం (కట్టా వరదరాజు)",
-   "file": "poems/shriiraamaayanamkattaavaradaraaju.json",
-   "count": 23292
+   "file": "poems/shriiraamaayanamkattaavaradaraaju.part01.json",
+   "count": 17857
+  },
+  {
+   "source": "శ్రీరామాయణం (కట్టా వరదరాజు)",
+   "file": "poems/shriiraamaayanamkattaavaradaraaju.part02.json",
+   "count": 5435
   },
   {
    "source": "శ్రీసరస్వతీ శతకము",
