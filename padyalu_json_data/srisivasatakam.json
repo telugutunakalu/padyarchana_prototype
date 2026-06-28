@@ -1,0 +1,1578 @@
+{
+  "shatakam_title_telugu": "శ్రీ శివ శతకము",
+  "author_telugu": "హ.వేం.స.నా.మూర్తి",
+  "year": "క్రీ.శ 20వ – 21వ శతాబ్దం",
+  "literary_form_telugu": "శతకము",
+  "source_url": null,
+  "note": "శతరుద్రీయ శివశతకము (కందములు, ౧౧౨ పద్యాలు); OCR నుండి సేకరించబడింది.",
+  "poems": [
+    {
+      "id": 1,
+      "lines_telugu": [
+        "శ్రీ విఘ్నేశుని దలచెద",
+        "గోవిందుని బ్రహ్మనట్లె గురుతర భక్తిన్",
+        "సేవించెద గౌరిని రమ",
+        "నావాణిని దలచువాడ నదనెంచి శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 1,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 2,
+      "lines_telugu": [
+        "కులదేవుని వేంకటపతి",
+        "నలఘు జ్ఞానాఢ్యుడైన యాగురువర్యున్",
+        "దలచెద నారాయణఘను",
+        "పలికించగ సాధుపద్య పంక్తులను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 2,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 3,
+      "lines_telugu": [
+        "పలుకుట నేర్పిన వారగు",
+        "తలిదండ్రుల సన్నుతించి తదనంతర మీ",
+        "తెలుగును భరతావనిలో",
+        "వెలిగించిన పూర్వకవుల వినుతింతు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 3,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 4,
+      "lines_telugu": [
+        "శత మష్టోత్తరసంఖ్యా",
+        "యుతముగ పద్యములు చెప్ప నుద్యుక్తుడనై",
+        "క్షితి నిలిచితి నీ యెదుటను",
+        "నతులను గొని పలుకు శక్తి నాకిమ్ము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 4,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 5,
+      "lines_telugu": [
+        "ఛందంబులు యత్యాదులు",
+        "నందముగా బలుకురీతు లరయని వాడన్",
+        "మందుడ నా యీ కోరిక",
+        "వందనమిదె తీర్చుమయ్య వామాంగ శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 5,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 6,
+      "lines_telugu": [
+        "హరివంశ సంభవుండను",
+        "స్మరహర! శ్రీవేంకటేశ సామ్రాజ్యాంబల్",
+        "సురుచిరముగ గను పుత్రుడ",
+        "ధరలో సత్యాఖ్య నుంటి తథ్యంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 6,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 7,
+      "lines_telugu": [
+        "శ్రీకంఠ! నాగభూషణ!",
+        "చీకాకుల ద్రుంచునట్టి చిన్మయరూపా!",
+        "లోకాల నేలు చుండెడి",
+        "శ్రీకర! ప్రణతులను నీకు చేసెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 7,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 8,
+      "lines_telugu": [
+        "నీవే లోకాధీశుడ",
+        "వీవే సర్వార్థదాత వీవే ప్రజకున్",
+        "భావావేశము గూర్చెద",
+        "వీవే తండ్రులకు దండ్రి విమ్మహిని శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 8,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 9,
+      "lines_telugu": [
+        "నీయాన బూని బ్రహ్మయు",
+        "నీయాజ్ఞను గొనుచు హరియు నిఖిల జగాలన్",
+        "చేయుచు నుందురు కృతులను",
+        "నీయాజ్ఞయె దాల్తు రెల్ల నిర్జరులు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 9,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 10,
+      "lines_telugu": [
+        "శిరమున గంగను, చంద్రుని",
+        "నురమున సర్పములు, పుర్రె లుత్సవ మనుచున్",
+        "సురుచిర సౌఖ్యము లొసగుచు",
+        "ధరవారిని గావ నీవు దాల్చెదవు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 10,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 11,
+      "lines_telugu": [
+        "సురగణము కోరినంతట",
+        "నిరుపమగతి విషము నపుడు నిష్ఠాగరిమన్",
+        "సరియంచు ద్రావినాడవు",
+        "స్మరహర! నినె గొల్తునయ్య! సతతంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 11,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 12,
+      "lines_telugu": [
+        "జల మించుక గొని హర! నీ",
+        "తలపై చల్లియును బిల్వ తరుపత్రాలన్",
+        "నిలిపిన వారల కిలలో",
+        "నలఘు సుఖంబులను గూర్తు వనుదినము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 12,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 13,
+      "lines_telugu": [
+        "ఆకాశంబున దిరుగుచు",
+        "చీకాకులు మహిని గల్గ చేసెడి వారిన్",
+        "పోకార్చి ద్రుంచినాడవు",
+        "ప్రాకటముగ నాడు, గొనుము ప్రణతులను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 13,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 14,
+      "lines_telugu": [
+        "తల్లివి నీవై సతతం",
+        "బెల్ల జగంబులను గాతు వేవిధి జూడన్",
+        "ఫుల్లాబ్జనేత్ర! శంకర!",
+        "సల్లలితానందసుఖద! సకలస్థ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 14,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 15,
+      "lines_telugu": [
+        "శిరముం కంఠము వదనము",
+        "కరచరణాదులును నాదు కన్నులు తనువున్,",
+        "పురహర! నిను సేవించుటకే",
+        "నిరతము నిను గొల్చు బుద్ధి నీవొసగు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 15,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 16,
+      "lines_telugu": [
+        "అభిషేకప్రియ! శంకర!",
+        "శుభవరదాయక! శుభాంగ! సుందరమూర్తీ!",
+        "విభవంబు లొసగు దేవర!",
+        "యభయం బిచ్చుచును గావు మనుదినము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 16,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 17,
+      "lines_telugu": [
+        "అరుసంబున నీనామము",
+        "నిరతము స్మరియించువారి నిఖిలాఘంబుల్",
+        "కరుణామయ! నశియించును",
+        "ధరపయి ప్రమథాధినాథ! తథ్యంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 17,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 18,
+      "lines_telugu": [
+        "వేదంబులు నీమహిమను",
+        "మోదంబున బల్కుచుండు మునిసంఘంబుల్",
+        "శ్రీదుండని కొనియాడుదు",
+        "రాదియు నంతంబులేని యాద్యుడవు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 18,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 19,
+      "lines_telugu": [
+        "శివ! శంకర! అభయంకర!",
+        "భవబంధవిమోచనోగ్ర! భక్తాధీనా!",
+        "ధవళాచలగేహా! ఘన",
+        "నవనిధిసౌభాగ్యదాత! నను గావు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 19,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 20,
+      "lines_telugu": [
+        "నీవెవ్వని యోగ్యునిగా",
+        "భావింతువొ వాని కిలను బహు సంపదలన్",
+        "దీవించి యొసగు చుండెద",
+        "వేవేళను సన్నుతింతు నేనికను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 20,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 21,
+      "lines_telugu": [
+        "నిన్నే నమ్మితి కావుము",
+        "మిన్నేటిని తలను దాల్చి మేదిని లోనన్",
+        "మన్నిక నఘసంహారము",
+        "సన్నుతముగ చేయు దేవ! సర్వేశ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 21,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 22,
+      "lines_telugu": [
+        "శివరాత్రిని నిను గొల్చెడి",
+        "భువివారల కభయ మొసగి పో పొమ్మనుచున్",
+        "జవమున నఘసంఘంబుల",
+        "నవతలికిం ద్రోచివేతు వద్భుతము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 22,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 23,
+      "lines_telugu": [
+        "నిను నమ్మి పట్టు వీడని",
+        "ఘనగుణుడైనట్టి వాని కడు వత్సలతన్",
+        "మునిబాలుని చిరజీవిగ",
+        "మును చేసితి వౌర! నాడు ముదమంద శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 23,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 24,
+      "lines_telugu": [
+        "కరిరాజవరద! శంకర!",
+        "కరిముఖసన్మానదాత! కరుణాపూర్ణా!",
+        "నిరతానందద! సురవర!",
+        "సరియగు భావంబు లొసగ సన్నుతులు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 24,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 25,
+      "lines_telugu": [
+        "భోళాశంకర! శుభకర!",
+        "కూళల బరిమార్చు నట్టి కోరిక తోడన్",
+        "వ్యాళములు దాల్చి యీ భూ",
+        "గోళమున న్నిలుచు నిన్ను గొలిచెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 25,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 26,
+      "lines_telugu": [
+        "బూడిద గాదీ చూర్ణము",
+        "పోడిమి సమకూర్చునట్టి పుణ్యప్రదమౌ",
+        "సూడిద గావున దాల్చుచు",
+        "వేడెద నాయఘము గాల్చి వేయంగ శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 26,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 27,
+      "lines_telugu": [
+        "మారేడున మూడాకులు",
+        "నీరేజాక్షాప్తమిత్ర! నీ నేత్రమ్ముల్",
+        "తీరుగ మూడే కావున",
+        "నీరీతిగ వానినందు మీశాన! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 27,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 28,
+      "lines_telugu": [
+        "పండ్రెండు పేర్ల నందుచు",
+        "గుండ్రాతిగ రూపు దాల్చి గొలిచిన యెడలన్",
+        "తండ్రీ! వరముల నిత్తువు",
+        "పుండ్రాభశరీర! నిన్ను పూజింతు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 28,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 29,
+      "lines_telugu": [
+        "ఏ మాయ చేసినాడవొ",
+        "భూమి న్నినుగాక యొరుని పొంద నటంచున్",
+        "నీమంబున నా శైలజ",
+        "స్వామీ! గాటంపు తపము సల్పినది శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 29,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 30,
+      "lines_telugu": [
+        "శిరమున సురనిమ్నగ నిక",
+        "సరసంబుగ తనువునందు శైలజ నటులే",
+        "యురగంబులు కంఠంబున",
+        "సురుచిరగతి దాల్చినావు శోభనము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 30,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 31,
+      "lines_telugu": [
+        "నీకొసగిన నాల్గాకులు",
+        "మాకిచ్చెద వెల్లసిరుల ముము గావంగా",
+        "శ్రీకంఠ! చేరియుండెద",
+        "వేకాలం బెదలలోన నీశాన! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 31,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 32,
+      "lines_telugu": [
+        "సోమేశుడ వొకచోటను",
+        "భీమేశుడ వొక్కచోట విశ్వేశుడవై",
+        "కామేశ! నిలిచి యుందువు",
+        "భూమిన్ మము బ్రోచు కొఱకు పురవైరి! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 32,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 33,
+      "lines_telugu": [
+        "జాగేల మమ్ము గావగ",
+        "రోగావృత మయ్యె జగతి రుద్ర! మహేశా!",
+        "ఆగణనాయకు నైనను",
+        "మా గాసి యణంగద్రొక్కు మనరాదె శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 33,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 34,
+      "lines_telugu": [
+        "స్వార్థంబు పెరిగి పోయెను",
+        "తీర్థంబుల కలుషితంబు స్థిరమయి యుండెన్",
+        "వ్యర్థంబగు కలహంబు ల",
+        "నర్థాలకు తావులయ్యె నరయంగ శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 34,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 35,
+      "lines_telugu": [
+        "పరభాషలు పరమతములు",
+        "పరసంస్కృతు లన్నిచేరి భారతభువిపై",
+        "నిరతము నాట్యం బాడుచు",
+        "నురుతరముగ భీతి గొల్పుచుండినవి శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 35,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 36,
+      "lines_telugu": [
+        "అలసత్వమొ జనములలో",
+        "కలియుగ కారణమొ మేటి కలుషంబులకున్",
+        "తెలియదు భారతవర్షం",
+        "బలఘు యశంబులను పొంద నగునేమి శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 36,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 37,
+      "lines_telugu": [
+        "జీవితము బుడగ వంటిది",
+        "భావన చేయంగ దరమె పడు సమయంబున్",
+        "చావిట చేరక మునుపే",
+        "నీవే రక్షకుడవౌట నినుదలతు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 37,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 38,
+      "lines_telugu": [
+        "మంగళమయ మా రూపము",
+        "మంగళకరయైన సర్వమంగళ సతియున్",
+        "మంగళము తలపు గావున",
+        "మంగళములు గూర్చవయ్య మహిలోన శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 38,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 39,
+      "lines_telugu": [
+        "సత్యము మృగ్యం బయ్యెను",
+        "నిత్యంబును జనులలోన నిష్ఠ యణంగెన్",
+        "కృత్యంబుల మాలిన్యం",
+        "బత్యంతము హెచ్చిపోయె యంతటను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 39,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 40,
+      "lines_telugu": [
+        "ఈశ్వర! కరుణా సాగర!",
+        "శాశ్వత సుఖదాత! శర్వ! సాంబ గిరీశా!",
+        "విశ్వవ్యాప్తా! రుద్రా!",
+        "నశ్వరమౌ భవమునుండి నను గావు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 40,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 41,
+      "lines_telugu": [
+        "మృత్యుంజయ! విశ్వేశ్వర!",
+        "నిత్యానందప్రదాత! నిఖిలేశ! హరా!",
+        "అత్యుగ్రపాప సంహర!",
+        "భృత్యామయహర్త! నతులు భీమేశ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 41,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 42,
+      "lines_telugu": [
+        "త్రిపురంబుల నొకవ్రేటున",
+        "నపుడార్చితి వయ్య లోక మానందింపన్",
+        "విపరీతముగా బెరిగిన",
+        "యపరాధము లణచబూన వలుకేల శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 42,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 43,
+      "lines_telugu": [
+        "ఈశానా! పరమేశా!",
+        "హేశంకర! భయవిదూర! హేభూతేశా!",
+        "కాశీనాథా! కల్మష",
+        "నాశంకర! సర్పభూష!నతులందు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 43,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 44,
+      "lines_telugu": [
+        "సోదరులకు వలె నందరు",
+        "వేదోక్త సుఖంబులంది విమలాత్మకులై",
+        "మోదము గోల్పోకుండుట",
+        "కేదేని విధంబు దెల్పు మీశాన శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 44,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 45,
+      "lines_telugu": [
+        "క్షణిక సుఖంబుల కోసం",
+        "బణుమాత్రము చూడనట్టి యత్యుత్తమమౌ",
+        "గుణమును నాకీవేళను",
+        "ప్రణతులు గొని యీయవయ్య పరమేశ శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 45,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 46,
+      "lines_telugu": [
+        "ద్వాదశ జ్యోతిర్లింగము",
+        "లాదట భూభాగమంత నగణిత లింగా",
+        "లోదేవ! నింపి యుంటివి",
+        "కాదే యుచితంబు మమ్ము గావగను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 46,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 47,
+      "lines_telugu": [
+        "కాశీవిశ్వేశ్వరుడవు",
+        "నాశించిన సత్ఫలంబు లందించెద వీ",
+        "దేశమును బ్రోచువాడవు",
+        "ధీశక్తి యొసంగు మయ్య దినదినము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 47,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 48,
+      "lines_telugu": [
+        "పొమ్మంచు గెంట జూచిన",
+        "నెమ్మనమున నిన్నెదలతు, నీచరణములన్",
+        "నమ్మెద నారక్షకు లిక",
+        "నిమ్మహి నీకన్న నన్యు లెవరయ్య శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 48,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 49,
+      "lines_telugu": [
+        "ఫలసిద్ధికి కారకులీ",
+        "యిలపైనను తామటంచు నిచ్ఛావాక్కుల్",
+        "పలికెదరు మూఢజనములు",
+        "తలపక నిను బొంద గలరె తత్ఫలము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 49,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 50,
+      "lines_telugu": [
+        "నిరతము నిన్నే దలచుచు",
+        "వరగుణముల నిమ్మటంచు ప్రత్యహ మడుగన్",
+        "కరుణామయ! స్వార్థంబా?",
+        "సరికాదా? చెప్పుమయ్య సర్వేశ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 50,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 51,
+      "lines_telugu": [
+        "కులధర్మము నశియించుచు",
+        "నిలలో పాశ్చాత్యరీతు లెంతయు బెరిగెన్",
+        "బలహీనం బై పోవుచు",
+        "నలసెను హిందూత్వమిచట యనుచితము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 51,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 52,
+      "lines_telugu": [
+        "నీనామ జపము చేసెద",
+        "నీనందికి ముదము గూర్చి నిను మెప్పింతున్",
+        "నీనారీమణి గొలిచెద",
+        "నేనెప్పుడు బ్రోవుమయ్య నిటలాక్ష! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 52,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 53,
+      "lines_telugu": [
+        "జయమగు బోళాశంకర!",
+        "జయమగు భక్తార్తినాశ! జయము పినాకీ!",
+        "జయమగు భవభయతారక!",
+        "జయమగు నీ కెల్లవేళ జయమగును శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 53,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 54,
+      "lines_telugu": [
+        "జగదాధారుడ వీవని",
+        "నిగమము స్తుతియించుచుండు, నీ నామంబే",
+        "ఖగవాహనుండు, సురలును",
+        "భగవంతుడ కావుమనుచు బలుకుదురు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 54,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 55,
+      "lines_telugu": [
+        "జననీ జనకుల యందున",
+        "ఘనతరమగు గౌరవంబు కడు ప్రేమంబున్",
+        "మనుజులలో కల్పించగ",
+        "ధనదాత్మసఖా! నమశ్శతములందు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 55,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 56,
+      "lines_telugu": [
+        "నందీశ్వరవరదాయక!",
+        "బృందారక భాగ్యదాత! విశ్వవిధాతా!",
+        "వందితసకలామర! హర!",
+        "వందే కరుణాంతరంగ! పరమేశ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 56,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 57,
+      "lines_telugu": [
+        "అకలంక భావగరిమయు",
+        "ప్రకటిత సద్వినయదీప్తి పావనచరితల్",
+        "సకలంబును ప్రేమించుట",
+        "లొక మార్గము నిన్ను జేరుచుండుటకు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 57,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 58,
+      "lines_telugu": [
+        "హే చంద్రశేఖరా! మృడ!",
+        "నీచరితము పావనంబు నీదాస్యము మా",
+        "కాచరణీయము కావున",
+        "యోచింపక నిన్నెగొల్చు చుండెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 58,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 59,
+      "lines_telugu": [
+        "సమయోచిత వర్తనమును,",
+        "సుమధుర సద్వాక్యపటిమ శర్వా! నాకున్",
+        "విమలంబౌ భావంబులు",
+        "నమలిన సద్వినయదీప్తి యందించు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 59,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 60,
+      "lines_telugu": [
+        "ఏకాదశ రుద్రంబులు",
+        "నీకర్పించెదను దేవ! నిష్ఠాగరిమన్",
+        "చేకొని వాత్సల్యంబున",
+        "చీకాకులు ద్రుంచి యొసగు క్షేమంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 60,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 61,
+      "lines_telugu": [
+        "శివరాత్రి రాత్రి వేళల",
+        "భవదీయార్చనము సేతు, భాగ్యము గోరన్",
+        "భవబంధము వీడుటకై",
+        "భవహర! సద్భక్తి నీయ బ్రార్థింతు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 61,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 62,
+      "lines_telugu": [
+        "ఓం కారము నీరూపము",
+        "సంకటహర మంత్ర మదియె సతతము దానిన్",
+        "శంకాలేశము నందక",
+        "పంకేరుహనేత్రమిత్ర! పలికెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 62,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 63,
+      "lines_telugu": [
+        "నను నీదాసుని బ్రోచెడి",
+        "పని నీకనివార్యమైన బాధ్యత గాదా?",
+        "ధన మిమ్మని యడిగితినా?",
+        "యనుపమ సద్భావ మీయ వదియేల శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 63,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 64,
+      "lines_telugu": [
+        "మదనారి! నందివాహా!",
+        "సదయా! కైలాసవాస! సర్పాభరణా!",
+        "కదనభయంకర! రుద్రా!",
+        "విదళిత సర్వోగ్రదైత్య! వీరేంద్ర! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 64,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 65,
+      "lines_telugu": [
+        "శివమన మంగళమౌ గద,",
+        "శివయన (నీసతికి బేరు) పార్వతికి బేరు శివుడన నీవున్",
+        "శివశివ శివశివ యనియెద",
+        "నవగుణముల గూల్చి చూపు మనుకంప శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 65,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 66,
+      "lines_telugu": [
+        "వారని వీరని జూడక",
+        "చేరినచో ప్రేమజూపి క్షేమము లెపుడున్",
+        "కారుణ్యపూర్ణ! యిడు నీ",
+        "తీరది యన్యత్ర లేని తేజంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 66,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 67,
+      "lines_telugu": [
+        "యజనముల నెన్ని చేసిన",
+        "భజియించిన భక్తితోడ పలుదైవములన్",
+        "నిజమిది నిను దలవనిచో",
+        "ప్రజ కేడ సుఖంబు భువిని పరమేశ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 67,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 68,
+      "lines_telugu": [
+        "శిరమున గంగను దాల్చితి",
+        "వరయవు జలహీనయైన జగతిని ప్రజకున్",
+        "నిరతము కలిగెడి యిడుములు",
+        "కరుణామయ! యాదుకొనవె గతినీవె శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 68,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 69,
+      "lines_telugu": [
+        "శిర మొసగితి వా గంగకు",
+        "గరళంబున కొసగినావు కంఠము జూడన్",
+        "తరుణికి కాయం బొసగిన",
+        "నిరుపముడగు త్యాగివంచు నిన్నందు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 69,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 70,
+      "lines_telugu": [
+        "కరుణాదృక్కులు నాపై",
+        "ధర నెప్పుడు బంపవయ్య ధన్యుడ నగుదున్",
+        "సరిలేరు నీకటంచును",
+        "నురుతర సద్భక్తి గొల్చు చుండెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 70,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 71,
+      "lines_telugu": [
+        "ప్రమథాధిప శ్రీకంఠా!",
+        "కమనీయగుణాఢ్య రుద్ర! కామితఫలదా!",
+        "సమతాపూర్ణా! శంకర!",
+        "మమతను జూపించుమయ్య మాపయిని శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 71,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 72,
+      "lines_telugu": [
+        "ముక్కంటీ నీసము లిం",
+        "కొక్కరు నీ భూమిపైన నుండుట కలయే",
+        "గ్రక్కున శరణం బీవని",
+        "మ్రొక్కెద రక్షకుడ వీవె మునివంద్య! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 72,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 73,
+      "lines_telugu": [
+        "పిలిచిన పలుక వదేలా?",
+        "అలుకకు కతమేమిటయ్య అలికాక్ష! నినున్",
+        "దలచుటలో లోపంబా?",
+        "కలికాలము చూపదగును కనికరము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 73,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 74,
+      "lines_telugu": [
+        "గురుభక్తి సన్నగిల్లిన",
+        "దరయంగా ఛాత్రులందు నఖిల జగానన్",
+        "మరుగున బడె శుశ్రూషయు",
+        "స్థిరమతి లోకమున కెట్లు చేకురును శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 74,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 75,
+      "lines_telugu": [
+        "తనువున సగ మొక సతికిడి",
+        "యనువున శిరమొక్క యతివ కందించవె నీ",
+        "వనుపముడవు మహిళల కిల",
+        "ననుచితముల నాపవేల? యనుదినము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 75,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 76,
+      "lines_telugu": [
+        "మోసములకు స్థానంబై",
+        "వాసిని గోల్పోవుచుండె భరతావని యా",
+        "వాసము తానై యున్నది",
+        "కాసుల యాశలకు దేవ! కనవయ్య శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 76,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 77,
+      "lines_telugu": [
+        "పర్వతరాజ కుమారిక",
+        "సర్వేశా! దయను జూప సమ్మతి నిడదా?",
+        "ఉర్వీతలమం దేలనొ",
+        "పర్విన యవినీతి నణచు పనిగొనవు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 77,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 78,
+      "lines_telugu": [
+        "ఎటు చూచిన దుష్కృత్యము",
+        "లెటు విన్న నసత్యవాక్కు లేమని యనినన్",
+        "కటుతరమౌ వచనంబులు",
+        "నిటలాక్ష! జగంబులోన నిత్యమును శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 78,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 79,
+      "lines_telugu": [
+        "జననీజనకుల సేవకు",
+        "తన సంతతి జూచు కొరకు తథ్యం బిలలో",
+        "జనునకు సమయము లేదని",
+        "యనయంబును బల్కుచుండు టనుచితము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 79,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 80,
+      "lines_telugu": [
+        "మరియాద లేని యాదర",
+        "మరయగ సద్భక్తి లేరి హరిహర సేవల్",
+        "పరహితము గోరకుండని",
+        "నరు వర్తన నింద్య మంచు నమ్మెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 80,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 81,
+      "lines_telugu": [
+        "తానే సర్వజ్ఞుం డని",
+        "ధీనిధులను ధిక్కరించి తిరిగెడి వానిన్",
+        "జ్ఞాన విహీనునిగా జను",
+        "లీనేలం జూడవలయు నెల్లెడల శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 81,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 82,
+      "lines_telugu": [
+        "జగదధినాయక! శంభో!",
+        "నిగమస్తుత! కృత్తివాస! నిఖిలావాసా!",
+        "అగజాప్రాణాధీశా!",
+        "భగవన్! హే విశ్వరూప! ప్రమథేశ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 82,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 83,
+      "lines_telugu": [
+        "నిను చర్మాంబరు జూచుచు",
+        "ననయము సంతోష సౌఖ్య మందెడి కనులే",
+        "కనులని బలుకగ వలయును",
+        "ఘనతాపము దీరు నిన్ను గనుచుండ శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 83,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 84,
+      "lines_telugu": [
+        "నిత్యానందం బందుచు",
+        "నత్యుత్సవ మంచు దలచి యనవరతంబున్",
+        "సత్యంబౌ నీచరితం",
+        "బత్యంతము విన్న దొలగు నఘరాశి శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 84,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 85,
+      "lines_telugu": [
+        "నీ యాలోచన సేయగ",
+        "శ్రేయంబులు గలుగుచుండు సిరిసంపద ల",
+        "త్యాయత మగు సద్యశమును",
+        "స్వాయత్తం బౌ నటన్న సత్యంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 85,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 86,
+      "lines_telugu": [
+        "యోగులకు యోగి వభవా!",
+        "భోగీంద్రాభరణ! వినుము భూవాసులకున్",
+        "రోగహరం బగువిధి స",
+        "ద్యోగం బందించ వయ్య తుహినాభ! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 86,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 87,
+      "lines_telugu": [
+        "శశిశేఖర! శిపివిష్టా!",
+        "దశదిశలం దలమియున్న దానవ శక్తిన్",
+        "భృశ మణచివేసి యది నీ",
+        "వశమగు నట్లుగను జూడ బ్రార్థింతు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 87,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 88,
+      "lines_telugu": [
+        "నిను సేవించెడి శక్తిని",
+        "గొనకొని యర్చించునట్టి గురుతర భక్తిన్",
+        "మనసారగ జనులందరి",
+        "ననుదినమును బిల్చు భావ మందించు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 88,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 89,
+      "lines_telugu": [
+        "నీపాదార్చన వీడను",
+        "పాపము లొనరించువాడ బహుభంగులుగా",
+        "కోపించక నామీదను",
+        "చూపుము కనికరము సర్వసుఖదాత! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 89,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 90,
+      "lines_telugu": [
+        "తలిదండ్రుల సంసేవన",
+        "మిలలో సర్వార్థదాయి యేకాలమునన్",
+        "పలురకముల యత్నించియు",
+        "వలయును తత్కార్య మెల్ల వారలకు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 90,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 91,
+      "lines_telugu": [
+        "స్త్రీ సృష్టికి మూలం బిక",
+        "స్త్రీ సంతస మందజేయు శ్రేయము గూర్చున్",
+        "స్త్రీ సద్యత్నము జూపును",
+        "స్త్రీ సర్వుల మేలు గోరు తేజంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 91,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 92,
+      "lines_telugu": [
+        "అతివకు కీడొనరించిన",
+        "క్షితిపయి సుఖ మంద గలరె, చేరునె సిరు లా",
+        "హితమతిని గౌరవించగ",
+        "నతులిత వైభవము లబ్బు నందరకు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 92,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 93,
+      "lines_telugu": [
+        "హర! మృత్యుంజయ! శంకర!",
+        "హరిణాక్ష! శ్మశానవాసి! యాద్యా! ధన్వీ!",
+        "పరమా! సర్వజ్ఞా! భవ!",
+        "సురరక్షక! సర్వచారి! స్తుతులందు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 93,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 94,
+      "lines_telugu": [
+        "లింగాకారముతో స",
+        "త్సంగము భక్తాళి కొసగ సర్వత్ర భువిన్",
+        "రంగారు చోట్ల నుండిన",
+        "శృంగీశా! ప్రణతు లిడుదు చేకొనుము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 94,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 95,
+      "lines_telugu": [
+        "జేజే కైలాసాధిప!",
+        "జేజే భువనాధినాథ! జేజే రుద్రా!",
+        "జేజే సకలశుభంకర!",
+        "జేజే సురరాజివంద్య! జేజేలు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 95,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 96,
+      "lines_telugu": [
+        "తలపులలో పిలుపులలో",
+        "పలుకులలో చేరి చూపు వలపులలోనన్",
+        "నెలతలలో పురుషులలో",
+        "కలుషంబే కానవచ్చు కలియుగము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 96,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 97,
+      "lines_telugu": [
+        "ధనమే మూలం బాయెను",
+        "మనుషుల కీ జగతిలోన మమతా సమతల్",
+        "కనిపించని స్థితి నున్నవి",
+        "విను మో కైలాసవాస! విశదముగ శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 97,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 98,
+      "lines_telugu": [
+        "పరివార సభ్యులందున",
+        "సరియగు సద్భావయుక్తి సాగిన యెడలన్",
+        "నిరతము సంతోషంబులు",
+        "ధరపై గాంచంగ వచ్చు దైత్య ఘ్న! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 98,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 99,
+      "lines_telugu": [
+        "సోదరతతితో సతము వి",
+        "భేదించుచు పలుకువాడు పెను కష్టములన్",
+        "మేదిని పొందును సత్యము",
+        "మోదము కలుగుటయు కల్ల పురహంత! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 99,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 100,
+      "lines_telugu": [
+        "నీనామమె మంత్రంబై",
+        "మానసమున జేరియుండ మా కీజగతిన్",
+        "జ్ఞానప్రద! చిద్రూపా!",
+        "మానం బందంగ శంక మరియేల శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 100,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 101,
+      "lines_telugu": [
+        "పరహితము కోరువారికి",
+        "సురుచిర సౌఖ్యంబు లబ్బు సుందర యశముల్",
+        "ధరపై కలుగంగాగల",
+        "వరయగ నేకాల మైన ననుదినము శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 101,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 102,
+      "lines_telugu": [
+        "సతిపై విశ్వాసం బిల",
+        "పతి కుండగవలయు జూడ పతిపై సతికిన్",
+        "సతతం బుండిన సాగును",
+        "జతగా సంసార మెపుడు సత్యంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 102,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 103,
+      "lines_telugu": [
+        "వినయంబును, సచ్ఛీలము",
+        "ఘనతరమై వెలుగునట్టి కారుణ్యంబున్",
+        "మనుజుడు తాల్చంగా వలె",
+        "ననుపమయశ మందుకొనగ ననియెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 103,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 104,
+      "lines_telugu": [
+        "అనయము సత్కార్యములే",
+        "మనుజునకుం జేయదగును మహి నెల్లపుడున్",
+        "జనహితము కోరుచుండుట",
+        "ఘనతను కలిగించునట్టి కర్మంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 104,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 105,
+      "lines_telugu": [
+        "కలికాలము కల్మషముల",
+        "నిలయం బని పలుకువారు నిరతము తా మీ",
+        "యిలపై చేయుచు నుండెడి",
+        "తలపులు స్మరియించ రెపుడు తామేల శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 105,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 106,
+      "lines_telugu": [
+        "గురుజనులను సేవించగ",
+        "ధరణిని సుఖమొదవుచుండు ధర్మము లందున్",
+        "వరమగు దీనిని దాల్చుట",
+        "పురుషున కావశ్యకంబుపో యందు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 106,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 107,
+      "lines_telugu": [
+        "తనకీ జగతి నసాధ్యం",
+        "బనునది లేదంచు సతము బహుగర్వితుడై",
+        "యనయము మదిలో దలచెడి",
+        "జనునకు మృతి నందకునికి సాధ్యంబె శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 107,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 108,
+      "lines_telugu": [
+        "మణిభూషితుడై యున్నను",
+        "గుణహీనుడు పొందబోడు కువలయ మందున్",
+        "ప్రణతులు సత్యము జనులను",
+        "గుణములె దాల్చంగ నెపుడు కోరెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 108,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 109,
+      "lines_telugu": [
+        "ఏకాగ్రత ప్రతిపనిలో",
+        "నేకాలం బుండవలయు నిల నందరకున్",
+        "శోకావేశ మణంగును",
+        "చీకాకులు తొలగు దాన శీఘ్రంబు శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 109,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 110,
+      "lines_telugu": [
+        "దైవతములు ధరపైనను",
+        "జీవన నిర్ణేత లగుట స్థిర సద్భక్తిన్",
+        "భావన నిర్మలమగు విధి",
+        "సేవించగ వలయు నెందు చిద్రూప! శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 110,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 111,
+      "lines_telugu": [
+        "ఛందంబుల గతి దెలియని",
+        "మందుడ నాచేత నిన్ని మహితోక్తులనున్",
+        "సుందరముగ బలికించితి",
+        "వందుము శతవందనంబు లనియెదను శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 111,
+      "bhavam": null,
+      "prathipadartham": null
+    },
+    {
+      "id": 112,
+      "lines_telugu": [
+        "శతరుద్రీయముగా నిది",
+        "క్షితి జదివిన కాంక్షదీర్చి చిన్మయ రూపా!",
+        "యతులిత యశ మవ్వారికి",
+        "వెతదీర్చి యొసంగు మంచు విజ్ఞప్తి శివా!"
+      ],
+      "Chandassu": "కందము",
+      "kanda": null,
+      "padyam_number": 112,
+      "bhavam": null,
+      "prathipadartham": null
+    }
+  ]
+}
