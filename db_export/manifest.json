@@ -1,8 +1,8 @@
 {
- "poets_total": 201,
- "meters_total": 215,
- "poems_total": 363740,
- "sources_total": 278,
+ "poets_total": 203,
+ "meters_total": 214,
+ "poems_total": 365047,
+ "sources_total": 283,
  "sources": [
   {
    "source": "''తెలుగుబాల!'' శతకం",
@@ -450,6 +450,11 @@
    "count": 169
   },
   {
+   "source": "తెలుగు కవుల ధన్య చరిత శతకం",
+   "file": "poems/telugukavuladhanyacharitashatakam.json",
+   "count": 21
+  },
+  {
    "source": "తెలుగు బాల శతకం",
    "file": "poems/telugubaalashatakam_2.json",
    "count": 108
@@ -473,6 +478,16 @@
    "source": "దశావతారచరిత్రము",
    "file": "poems/dashaavataaracharitramu.json",
    "count": 2482
+  },
+  {
+   "source": "దార్ల వెంకటేశ్వరరావు పద్యాలు (బ్లాగు)",
+   "file": "poems/daarlavemkateshvararaavupadyaalublaagu.json",
+   "count": 862
+  },
+  {
+   "source": "దార్ల శతకము",
+   "file": "poems/daarlashatakamu.json",
+   "count": 205
   },
   {
    "source": "దాశరథీ శతకము",
@@ -1057,17 +1072,17 @@
   {
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
    "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.part01.json",
-   "count": 33194
+   "count": 33202
   },
   {
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
    "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.part02.json",
-   "count": 33143
+   "count": 33152
   },
   {
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (సమస్యాపూరణ/సమస్యాపూరణం)",
    "file": "poems/shamkaraabharanamaanlainpadyaalusamasyaapuuranasamasyaapuura.part03.json",
-   "count": 33193
+   "count": 33176
   },
   {
    "source": "శతావధానసారము",
@@ -1135,6 +1150,11 @@
    "count": 1303
   },
   {
+   "source": "శిశువు శతకము",
+   "file": "poems/shishuvushatakamu.json",
+   "count": 107
+  },
+  {
    "source": "శుకసప్తతి",
    "file": "poems/shukasaptati.json",
    "count": 2045
@@ -1193,6 +1213,11 @@
    "source": "శ్రీ ప్రబంధరాజ వేంకటేశ్వర విజయ విలాసము",
    "file": "poems/shriiprabamdharaajavemkateshvaravijayavilaasamu.json",
    "count": 930
+  },
+  {
+   "source": "శ్రీ శివ శతకము",
+   "file": "poems/shriishivashatakamu.json",
+   "count": 112
   },
   {
    "source": "శ్రీ సుందరకాండ (రాయప్రోలు సుబ్బారావు)",
