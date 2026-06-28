@@ -209,9 +209,12 @@ async def poem_detail_page(poem_id: int, request: Request):
 
 
 @app.get("/poet/{poet_id}", response_class=HTMLResponse)
-async def poet_detail_page(poet_id: int, request: Request):
-    """Poet detail page. Returns 404 to guests when the poet is
-    copyright-protected. Admin sees a © badge in the template."""
+async def poet_detail_page(poet_id: int, request: Request, page: int = 1, page_size: int = 25):
+    """Poet detail page, paginated (poets like 'Unknown' have 100k+ poems, so
+    rendering every poem in one page hangs the browser). Returns 404 to guests
+    when the poet is copyright-protected. Admin sees a © badge in the template."""
+    page = max(1, page)
+    page_size = max(1, min(page_size, 200))
     is_admin = is_admin_request(request)
     async for db in get_db():
         q = select(Poet).where(Poet.id == poet_id)
@@ -228,7 +231,22 @@ async def poet_detail_page(poet_id: int, request: Request):
 
         # Per-poem filter is redundant here (the poet itself is already
         # PD for guests), but we keep the explicit clause for symmetry.
-        poems_q = select(Poem).where(Poem.poet_id == poet_id).order_by(Poem.title)
+        count_q = select(func.count(Poem.id)).where(Poem.poet_id == poet_id)
+        if not is_admin:
+            count_q = count_q.where(poem_visible_clause(is_admin))
+        total_count = (await db.execute(count_q)).scalar_one()
+        total_pages = max(1, (total_count + page_size - 1) // page_size)
+        if page > total_pages:
+            page = total_pages
+        offset = (page - 1) * page_size
+
+        poems_q = (
+            select(Poem)
+            .where(Poem.poet_id == poet_id)
+            .order_by(Poem.id)
+            .offset(offset)
+            .limit(page_size)
+        )
         if not is_admin:
             poems_q = poems_q.where(poem_visible_clause(is_admin))
         poems = (await db.execute(poems_q)).scalars().all()
@@ -258,7 +276,10 @@ async def poet_detail_page(poet_id: int, request: Request):
             "request": request,
             "poet": poet_dict,
             "poems": poems_list,
-            "poem_count": len(poems_list)
+            "poem_count": total_count,
+            "page": page,
+            "page_size": page_size,
+            "total_pages": total_pages,
         })
 
 
