@@ -177,3 +177,14 @@ scripts/node_modules/
 # chandassu scan scratch dirs
 static/_goldscan/
 static/_goldscan_unknown/
+
+# === generated / large / regenerable (kept on disk, not in git) ===
+static/tts_audio/          # generated TTS audio — regenerable, served by the app
+padyalu_json_data/         # raw crawl corpus — db_export/ is the canonical, rebuildable source of truth
+node_modules/
+**/node_modules/
+# raw crawl intermediates
+crawlers/*.txt
+crawlers/*_raw/
+crawlers/json/
+crawlers/shankarabharanam_extracted.json
