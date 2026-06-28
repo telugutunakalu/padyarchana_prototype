@@ -81,7 +81,7 @@ padyarchana.db.bak_*
 /kridabhiramam_padartham_results.jsonl
 /andhramahabharatam.txt
 /sivasatakam.txt
-# (padyalu_json_data/*.json STAYS tracked — durable converted inputs.)
+# (padyalu_json_data/ retired from git in 2026-06 cleanup — see bottom; db_export/ is canonical.)
 
 # === Padyarchana — generated audio output ===
 static/audio/
@@ -178,13 +178,11 @@ scripts/node_modules/
 static/_goldscan/
 static/_goldscan_unknown/
 
-# === generated / large / regenerable (kept on disk, not in git) ===
-static/tts_audio/          # generated TTS audio — regenerable, served by the app
-padyalu_json_data/         # raw crawl corpus — db_export/ is the canonical, rebuildable source of truth
-node_modules/
-**/node_modules/
+# === Retired from git in the 2026-06 cleanup (kept on disk; db_export/ is canonical) ===
+# padyalu_json_data is the raw crawl; db_export/ supersedes it (rebuilds the DB
+# byte-exact and carries bhavam/ratings/edits the crawl lacks).
+padyalu_json_data/
 # raw crawl intermediates
 crawlers/*.txt
 crawlers/*_raw/
 crawlers/json/
-crawlers/shankarabharanam_extracted.json
