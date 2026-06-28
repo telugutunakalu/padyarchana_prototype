@@ -485,7 +485,7 @@
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (దత్తపది)",
    "kanda": null,
    "flags": "online-padyalu",
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 32,
@@ -493,8 +493,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 253,
+   "meter_name": "రాజహంస"
   },
   {
    "id": 176504,
@@ -1036,7 +1036,7 @@
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (దత్తపది)",
    "kanda": null,
    "flags": "online-padyalu",
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 13,
@@ -1044,8 +1044,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 254,
+   "meter_name": "ఉత్సుక"
   },
   {
    "id": 176533,
@@ -7344,7 +7344,7 @@
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (దత్తపది)",
    "kanda": null,
    "flags": "online-padyalu",
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 20,
@@ -7352,8 +7352,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 255,
+   "meter_name": "డిండిమ"
   },
   {
    "id": 176865,
@@ -16350,7 +16350,7 @@
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (దత్తపది)",
    "kanda": null,
    "flags": "online-padyalu",
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 21,
@@ -16358,8 +16358,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 255,
+   "meter_name": "డిండిమ"
   },
   {
    "id": 177339,

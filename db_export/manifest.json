@@ -1,6 +1,6 @@
 {
- "poets_total": 203,
- "meters_total": 214,
+ "poets_total": 207,
+ "meters_total": 227,
  "poems_total": 365047,
  "sources_total": 283,
  "sources": [
@@ -1455,5 +1455,5 @@
    "count": 4582
   }
  ],
- "poem_versions_total": 38
+ "poem_versions_total": 43
 }

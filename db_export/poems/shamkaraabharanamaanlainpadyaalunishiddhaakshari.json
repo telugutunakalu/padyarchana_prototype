@@ -1283,7 +1283,7 @@
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (నిషిద్ధాక్షరి)",
    "kanda": null,
    "flags": "online-padyalu",
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 9,
@@ -1291,8 +1291,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 257,
+   "meter_name": "విద్యున్మాలా"
   },
   {
    "id": 180595,

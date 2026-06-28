@@ -1710,5 +1710,109 @@
   "description": null,
   "gana_structure": null,
   "example_pattern": null
+ },
+ {
+  "id": 249,
+  "name": "దోదకము",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: దోదకము (తోధక , తోదక , తోటక , దోధక , తరంగక , బందు , భిత్తక))",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 250,
+  "name": "మంగళమణి",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: మంగళమణి)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 251,
+  "name": "సరసాంక",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: సరసాంక)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 252,
+  "name": "అలసగతి",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: అలసగతి)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 253,
+  "name": "రాజహంస",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: రాజహంస)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 254,
+  "name": "ఉత్సుక",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: ఉత్సుక (మదనోద్ధురా))",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 255,
+  "name": "డిండిమ",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: డిండిమ)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 256,
+  "name": "ప్రభ",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: ప్రభ (ప్రముదితవదన , ప్రభాత , మందాకినీ , గౌరీ , చంచలాక్షీ))",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 257,
+  "name": "విద్యున్మాలా",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: విద్యున్మాలా (విద్యుల్లేఖా))",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 258,
+  "name": "మదనము",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: మదనము)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 259,
+  "name": "కుమారి",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: కుమారి (కురరీరుతా))",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 260,
+  "name": "హరనర్తన",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: హరనర్తన)",
+  "gana_structure": null,
+  "example_pattern": null
+ },
+ {
+  "id": 261,
+  "name": "ముత్యాల సరము",
+  "name_english": null,
+  "description": "chandam-scan detected vṛtta (engine label: ముత్యాల సరము2)",
+  "gana_structure": null,
+  "example_pattern": null
  }
 ]
