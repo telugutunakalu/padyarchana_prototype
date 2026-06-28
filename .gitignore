@@ -169,3 +169,11 @@ crawlers/shankarabharanam_extracted.json
 crawlers/precision_sample.json
 crawlers/keep_list.json
 crawlers/wikibook_results.json
+
+# Node tooling (scripts/chandam_headless_scan.mjs)
+node_modules/
+scripts/node_modules/
+
+# chandassu scan scratch dirs
+static/_goldscan/
+static/_goldscan_unknown/

@@ -1,0 +1,9 @@
+{
+  "name": "padyarchana-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Node tooling for padyarchana scripts (headless chandassu scanner).",
+  "dependencies": {
+    "jsdom": "^24"
+  }
+}
