@@ -2028,5 +2028,45 @@
   "birth_year": null,
   "death_year": null,
   "copyright_protected": 1
+ },
+ {
+  "id": 208,
+  "name": "మరద వెంకయ్య",
+  "name_english": "Marada Venkayya",
+  "biography": null,
+  "era": "క్రీ.శ. 1550 – 1650",
+  "birth_year": 1550,
+  "death_year": 1650,
+  "copyright_protected": 0
+ },
+ {
+  "id": 209,
+  "name": "వెన్నెలకంటి జన్నయ్య",
+  "name_english": "Vennelakanti Jannayya",
+  "biography": null,
+  "era": "క్రీ.శ. 1450",
+  "birth_year": null,
+  "death_year": null,
+  "copyright_protected": 0
+ },
+ {
+  "id": 210,
+  "name": "పట్టాభిరామ కవి",
+  "name_english": "Pattabhirama Kavi",
+  "biography": null,
+  "era": "క్రీ.శ 18వ శతాబ్దం",
+  "birth_year": null,
+  "death_year": null,
+  "copyright_protected": 0
+ },
+ {
+  "id": 211,
+  "name": "నృసింహాచార్య",
+  "name_english": "Nrusimhacharya",
+  "biography": null,
+  "era": null,
+  "birth_year": null,
+  "death_year": null,
+  "copyright_protected": 1
  }
 ]

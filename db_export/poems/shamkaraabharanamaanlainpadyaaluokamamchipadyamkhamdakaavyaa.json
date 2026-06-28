@@ -1378,7 +1378,7 @@
    "source": "శంకరాభరణం — ఆన్‌లైన్ పద్యాలు (?/ఒక మంచి పద్యం/ఖండకావ్యాలు/చిలుకమఱ్ఱి వారి రచనలు/ఛందస్సు/నా కవిత్వం/నా పాటలు/నిర్వచన భారత గర్భ రామాయణము/ప్రహేళిక/వ్యాకరణం)",
    "kanda": null,
    "flags": "online-padyalu",
-   "rating": null,
+   "rating": "gold",
    "prathipadartham": null,
    "bhavam": null,
    "word_count": 19,
@@ -1386,8 +1386,8 @@
    "line_count": 4,
    "poet_id": 7,
    "poet_name": "Unknown",
-   "meter_id": 3,
-   "meter_name": "Unknown"
+   "meter_id": 256,
+   "meter_name": "ప్రభ"
   },
   {
    "id": 179681,
